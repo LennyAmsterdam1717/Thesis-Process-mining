@@ -1,0 +1,36 @@
+[
+ {
+  "label": "A:b001@5d4c97e87d5e4cd67b019cc2d4c1f8d6112e146c24e3e8b577be18466215419e",
+  "context": {
+   "review_id": "e58d09d9-b166-4d8b-a8d6-21d88870b4db",
+   "dataset": "ea4d7f3715145d977a96718379933866c8d61babe60f86b4416a21f39670548b",
+   "stage": "ta",
+   "protocol_hash": "ba057a87260871f987a5592c5795080067323c6b83a4e4b0083e2f786710e424",
+   "config_hash": "937b3f50c69ddca980503ac5b6d17f526d845d6805509a2decebe4262bd3d311",
+   "content_id": "558ef157115bd62b5c8bd94c1ef3a18d6d0d940cb0a3ff7298b0bf4cfcaf1fb1",
+   "config_scope": "stage-v1",
+   "revision": 2,
+   "protocol_path": "/Users/lennypam/Desktop/Folder process mining/literature/screening/screening_protocol.md",
+   "context_id": "5d4c97e87d5e4cd67b019cc2d4c1f8d6112e146c24e3e8b577be18466215419e"
+  },
+  "prompt_file": "/Users/lennypam/Desktop/Folder process mining/literature/screening/sr_work/prompts_pilot2/A_b001.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "B:b001@5d4c97e87d5e4cd67b019cc2d4c1f8d6112e146c24e3e8b577be18466215419e",
+  "context": {
+   "review_id": "e58d09d9-b166-4d8b-a8d6-21d88870b4db",
+   "dataset": "ea4d7f3715145d977a96718379933866c8d61babe60f86b4416a21f39670548b",
+   "stage": "ta",
+   "protocol_hash": "ba057a87260871f987a5592c5795080067323c6b83a4e4b0083e2f786710e424",
+   "config_hash": "937b3f50c69ddca980503ac5b6d17f526d845d6805509a2decebe4262bd3d311",
+   "content_id": "558ef157115bd62b5c8bd94c1ef3a18d6d0d940cb0a3ff7298b0bf4cfcaf1fb1",
+   "config_scope": "stage-v1",
+   "revision": 2,
+   "protocol_path": "/Users/lennypam/Desktop/Folder process mining/literature/screening/screening_protocol.md",
+   "context_id": "5d4c97e87d5e4cd67b019cc2d4c1f8d6112e146c24e3e8b577be18466215419e"
+  },
+  "prompt_file": "/Users/lennypam/Desktop/Folder process mining/literature/screening/sr_work/prompts_pilot2/B_b001.txt",
+  "model": "sonnet"
+ }
+]

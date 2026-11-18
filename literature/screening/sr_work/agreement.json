@@ -1,13 +1,13 @@
 {
  "n": 25,
- "both_advance": 14,
- "both_exclude": 9,
+ "both_advance": 16,
+ "both_exclude": 8,
  "a_only_advance": 0,
- "b_only_advance": 2,
- "observed_agreement": 0.92,
- "kappa": 0.834,
- "pabak": 0.84,
- "conflicts": 2,
+ "b_only_advance": 1,
+ "observed_agreement": 0.96,
+ "kappa": 0.911,
+ "pabak": 0.92,
+ "conflicts": 1,
  "resolved_by": {
   "A+B": 23,
   "Frank": 2

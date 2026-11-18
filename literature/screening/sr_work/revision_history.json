@@ -1,0 +1,657 @@
+[
+ {
+  "context": {
+   "review_id": "e58d09d9-b166-4d8b-a8d6-21d88870b4db",
+   "dataset": "ea4d7f3715145d977a96718379933866c8d61babe60f86b4416a21f39670548b",
+   "stage": "ta",
+   "protocol_hash": "59dce48d6840e151db358933a12a2cdd6dcfb35a53d0d754850c2d5f307be60f",
+   "config_hash": "937b3f50c69ddca980503ac5b6d17f526d845d6805509a2decebe4262bd3d311",
+   "content_id": "2f27c3b519c296d7683bb79594d0a13d03629433d62219f1735f5f6d9de2b280",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "/Users/lennypam/Desktop/Folder process mining/literature/screening/screening_protocol.md",
+   "context_id": "d58c3e92573a553219ac873c645580f703ad57fd38b5adc0169321f33d7cd147"
+  },
+  "state": {
+   "decisions.json": {
+    "R00001": {
+     "A": {
+      "d": "unclear",
+      "code": "UNC",
+      "why": "Agenda on process-aware agents and mined logged behaviour; LLM agent trace use unclear"
+     },
+     "B": {
+      "d": "unclear",
+      "code": "UNC",
+      "why": "Agentic process mining agenda; LLM-based agents not explicit, process-aware agents"
+     },
+     "final": {
+      "d": "unclear",
+      "code": "UNC",
+      "why": "Agenda on process-aware agents and mined logged behaviour; LLM agent trace use unclear",
+      "by": "A+B"
+     }
+    },
+    "R00002": {
+     "A": {
+      "d": "include",
+      "code": "INC",
+      "why": "Process mining of event logs used to design and generate AI agents"
+     },
+     "B": {
+      "d": "include",
+      "code": "INC",
+      "why": "Process mining of event logs used to design AI agents"
+     },
+     "final": {
+      "d": "include",
+      "code": "INC",
+      "why": "Process mining of event logs used to design and generate AI agents",
+      "by": "A+B"
+     }
+    },
+    "R00003": {
+     "A": {
+      "d": "include",
+      "code": "INC",
+      "why": "BPMN process models to agentic workflows; tool-call behaviour compared across agents"
+     },
+     "B": {
+      "d": "include",
+      "code": "INC",
+      "why": "BPMN-to-agentic workflows; agents compared on tool-call behaviour"
+     },
+     "final": {
+      "d": "include",
+      "code": "INC",
+      "why": "BPMN process models to agentic workflows; tool-call behaviour compared across agents",
+      "by": "A+B"
+     }
+    },
+    "R00004": {
+     "A": {
+      "d": "exclude",
+      "code": "E4",
+      "why": "LLM used for predictive process monitoring on ordinary event logs"
+     },
+     "B": {
+      "d": "exclude",
+      "code": "E4",
+      "why": "LLM used for predictive monitoring on ordinary event logs"
+     },
+     "final": {
+      "d": "exclude",
+      "code": "E4",
+      "why": "LLM used for predictive process monitoring on ordinary event logs",
+      "by": "A+B"
+     }
+    },
+    "R00005": {
+     "A": {
+      "d": "unclear",
+      "code": "UNC",
+      "why": "Process mining on LLM red-team traces; multi-turn LLM, agentic status unclear"
+     },
+     "B": {
+      "d": "unclear",
+      "code": "UNC",
+      "why": "Process mining on LLM red-team traces; agentic status unclear"
+     },
+     "final": {
+      "d": "unclear",
+      "code": "UNC",
+      "why": "Process mining on LLM red-team traces; multi-turn LLM, agentic status unclear",
+      "by": "A+B"
+     }
+    },
+    "R00006": {
+     "A": {
+      "d": "exclude",
+      "code": "E5",
+      "why": "Agent architecture evaluated on coherence; no trace or behaviour analysis"
+     },
+     "B": {
+      "d": "unclear",
+      "code": "UNC",
+      "why": "Multi-agent framework with trace memory; behavioural trace analysis unclear"
+     },
+     "final": {
+      "d": "include",
+      "code": "INC",
+      "why": "Frank: include after pilot conflict (LLM multi-agent organisational simulation)",
+      "by": "Frank"
+     },
+     "human_override": true
+    },
+    "R00007": {
+     "A": {
+      "d": "exclude",
+      "code": "E4",
+      "why": "Agents perform process mining on ordinary event logs"
+     },
+     "B": {
+      "d": "exclude",
+      "code": "E4",
+      "why": "Agents perform process mining on ordinary event logs"
+     },
+     "final": {
+      "d": "exclude",
+      "code": "E4",
+      "why": "Agents perform process mining on ordinary event logs",
+      "by": "A+B"
+     }
+    },
+    "R00008": {
+     "A": {
+      "d": "include",
+      "code": "INC",
+      "why": "Mines clusters of LLM agent traces into workflows with dependency analysis"
+     },
+     "B": {
+      "d": "include",
+      "code": "INC",
+      "why": "Mines clusters of LLM agent traces into workflows"
+     },
+     "final": {
+      "d": "include",
+      "code": "INC",
+      "why": "Mines clusters of LLM agent traces into workflows with dependency analysis",
+      "by": "A+B"
+     }
+    },
+    "R00009": {
+     "A": {
+      "d": "include",
+      "code": "INC",
+      "why": "Process models and SOPs as organizational memory guiding LLM agents"
+     },
+     "B": {
+      "d": "include",
+      "code": "INC",
+      "why": "Process models/SOPs as organizational memory guiding LLM agents"
+     },
+     "final": {
+      "d": "include",
+      "code": "INC",
+      "why": "Process models and SOPs as organizational memory guiding LLM agents",
+      "by": "A+B"
+     }
+    },
+    "R00010": {
+     "A": {
+      "d": "include",
+      "code": "INC",
+      "why": "Mines Claude Code agent session and tool-action records to characterize behaviour"
+     },
+     "B": {
+      "d": "include",
+      "code": "INC",
+      "why": "Mines Claude Code agent session logs, tool actions, corrections"
+     },
+     "final": {
+      "d": "include",
+      "code": "INC",
+      "why": "Mines Claude Code agent session and tool-action records to characterize behaviour",
+      "by": "A+B"
+     }
+    },
+    "R00011": {
+     "A": {
+      "d": "include",
+      "code": "INC",
+      "why": "Event data model and process mining of generative AI agent logs"
+     },
+     "B": {
+      "d": "include",
+      "code": "INC",
+      "why": "Event data model and process mining of generative AI agent logs"
+     },
+     "final": {
+      "d": "include",
+      "code": "INC",
+      "why": "Event data model and process mining of generative AI agent logs",
+      "by": "A+B"
+     }
+    },
+    "R00012": {
+     "A": {
+      "d": "unclear",
+      "code": "UNC",
+      "why": "No abstract; title suggests behavioural analysis of code generation agents"
+     },
+     "B": {
+      "d": "unclear",
+      "code": "UNC",
+      "why": "No abstract; title suggests behavioural analysis of code agents"
+     },
+     "final": {
+      "d": "unclear",
+      "code": "UNC",
+      "why": "No abstract; title suggests behavioural analysis of code generation agents",
+      "by": "A+B"
+     }
+    },
+    "R00013": {
+     "A": {
+      "d": "include",
+      "code": "INC",
+      "why": "Builds behaviour benchmarks from large-scale agent deployment traces"
+     },
+     "B": {
+      "d": "include",
+      "code": "INC",
+      "why": "Agent behaviours mined from large sets of deployment traces"
+     },
+     "final": {
+      "d": "include",
+      "code": "INC",
+      "why": "Builds behaviour benchmarks from large-scale agent deployment traces",
+      "by": "A+B"
+     }
+    },
+    "R00014": {
+     "A": {
+      "d": "exclude",
+      "code": "E4",
+      "why": "LLM explains process mining outputs; agent's own behaviour not analysed"
+     },
+     "B": {
+      "d": "exclude",
+      "code": "E4",
+      "why": "LLM explains process mining outputs; agent behaviour not analysed"
+     },
+     "final": {
+      "d": "exclude",
+      "code": "E4",
+      "why": "LLM explains process mining outputs; agent's own behaviour not analysed",
+      "by": "A+B"
+     }
+    },
+    "R00015": {
+     "A": {
+      "d": "exclude",
+      "code": "E3",
+      "why": "Process model forecasting on event logs; no LLM agents"
+     },
+     "B": {
+      "d": "exclude",
+      "code": "E3",
+      "why": "Process model forecasting; no LLM agents"
+     },
+     "final": {
+      "d": "exclude",
+      "code": "E3",
+      "why": "Process model forecasting on event logs; no LLM agents",
+      "by": "A+B"
+     }
+    },
+    "R00016": {
+     "A": {
+      "d": "exclude",
+      "code": "E3",
+      "why": "Conformance metric for discovered Petri nets; no LLM agents"
+     },
+     "B": {
+      "d": "exclude",
+      "code": "E3",
+      "why": "Conformance embeddings for process models; no LLM agents"
+     },
+     "final": {
+      "d": "exclude",
+      "code": "E3",
+      "why": "Conformance metric for discovered Petri nets; no LLM agents",
+      "by": "A+B"
+     }
+    },
+    "R00017": {
+     "A": {
+      "d": "include",
+      "code": "INC",
+      "why": "Agent runtime with append-only event log as source of truth"
+     },
+     "B": {
+      "d": "include",
+      "code": "INC",
+      "why": "Event-log-based agent runtime with replay and lineage"
+     },
+     "final": {
+      "d": "include",
+      "code": "INC",
+      "why": "Agent runtime with append-only event log as source of truth",
+      "by": "A+B"
+     }
+    },
+    "R00018": {
+     "A": {
+      "d": "include",
+      "code": "INC",
+      "why": "Mines workflow graphs of conversational LLM agent behaviour"
+     },
+     "B": {
+      "d": "include",
+      "code": "INC",
+      "why": "Mines workflow graphs from conversational LLM agent behaviour"
+     },
+     "final": {
+      "d": "include",
+      "code": "INC",
+      "why": "Mines workflow graphs of conversational LLM agent behaviour",
+      "by": "A+B"
+     }
+    },
+    "R00019": {
+     "A": {
+      "d": "include",
+      "code": "INC",
+      "why": "Extracts coding agent interaction timelines from logs"
+     },
+     "B": {
+      "d": "include",
+      "code": "INC",
+      "why": "Visualizes coding agent interaction timelines from logs"
+     },
+     "final": {
+      "d": "include",
+      "code": "INC",
+      "why": "Extracts coding agent interaction timelines from logs",
+      "by": "A+B"
+     }
+    },
+    "R00020": {
+     "A": {
+      "d": "exclude",
+      "code": "E5",
+      "why": "Survey of data agents; no trace or behavioural analysis"
+     },
+     "B": {
+      "d": "exclude",
+      "code": "E5",
+      "why": "Data agent survey; no trace or process angle"
+     },
+     "final": {
+      "d": "exclude",
+      "code": "E5",
+      "why": "Survey of data agents; no trace or behavioural analysis",
+      "by": "A+B"
+     }
+    },
+    "R00021": {
+     "A": {
+      "d": "exclude",
+      "code": "E5",
+      "why": "Orchestration comparison on call precision and recall; no trace analysis"
+     },
+     "B": {
+      "d": "unclear",
+      "code": "UNC",
+      "why": "Multi-agent orchestration compared on agent calls; trace analysis unclear"
+     },
+     "final": {
+      "d": "include",
+      "code": "INC",
+      "why": "Frank: include after pilot conflict (DAG Plan-Execute vs ReAct comparison)",
+      "by": "Frank"
+     },
+     "human_override": true
+    },
+    "R00022": {
+     "A": {
+      "d": "exclude",
+      "code": "E5",
+      "why": "General MAS survey; no trace or process angle"
+     },
+     "B": {
+      "d": "exclude",
+      "code": "E5",
+      "why": "General multi-agent systems survey; no trace analysis"
+     },
+     "final": {
+      "d": "exclude",
+      "code": "E5",
+      "why": "General MAS survey; no trace or process angle",
+      "by": "A+B"
+     }
+    },
+    "R00023": {
+     "A": {
+      "d": "exclude",
+      "code": "E5",
+      "why": "Agentic robots survey; no trace or process angle"
+     },
+     "B": {
+      "d": "exclude",
+      "code": "E5",
+      "why": "Agentic robots survey; no trace or process angle"
+     },
+     "final": {
+      "d": "exclude",
+      "code": "E5",
+      "why": "Agentic robots survey; no trace or process angle",
+      "by": "A+B"
+     }
+    },
+    "R00024": {
+     "A": {
+      "d": "exclude",
+      "code": "E5",
+      "why": "Device benchmark on success, latency, cost; no behavioural trace analysis"
+     },
+     "B": {
+      "d": "exclude",
+      "code": "E5",
+      "why": "Benchmark reporting success, latency, cost only"
+     },
+     "final": {
+      "d": "exclude",
+      "code": "E5",
+      "why": "Device benchmark on success, latency, cost; no behavioural trace analysis",
+      "by": "A+B"
+     }
+    },
+    "R00025": {
+     "A": {
+      "d": "unclear",
+      "code": "UNC",
+      "why": "Vocabulary with trajectories across repeated runs; process angle unclear"
+     },
+     "B": {
+      "d": "unclear",
+      "code": "UNC",
+      "why": "Vocabulary with trajectories across runs; trace analysis unclear"
+     },
+     "final": {
+      "d": "unclear",
+      "code": "UNC",
+      "why": "Vocabulary with trajectories across repeated runs; process angle unclear",
+      "by": "A+B"
+     }
+    }
+   },
+   "decisions_meta.json": {
+    "context_id": "d58c3e92573a553219ac873c645580f703ad57fd38b5adc0169321f33d7cd147"
+   },
+   "pending.json": {
+    "screen": [
+     {
+      "b": "b002",
+      "missA": [
+       "R00026",
+       "R00027",
+       "R00028",
+       "R00029",
+       "R00030",
+       "R00031",
+       "R00032",
+       "R00033",
+       "R00034",
+       "R00035",
+       "R00036",
+       "R00037",
+       "R00038",
+       "R00039",
+       "R00040",
+       "R00041",
+       "R00042",
+       "R00043",
+       "R00044",
+       "R00045",
+       "R00046",
+       "R00047",
+       "R00048",
+       "R00049",
+       "R00050"
+      ],
+      "missB": [
+       "R00026",
+       "R00027",
+       "R00028",
+       "R00029",
+       "R00030",
+       "R00031",
+       "R00032",
+       "R00033",
+       "R00034",
+       "R00035",
+       "R00036",
+       "R00037",
+       "R00038",
+       "R00039",
+       "R00040",
+       "R00041",
+       "R00042",
+       "R00043",
+       "R00044",
+       "R00045",
+       "R00046",
+       "R00047",
+       "R00048",
+       "R00049",
+       "R00050"
+      ]
+     },
+     {
+      "b": "b003",
+      "missA": [
+       "R00051",
+       "R00052",
+       "R00053",
+       "R00054",
+       "R00055",
+       "R00056",
+       "R00057",
+       "R00058",
+       "R00059",
+       "R00060",
+       "R00061",
+       "R00062",
+       "R00063",
+       "R00064",
+       "R00065",
+       "R00066",
+       "R00067",
+       "R00068",
+       "R00069",
+       "R00070",
+       "R00071",
+       "R00072",
+       "R00073",
+       "R00074",
+       "R00075"
+      ],
+      "missB": [
+       "R00051",
+       "R00052",
+       "R00053",
+       "R00054",
+       "R00055",
+       "R00056",
+       "R00057",
+       "R00058",
+       "R00059",
+       "R00060",
+       "R00061",
+       "R00062",
+       "R00063",
+       "R00064",
+       "R00065",
+       "R00066",
+       "R00067",
+       "R00068",
+       "R00069",
+       "R00070",
+       "R00071",
+       "R00072",
+       "R00073",
+       "R00074",
+       "R00075"
+      ]
+     }
+    ],
+    "adj": [],
+    "qc": [
+     {
+      "b": "q001",
+      "ids": [
+       "R00004",
+       "R00007",
+       "R00014",
+       "R00020",
+       "R00023"
+      ]
+     }
+    ]
+   },
+   "agreement.json": {
+    "n": 25,
+    "both_advance": 14,
+    "both_exclude": 9,
+    "a_only_advance": 0,
+    "b_only_advance": 2,
+    "observed_agreement": 0.92,
+    "kappa": 0.834,
+    "pabak": 0.84,
+    "conflicts": 2,
+    "resolved_by": {
+     "A+B": 23,
+     "Frank": 2
+    }
+   },
+   "qc_batches.json": {
+    "q001": [
+     "R00004",
+     "R00007",
+     "R00014",
+     "R00020",
+     "R00023"
+    ]
+   },
+   "qc_reasons.json": {
+    "R00004": "near-miss",
+    "R00007": "near-miss",
+    "R00014": "near-miss",
+    "R00020": "near-miss",
+    "R00023": "near-miss"
+   },
+   "qc_candidates.json": [
+    {
+     "b": "q001",
+     "ids": [
+      "R00004",
+      "R00007",
+      "R00014",
+      "R00020",
+      "R00023"
+     ],
+     "full": true,
+     "why": {
+      "R00004": "near-miss",
+      "R00007": "near-miss",
+      "R00014": "near-miss",
+      "R00020": "near-miss",
+      "R00023": "near-miss"
+     }
+    }
+   ]
+  }
+ }
+]

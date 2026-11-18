@@ -105,3 +105,10 @@ Screening counts follow in the screening section below.
 - AI agreement A vs B (advance vs exclude): n = 25, observed 0.92, kappa 0.834, PABAK 0.84; 2 conflicts (R00006, R00021) awaiting adjudication.
 - Against Frank: 23 compared, Frank advanced 15, AI advanced 14, **AI missed 1** (R00024 AgBench: Frank unclear, both AI reviewers excluded E5), AI advanced 0 that Frank excluded.
 - Result: **pilot gate not passed** → protocol wording to be amended and the pilot re-run before the full run.
+
+## Screening – calibration pilot 2 (batch b001, protocol v1.1) – 2026-11-18
+
+- Same set-up as pilot 1 (two blinded Sonnet 5.5 reviewers), protocol v1.1.
+- AI agreement A vs B: n = 25, observed 0.96, kappa 0.911, PABAK 0.92; 1 conflict (R00006, A exclude E5 / B unclear) → adjudicator: unclear (advance). Frank's override (include) is the final decision.
+- Against Frank: **25 compared, Frank advanced 17, AI advanced 17, AI missed 0**, AI advanced 0 that Frank excluded (agreement 1.0, kappa 1.0). R00024 (AgBench) is now advanced by both reviewers.
+- Result: **pilot gate passed** → full title/abstract run on b002–b003.

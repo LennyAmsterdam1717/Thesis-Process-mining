@@ -1,0 +1,155 @@
+{
+ "label": "A:b001@5d4c97e87d5e4cd67b019cc2d4c1f8d6112e146c24e3e8b577be18466215419e",
+ "decisions": [
+  {
+   "id": "R00001",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Agenda for process-aware agents; unclear if LLM agent traces are analysed"
+  },
+  {
+   "id": "R00002",
+   "d": "include",
+   "code": "INC",
+   "why": "Process mining of event logs to design AI agents (f)"
+  },
+  {
+   "id": "R00003",
+   "d": "include",
+   "code": "INC",
+   "why": "Agent designs compared on tool-use, latency, errors, token cost; BPMN-driven"
+  },
+  {
+   "id": "R00004",
+   "d": "exclude",
+   "code": "E4",
+   "why": "LLM used for predictive process monitoring on event logs"
+  },
+  {
+   "id": "R00005",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Process mining of red-team traces of LLMs; agentic status unclear"
+  },
+  {
+   "id": "R00006",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Agent framework with trace memory; no behavioural trace analysis"
+  },
+  {
+   "id": "R00007",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Agents perform process mining on ordinary event logs"
+  },
+  {
+   "id": "R00008",
+   "d": "include",
+   "code": "INC",
+   "why": "Mines agent traces into workflows with dependency discovery"
+  },
+  {
+   "id": "R00009",
+   "d": "include",
+   "code": "INC",
+   "why": "Process models and SOPs guide LLM agents (f)"
+  },
+  {
+   "id": "R00010",
+   "d": "include",
+   "code": "INC",
+   "why": "Mines agent session tool actions and turns from development record"
+  },
+  {
+   "id": "R00011",
+   "d": "include",
+   "code": "INC",
+   "why": "Event data model of agent behaviour for process mining and deviation detection"
+  },
+  {
+   "id": "R00012",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "No abstract; title suggests behavioural analysis of code agents"
+  },
+  {
+   "id": "R00013",
+   "d": "include",
+   "code": "INC",
+   "why": "Builds behaviour benchmarks from agent deployment traces"
+  },
+  {
+   "id": "R00014",
+   "d": "exclude",
+   "code": "E4",
+   "why": "LLM explains process mining outputs; agent behaviour not analysed"
+  },
+  {
+   "id": "R00015",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Process model forecasting; no LLM agents"
+  },
+  {
+   "id": "R00016",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Conformance of discovered models; no LLM agents"
+  },
+  {
+   "id": "R00017",
+   "d": "include",
+   "code": "INC",
+   "why": "Event-sourced agent runtime; run reconstructable and replayable from event log"
+  },
+  {
+   "id": "R00018",
+   "d": "include",
+   "code": "INC",
+   "why": "Mines workflow graphs from conversational LLM agent behaviour"
+  },
+  {
+   "id": "R00019",
+   "d": "include",
+   "code": "INC",
+   "why": "Agent action timelines extracted from coding agent logs"
+  },
+  {
+   "id": "R00020",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Survey of data agents; no trace or behaviour analysis"
+  },
+  {
+   "id": "R00021",
+   "d": "include",
+   "code": "INC",
+   "why": "Compares orchestration designs on agent calls and queue latency"
+  },
+  {
+   "id": "R00022",
+   "d": "exclude",
+   "code": "E5",
+   "why": "General MAS survey; no trace or process angle"
+  },
+  {
+   "id": "R00023",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Agentic robots survey; no trace or process analysis"
+  },
+  {
+   "id": "R00024",
+   "d": "include",
+   "code": "INC",
+   "why": "Compares agent deployment architectures on latency, cost, completion time"
+  },
+  {
+   "id": "R00025",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Vocabulary for agent systems; trajectories over runs, analysis unclear"
+  }
+ ]
+}

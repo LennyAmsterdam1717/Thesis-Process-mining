@@ -1,0 +1,11 @@
+{
+ "label": "ADJ:b001@5d4c97e87d5e4cd67b019cc2d4c1f8d6112e146c24e3e8b577be18466215419e",
+ "decisions": [
+  {
+   "id": "R00006",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "LLM multi-agent framework with dependency-aware trace memory; behavioural comparison of frameworks possible, depth unclear"
+  }
+ ]
+}
