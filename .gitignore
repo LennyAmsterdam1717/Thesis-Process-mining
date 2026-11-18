@@ -1,0 +1,10 @@
+# Papers and documents (kept local, not pushed)
+*.pdf
+*.doc
+*.docx
+
+# Office temp/lock files
+~$*
+
+# macOS
+.DS_Store
