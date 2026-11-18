@@ -34,3 +34,5 @@ Directions of most interest:
 - [`docs/timeline.md`](docs/timeline.md) – timeline up to the 17 Nov 2026 meeting
 - [`docs/meetings/2026-11-17-xixi-lu.md`](docs/meetings/2026-11-17-xixi-lu.md) – notes from the meeting with Dr. Xixi Lu
 - [`docs/next-steps.md`](docs/next-steps.md) – open action items
+- [`literature/search-log.md`](literature/search-log.md) – search rounds and PRISMA counts
+- [`literature/papers.csv`](literature/papers.csv) – papers that passed the citation check
