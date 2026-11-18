@@ -1,0 +1,316 @@
+[
+ {
+  "source": "/Users/lennypam/Desktop/Folder process mining/literature/screening/sr_work/decisions/A_b001@d58c3e92573a553219ac873c645580f703ad57fd38b5adc0169321f33d7cd147.json",
+  "label": "A:b001@d58c3e92573a553219ac873c645580f703ad57fd38b5adc0169321f33d7cd147",
+  "decisions": [
+   {
+    "id": "R00001",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Agenda on process-aware agents and mined logged behaviour; LLM agent trace use unclear"
+   },
+   {
+    "id": "R00002",
+    "d": "include",
+    "code": "INC",
+    "why": "Process mining of event logs used to design and generate AI agents"
+   },
+   {
+    "id": "R00003",
+    "d": "include",
+    "code": "INC",
+    "why": "BPMN process models to agentic workflows; tool-call behaviour compared across agents"
+   },
+   {
+    "id": "R00004",
+    "d": "exclude",
+    "code": "E4",
+    "why": "LLM used for predictive process monitoring on ordinary event logs"
+   },
+   {
+    "id": "R00005",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Process mining on LLM red-team traces; multi-turn LLM, agentic status unclear"
+   },
+   {
+    "id": "R00006",
+    "d": "exclude",
+    "code": "E5",
+    "why": "Agent architecture evaluated on coherence; no trace or behaviour analysis"
+   },
+   {
+    "id": "R00007",
+    "d": "exclude",
+    "code": "E4",
+    "why": "Agents perform process mining on ordinary event logs"
+   },
+   {
+    "id": "R00008",
+    "d": "include",
+    "code": "INC",
+    "why": "Mines clusters of LLM agent traces into workflows with dependency analysis"
+   },
+   {
+    "id": "R00009",
+    "d": "include",
+    "code": "INC",
+    "why": "Process models and SOPs as organizational memory guiding LLM agents"
+   },
+   {
+    "id": "R00010",
+    "d": "include",
+    "code": "INC",
+    "why": "Mines Claude Code agent session and tool-action records to characterize behaviour"
+   },
+   {
+    "id": "R00011",
+    "d": "include",
+    "code": "INC",
+    "why": "Event data model and process mining of generative AI agent logs"
+   },
+   {
+    "id": "R00012",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "No abstract; title suggests behavioural analysis of code generation agents"
+   },
+   {
+    "id": "R00013",
+    "d": "include",
+    "code": "INC",
+    "why": "Builds behaviour benchmarks from large-scale agent deployment traces"
+   },
+   {
+    "id": "R00014",
+    "d": "exclude",
+    "code": "E4",
+    "why": "LLM explains process mining outputs; agent's own behaviour not analysed"
+   },
+   {
+    "id": "R00015",
+    "d": "exclude",
+    "code": "E3",
+    "why": "Process model forecasting on event logs; no LLM agents"
+   },
+   {
+    "id": "R00016",
+    "d": "exclude",
+    "code": "E3",
+    "why": "Conformance metric for discovered Petri nets; no LLM agents"
+   },
+   {
+    "id": "R00017",
+    "d": "include",
+    "code": "INC",
+    "why": "Agent runtime with append-only event log as source of truth"
+   },
+   {
+    "id": "R00018",
+    "d": "include",
+    "code": "INC",
+    "why": "Mines workflow graphs of conversational LLM agent behaviour"
+   },
+   {
+    "id": "R00019",
+    "d": "include",
+    "code": "INC",
+    "why": "Extracts coding agent interaction timelines from logs"
+   },
+   {
+    "id": "R00020",
+    "d": "exclude",
+    "code": "E5",
+    "why": "Survey of data agents; no trace or behavioural analysis"
+   },
+   {
+    "id": "R00021",
+    "d": "exclude",
+    "code": "E5",
+    "why": "Orchestration comparison on call precision and recall; no trace analysis"
+   },
+   {
+    "id": "R00022",
+    "d": "exclude",
+    "code": "E5",
+    "why": "General MAS survey; no trace or process angle"
+   },
+   {
+    "id": "R00023",
+    "d": "exclude",
+    "code": "E5",
+    "why": "Agentic robots survey; no trace or process angle"
+   },
+   {
+    "id": "R00024",
+    "d": "exclude",
+    "code": "E5",
+    "why": "Device benchmark on success, latency, cost; no behavioural trace analysis"
+   },
+   {
+    "id": "R00025",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Vocabulary with trajectories across repeated runs; process angle unclear"
+   }
+  ],
+  "accepted_context": "d58c3e92573a553219ac873c645580f703ad57fd38b5adc0169321f33d7cd147"
+ },
+ {
+  "source": "/Users/lennypam/Desktop/Folder process mining/literature/screening/sr_work/decisions/B_b001@d58c3e92573a553219ac873c645580f703ad57fd38b5adc0169321f33d7cd147.json",
+  "label": "B:b001@d58c3e92573a553219ac873c645580f703ad57fd38b5adc0169321f33d7cd147",
+  "decisions": [
+   {
+    "id": "R00001",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Agentic process mining agenda; LLM-based agents not explicit, process-aware agents"
+   },
+   {
+    "id": "R00002",
+    "d": "include",
+    "code": "INC",
+    "why": "Process mining of event logs used to design AI agents"
+   },
+   {
+    "id": "R00003",
+    "d": "include",
+    "code": "INC",
+    "why": "BPMN-to-agentic workflows; agents compared on tool-call behaviour"
+   },
+   {
+    "id": "R00004",
+    "d": "exclude",
+    "code": "E4",
+    "why": "LLM used for predictive monitoring on ordinary event logs"
+   },
+   {
+    "id": "R00005",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Process mining on LLM red-team traces; agentic status unclear"
+   },
+   {
+    "id": "R00006",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Multi-agent framework with trace memory; behavioural trace analysis unclear"
+   },
+   {
+    "id": "R00007",
+    "d": "exclude",
+    "code": "E4",
+    "why": "Agents perform process mining on ordinary event logs"
+   },
+   {
+    "id": "R00008",
+    "d": "include",
+    "code": "INC",
+    "why": "Mines clusters of LLM agent traces into workflows"
+   },
+   {
+    "id": "R00009",
+    "d": "include",
+    "code": "INC",
+    "why": "Process models/SOPs as organizational memory guiding LLM agents"
+   },
+   {
+    "id": "R00010",
+    "d": "include",
+    "code": "INC",
+    "why": "Mines Claude Code agent session logs, tool actions, corrections"
+   },
+   {
+    "id": "R00011",
+    "d": "include",
+    "code": "INC",
+    "why": "Event data model and process mining of generative AI agent logs"
+   },
+   {
+    "id": "R00012",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "No abstract; title suggests behavioural analysis of code agents"
+   },
+   {
+    "id": "R00013",
+    "d": "include",
+    "code": "INC",
+    "why": "Agent behaviours mined from large sets of deployment traces"
+   },
+   {
+    "id": "R00014",
+    "d": "exclude",
+    "code": "E4",
+    "why": "LLM explains process mining outputs; agent behaviour not analysed"
+   },
+   {
+    "id": "R00015",
+    "d": "exclude",
+    "code": "E3",
+    "why": "Process model forecasting; no LLM agents"
+   },
+   {
+    "id": "R00016",
+    "d": "exclude",
+    "code": "E3",
+    "why": "Conformance embeddings for process models; no LLM agents"
+   },
+   {
+    "id": "R00017",
+    "d": "include",
+    "code": "INC",
+    "why": "Event-log-based agent runtime with replay and lineage"
+   },
+   {
+    "id": "R00018",
+    "d": "include",
+    "code": "INC",
+    "why": "Mines workflow graphs from conversational LLM agent behaviour"
+   },
+   {
+    "id": "R00019",
+    "d": "include",
+    "code": "INC",
+    "why": "Visualizes coding agent interaction timelines from logs"
+   },
+   {
+    "id": "R00020",
+    "d": "exclude",
+    "code": "E5",
+    "why": "Data agent survey; no trace or process angle"
+   },
+   {
+    "id": "R00021",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Multi-agent orchestration compared on agent calls; trace analysis unclear"
+   },
+   {
+    "id": "R00022",
+    "d": "exclude",
+    "code": "E5",
+    "why": "General multi-agent systems survey; no trace analysis"
+   },
+   {
+    "id": "R00023",
+    "d": "exclude",
+    "code": "E5",
+    "why": "Agentic robots survey; no trace or process angle"
+   },
+   {
+    "id": "R00024",
+    "d": "exclude",
+    "code": "E5",
+    "why": "Benchmark reporting success, latency, cost only"
+   },
+   {
+    "id": "R00025",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Vocabulary with trajectories across runs; trace analysis unclear"
+   }
+  ],
+  "accepted_context": "d58c3e92573a553219ac873c645580f703ad57fd38b5adc0169321f33d7cd147"
+ }
+]

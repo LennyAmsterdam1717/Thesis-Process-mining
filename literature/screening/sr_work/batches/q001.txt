@@ -1,0 +1,64 @@
+BATCH q001 -- 5 records for QC recheck: R00004 .. R00023
+
+### R00004 | 2026 | Preprint | Lang: n/a
+TI: Exploring LLM Features in Predictive Process Monitoring for Small-Scale Event-Logs
+AB: Predictive Process Monitoring is a branch of process mining that aims to predict the outcome of an ongoing process. Recently, it leveraged
+    machine-and-deep learning architectures. In this paper, we extend our prior LLM-based Predictive Process Monitoring framework, which was initially
+    focused on total time prediction via prompting. The extension consists of comprehensively evaluating its generality, semantic leverage, and
+    reasoning mechanisms, also across multiple Key Performance Indicators. Empirical evaluations conducted on three distinct event logs and across the
+    Key Performance Indicators of Total Time and Activity Occurrence prediction indicate that, in data-scarce settings with only 100 traces, the LLM
+    surpasses the benchmark methods. Furthermore, the experiments also show that the LLM exploits both its embodied prior knowledge and the internal
+    correlations among training traces. Finally, we examine the reasoning strategies employed by the model, demonstrating that the LLM does not merely
+    replicate existing predictive methods but performs higher-order reasoning to generate the predictions.
+
+### R00007 | 2026 | Preprint | Lang: n/a
+TI: PMAx: An Agentic Framework for AI-Driven Process Mining
+AB: Process mining provides powerful insights into organizational workflows, but extracting these insights typically requires expertise in specialized
+    query languages and data science tools. Large Language Models (LLMs) offer the potential to democratize process mining by enabling business users
+    to interact with process data through natural language. However, using LLMs as direct analytical engines over raw event logs introduces
+    fundamental challenges: LLMs struggle with deterministic reasoning and may hallucinate metrics, while sending large, sensitive logs to external AI
+    services raises serious data-privacy concerns. To address these limitations, we present PMAx, an autonomous agentic framework that functions as a
+    virtual process analyst. Rather than relying on LLMs to generate process models or compute analytical results, PMAx employs a privacy-preserving
+    multi-agent architecture. An Engineer agent analyzes event-log metadata and autonomously generates local scripts to run established process mining
+    algorithms, compute exact metrics, and produce artifacts such as process models, summary tables, and visualizations. An Analyst agent then
+    interprets these insights and artifacts to compile comprehensive reports. By separating computation from interpretation and executing analysis
+    locally, PMAx ensures mathematical accuracy and data privacy while enabling non-technical users to transform high-level business questions into
+    reliable process insights.
+
+### R00014 | 2026 | Conference paper (demo) | Lang: n/a
+TI: Grounding LLM Explanations for Process Mining via Agentic Function Calling
+AB: Interpreting process mining outputs such as process-variant clusters and conformance violations is difficult for non-experts without clear
+    explanations. While large language models (LLMs) can generate natural language narratives, they are unreliable when reasoning over numerical data
+    and process structures. We present a demonstrator that constrains an LLM to an agentic function-calling interface grounded in precomputed XAI
+    outputs, combining density-based clustering, rule-based explanations, and both alignment-based and declarative conformance checking. The system
+    answers natural language queries by retrieving and composing computed metrics and explanations rather than inventing them. We evaluate the
+    demonstrator on the Road Traffic Fine Management Process dataset across queries of increasing complexity.
+
+### R00020 | 2026 | Preprint | Lang: n/a
+TI: Towards Reliable AI Data Scientists: Data Agents with Workflow Harnesses
+AB: Large language model agents are increasingly deployed for data-intensive work, yet reliable data analysis requires more than general-purpose
+    reasoning and ad hoc tool augmentation. Data Agents, equipped with workflow harnesses, offer a promising paradigm for automating the end-to-end
+    data science lifecycle. This paper examines Data Agents from a harness-centric perspective. First, we introduce a taxonomy of Data Agents and
+    associated data environments, organizing the literature around five functional stages: perception, planning, execution, verification, and repair.
+    Second, we analyze the key technical routes within each stage, identifying 15 distinct approaches ranging from data structure probing to data
+    state reconstruction. Third, we identify four open reliability problems: inactive semantic calibration, missing clarification, missing experience
+    transfer, and the missing verification-repair repository. These problems explain why silent failures can persist even when individual components
+    function correctly, highlighting the need for rigorous workflow harnesses and shared reliability resources. Finally, we summarize the horizontal
+    task families of Data Agents, examine their vertical application settings, and benchmarks for evaluation, while maintaining a companion repository
+    at https://github.com/DEEP-PolyU/Awesome-Data-Agents.
+
+### R00023 | 2026 | Preprint | Lang: n/a
+TI: Towards Agentic Robots: Model, Data, Environment, and Harness
+AB: Foundation models are driving a paradigm shift in robotic intelligence, moving beyond low-level action prediction to goal-directed orchestration
+    of data collection, model training, task planning, and real-world execution. We characterize this emerging paradigm as an agentic robots, in which
+    agents reason over human instructions, interact with robotic environments, rectify execution errors autonomously, and dynamically adjust
+    operational strategies. Although this field develops fast, current studies are not well connected. Researchers have no consistent view of how to
+    combine different agentic functions into a complete robot system. This paper provides a unified overview of existing research on agentic robots.
+    We first trace the development from robot policies to agentic systems, covering vision-language-action models, world models, and world-action
+    models. We then clarify the definition and scope of agentic robots and organize existing research into seventeen categories across four functional
+    domains: Model, Data, Environment, and Harness. Across these domains, we examine how agents shape model learning and robot decisions, collect and
+    curate robot data, construct worlds, tasks, and tests for learning and evaluation, and organize capabilities for robot use. Finally, we discuss
+    open challenges and outline directions for future research. Looking forward, we hope this work contributes to a clearer understanding of agentic
+    robots and supports new approaches to making them more capable, reliable, and adaptive.
+
+=== END OF BATCH q001 (5 records) ===

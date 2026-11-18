@@ -98,3 +98,10 @@ One entry per search round. PRISMA 2020 counts come from `sr-screener`.
 | Records screened (title/abstract) | 75 |
 
 Screening counts follow in the screening section below.
+
+## Screening – calibration pilot 1 (batch b001, 25 records) – 2026-11-18
+
+- Two blinded AI reviewers (Claude Sonnet 5.5, SR-Screener `screening-reviewer-agent`) vs Frank's independent labels.
+- AI agreement A vs B (advance vs exclude): n = 25, observed 0.92, kappa 0.834, PABAK 0.84; 2 conflicts (R00006, R00021) awaiting adjudication.
+- Against Frank: 23 compared, Frank advanced 15, AI advanced 14, **AI missed 1** (R00024 AgBench: Frank unclear, both AI reviewers excluded E5), AI advanced 0 that Frank excluded.
+- Result: **pilot gate not passed** → protocol wording to be amended and the pilot re-run before the full run.
