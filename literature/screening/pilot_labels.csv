@@ -1,26 +1,26 @@
 id,d,code,why,by,title
-R00001,,,,Frank,From Event Logs to Governed Action: A BlueSky Agenda for Agentic Process Mining
-R00002,,,,Frank,Using Process Mining to Generate AI Agents from Software Engineering Process Records
-R00003,,,,Frank,Beyond Generalist LLMs: Specialist Agentic Systems for Structured Code Workflow Execution
-R00004,,,,Frank,Exploring LLM Features in Predictive Process Monitoring for Small-Scale Event-Logs
-R00005,,,,Frank,Beyond Pass/Fail: Using Process Mining to Understand How LLMs Resist (and Fail) Red Team Attacks
-R00006,,,,Frank,Can LLM Agents Sustain Long-Horizon Organizational Dynamics?
-R00007,,,,Frank,PMAx: An Agentic Framework for AI-Driven Process Mining
-R00008,,,,Frank,TraceCompiler: Skill-Guided Mining and Compilation of LLM Agent Traces into Mostly Deterministic Workflows
-R00009,,,,Frank,Organizational Memory for Agentic Business Process Execution
-R00010,,,,Frank,Building a Process-Modeling Tool using Agentic AI: An Experience Report on PM4Py-UCM
-R00011,,,,Frank,Agent Behavior Mining: Generative AI Agent Governance in Business Processes
-R00012,,,,Frank,"Behavioral Analysis of AI Code Generation Agents: Edit, Rewrite, and Repetition (MSR 2026 Mining Challenge)"
-R00013,,,,Frank,TraceDance: An Automated System for Building Agent Behavior Benchmarks from Real-World Agent Deployment Traces
-R00014,,,,Frank,Grounding LLM Explanations for Process Mining via Agentic Function Calling
-R00015,,,,Frank,Concurrency-Aware Process Model Forecasting with Causal Nets
-R00016,,,,Frank,A Node Embedding Framework for Model-Centric Conformance Checking in Process Mining
-R00017,,,,Frank,"The Log is the Agent: Event-Sourced Reactive Graphs for Auditable, Forkable Agentic Systems"
-R00018,,,,Frank,Mining Workflow Graphs for Black-Box Boundary Testing of Conversational LLM Agents
-R00019,,,,Frank,Agent ATO: Visualizing Agent Interaction Timelines from Logs
-R00020,,,,Frank,Towards Reliable AI Data Scientists: Data Agents with Workflow Harnesses
-R00021,,,,Frank,Autonomous Event-Driven Multi-Agent Orchestration for Enterprise AI at Scale
-R00022,,,,Frank,Multi-Agent Systems: From Classical Paradigms to Large Foundation Model-Enabled Futures
-R00023,,,,Frank,"Towards Agentic Robots: Model, Data, Environment, and Harness"
-R00024,,,,Frank,AgBench: Agentic AI Benchmarks for Personal AI Devices
-R00025,,,,Frank,A Vocabulary for Multi-Agent Automated Research Systems
+R00001,include,INC,Agenda for using mined process evidence to govern agent actions (f),Frank,From Event Logs to Governed Action: A BlueSky Agenda for Agentic Process Mining
+R00002,include,INC,Process mining used to discover roles and generate AI agents (f),Frank,Using Process Mining to Generate AI Agents from Software Engineering Process Records
+R00003,include,INC,"Compares specialist vs generalist agents on tool-call behaviour; BPMN-guided (e,f)",Frank,Beyond Generalist LLMs: Specialist Agentic Systems for Structured Code Workflow Execution
+R00004,exclude,E3,Non-agentic LLM prompted for predictive monitoring of business logs,Frank,Exploring LLM Features in Predictive Process Monitoring for Small-Scale Event-Logs
+R00005,unclear,UNC,Single LLM multi-turn red-teaming traces mined as DFGs,Frank,Beyond Pass/Fail: Using Process Mining to Understand How LLMs Resist (and Fail) Red Team Attacks
+R00006,unclear,UNC,LLM multi-agent organisational simulation; trace memory; behavioural comparison unclear,Frank,Can LLM Agents Sustain Long-Horizon Organizational Dynamics?
+R00007,exclude,E4,Agents perform process mining on business logs; own behaviour not analysed,Frank,PMAx: An Agentic Framework for AI-Driven Process Mining
+R00008,include,INC,Mines tool-using agent traces into workflows; compares with directly-follows,Frank,TraceCompiler: Skill-Guided Mining and Compilation of LLM Agent Traces into Mostly Deterministic Workflows
+R00009,include,INC,Shared procedural knowledge and process models guide business-process agents (f),Frank,Organizational Memory for Agentic Business Process Execution
+R00010,include,INC,Mines 18 coding-agent sessions and 10k tool actions from development record,Frank,Building a Process-Modeling Tool using Agentic AI: An Experience Report on PM4Py-UCM
+R00011,include,INC,Event data model for agent logs; detects policy deviations,Frank,Agent Behavior Mining: Generative AI Agent Governance in Business Processes
+R00012,unclear,UNC,Title only; behavioural analysis of code agents likely from traces,Frank,"Behavioral Analysis of AI Code Generation Agents: Edit, Rewrite, and Repetition (MSR 2026 Mining Challenge)"
+R00013,include,INC,Builds behaviour benchmarks from 252k agent deployment traces; compares LLMs,Frank,TraceDance: An Automated System for Building Agent Behavior Benchmarks from Real-World Agent Deployment Traces
+R00014,exclude,E4,LLM function-calling explains process mining outputs on business logs,Frank,Grounding LLM Explanations for Process Mining via Agentic Function Calling
+R00015,exclude,E3,Process model forecasting; no LLM agents involved,Frank,Concurrency-Aware Process Model Forecasting with Causal Nets
+R00016,exclude,E3,Conformance checking method; no LLM agents involved,Frank,A Node Embedding Framework for Model-Centric Conformance Checking in Process Mining
+R00017,include,INC,Agent runtime with event log as source of truth; replay and lineage,Frank,"The Log is the Agent: Event-Sourced Reactive Graphs for Auditable, Forkable Agentic Systems"
+R00018,include,INC,Mines conversational workflow graphs of LLM agents to test boundaries,Frank,Mining Workflow Graphs for Black-Box Boundary Testing of Conversational LLM Agents
+R00019,include,INC,Visualises coding agent interaction timelines from logs to compare trajectories,Frank,Agent ATO: Visualizing Agent Interaction Timelines from Logs
+R00020,exclude,E5,Survey of data agent techniques; no trace or process analysis,Frank,Towards Reliable AI Data Scientists: Data Agents with Workflow Harnesses
+R00021,include,INC,Compares DAG Plan-Execute vs ReAct on agent-call behaviour at scale (e),Frank,Autonomous Event-Driven Multi-Agent Orchestration for Enterprise AI at Scale
+R00022,exclude,E5,Survey of multi-agent systems; no trace or process angle,Frank,Multi-Agent Systems: From Classical Paradigms to Large Foundation Model-Enabled Futures
+R00023,exclude,E5,Survey of agentic robots; no trace or process angle,Frank,"Towards Agentic Robots: Model, Data, Environment, and Harness"
+R00024,unclear,UNC,Compares deployment architectures on latency and cost; behavioural angle unclear,Frank,AgBench: Agentic AI Benchmarks for Personal AI Devices
+R00025,unclear,UNC,"Vocabulary for multi-agent design and trajectories; conceptual, analysis unclear",Frank,A Vocabulary for Multi-Agent Automated Research Systems
