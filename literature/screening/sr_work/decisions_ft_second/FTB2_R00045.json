@@ -1,0 +1,14 @@
+{
+ "label": "FTB2:R00045",
+ "reviewer": "Claude Sonnet 5.5, persona B, second full-text reviewer",
+ "tool_uses": 3,
+ "decisions": [
+  {
+   "id": "R00045",
+   "d": "include",
+   "code": "INC",
+   "why": "2026 survey of LLM multi-agent systems; covers execution-state recording, trace-based fault localization, workflow graphs, agent communication and coordination structures.",
+   "where": "p1 Abstract; p19-22 Sec. 4.4 Runtime State Management (4.4.1-4.4.2); p15-19 Secs. 4.2-4.3; p29 Sec. 7"
+  }
+ ]
+}

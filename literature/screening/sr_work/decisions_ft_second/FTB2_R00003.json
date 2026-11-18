@@ -1,0 +1,14 @@
+{
+ "label": "FTB2:R00003",
+ "reviewer": "Claude Sonnet 5.5, persona B, second full-text reviewer",
+ "tool_uses": 2,
+ "decisions": [
+  {
+   "id": "R00003",
+   "d": "include",
+   "code": "INC",
+   "why": "BPMN process models compiled into LLM ReAct agents (f); compared with Roo/Cline on tool-use exactness, latency, tool-call errors, tokens (e).",
+   "where": "p1 Abstract; p2 Sec. 1 (BPMN compiled to ReAct control graph); p4 Sec. 3.3 and 4.1; arXiv July 2026 (p1 header)"
+  }
+ ]
+}

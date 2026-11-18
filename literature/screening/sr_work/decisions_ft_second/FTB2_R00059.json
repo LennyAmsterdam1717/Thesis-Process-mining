@@ -1,0 +1,14 @@
+{
+ "label": "FTB2:R00059",
+ "reviewer": "Claude Sonnet 5.5, persona B, second full-text reviewer",
+ "tool_uses": 3,
+ "decisions": [
+  {
+   "id": "R00059",
+   "d": "include",
+   "code": "INC",
+   "why": "LLM coding agents (mini-swe-agent) compared across models; trajectory action-taxonomy shifts, action counts and token cost analysed (concept e).",
+   "where": "p1 Abstract; p5 Sec. IV RQ2 and Metrics; p7 Sec. V.B RQ2, Fig. 3; p6 Table I"
+  }
+ ]
+}

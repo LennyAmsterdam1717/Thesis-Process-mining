@@ -1,0 +1,14 @@
+{
+ "label": "FTB2:R00040",
+ "reviewer": "Claude Sonnet 5.5, persona B, second full-text reviewer",
+ "tool_uses": 2,
+ "decisions": [
+  {
+   "id": "R00040",
+   "d": "include",
+   "code": "INC",
+   "why": "LLM multi-agent traces turned into step-level dependency graphs to attribute failures and coordination errors (Who&When benchmark); arXiv Sep 2026.",
+   "where": "p1 Abstract; p2 Sec. 1 Introduction; p3 Sec. 3 Problem Formulation; p4 Sec. 4 Methodology"
+  }
+ ]
+}

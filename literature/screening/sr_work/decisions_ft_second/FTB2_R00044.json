@@ -1,0 +1,14 @@
+{
+ "label": "FTB2:R00044",
+ "reviewer": "Claude Sonnet 5.5, persona B, second full-text reviewer",
+ "tool_uses": 3,
+ "decisions": [
+  {
+   "id": "R00044",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-agent LLM system (2026 arXiv); compares designs on time, tokens and cost, and analyses communication graph patterns across rounds.",
+   "where": "p1 Abstract; p6 Sec. 4.2 Efficiency, Tables 2-3; p7-8 Sec. 4.3 GAIA graph analysis"
+  }
+ ]
+}

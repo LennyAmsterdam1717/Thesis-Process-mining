@@ -8,3 +8,7 @@
 
 # macOS
 .DS_Store
+
+# Extracted full texts and raw datasets (kept local)
+literature/screening/fulltext_txt/
+experiments/**/data/

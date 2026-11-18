@@ -1,0 +1,14 @@
+{
+ "label": "FTB2:R00036",
+ "reviewer": "Claude Sonnet 5.5, persona B, second full-text reviewer",
+ "tool_uses": 4,
+ "decisions": [
+  {
+   "id": "R00036",
+   "d": "include",
+   "code": "INC",
+   "why": "arXiv Jun 2026; LLM multi-agent hand-off fidelity measured across hops/rounds/runs; bare vs guarded configs compared; rule-check deviation monitor (borderline, low relevance)",
+   "where": "p1 Abstract; p2-4 Sec. 2 taxonomy; p7-9 Sec. 6 Experimental Verification; p9 Sec. 7.2 PIG Engine"
+  }
+ ]
+}

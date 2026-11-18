@@ -1,0 +1,14 @@
+{
+ "label": "FTB2:R00024",
+ "reviewer": "Claude Sonnet 5.5, persona B, second full-text reviewer",
+ "tool_uses": 2,
+ "decisions": [
+  {
+   "id": "R00024",
+   "d": "include",
+   "code": "INC",
+   "why": "LLM agents compared across local, hybrid and cloud deployments on latency, cost and goodput; execution traces and inter-agent messages captured and released.",
+   "where": "p1 Abstract; p2 Sec. 3.1 Steps 3-4; p3-4 Secs. 3.3-3.5 (deployment architectures, metrics)"
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "label": "FTB2:R00025",
+ "reviewer": "Claude Sonnet 5.5, persona B, second full-text reviewer",
+ "tool_uses": 4,
+ "decisions": [
+  {
+   "id": "R00025",
+   "d": "include",
+   "code": "INC",
+   "why": "2026 arXiv position/vocabulary paper for LLM multi-agent systems; formal per-step trajectory data model, cost accounting, and comparison of agent designs.",
+   "where": "p7-8 Sec. 4 Trajectory (Eq. 5-7); p1 Abstract; p9-15 Sec. 6 Case studies",
+   "note": "Reviewer note: borderline, low-relevance include; conceptual, no process mining or empirical trace study; meets (a) via formal trajectory record and (e) via design-comparison framework; included under the sensitive principle."
+  }
+ ]
+}

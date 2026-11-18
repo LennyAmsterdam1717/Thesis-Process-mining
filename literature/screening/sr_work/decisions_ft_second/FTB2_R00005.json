@@ -1,0 +1,14 @@
+{
+ "label": "FTB2:R00005",
+ "reviewer": "Claude Sonnet 5.5, persona B, second full-text reviewer",
+ "tool_uses": 2,
+ "decisions": [
+  {
+   "id": "R00005",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Plain LLMs get repeated single-prompt jailbreak attempts; no tools, actions or environment, so not an agentic system.",
+   "where": "p2 Sec. 2 Experimental Setup (Models, Attack protocol); p1 Abstract"
+  }
+ ]
+}

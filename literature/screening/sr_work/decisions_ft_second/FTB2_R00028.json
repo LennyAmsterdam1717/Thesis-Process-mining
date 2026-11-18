@@ -1,0 +1,14 @@
+{
+ "label": "FTB2:R00028",
+ "reviewer": "Claude Sonnet 5.5, persona B, second full-text reviewer",
+ "tool_uses": 5,
+ "decisions": [
+  {
+   "id": "R00028",
+   "d": "include",
+   "code": "INC",
+   "why": "2026 arXiv survey of LLM multi-agent systems; orchestration traces as event graphs with a replayable JSON trace schema (concept a).",
+   "where": "p1 Abstract; p34-35 Sec. 8.1 Orchestration trace; p67 App. C.7 Trace schema"
+  }
+ ]
+}

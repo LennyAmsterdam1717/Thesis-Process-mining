@@ -1,0 +1,14 @@
+{
+ "label": "FTB2:R00037",
+ "reviewer": "Claude Sonnet 5.5, persona B, second full-text reviewer",
+ "tool_uses": 3,
+ "decisions": [
+  {
+   "id": "R00037",
+   "d": "include",
+   "code": "INC",
+   "why": "LLM multi-agent coordination configurations compared on tokens, cost and failure signatures; open multi-agent reasoning trace dataset released; 2026 arXiv.",
+   "where": "p1 Abstract; p14-15 Sec. 5.3 compute accounting; p16 Sec. 5.6 traces dataset; p16-17 Sec. 6.1 Table 2"
+  }
+ ]
+}

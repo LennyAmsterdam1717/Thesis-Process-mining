@@ -1,0 +1,14 @@
+{
+ "label": "FTB2:R00074",
+ "reviewer": "Claude Sonnet 5.5, persona B, second full-text reviewer",
+ "tool_uses": 3,
+ "decisions": [
+  {
+   "id": "R00074",
+   "d": "include",
+   "code": "INC",
+   "why": "LLM agents guided by BPMN process models (executable LangGraph workflows, process models as agent context): concept (f) process-aware agent design.",
+   "where": "p1 Abstract; p5-6 Sec. 3.2 BPMN-to-LangGraph mapping; p9-11 Sec. 4 Process Models as Enterprise-Specific Context"
+  }
+ ]
+}

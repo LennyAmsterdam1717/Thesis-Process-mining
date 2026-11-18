@@ -1,0 +1,14 @@
+{
+ "label": "FTB2:R00047",
+ "reviewer": "Claude Sonnet 5.5, persona B, second full-text reviewer",
+ "tool_uses": 3,
+ "decisions": [
+  {
+   "id": "R00047",
+   "d": "include",
+   "code": "INC",
+   "why": "LLM route-planning agents compared (ReAct vs Plan-and-Execute, models) on tool use, step sequences vs SOP gold, token cost; concept (e).",
+   "where": "p1 Abstract; p5-6 Sec. 3.2 (Planning, Tool Use, Efficiency); p7 Sec. 4.2.1 Framework Comparison"
+  }
+ ]
+}

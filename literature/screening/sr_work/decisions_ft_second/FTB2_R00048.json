@@ -1,0 +1,14 @@
+{
+ "label": "FTB2:R00048",
+ "reviewer": "Claude Sonnet 5.5, persona B, second full-text reviewer",
+ "tool_uses": 3,
+ "decisions": [
+  {
+   "id": "R00048",
+   "d": "include",
+   "code": "INC",
+   "why": "LLM tool-calling agents (ReAct vs Plan-and-Act, prompts, context scope) compared on call-level behaviour: extraneous calls, failure rate, inaction, extra calls. Concept (e), borderline.",
+   "where": "p1 Abstract; p4 Sec. 3.5 Metrics; p5-6 Sec. 4.2 Agent Configuration, Table 4"
+  }
+ ]
+}

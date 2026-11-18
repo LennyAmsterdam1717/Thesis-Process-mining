@@ -1,0 +1,14 @@
+{
+ "label": "FTB2:R00051",
+ "reviewer": "Claude Sonnet 5.5, persona B, second full-text reviewer",
+ "tool_uses": 2,
+ "decisions": [
+  {
+   "id": "R00051",
+   "d": "include",
+   "code": "INC",
+   "why": "LLM MCP agents compared across architectures and world models on tool-call success, call counts, tokens, time; new Execution Quality metric.",
+   "where": "p1 Abstract and Contributions; p6-7 Sec. 4 Tables 2-3; p5-6 Sec. 3.4"
+  }
+ ]
+}

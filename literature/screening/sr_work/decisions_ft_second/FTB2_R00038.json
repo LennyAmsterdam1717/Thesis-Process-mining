@@ -1,0 +1,14 @@
+{
+ "label": "FTB2:R00038",
+ "reviewer": "Claude Sonnet 5.5, persona B, second full-text reviewer",
+ "tool_uses": 4,
+ "decisions": [
+  {
+   "id": "R00038",
+   "d": "include",
+   "code": "INC",
+   "why": "LLM multi-agent architecture (arXiv Jan 2026) compared with single-agent and CoT-SC baselines on cost, latency and scaling rate, stated as a contribution; borderline (e).",
+   "where": "p1 Abstract and p3 Sec. 1.4 Contributions (cost -80%, latency +47%); p17-18 Sec. 6.2-6.5; p18-19 Sec. 6.7 execution traces"
+  }
+ ]
+}

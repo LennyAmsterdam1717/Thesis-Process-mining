@@ -1,0 +1,15 @@
+{
+ "label": "FTB2:R00062",
+ "reviewer": "Claude Sonnet 5.5, persona B, second full-text reviewer",
+ "tool_uses": 3,
+ "decisions": [
+  {
+   "id": "R00062",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Agent security: measures runtime-control coverage of fixed replayed actions against kernel truth; no analysis of agent behaviour as process data",
+   "where": "p1 Abstract; p6-7 Sec. 4.3 Empirical Measurement (no LLM in loop, deterministic replay of 15 actions)",
+   "note": "Reviewer note: read lines 1-800 of 1163 (skipped evaluation results, limitations, references). Borderline E5: framework logs dispatch records reconciled with kernel traces (resembles concept a), but the object of analysis is control coverage, not agent behaviour across runs."
+  }
+ ]
+}

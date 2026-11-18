@@ -53,4 +53,9 @@ Exception, treat as unclear: the abstract mentions traces, trajectories, logs, w
 - Concept (e) at full text: a comparison of agent designs, models, prompting strategies or deployment set-ups on process-performance measures (time, cost/tokens, steps, tool use, rework, coordination overhead) must be part of the paper's stated analysis (abstract, contributions or a results section), not only a side column in an accuracy table.
 - Training-only papers (traces used only as training data, reward or credit units, with no analysis of behaviour) are excluded (E5).
 - Reports that cannot be retrieved are reported as "not retrieved"; they are not excluded on content.
-- Reviewer set-up ("go light", 2026-11-18): ONE AI reviewer (Claude Opus 5.5, main session) reads each report; there is no second independent reviewer and no adjudicator at this stage. Frank verifies the included set.
+- Reviewer set-up: the first full-text assessment was made by one AI reviewer ("go light", 2026-11-18). A second, independent AI reviewer later re-assesses a subset of reports (all exclusions, low-relevance includes and a random sample of other includes) without seeing the first decisions. Disagreements go to Frank; no decision is changed automatically.
+
+## Full-text amendment log
+| Date | Change | Reason | Effect on eligibility |
+|------|--------|--------|------------------------|
+| 2026-11-19 | Reviewer set-up line updated: a second independent reviewer re-assesses a subset | Frank's follow-up task 1 (second-reviewer check) | None: criteria and codes unchanged |

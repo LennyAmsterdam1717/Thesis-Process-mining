@@ -1,0 +1,14 @@
+{
+ "label": "FTB2:R00063",
+ "reviewer": "Claude Sonnet 5.5, persona B, second full-text reviewer",
+ "tool_uses": 5,
+ "decisions": [
+  {
+   "id": "R00063",
+   "d": "include",
+   "code": "INC",
+   "why": "Tool-using LLM agent action traces checked against safety policies (bad-prefix enforcement); paired gated/ungated reruns compare trajectories, gating fraction and task success. Low relevance.",
+   "where": "p3 Defs. 1-4 (traces, safety policies, gate); p4 Thm 1; p6-7 Sec. 7 Experiments (C4 closed-loop reruns)"
+  }
+ ]
+}
