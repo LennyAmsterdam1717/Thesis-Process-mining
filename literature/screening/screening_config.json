@@ -1,0 +1,39 @@
+{
+  "review_title": "Process mining for agentic AI - 2026 literature (integrative/scoping)",
+  "exclusion_codes": [
+    {"code": "E1", "short": "year", "label": "Not published in 2026"},
+    {"code": "E2", "short": "publication type", "label": "Not a research, survey or position paper (blog, vendor page, news, tutorial, dataset card)"},
+    {"code": "E3", "short": "population", "label": "System studied is not an LLM-based / generative AI agentic system"},
+    {"code": "E4", "short": "wrong direction", "label": "LLMs/agents used to perform process mining on ordinary logs; agents' own behaviour not analysed"},
+    {"code": "E5", "short": "concept", "label": "No treatment of agent behaviour as process/trace data and no link to process models"},
+    {"code": "E9", "short": "other", "label": "Other (explained)"}
+  ],
+  "core_criteria": ["LLM-based / generative AI agentic system", "agent behaviour treated as process or trace data, or linked to process models"],
+  "personas": {
+    "A": "You are REVIEWER A, a process mining researcher with expertise in event data, process discovery and conformance checking, who also follows LLM agent research.",
+    "B": "You are REVIEWER B, a literature-review methodologist experienced in scoping and integrative reviews in computer science and information systems."
+  },
+  "conflict_policy": "adjudicate",
+  "qc": {
+    "near_miss": {
+      "agent": ["\\bagent", "agentic", "multi-agent", "\\bLLM"],
+      "trace": ["trace", "trajector", "event log", "\\blog", "process min", "workflow", "conformance", "behavio"]
+    },
+    "random_exclusion_sample": 100,
+    "random_seed": 2026,
+    "policy": "advance"
+  },
+  "seeds": [
+    {"label": "Vu 2026, BPM (Agent Behavior Mining)", "doi": "", "pmid": "", "title": "Agent Behavior Mining: Generative AI Agent Governance in Business Processes"}
+  ],
+  "languages_allowed": ["English"],
+  "models": {"A": "sonnet", "B": "sonnet", "ADJ": "sonnet", "QC": "sonnet", "FTA": "sonnet", "FTB": "sonnet", "FTADJ": "sonnet"},
+  "model_labels": {
+    "A": "Claude Sonnet 5.5 (claude-sonnet-5-5)", "B": "Claude Sonnet 5.5 (claude-sonnet-5-5)",
+    "ADJ": "Claude Sonnet 5.5 (claude-sonnet-5-5)", "QC": "Claude Sonnet 5.5 (claude-sonnet-5-5)",
+    "FTA": "Claude Sonnet 5.5 (claude-sonnet-5-5)", "FTB": "Claude Sonnet 5.5 (claude-sonnet-5-5)", "FTADJ": "Claude Sonnet 5.5 (claude-sonnet-5-5)"
+  },
+  "agent_type": "academic-research-skills:screening-reviewer-agent",
+  "batching": {"max_records": 25, "max_chars": 90000, "wrap": 150},
+  "dedup": {"doi_title_guard": true}
+}
