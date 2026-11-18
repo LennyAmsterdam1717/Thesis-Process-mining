@@ -1,15 +1,17 @@
 {
- "n": 25,
- "both_advance": 16,
- "both_exclude": 8,
+ "n": 75,
+ "both_advance": 57,
+ "both_exclude": 14,
  "a_only_advance": 0,
- "b_only_advance": 1,
- "observed_agreement": 0.96,
- "kappa": 0.911,
- "pabak": 0.92,
- "conflicts": 1,
+ "b_only_advance": 4,
+ "observed_agreement": 0.9467,
+ "kappa": 0.842,
+ "pabak": 0.893,
+ "conflicts": 4,
  "resolved_by": {
-  "A+B": 23,
-  "Frank": 2
+  "A+B": 69,
+  "Frank": 2,
+  "ADJ": 3,
+  "QC": 1
  }
 }

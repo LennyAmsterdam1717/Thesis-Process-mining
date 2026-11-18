@@ -1,0 +1,35 @@
+{
+ "label": "QC:q001@5d4c97e87d5e4cd67b019cc2d4c1f8d6112e146c24e3e8b577be18466215419e",
+ "decisions": [
+  {
+   "id": "R00004",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Plain LLM prompting for predictive monitoring, not an agentic system"
+  },
+  {
+   "id": "R00007",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Agents perform process mining on event logs; own behaviour not analysed"
+  },
+  {
+   "id": "R00014",
+   "d": "exclude",
+   "code": "E4",
+   "why": "LLM function calling explains process mining outputs; agent behaviour not analysed"
+  },
+  {
+   "id": "R00020",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Data agent survey on workflow harnesses; no trace or behaviour analysis"
+  },
+  {
+   "id": "R00023",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Agentic robots survey; no trace or process-data angle"
+  }
+ ]
+}

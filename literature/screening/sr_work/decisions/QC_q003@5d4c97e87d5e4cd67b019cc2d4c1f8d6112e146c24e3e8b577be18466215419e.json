@@ -1,0 +1,35 @@
+{
+ "label": "QC:q003@5d4c97e87d5e4cd67b019cc2d4c1f8d6112e146c24e3e8b577be18466215419e",
+ "decisions": [
+  {
+   "id": "R00015",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Classical process model forecasting on event logs; no LLM agents"
+  },
+  {
+   "id": "R00016",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Process discovery evaluation on ordinary event logs; no LLM agents"
+  },
+  {
+   "id": "R00022",
+   "d": "exclude",
+   "code": "E5",
+   "why": "General MAS survey; no trace or process-data angle"
+  },
+  {
+   "id": "R00034",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Survey of latent communication methods; no trace or behaviour analysis"
+  },
+  {
+   "id": "R00050",
+   "d": "exclude",
+   "code": "E5",
+   "why": "LLM reasoning framework, not agentic; no agent trace analysis across runs"
+  }
+ ]
+}

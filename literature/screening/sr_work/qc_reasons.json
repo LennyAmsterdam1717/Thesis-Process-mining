@@ -3,5 +3,14 @@
  "R00007": "near-miss",
  "R00014": "near-miss",
  "R00020": "near-miss",
- "R00023": "near-miss"
+ "R00023": "near-miss",
+ "R00027": "near-miss",
+ "R00039": "near-miss",
+ "R00045": "near-miss",
+ "R00065": "near-miss",
+ "R00015": "random",
+ "R00022": "random",
+ "R00034": "random",
+ "R00050": "random",
+ "R00016": "random"
 }

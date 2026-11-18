@@ -1,0 +1,29 @@
+{
+ "label": "QC:q002@5d4c97e87d5e4cd67b019cc2d4c1f8d6112e146c24e3e8b577be18466215419e",
+ "decisions": [
+  {
+   "id": "R00027",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Title: agents performing event log data quality assessment; no agent behaviour analysis"
+  },
+  {
+   "id": "R00039",
+   "d": "exclude",
+   "code": "E5",
+   "why": "New LLM investigation framework judged on accuracy and consistency; no trace analysis"
+  },
+  {
+   "id": "R00045",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Survey of graph structures for multi-agent systems; link to workflow/process models unclear"
+  },
+  {
+   "id": "R00065",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Failure-mode characterization of agent outputs; no trace or process analysis"
+  }
+ ]
+}

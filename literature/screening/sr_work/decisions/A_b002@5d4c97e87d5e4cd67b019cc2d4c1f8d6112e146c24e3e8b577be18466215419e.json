@@ -1,0 +1,155 @@
+{
+ "label": "A:b002@5d4c97e87d5e4cd67b019cc2d4c1f8d6112e146c24e3e8b577be18466215419e",
+ "decisions": [
+  {
+   "id": "R00026",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "No abstract; title suggests process mining of agent systems, LLM-basis unclear"
+  },
+  {
+   "id": "R00027",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Agentic AI used to assess event log quality, not agent behaviour"
+  },
+  {
+   "id": "R00028",
+   "d": "include",
+   "code": "INC",
+   "why": "Orchestration traces as temporal interaction graphs of multi-agent LLM events"
+  },
+  {
+   "id": "R00029",
+   "d": "include",
+   "code": "INC",
+   "why": "Communication failures taxonomy from 3,211 multi-agent trajectories"
+  },
+  {
+   "id": "R00030",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Handoff behaviour measured; unclear whether trace or process-oriented analysis"
+  },
+  {
+   "id": "R00031",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-agent execution traces compiled into event knowledge graphs"
+  },
+  {
+   "id": "R00032",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Handoff privacy leakage; no trace or process analysis"
+  },
+  {
+   "id": "R00033",
+   "d": "include",
+   "code": "INC",
+   "why": "Agent trace representation and views for trace analysis"
+  },
+  {
+   "id": "R00034",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Survey of latent communication methods; no trace or behaviour analysis"
+  },
+  {
+   "id": "R00035",
+   "d": "include",
+   "code": "INC",
+   "why": "Communication topology recovered from multi-agent execution traces for failure diagnosis"
+  },
+  {
+   "id": "R00036",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Agent interaction observations and silent failure; trace analysis unclear"
+  },
+  {
+   "id": "R00037",
+   "d": "include",
+   "code": "INC",
+   "why": "Coordination configurations compared on cost and behaviour signatures; trace dataset"
+  },
+  {
+   "id": "R00038",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Architecture evaluated on reliability; no behavioural or trace analysis"
+  },
+  {
+   "id": "R00039",
+   "d": "exclude",
+   "code": "E5",
+   "why": "New agent framework evaluated on accuracy and consistency"
+  },
+  {
+   "id": "R00040",
+   "d": "include",
+   "code": "INC",
+   "why": "Failure attribution via dependency graphs built from multi-agent traces"
+  },
+  {
+   "id": "R00041",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "No abstract; survey of multi-agent orchestration and communication, trace angle unknown"
+  },
+  {
+   "id": "R00042",
+   "d": "include",
+   "code": "INC",
+   "why": "Execution traces used to diagnose enterprise multi-agent interaction and policy violations"
+  },
+  {
+   "id": "R00043",
+   "d": "include",
+   "code": "INC",
+   "why": "Graph of agent execution and dependency from traces across corpora"
+  },
+  {
+   "id": "R00044",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Workflow graph architecture evaluated on accuracy; no trace analysis"
+  },
+  {
+   "id": "R00045",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Survey of graph engineering for agent design; no trace or behaviour analysis"
+  },
+  {
+   "id": "R00046",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Topology generation compared on token cost; behavioural depth unclear"
+  },
+  {
+   "id": "R00047",
+   "d": "include",
+   "code": "INC",
+   "why": "Benchmark analysing agent behaviour, tool use and efficiency, beyond success"
+  },
+  {
+   "id": "R00048",
+   "d": "include",
+   "code": "INC",
+   "why": "Agent configurations compared on tool calls and failures, single vs multi-agent"
+  },
+  {
+   "id": "R00049",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Agent behavioural contrasts under plans across episodes; process-orientation unclear"
+  },
+  {
+   "id": "R00050",
+   "d": "exclude",
+   "code": "E3",
+   "why": "LLM reasoning ontology framework, not an agentic system"
+  }
+ ]
+}

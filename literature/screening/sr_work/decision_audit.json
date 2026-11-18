@@ -953,5 +953,764 @@
    }
   ],
   "accepted_context": "5d4c97e87d5e4cd67b019cc2d4c1f8d6112e146c24e3e8b577be18466215419e"
+ },
+ {
+  "source": "/Users/lennypam/Desktop/Folder process mining/literature/screening/sr_work/decisions/A_b002@5d4c97e87d5e4cd67b019cc2d4c1f8d6112e146c24e3e8b577be18466215419e.json",
+  "label": "A:b002@5d4c97e87d5e4cd67b019cc2d4c1f8d6112e146c24e3e8b577be18466215419e",
+  "decisions": [
+   {
+    "id": "R00026",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "No abstract; title suggests process mining of agent systems, LLM-basis unclear"
+   },
+   {
+    "id": "R00027",
+    "d": "exclude",
+    "code": "E4",
+    "why": "Agentic AI used to assess event log quality, not agent behaviour"
+   },
+   {
+    "id": "R00028",
+    "d": "include",
+    "code": "INC",
+    "why": "Orchestration traces as temporal interaction graphs of multi-agent LLM events"
+   },
+   {
+    "id": "R00029",
+    "d": "include",
+    "code": "INC",
+    "why": "Communication failures taxonomy from 3,211 multi-agent trajectories"
+   },
+   {
+    "id": "R00030",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Handoff behaviour measured; unclear whether trace or process-oriented analysis"
+   },
+   {
+    "id": "R00031",
+    "d": "include",
+    "code": "INC",
+    "why": "Multi-agent execution traces compiled into event knowledge graphs"
+   },
+   {
+    "id": "R00032",
+    "d": "exclude",
+    "code": "E5",
+    "why": "Handoff privacy leakage; no trace or process analysis"
+   },
+   {
+    "id": "R00033",
+    "d": "include",
+    "code": "INC",
+    "why": "Agent trace representation and views for trace analysis"
+   },
+   {
+    "id": "R00034",
+    "d": "exclude",
+    "code": "E5",
+    "why": "Survey of latent communication methods; no trace or behaviour analysis"
+   },
+   {
+    "id": "R00035",
+    "d": "include",
+    "code": "INC",
+    "why": "Communication topology recovered from multi-agent execution traces for failure diagnosis"
+   },
+   {
+    "id": "R00036",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Agent interaction observations and silent failure; trace analysis unclear"
+   },
+   {
+    "id": "R00037",
+    "d": "include",
+    "code": "INC",
+    "why": "Coordination configurations compared on cost and behaviour signatures; trace dataset"
+   },
+   {
+    "id": "R00038",
+    "d": "exclude",
+    "code": "E5",
+    "why": "Architecture evaluated on reliability; no behavioural or trace analysis"
+   },
+   {
+    "id": "R00039",
+    "d": "exclude",
+    "code": "E5",
+    "why": "New agent framework evaluated on accuracy and consistency"
+   },
+   {
+    "id": "R00040",
+    "d": "include",
+    "code": "INC",
+    "why": "Failure attribution via dependency graphs built from multi-agent traces"
+   },
+   {
+    "id": "R00041",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "No abstract; survey of multi-agent orchestration and communication, trace angle unknown"
+   },
+   {
+    "id": "R00042",
+    "d": "include",
+    "code": "INC",
+    "why": "Execution traces used to diagnose enterprise multi-agent interaction and policy violations"
+   },
+   {
+    "id": "R00043",
+    "d": "include",
+    "code": "INC",
+    "why": "Graph of agent execution and dependency from traces across corpora"
+   },
+   {
+    "id": "R00044",
+    "d": "exclude",
+    "code": "E5",
+    "why": "Workflow graph architecture evaluated on accuracy; no trace analysis"
+   },
+   {
+    "id": "R00045",
+    "d": "exclude",
+    "code": "E5",
+    "why": "Survey of graph engineering for agent design; no trace or behaviour analysis"
+   },
+   {
+    "id": "R00046",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Topology generation compared on token cost; behavioural depth unclear"
+   },
+   {
+    "id": "R00047",
+    "d": "include",
+    "code": "INC",
+    "why": "Benchmark analysing agent behaviour, tool use and efficiency, beyond success"
+   },
+   {
+    "id": "R00048",
+    "d": "include",
+    "code": "INC",
+    "why": "Agent configurations compared on tool calls and failures, single vs multi-agent"
+   },
+   {
+    "id": "R00049",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Agent behavioural contrasts under plans across episodes; process-orientation unclear"
+   },
+   {
+    "id": "R00050",
+    "d": "exclude",
+    "code": "E3",
+    "why": "LLM reasoning ontology framework, not an agentic system"
+   }
+  ],
+  "accepted_context": "5d4c97e87d5e4cd67b019cc2d4c1f8d6112e146c24e3e8b577be18466215419e"
+ },
+ {
+  "source": "/Users/lennypam/Desktop/Folder process mining/literature/screening/sr_work/decisions/B_b002@5d4c97e87d5e4cd67b019cc2d4c1f8d6112e146c24e3e8b577be18466215419e.json",
+  "label": "B:b002@5d4c97e87d5e4cd67b019cc2d4c1f8d6112e146c24e3e8b577be18466215419e",
+  "decisions": [
+   {
+    "id": "R00026",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "No abstract; organizational mining of agent systems from event data, LLM agents unclear"
+   },
+   {
+    "id": "R00027",
+    "d": "exclude",
+    "code": "E4",
+    "why": "Agentic AI used to assess event log quality, not agent behaviour"
+   },
+   {
+    "id": "R00028",
+    "d": "include",
+    "code": "INC",
+    "why": "LLM multi-agent orchestration traces as temporal interaction graphs with trace schema"
+   },
+   {
+    "id": "R00029",
+    "d": "include",
+    "code": "INC",
+    "why": "Taxonomy from 3,211 multi-agent trajectories; communication failure analysis across runs"
+   },
+   {
+    "id": "R00030",
+    "d": "include",
+    "code": "INC",
+    "why": "Agent handoffs analysed for constraint erosion across experiments and replays"
+   },
+   {
+    "id": "R00031",
+    "d": "include",
+    "code": "INC",
+    "ously": "",
+    "why": "Multi-agent execution traces compiled into event graphs for debugging"
+   },
+   {
+    "id": "R00032",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Handoff artifacts measured for boundary loss; unclear if process-oriented trace analysis"
+   },
+   {
+    "id": "R00033",
+    "d": "include",
+    "code": "INC",
+    "why": "Agent session traces compiled into structured views for trace analysis"
+   },
+   {
+    "id": "R00034",
+    "d": "exclude",
+    "code": "E5",
+    "why": "Latent communication method survey, no trace or behavioural analysis"
+   },
+   {
+    "id": "R00035",
+    "d": "include",
+    "code": "INC",
+    "why": "Recovers communication topology from multi-agent execution traces for failure diagnosis"
+   },
+   {
+    "id": "R00036",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "LLM agent failures from 100,000+ interactions; unclear if trace or process-oriented"
+   },
+   {
+    "id": "R00037",
+    "d": "include",
+    "code": "INC",
+    "why": "Coordination configurations compared on cost-quality signatures; trace dataset released"
+   },
+   {
+    "id": "R00038",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Architecture compared on reliability and cost; depth of behavioural analysis unclear"
+   },
+   {
+    "id": "R00039",
+    "d": "exclude",
+    "code": "E5",
+    "why": "New agent framework evaluated on accuracy and consistency only"
+   },
+   {
+    "id": "R00040",
+    "d": "include",
+    "code": "INC",
+    "why": "Dependency graphs built from multi-agent system traces for failure attribution"
+   },
+   {
+    "id": "R00041",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "No abstract; survey of LLM multi-agent orchestration and communication protocols"
+   },
+   {
+    "id": "R00042",
+    "d": "include",
+    "code": "INC",
+    "why": "Execution traces of enterprise multi-agent workflows used for policy-risk diagnosis"
+   },
+   {
+    "id": "R00043",
+    "d": "include",
+    "code": "INC",
+    "why": "Graph of agent execution and dependency edges recovered from traces"
+   },
+   {
+    "id": "R00044",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Workflow graph framework; inference cost mentioned, depth of behavioural analysis unclear"
+   },
+   {
+    "id": "R00045",
+    "d": "exclude",
+    "code": "E5",
+    "why": "Survey of graph engineering for agents, no trace or behaviour analysis"
+   },
+   {
+    "id": "R00046",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Topology generation compared on token cost and density; behavioural depth unclear"
+   },
+   {
+    "id": "R00047",
+    "d": "include",
+    "code": "INC",
+    "why": "Route-planning agents benchmark with tool use, efficiency and behaviour analysis"
+   },
+   {
+    "id": "R00048",
+    "d": "include",
+    "code": "INC",
+    "why": "Agent configurations compared on tool-call coverage and call overhead"
+   },
+   {
+    "id": "R00049",
+    "d": "include",
+    "code": "INC",
+    "why": "Tool-using agents' behavioural contrasts under plans, with success and cost"
+   },
+   {
+    "id": "R00050",
+    "d": "exclude",
+    "code": "E3",
+    "why": "Reasoning framework for LLM reasoning, not an agentic system"
+   }
+  ],
+  "accepted_context": "5d4c97e87d5e4cd67b019cc2d4c1f8d6112e146c24e3e8b577be18466215419e"
+ },
+ {
+  "source": "/Users/lennypam/Desktop/Folder process mining/literature/screening/sr_work/decisions/A_b003@5d4c97e87d5e4cd67b019cc2d4c1f8d6112e146c24e3e8b577be18466215419e.json",
+  "label": "A:b003@5d4c97e87d5e4cd67b019cc2d4c1f8d6112e146c24e3e8b577be18466215419e",
+  "decisions": [
+   {
+    "id": "R00051",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Tool success rate and Execution Quality metrics; depth of behavioural analysis unclear"
+   },
+   {
+    "id": "R00052",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Tool dependency layers and execution overhead; unclear if trace-level analysis"
+   },
+   {
+    "id": "R00053",
+    "d": "include",
+    "code": "INC",
+    "why": "N-gram and Markov mining of agent execution traces"
+   },
+   {
+    "id": "R00054",
+    "d": "include",
+    "code": "INC",
+    "why": "Procedural fingerprints of coding-agent trajectories compared across agents"
+   },
+   {
+    "id": "R00055",
+    "d": "include",
+    "code": "INC",
+    "why": "Behavioural analysis of 64k agent runs across configurations"
+   },
+   {
+    "id": "R00056",
+    "d": "include",
+    "code": "INC",
+    "why": "Taxonomy and pipeline for analysing agent execution trajectories"
+   },
+   {
+    "id": "R00057",
+    "d": "include",
+    "code": "INC",
+    "why": "Behavioural consistency from execution-trace features across agents"
+   },
+   {
+    "id": "R00058",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Trajectory embeddings used for benchmark subset selection; process angle unclear"
+   },
+   {
+    "id": "R00059",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Interaction cost and exploration analysis of coding agents; depth unclear"
+   },
+   {
+    "id": "R00060",
+    "d": "include",
+    "code": "INC",
+    "why": "Position paper on agents driven by process mining (A-BPMS)"
+   },
+   {
+    "id": "R00061",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "No abstract; title suggests process mining for reasoning model configuration"
+   },
+   {
+    "id": "R00062",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Agent action paths checked against kernel ground truth; trace angle unclear"
+   },
+   {
+    "id": "R00063",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Runtime safety over tool-call prefixes and trajectories; trace use unclear"
+   },
+   {
+    "id": "R00064",
+    "d": "include",
+    "code": "INC",
+    "why": "Temporal-logic monitoring of recorded agent trajectories, trace schema"
+   },
+   {
+    "id": "R00065",
+    "d": "exclude",
+    "code": "E5",
+    "why": "Behaviour failure characterisation without trace or process analysis"
+   },
+   {
+    "id": "R00066",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Reads agent execution traces to repair prompts; analysis across runs unclear"
+   },
+   {
+    "id": "R00067",
+    "d": "include",
+    "code": "INC",
+    "why": "Workflow control-flow graph guides and checks agent execution"
+   },
+   {
+    "id": "R00068",
+    "d": "include",
+    "code": "INC",
+    "why": "Temporal-logic procedural compliance checking of agent traces"
+   },
+   {
+    "id": "R00069",
+    "d": "include",
+    "code": "INC",
+    "why": "Workflow graph verification and runtime event-trace policy checking"
+   },
+   {
+    "id": "R00070",
+    "d": "include",
+    "code": "INC",
+    "why": "Policy workflow graphs guide and audit agent procedural compliance"
+   },
+   {
+    "id": "R00071",
+    "d": "include",
+    "code": "INC",
+    "why": "Logged agent runs merged into SOP workflows"
+   },
+   {
+    "id": "R00072",
+    "d": "include",
+    "code": "INC",
+    "why": "Policy adherence journey coverage compared across agent designs"
+   },
+   {
+    "id": "R00073",
+    "d": "include",
+    "code": "INC",
+    "why": "BPMN process graph guides LLM agent API invocation"
+   },
+   {
+    "id": "R00074",
+    "d": "include",
+    "code": "INC",
+    "why": "BPMN process models drive and monitor LLM agent workflows"
+   },
+   {
+    "id": "R00075",
+    "d": "include",
+    "code": "INC",
+    "why": "Process model harness governs LLM agents in BPM workflow"
+   }
+  ],
+  "accepted_context": "5d4c97e87d5e4cd67b019cc2d4c1f8d6112e146c24e3e8b577be18466215419e"
+ },
+ {
+  "source": "/Users/lennypam/Desktop/Folder process mining/literature/screening/sr_work/decisions/B_b003@5d4c97e87d5e4cd67b019cc2d4c1f8d6112e146c24e3e8b577be18466215419e.json",
+  "label": "B:b003@5d4c97e87d5e4cd67b019cc2d4c1f8d6112e146c24e3e8b577be18466215419e",
+  "decisions": [
+   {
+    "id": "R00051",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Agent tool-success KPIs compared across strategies; depth of behavioural analysis unclear"
+   },
+   {
+    "id": "R00052",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Tool dependency layers and execution overhead; trace or behavioural analysis unclear"
+   },
+   {
+    "id": "R00053",
+    "d": "include",
+    "code": "INC",
+    "why": "N-gram and Markov mining of agent execution traces"
+   },
+   {
+    "id": "R00054",
+    "d": "include",
+    "code": "INC",
+    "why": "Procedural fingerprints of coding-agent trajectories compared across agents"
+   },
+   {
+    "id": "R00055",
+    "d": "include",
+    "code": "INC",
+    "why": "Behavioural analysis of 64k agent runs across frameworks"
+   },
+   {
+    "id": "R00056",
+    "d": "include",
+    "code": "INC",
+    "why": "Taxonomy and pipeline for analysing agent trajectories and traces"
+   },
+   {
+    "id": "R00057",
+    "d": "include",
+    "code": "INC",
+    "why": "Behavioural consistency measured from execution traces across tasks"
+   },
+   {
+    "id": "R00058",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Trajectory embeddings used for subset selection; behavioural analysis depth unclear"
+   },
+   {
+    "id": "R00059",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Interaction cost and exploration analysis of coding agents; depth unclear"
+   },
+   {
+    "id": "R00060",
+    "d": "include",
+    "code": "INC",
+    "why": "Position paper: process mining-based agentic BPM systems"
+   },
+   {
+    "id": "R00061",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "No abstract; title suggests process mining of reasoning model behaviour"
+   },
+   {
+    "id": "R00062",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Agent actions checked against kernel-level records; process angle unclear"
+   },
+   {
+    "id": "R00063",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Runtime safety policies over tool-call trajectories; theory-heavy, trace use unclear"
+   },
+   {
+    "id": "R00064",
+    "d": "include",
+    "code": "INC",
+    "why": "Temporal-logic monitoring of recorded agent trajectories; trace schema"
+   },
+   {
+    "id": "R00065",
+    "d": "exclude",
+    "code": "E5",
+    "why": "Fabrication behaviour characterised, no trace or process analysis"
+   },
+   {
+    "id": "R00066",
+    "d": "include",
+    "code": "INC",
+    "why": "Agent execution traces clustered across runs to repair workflow-node prompts"
+   },
+   {
+    "id": "R00067",
+    "d": "include",
+    "code": "INC",
+    "why": "Workflow control-flow graph guides and checks LLM agent steps"
+   },
+   {
+    "id": "R00068",
+    "d": "include",
+    "code": "INC",
+    "why": "Temporal-logic procedural compliance checking over agent traces"
+   },
+   {
+    "id": "R00069",
+    "d": "include",
+    "code": "INC",
+    "why": "Workflow graph verification and temporal policies over agent event traces"
+   },
+   {
+    "id": "R00070",
+    "d": "include",
+    "code": "INC",
+    "why": "Policy workflow graph guides agents; procedural compliance audit"
+   },
+   {
+    "id": "R00071",
+    "d": "include",
+    "code": "INC",
+    "why": "Logged agent runs merged into SOP workflows; cost and latency compared"
+   },
+   {
+    "id": "R00072",
+    "d": "include",
+    "code": "INC",
+    "why": "Policy adherence benchmark with graph journeys; agent designs compared"
+   },
+   {
+    "id": "R00073",
+    "d": "include",
+    "code": "INC",
+    "why": "BPMN process knowledge graph guides LLM agent API calls"
+   },
+   {
+    "id": "R00074",
+    "d": "include",
+    "code": "INC",
+    "why": "BPMN process models used to design and execute agentic workflows"
+   },
+   {
+    "id": "R00075",
+    "d": "include",
+    "code": "INC",
+    "why": "Process harness: policy-governed LLM agents inside workflow engine"
+   }
+  ],
+  "accepted_context": "5d4c97e87d5e4cd67b019cc2d4c1f8d6112e146c24e3e8b577be18466215419e"
+ },
+ {
+  "source": "/Users/lennypam/Desktop/Folder process mining/literature/screening/sr_work/decisions/ADJ_b002@5d4c97e87d5e4cd67b019cc2d4c1f8d6112e146c24e3e8b577be18466215419e.json",
+  "label": "ADJ:b002@5d4c97e87d5e4cd67b019cc2d4c1f8d6112e146c24e3e8b577be18466215419e",
+  "decisions": [
+   {
+    "id": "R00032",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Multi-agent LLM handoffs analysed for boundary-marker survival; unclear if execution-data analysis"
+   },
+   {
+    "id": "R00038",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Multi-agent architecture compared on cost and reliability; depth of behavioural analysis unclear"
+   },
+   {
+    "id": "R00044",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Temporal workflow graphs of agent messaging, cost compared; unclear beyond task accuracy"
+   }
+  ],
+  "accepted_context": "5d4c97e87d5e4cd67b019cc2d4c1f8d6112e146c24e3e8b577be18466215419e"
+ },
+ {
+  "source": "/Users/lennypam/Desktop/Folder process mining/literature/screening/sr_work/decisions/QC_q001@5d4c97e87d5e4cd67b019cc2d4c1f8d6112e146c24e3e8b577be18466215419e.json",
+  "label": "QC:q001@5d4c97e87d5e4cd67b019cc2d4c1f8d6112e146c24e3e8b577be18466215419e",
+  "decisions": [
+   {
+    "id": "R00004",
+    "d": "exclude",
+    "code": "E3",
+    "why": "Plain LLM prompting for predictive monitoring, not an agentic system"
+   },
+   {
+    "id": "R00007",
+    "d": "exclude",
+    "code": "E4",
+    "why": "Agents perform process mining on event logs; own behaviour not analysed"
+   },
+   {
+    "id": "R00014",
+    "d": "exclude",
+    "code": "E4",
+    "why": "LLM function calling explains process mining outputs; agent behaviour not analysed"
+   },
+   {
+    "id": "R00020",
+    "d": "exclude",
+    "code": "E5",
+    "why": "Data agent survey on workflow harnesses; no trace or behaviour analysis"
+   },
+   {
+    "id": "R00023",
+    "d": "exclude",
+    "code": "E5",
+    "why": "Agentic robots survey; no trace or process-data angle"
+   }
+  ],
+  "accepted_context": "5d4c97e87d5e4cd67b019cc2d4c1f8d6112e146c24e3e8b577be18466215419e"
+ },
+ {
+  "source": "/Users/lennypam/Desktop/Folder process mining/literature/screening/sr_work/decisions/QC_q002@5d4c97e87d5e4cd67b019cc2d4c1f8d6112e146c24e3e8b577be18466215419e.json",
+  "label": "QC:q002@5d4c97e87d5e4cd67b019cc2d4c1f8d6112e146c24e3e8b577be18466215419e",
+  "decisions": [
+   {
+    "id": "R00027",
+    "d": "exclude",
+    "code": "E4",
+    "why": "Title: agents performing event log data quality assessment; no agent behaviour analysis"
+   },
+   {
+    "id": "R00039",
+    "d": "exclude",
+    "code": "E5",
+    "why": "New LLM investigation framework judged on accuracy and consistency; no trace analysis"
+   },
+   {
+    "id": "R00045",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Survey of graph structures for multi-agent systems; link to workflow/process models unclear"
+   },
+   {
+    "id": "R00065",
+    "d": "exclude",
+    "code": "E5",
+    "why": "Failure-mode characterization of agent outputs; no trace or process analysis"
+   }
+  ],
+  "accepted_context": "5d4c97e87d5e4cd67b019cc2d4c1f8d6112e146c24e3e8b577be18466215419e"
+ },
+ {
+  "source": "/Users/lennypam/Desktop/Folder process mining/literature/screening/sr_work/decisions/QC_q003@5d4c97e87d5e4cd67b019cc2d4c1f8d6112e146c24e3e8b577be18466215419e.json",
+  "label": "QC:q003@5d4c97e87d5e4cd67b019cc2d4c1f8d6112e146c24e3e8b577be18466215419e",
+  "decisions": [
+   {
+    "id": "R00015",
+    "d": "exclude",
+    "code": "E3",
+    "why": "Classical process model forecasting on event logs; no LLM agents"
+   },
+   {
+    "id": "R00016",
+    "d": "exclude",
+    "code": "E3",
+    "why": "Process discovery evaluation on ordinary event logs; no LLM agents"
+   },
+   {
+    "id": "R00022",
+    "d": "exclude",
+    "code": "E5",
+    "why": "General MAS survey; no trace or process-data angle"
+   },
+   {
+    "id": "R00034",
+    "d": "exclude",
+    "code": "E5",
+    "why": "Survey of latent communication methods; no trace or behaviour analysis"
+   },
+   {
+    "id": "R00050",
+    "d": "exclude",
+    "code": "E5",
+    "why": "LLM reasoning framework, not agentic; no agent trace analysis across runs"
+   }
+  ],
+  "accepted_context": "5d4c97e87d5e4cd67b019cc2d4c1f8d6112e146c24e3e8b577be18466215419e"
  }
 ]

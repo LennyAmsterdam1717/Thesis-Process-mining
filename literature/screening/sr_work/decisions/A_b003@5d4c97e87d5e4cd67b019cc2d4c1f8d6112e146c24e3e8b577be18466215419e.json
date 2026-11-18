@@ -1,0 +1,155 @@
+{
+ "label": "A:b003@5d4c97e87d5e4cd67b019cc2d4c1f8d6112e146c24e3e8b577be18466215419e",
+ "decisions": [
+  {
+   "id": "R00051",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Tool success rate and Execution Quality metrics; depth of behavioural analysis unclear"
+  },
+  {
+   "id": "R00052",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Tool dependency layers and execution overhead; unclear if trace-level analysis"
+  },
+  {
+   "id": "R00053",
+   "d": "include",
+   "code": "INC",
+   "why": "N-gram and Markov mining of agent execution traces"
+  },
+  {
+   "id": "R00054",
+   "d": "include",
+   "code": "INC",
+   "why": "Procedural fingerprints of coding-agent trajectories compared across agents"
+  },
+  {
+   "id": "R00055",
+   "d": "include",
+   "code": "INC",
+   "why": "Behavioural analysis of 64k agent runs across configurations"
+  },
+  {
+   "id": "R00056",
+   "d": "include",
+   "code": "INC",
+   "why": "Taxonomy and pipeline for analysing agent execution trajectories"
+  },
+  {
+   "id": "R00057",
+   "d": "include",
+   "code": "INC",
+   "why": "Behavioural consistency from execution-trace features across agents"
+  },
+  {
+   "id": "R00058",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Trajectory embeddings used for benchmark subset selection; process angle unclear"
+  },
+  {
+   "id": "R00059",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Interaction cost and exploration analysis of coding agents; depth unclear"
+  },
+  {
+   "id": "R00060",
+   "d": "include",
+   "code": "INC",
+   "why": "Position paper on agents driven by process mining (A-BPMS)"
+  },
+  {
+   "id": "R00061",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "No abstract; title suggests process mining for reasoning model configuration"
+  },
+  {
+   "id": "R00062",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Agent action paths checked against kernel ground truth; trace angle unclear"
+  },
+  {
+   "id": "R00063",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Runtime safety over tool-call prefixes and trajectories; trace use unclear"
+  },
+  {
+   "id": "R00064",
+   "d": "include",
+   "code": "INC",
+   "why": "Temporal-logic monitoring of recorded agent trajectories, trace schema"
+  },
+  {
+   "id": "R00065",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Behaviour failure characterisation without trace or process analysis"
+  },
+  {
+   "id": "R00066",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Reads agent execution traces to repair prompts; analysis across runs unclear"
+  },
+  {
+   "id": "R00067",
+   "d": "include",
+   "code": "INC",
+   "why": "Workflow control-flow graph guides and checks agent execution"
+  },
+  {
+   "id": "R00068",
+   "d": "include",
+   "code": "INC",
+   "why": "Temporal-logic procedural compliance checking of agent traces"
+  },
+  {
+   "id": "R00069",
+   "d": "include",
+   "code": "INC",
+   "why": "Workflow graph verification and runtime event-trace policy checking"
+  },
+  {
+   "id": "R00070",
+   "d": "include",
+   "code": "INC",
+   "why": "Policy workflow graphs guide and audit agent procedural compliance"
+  },
+  {
+   "id": "R00071",
+   "d": "include",
+   "code": "INC",
+   "why": "Logged agent runs merged into SOP workflows"
+  },
+  {
+   "id": "R00072",
+   "d": "include",
+   "code": "INC",
+   "why": "Policy adherence journey coverage compared across agent designs"
+  },
+  {
+   "id": "R00073",
+   "d": "include",
+   "code": "INC",
+   "why": "BPMN process graph guides LLM agent API invocation"
+  },
+  {
+   "id": "R00074",
+   "d": "include",
+   "code": "INC",
+   "why": "BPMN process models drive and monitor LLM agent workflows"
+  },
+  {
+   "id": "R00075",
+   "d": "include",
+   "code": "INC",
+   "why": "Process model harness governs LLM agents in BPM workflow"
+  }
+ ]
+}

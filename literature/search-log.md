@@ -112,3 +112,22 @@ Screening counts follow in the screening section below.
 - AI agreement A vs B: n = 25, observed 0.96, kappa 0.911, PABAK 0.92; 1 conflict (R00006, A exclude E5 / B unclear) → adjudicator: unclear (advance). Frank's override (include) is the final decision.
 - Against Frank: **25 compared, Frank advanced 17, AI advanced 17, AI missed 0**, AI advanced 0 that Frank excluded (agreement 1.0, kappa 1.0). R00024 (AgBench) is now advanced by both reviewers.
 - Result: **pilot gate passed** → full title/abstract run on b002–b003.
+
+## Screening – full title/abstract run (all 75 records, protocol v1.1) – 2026-11-18
+
+- Two blinded AI reviewers (Claude Sonnet 5.5, SR-Screener 1.0.0 `screening-reviewer-agent`) on b001 (pilot 2) and b002–b003; third-reviewer adjudication of 4 advance/exclude conflicts (all → unclear, i.e. advanced; R00006 then set to include by Frank's override); required QC recheck of all 14 joint exclusions by a senior AI reviewer (1 advanced: R00045). 11 reviewer calls in total.
+- Agreement A vs B (advance vs exclude): n = 75, observed 0.947, kappa 0.842, PABAK 0.893.
+- Decided by: A+B 69, adjudicator 3, QC 1, Frank (override) 2.
+- Full log, RIS files and methods draft: `literature/screening/Screening_TA/`.
+
+| PRISMA step (title/abstract) | Count |
+|---|---|
+| Records identified (all rounds) | 133 |
+| Duplicates removed | 27 |
+| Removed before screening: not 2026 | 31 |
+| Records screened (title/abstract) | 75 |
+| Records excluded (title/abstract) | 13 (E3: 3, E4: 4, E5: 6) |
+| Reports sought for retrieval | 62 (43 include, 19 unclear) |
+
+- E4 exclusions (4) are listed in `literature/background.md` (Frank's rule).
+- **Counts are provisional until Frank verifies** every advanced record and a sample of exclusions (SR-Screener requires human sign-off).

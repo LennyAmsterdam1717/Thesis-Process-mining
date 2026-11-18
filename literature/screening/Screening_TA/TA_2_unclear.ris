@@ -1,0 +1,340 @@
+﻿TY  - JOUR
+TI  - From Event Logs to Governed Action: A BlueSky Agenda for Agentic Process Mining
+AB  - Process mining has long turned event logs into process knowledge: discovered models, conformance evidence, bottleneck diagnoses, and runtime predictions. Agentic AI changes the target. Process-aware agents will not only ask what happened. They will ask whether a proposed action should be taken, given the available evidence, privacy budget, organizational authority, and downstream risk. This BlueSky paper proposes event-to-action process mining: a process-mining agenda for transforming heterogeneous operational event data into governed action. The goal is not another dashboard, a generic enterprise simulator, or a language interface over logs. We argue that the community needs four mineable artifacts: event-object representations, action evidence packages, governance contracts, and benchmarks where act, defer, ask, and refuse are all valid outputs. This agenda is timely because agentic business process management (BPM), LLM-assisted process mining, object-centric event standards, causal process monitoring, and privacy-preserving learning are maturing separately. Bringing them together defines a data-mining target inside process mining: mining logged organizational behavior for accountable action, not only retrospective insight.
+PY  - 2026
+DO  - 10.48550/arXiv.2609.07984
+T2  - arXiv preprint (Accepted by ICDM 2026)
+AU  - Yiyuan Yang
+AU  - Zheshun Wu
+AU  - Yong Chu
+AU  - Zhenghua Chen
+AU  - Zenglin Xu
+AU  - Qingsong Wen
+M3  - Preprint
+DB  - Web search (arXiv API metadata)
+LB  - TA-Unclear
+ID  - R00001
+N1  - sr-screener TA [R00001]: UNCLEAR (Unclear - needs next stage / team decision) - Agenda for process-aware agents; unclear if LLM agent traces are analysed | A: unclear/UNC | B: unclear/UNC | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - Beyond Pass/Fail: Using Process Mining to Understand How LLMs Resist (and Fail) Red Team Attacks
+AB  - Standard AI red teaming evaluations reduce adversarial campaigns to a single binary outcome, attack success rate (ASR), not taking into account the sequential structure of how models resist or yield to attacks. We propose applying process mining, a discipline for discovering and analyzing process models from event logs, to red teaming traces. We conduct a controlled experiment pitting 60 HarmBench prompts against two LLMs, GPT-OSS 120B and Llama 3.3 70B, using 10 prompt mutation strategies over up to 110 attempts per prompt. From the resulting 8,575 scored events we extract Directly-Follows Graphs (DFGs) and state transition matrices that reveal structurally distinct defense profiles invisible to ASR alone: GPT-OSS exhibits a near-absorbing refusal state, while Llama presents multiple porous escape routes from refusal to getting successfully jailbroken. We further show that mutator effectiveness is asymmetric across models and that time-to-jailbreak distributions differ by an order of magnitude.
+PY  - 2026
+DO  - 10.48550/arXiv.2606.07833
+T2  - arXiv preprint
+AU  - Zvi Topol
+M3  - Preprint
+DB  - Web search (arXiv API metadata)
+LB  - TA-Unclear
+ID  - R00005
+N1  - sr-screener TA [R00005]: UNCLEAR (Unclear - needs next stage / team decision) - Process mining of red-team traces of LLMs; agentic status unclear | A: unclear/UNC | B: unclear/UNC | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - Behavioral Analysis of AI Code Generation Agents: Edit, Rewrite, and Repetition (MSR 2026 Mining Challenge)
+PY  - 2026
+T2  - MSR 2026 Mining Challenge
+AU  - Abazar, Mahdieh
+AU  - Farahmand, Reyhaneh
+AU  - Ginde, Gouri
+AU  - Tan, Benjamin
+AU  - De Carli, Lorenzo
+M3  - Conference paper
+DB  - Web search (arXiv API metadata)
+LB  - TA-Unclear
+ID  - R00012
+N1  - sr-screener TA [R00012]: UNCLEAR (Unclear - needs next stage / team decision) - No abstract; title suggests behavioural analysis of code agents | A: unclear/UNC | B: unclear/UNC | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - A Vocabulary for Multi-Agent Automated Research Systems
+AB  - We introduce a vocabulary for automated research systems built from one or more agents to make their design choices easier to describe and compare. The vocabulary specifies 1) who the agents are, 2) what operations are available in the system, 3) who may invoke them, 4) how agents communicate, 5) what information is visible within and across runs, 6) how the next action is chosen, 7) how a run begins, and 8) how outputs are evaluated. A trajectory records one run from the input task to the returned artifact. Because agents, operations, and initialization may be stochastic, repeated runs on the same task induce a distribution over trajectories rather than a single behavior. Our vocabulary turns structural design questions, such as when agents should communicate, gain or lose a capability, or carry information across runs, into testable choices. It also makes the evaluator a component of the system, since reported gains depend on how closely the proxy score matches true quality. That separation also splits the vague complaint that these systems lack taste into two failures with different solutions. Generative taste is the rate at which a system proposes novel trajectories before any score is observed, and evaluative taste is the gap between the proxy score and the quality it should match. We instantiate the vocabulary on recent autoresearch systems to illustrate that it covers designs that differ widely in structure.
+PY  - 2026
+DO  - 10.48550/arXiv.2607.22682
+T2  - arXiv preprint (22 pages, 4 figures, 3 tables)
+AU  - Bardiya Akhbari
+M3  - Preprint
+DB  - Web search (arXiv API metadata)
+LB  - TA-Unclear
+ID  - R00025
+N1  - sr-screener TA [R00025]: UNCLEAR (Unclear - needs next stage / team decision) - Vocabulary for agent systems; trajectories over runs, analysis unclear | A: unclear/UNC | B: unclear/UNC | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - Applying organizational mining to discover agent systems from event data
+PY  - 2026
+T2  - Information Systems (Elsevier)
+M3  - Journal article
+DB  - Web search (arXiv API metadata)
+LB  - TA-Unclear
+ID  - R00026
+N1  - sr-screener TA [R00026]: UNCLEAR (Unclear - needs next stage / team decision) - No abstract; title suggests process mining of agent systems, LLM-basis unclear | A: unclear/UNC | B: unclear/UNC | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - Facts Without Rules: Boundary Metadata Collapse in Multi-Agent LLM Handoffs
+AB  - Multi-agent LLM systems often coordinate by compressing an upstream interaction into a handoff artifact that downstream agents treat as shared state. We show that this handoff step is a structural source of privacy leakage: summaries preferentially preserve operational facts while weakening the boundary metadata that governs how those facts may be used---a failure mode we call \emph{summary collapse}. On a controlled multi-agent coordination testbed we measure marker survival with a human-validated judge ($κ= 0.74$), where $σ_b = 1$ means every boundary marker survives verbatim and $σ_b = 0$ means all are lost. Boundary-marker and operational-fact survival are nearly uncorrelated at the handoff level on both GPT-5-mini and DeepSeek-R1-32B (Pearson $r$ near zero): uncompressed free-text handoffs preserve boundaries at $σ_b \approx 0.80$, whereas a $25$-word budget drops $σ_b$ to ${\approx}0.57$ while operational-fact survival stays near ceiling. Controlled downstream tests reveal that protection depends on \emph{boundary explicitness}: vague languages leak in $73\%$ of GPT and $50\%$ of DeepSeek cases, while explicit constraints reduce leakage to under $15\%$ across all three tested models. A no-handoff single-agent control further shows the failure is not reducible to multi-agent topology as direct full-marker access still leaks more often than the operationalized handoff. Prompt-only mitigation and exact-string redaction only partially address the problem, while a gold-derived audience allowlist nearly eliminates leakage across models, showing that correctly identifying audience boundaries is the key factor.
+PY  - 2026
+DO  - 10.48550/arXiv.2608.29028
+T2  - arXiv preprint
+AU  - Yian Wang
+AU  - Agam Goyal
+AU  - Eshwar Chandrasekharan
+AU  - Hari Sundaram
+M3  - Preprint
+DB  - Web search (arXiv API metadata)
+LB  - TA-Unclear
+ID  - R00032
+N1  - sr-screener TA [R00032]: UNCLEAR (Unclear - needs next stage / team decision) - Multi-agent LLM handoffs analysed for boundary-marker survival; unclear if execution-data analysis | A: exclude/E5 | B: unclear/UNC | by ADJ
+ER  - 
+
+TY  - JOUR
+TI  - Silent Failure in LLM Agent Systems: The Entropy Principle and the Inevitable Disorder of Autonomous Agents
+AB  - Large Language Model (LLM) agent systems suffer from failures that occur without external triggers -- no injection, no adversarial input, no resource exhaustion. These silent failures -- unexpected deviations from intended behavior under normal conditions -- are routinely misattributed to bugs or configuration errors. Through systematic analysis of over 40,000 controlled trials and long-term production observations spanning 100,000+ agent interactions, we identify a common structural logic underlying these failures. Building on patterns observed in our experiments, we survey the global research literature on autonomous agent reliability and synthesize 22 intrinsic properties of LLM agent systems across six lifecycle layers: foundation semantics, inter-agent transmission, memory persistence, task execution, feedback correction, and systemic evolution. We demonstrate that whenever a sufficient subset of these properties co-exist, system entropy -- the measurable accumulation of disorder: loss of output consistency, task accuracy, and cross-session coherence -- increases monotonically with interaction rounds. We formalize this as the Entropy Principle: S(t) = S0 * e^(alpha * t), with alpha measured empirically across multiple architectures. We propose the PIG (Physical Integrity Gate) Engine with the ADE (Agent Delivery Engineering) protocol suite as an engineering countermeasure to entropy-driven disorder. Our findings establish silent failure not as a bug to be fixed but as a manifestation of Intelligence Entropy -- a physical constraint to be managed through deterministic governance. We argue that any engineering effort stabilizing the structure and order of agent systems participates in a unified mission: keeping intelligent systems reliable as they grow in scale and complexity.
+PY  - 2026
+DO  - 10.48550/arXiv.2606.08162
+T2  - arXiv preprint (10 pages, 7 figures)
+AU  - Dexing Liu
+M3  - Preprint
+DB  - Web search (arXiv API metadata)
+LB  - TA-Unclear
+ID  - R00036
+N1  - sr-screener TA [R00036]: UNCLEAR (Unclear - needs next stage / team decision) - Agent interaction observations and silent failure; trace analysis unclear | A: unclear/UNC | B: unclear/UNC | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - The Six Sigma Agent: Achieving Enterprise-Grade Reliability in LLM Systems Through Consensus-Driven Decomposed Execution
+AB  - Large Language Models demonstrate remarkable capabilities yet remain fundamentally probabilistic, presenting critical reliability challenges for enterprise deployment. We introduce the Six Sigma Agent, a novel architecture that achieves enterprise-grade reliability through three synergistic components: (1) task decomposition into a dependency tree of atomic actions; (2) micro-agent sampling where each task is executed n times in parallel across diverse LLMs to generate independent outputs; and (3) consensus voting with dynamic scaling, clustering outputs and selecting the answer from the winning cluster with maximum votes. We prove that sampling n independent outputs with error rate p achieves system error O(p^{ceil(n/2)}), enabling exponential reliability gains. Even using cheaper models with 5% per-action error, consensus voting with 5 agents reduces error to 0.11%; dynamic scaling to 13 agents achieves 3.4 DPMO (Defects Per Million Opportunities), the Six Sigma standard. Evaluation across three enterprise use cases demonstrates a 14,700x reliability improvement over single-agent execution while reducing costs by 80%. Our work establishes that reliability in AI systems emerges from principled redundancy and consensus rather than model scaling alone.
+PY  - 2026
+DO  - 10.48550/arXiv.2601.22290
+T2  - arXiv preprint (25 pages, 7 figures, 2 tables)
+AU  - Khush Patel
+AU  - Siva Surendira
+AU  - Jithin George
+AU  - Shreyas Kapale
+M3  - Preprint
+DB  - Web search (arXiv API metadata)
+LB  - TA-Unclear
+ID  - R00038
+N1  - sr-screener TA [R00038]: UNCLEAR (Unclear - needs next stage / team decision) - Multi-agent architecture compared on cost and reliability; depth of behavioural analysis unclear | A: exclude/E5 | B: unclear/UNC | by ADJ
+ER  - 
+
+TY  - JOUR
+TI  - LLM-Based Multi-Agent Orchestration: A Survey of Frameworks, Communication Protocols, and Emerging Patterns
+PY  - 2026
+DO  - 10.3390/fi18060326
+T2  - Future Internet (MDPI) 18(6)
+M3  - Journal article (survey)
+DB  - Web search (arXiv API metadata)
+LB  - TA-Unclear
+ID  - R00041
+N1  - sr-screener TA [R00041]: UNCLEAR (Unclear - needs next stage / team decision) - No abstract; survey of multi-agent orchestration and communication, trace angle unknown | A: unclear/UNC | B: unclear/UNC | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - Inference-Time Graph Engineering for Multi-Agent LLM Workflows
+AB  - Recent multi-agent LLM systems increasingly rely on graph-structured communication to coordinate specialized agents. We revisit multi-agent orchestration from a graph-engineering perspective: rather than optimizing a static topology, we synthesize a task-conditioned temporal workflow graph that jointly specifies agent connectivity and edge-level communication semantics. We introduce ReActNet, a training-free framework that compiles a query and a set of role-specialized agents into a sequence of directed communication graphs. Each graph snapshot corresponds to one reasoning stage, and each edge carries a natural-language instruction specifying the message that a source agent should provide to a target agent. The compiled temporal graph is then executed through structured message passing: agents update their reasoning states by integrating their previous states with messages from controller-assigned neighbors, and a final aggregator synthesizes the resulting states into the answer. This design separates graph compilation from graph execution, making multi-agent coordination explicit, inspectable, and task-conditioned without requiring reinforcement learning or gradient-based topology optimization. Across knowledge reasoning, mathematical problem solving, code generation, and GAIA-style assistant tasks, ReActNet consistently improves over fixed-topology and learned-topology baselines while maintaining competitive inference cost. These results suggest that effective multi-agent orchestration depends not only on which agents communicate, but also on engineering executable workflow graphs that encode when, why, and how information should flow during reasoning.
+PY  - 2026
+DO  - 10.48550/arXiv.2609.05774
+T2  - arXiv preprint
+AU  - Katherine Tieu
+AU  - Dongqi Fu
+AU  - Yinglong Xia
+AU  - Hong Li
+AU  - Hong Yan
+AU  - Jingrui He
+M3  - Preprint
+DB  - Web search (arXiv API metadata)
+LB  - TA-Unclear
+ID  - R00044
+N1  - sr-screener TA [R00044]: UNCLEAR (Unclear - needs next stage / team decision) - Temporal workflow graphs of agent messaging, cost compared; unclear beyond task accuracy | A: exclude/E5 | B: unclear/UNC | by ADJ
+ER  - 
+
+TY  - JOUR
+TI  - Graph Engineering in the Era of LLM Agents: From Individual Intelligence to System Intelligence
+AB  - LLMs have evolved from language generators to autonomous agents capable of complex, long-horizon tasks. This evolution has produced paradigms including Prompt Engineering to elicit model capabilities, Context Engineering to manage information access, Harness Engineering to organize external tools and resources, and Loop Engineering to support continual reflection and self-improvement. Yet as tasks grow more complex, individual intelligence faces a fundamental limit: many tasks require heterogeneous expertise, interdependent subtasks, parallel execution, independent verification, and persistent state, exceeding any single agent's organizational capacity. Augmenting one agent's capabilities or context cannot resolve this architectural mismatch; intelligence must instead be distributed across specialized agents and organized at the system level. We call this System Intelligence: an agent system's ability to organize and coordinate multiple intelligent components into a coherent, adaptive whole pursuing a shared objective. Achieving it requires more than adding agents; it demands explicit structures to organize work, coordinate heterogeneous agents, and maintain evolving execution states. We introduce Graph Engineering, an emerging paradigm for next-generation agent systems. Unlike prior paradigms that mainly optimize individual interactions or agent-level behavior, Graph Engineering constructs explicit, dynamic, evolving graph structures representing tasks, agents, and system states. These abstractions provide a unified foundation for organizing complex objectives, orchestrating heterogeneous agents, modeling system dynamics, and enabling scalable agent evolution. We systematically review the principles, methodologies, and applications of Graph Engineering for LLM agents. Related papers, open-source data, and projects are collected at https://github.com/DEEP-JLU/Awesome-Graph-Engineering.
+PY  - 2026
+DO  - 10.48550/arXiv.2608.21156
+T2  - arXiv preprint
+AU  - Yuyuan Feng
+AU  - Zhishang Xiang
+AU  - Chaobin Yang
+AU  - Qichao Ma
+AU  - Zerui Chen
+AU  - Yujing Zhang
+AU  - Ke Huang
+AU  - Chuanjie Wu
+AU  - Zhaoxu Liu
+AU  - Yili Wang
+AU  - Xin He
+AU  - Jiapu Wang
+AU  - Zijin Hong
+AU  - Hao Chen
+AU  - Yuanchen Bei
+AU  - Kun Wang
+AU  - Shengyuan Chen
+AU  - Ningyu Zhang
+AU  - Enyan Dai
+AU  - Linhao Luo
+AU  - Qingyi Pan
+AU  - Qi Wang
+AU  - Wenqi Fan
+AU  - Guangjing Wang
+AU  - Na Zou
+AU  - Yangqiu Song
+AU  - Xin Wang
+AU  - Zechao Li
+AU  - Xia Hu
+AU  - Qing Li
+AU  - Xiao Huang
+AU  - Zhihong Zhang
+AU  - Jinsong Su
+AU  - Qinggang Zhang
+AU  - Yi Chang
+M3  - Preprint
+DB  - Web search (arXiv API metadata)
+LB  - TA-Unclear
+ID  - R00045
+N1  - sr-screener TA [R00045]: UNCLEAR (Unclear - needs next stage / team decision) - Survey of graph structures for multi-agent systems; link to workflow/process models unclear | A: exclude/E5 | B: exclude/E5 | by QC
+ER  - 
+
+TY  - JOUR
+TI  - AgentConductor: Topology Evolution for Multi-Agent Competition-Level Code Generation
+AB  - Large language model(LLM)-driven multi-agent systems(MAS) coordinate specialized agents through predefined interaction topologies and have shown promise for complex tasks such as competition-level code generation. Recent studies demonstrate that carefully designed multi-agent workflows and communication graphs can significantly improve code generation performance by leveraging collaborative reasoning. However, existing methods neither adapt topology density to task difficulty nor iteratively refine the topology within an instance using execution feedback, which leads to redundant communication and performance bottlenecks. To address these issues, we propose AgentConductor: a reinforcement learning-optimized MAS with an LLM-based orchestrator agent as its core, which enables end-to-end feedback-driven dynamic generation of interaction topologies. For each query, AgentConductor infers agent roles and task difficulty, then constructs a task-adapted, density-aware layered directed acyclic graph (DAG) topology, underpinned by two key innovations. First, we design a novel topological density function that captures communication-aware mathematical characterizations of multi-agent interactions. Second, we adopt difficulty interval partitioning to avoid excessive pruning for precise topological density upper bound measurement per difficulty level and finer-grained control. Empirically, across three competition-level and two foundational code datasets, AgentConductor achieves state-of-the-art accuracy, outperforming the strongest baseline by up to 14.6% in pass@1 accuracy, 13% in density reduction, and 68% in token cost reduction.
+PY  - 2026
+DO  - 10.48550/arXiv.2602.17100
+T2  - arXiv preprint
+AU  - Siyu Wang
+AU  - Ruotian Lu
+AU  - Zhihao Yang
+AU  - Yuchao Wang
+AU  - Yanzhou Zhang
+AU  - Lei Xu
+AU  - Qimin Xu
+AU  - Guojun Yin
+AU  - Cailian Chen
+AU  - Xinping Guan
+M3  - Preprint
+DB  - Web search (arXiv API metadata)
+LB  - TA-Unclear
+ID  - R00046
+N1  - sr-screener TA [R00046]: UNCLEAR (Unclear - needs next stage / team decision) - Topology generation compared on token cost; behavioural depth unclear | A: unclear/UNC | B: unclear/UNC | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - MCP-Cosmos: World Model-Augmented Agents for Complex Task Execution in MCP Environments
+AB  - The Model Context Protocol (MCP) has unified the interface between Large Language Models (LLMs) and external tools, yet a fundamental gap remains in how agents conceptualize the environments within which they operate. Current paradigms are bifurcated: Task-level planning often ignores execution-time dynamics, while reactive execution lacks long-horizon foresight. We present MCP-Cosmos, a framework that infuses generative World Models (WM) into the MCP ecosystem to enable predictive task automation. By unifying three disparate technologies, namely MCP, World Model, and Agent, we demonstrate that a "Bring Your Own World Model" (BYOWM) strategy allows agents to simulate state transitions and refine plans in a latent space before execution. We conducted experiments using two strategies, namely ReAct and SPIRAL with 2 planning models and 3 representative world models over 20+ MCP-Bench tasks. We observed improvements in Agent's environment interaction KPI such as tool success rate and tool parameter accuracy. The framework also offers new metrics such as Execution Quality to generate new insights about the effectiveness of world models compared to baseline.
+PY  - 2026
+DO  - 10.48550/arXiv.2605.09131
+T2  - arXiv preprint
+AU  - Giridhar Ganapavarapu
+AU  - Dhaval Patel
+M3  - Preprint
+DB  - Web search (arXiv API metadata)
+LB  - TA-Unclear
+ID  - R00051
+N1  - sr-screener TA [R00051]: UNCLEAR (Unclear - needs next stage / team decision) - Tool success rate and Execution Quality metrics; depth of behavioural analysis unclear | A: unclear/UNC | B: unclear/UNC | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - Robust and Efficient Tool Orchestration via Layered Execution Structures with Reflective Correction
+AB  - Tool invocation is a core capability of agentic systems, yet failures often arise not from individual tool calls but from how multiple tools are organized and executed together. Existing approaches tightly couple tool execution with stepwise language reasoning or explicit planning, leading to brittle behavior and high execution overhead. To overcome these limitations, we revisit tool invocation from the perspective of tool orchestration. Our key insight is that effective orchestration does not require precise dependency graphs or fine-grained planning. Instead, a coarse-grained layer structure suffices to provide global guidance, while execution-time errors can be corrected locally. Specifically, we model tool orchestration as learning a layered execution structure that captures high-level tool dependencies, inducing layer-wise execution through context constraints. To handle execution-time failures, we introduce a schema-aware reflective correction mechanism that detects and repairs errors locally. This design confines errors to individual tool calls and avoids re-planning entire execution trajectories. This structured execution paradigm enables a lightweight and reusable orchestration component for agentic systems. Experimental results show that our approach achieves robust tool execution while reducing execution complexity and overhead. Code will be made publicly available.
+PY  - 2026
+DO  - 10.48550/arXiv.2602.18968
+T2  - arXiv preprint
+AU  - Tao Zhe
+AU  - Haoyu Wang
+AU  - Bo Luo
+AU  - Min Wu
+AU  - Wei Fan
+AU  - Xiao Luo
+AU  - Zijun Yao
+AU  - Haifeng Chen
+AU  - Dongjie Wang
+M3  - Preprint
+DB  - Web search (arXiv API metadata)
+LB  - TA-Unclear
+ID  - R00052
+N1  - sr-screener TA [R00052]: UNCLEAR (Unclear - needs next stage / team decision) - Tool dependency layers and execution overhead; unclear if trace-level analysis | A: unclear/UNC | B: unclear/UNC | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - Trajectory-Aware Benchmark Subset Selection for Cost-Efficient Software Engineering Agent Regression Testing
+AB  - Autonomous software engineering agents (SWE-agents) automate coding tasks. Each agent update may require re-running the full benchmark to detect regressions and improvements, at a cost of hundreds of millions of LLM tokens per run, which makes evaluation a bottleneck. One solution is to evaluate only a subset of benchmark instances. Yet, simple approaches, such as random sampling or stratified random sampling based on past pass/fail outcomes, risk producing high variance and unrepresentative subsets. We turn to agent trajectories, the step-by-step record of the actions an agent took. We propose a trajectory-aware subset selection approach that replaces random sampling with deterministic selection based on trajectory embeddings. We first group test set instances by their test outcome in a recent full test run to preserve the historical pass/fail rate, then select the subset using the trajectory's embedding space. We evaluate 76 subset selection configurations, including random sampling, embedding-based selection, clustering-based selection, and hybrid shortlist-then-subsample strategies, across three regression scenarios: same-configuration reruns, model and configuration changes, and agent framework changes. Our best trajectory-aware method is the one selecting benchmark instances closest to the centroid of each outcome group in the embedding space. It achieves the lowest estimation error among all methods we evaluate. For instance, when evaluating a given agent version on a selected subset of 5% or 10% of the test instances, our approach reduces the average estimation error by 3--11% and the worst-case error by 4--11% relative to the typical draw and 38--46% relative to the 95th-percentile draw of the strongest baseline. Our results show that a 10% trajectory-aware subset keeps the median estimation error below 5% while cutting token cost by roughly 90%.
+PY  - 2026
+DO  - 10.48550/arXiv.2609.24928
+T2  - arXiv preprint
+AU  - Mahmoud Ayyad
+AU  - Zehao Wang
+AU  - Jiho Shin
+AU  - Ying Zou
+AU  - Bram Adams
+M3  - Preprint
+DB  - Web search (arXiv API metadata)
+LB  - TA-Unclear
+ID  - R00058
+N1  - sr-screener TA [R00058]: UNCLEAR (Unclear - needs next stage / team decision) - Trajectory embeddings used for benchmark subset selection; process angle unclear | A: unclear/UNC | B: unclear/UNC | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - Schrödinger's Code Repository: Have LLMs Learned SWE-bench or Memorized It?
+AB  - Repository-level coding benchmarks have become the standard for evaluating coding agents, yet they inherently suffer from data leakage because they are built upon popular open-source repositories repeatedly used for training. Consequently, strong performance may reflect memorization of canonical repository cues rather than robust repository reasoning. We propose SchrodingerRepo (Schrödinger's Repository), an evaluation framework for testing coding agents under dynamically instantiated repository representations. Instead of repeatedly using a static representation of the test repository, SchrodingerRepo treats the test repository as an evaluation-time latent variable that is dynamically instantiated only when the agent enters the evaluation environment. The instantiated repository preserves the original executable behavior while eroding familiar cues such as naming conventions, file layouts, and implementation patterns through four transformation levels: problem statement reconstruction, namespace remapping, intra-file layout reordering, and functionality-preserving code rewriting. We evaluate popular LLMs on SWE-bench Verified and SWE-QA. Results show that removing familiar repository cues consistently degrades agent performance and substantially increases interaction costs across models. Further analysis reveals that the additional cost is primarily caused by increased difficulty in repository exploration and localization. These findings suggest that current coding agents may partially rely on memorized repository-side cues, highlighting the need for evaluation under dynamically instantiated repository representations.
+PY  - 2026
+DO  - 10.48550/arXiv.2609.27891
+T2  - arXiv preprint (Our code and data are available at https://github.com/cslsolow/Schrodinger-Repo)
+AU  - Silin Chen
+AU  - Yufei Yang
+AU  - Xiaodong Gu
+AU  - Yuling Shi
+AU  - Chengcheng Wan
+AU  - Haibing Guan
+M3  - Preprint
+DB  - Web search (arXiv API metadata)
+LB  - TA-Unclear
+ID  - R00059
+N1  - sr-screener TA [R00059]: UNCLEAR (Unclear - needs next stage / team decision) - Interaction cost and exploration analysis of coding agents; depth unclear | A: unclear/UNC | B: unclear/UNC | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - Configuring Large Reasoning Models Using Process Mining: A Benchmark and a Case Study
+PY  - 2026
+DO  - 10.1007/978-3-032-13426-4_30
+T2  - BPM 2025 Workshops (Springer LNBIP), published online 2026
+M3  - Workshop paper
+DB  - Web search (arXiv API metadata)
+LB  - TA-Unclear
+ID  - R00061
+N1  - sr-screener TA [R00061]: UNCLEAR (Unclear - needs next stage / team decision) - No abstract; title suggests process mining for reasoning model configuration | A: unclear/UNC | B: unclear/UNC | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - guardscope: Measuring Which Actions Runtime Controls Check in LLM Agent Systems
+AB  - Large-language model (LLM) agents execute actions on external systems through tool calls, and enterprises deploy runtime controls, such as agent gateways, to check this behavior in real time. However, a control can only evaluate the actions that cross the point where it is placed, and an agent can act through more paths than the tool-call channel; no existing work measures this coverage against kernel-level ground truth. In this paper, we present guardscope, a framework that makes this coverage measurable. guardscope works in two stages: a static stage that predicts which of an agent's 15 action paths a control can check from its source, and an empirical stage that runs a fixed workload on a deployment that realizes one of eight topology designs and classifies every executed action as checked, bypassed, or prevented by reconciling the control's decision records against kernel-level ground truth. guardscope makes a control's coverage claim verifiable: a runtime control developer can publish which paths its product inspects under a kernel-verified protocol. We conducted experiments with two agent harnesses and real runtime controls, including Microsoft's agent governance toolkit and agentgateway. guardscope is available at https://github.com/VulcanLab/guardscope.
+PY  - 2026
+DO  - 10.48550/arXiv.2611.15223
+T2  - arXiv preprint (Code is available at https://github.com/VulcanLab/guardscope)
+AU  - Kentaroh Toyoda
+AU  - Alex Leung
+AU  - Bhuvaneswari U
+M3  - Preprint
+DB  - Web search (arXiv API metadata)
+LB  - TA-Unclear
+ID  - R00062
+N1  - sr-screener TA [R00062]: UNCLEAR (Unclear - needs next stage / team decision) - Agent action paths checked against kernel ground truth; trace angle unclear | A: unclear/UNC | B: unclear/UNC | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - What Can Be Enforced? A Theory of Certified Runtime Safety for Tool-Using Agents
+AB  - Runtime guardrails act before irreversible tool calls, but their guarantees depend on what policy state is representable, what a judge observes, and whether intervention changes future behavior. We separate three questions. First, relative to fixed oracle predicates, a deterministic gate enforces exactly the nonempty safety policies whose good prefixes its register model recognizes; policy nontriviality is undecidable with two decrementable counters but in PSPACE for a separable monotone fragment. Second, under a fixed exogenous law, Neyman-Pearson gives the exact false-block/miss frontier and conformal calibration gives a finite-sample marginal certificate, possibly via block-all. Third, once blocking changes future proposals, static scores and ungated trajectories need not identify the closed-loop frontier; a specified finite controlled model instead yields an occupancy program. Bounded representation attacks add a robustness margin, so benign calibration alone does not transfer. Experiments target these distinctions through static diagnostics, controlled-model enumeration, representation rewrites, and paired closed-loop reruns.
+PY  - 2026
+DO  - 10.48550/arXiv.2607.22868
+T2  - arXiv preprint (26 pages, 8 figures. Extended version with complete proofs and additional experiments)
+AU  - Shawn Ray
+M3  - Preprint
+DB  - Web search (arXiv API metadata)
+LB  - TA-Unclear
+ID  - R00063
+N1  - sr-screener TA [R00063]: UNCLEAR (Unclear - needs next stage / team decision) - Runtime safety over tool-call prefixes and trajectories; trace use unclear | A: unclear/UNC | B: unclear/UNC | by A+B
+ER  - 
+

@@ -1,0 +1,23 @@
+{
+ "label": "ADJ:b002@5d4c97e87d5e4cd67b019cc2d4c1f8d6112e146c24e3e8b577be18466215419e",
+ "decisions": [
+  {
+   "id": "R00032",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Multi-agent LLM handoffs analysed for boundary-marker survival; unclear if execution-data analysis"
+  },
+  {
+   "id": "R00038",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Multi-agent architecture compared on cost and reliability; depth of behavioural analysis unclear"
+  },
+  {
+   "id": "R00044",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Temporal workflow graphs of agent messaging, cost compared; unclear beyond task accuracy"
+  }
+ ]
+}

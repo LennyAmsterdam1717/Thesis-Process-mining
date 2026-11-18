@@ -1,0 +1,156 @@
+{
+ "label": "B:b002@5d4c97e87d5e4cd67b019cc2d4c1f8d6112e146c24e3e8b577be18466215419e",
+ "decisions": [
+  {
+   "id": "R00026",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "No abstract; organizational mining of agent systems from event data, LLM agents unclear"
+  },
+  {
+   "id": "R00027",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Agentic AI used to assess event log quality, not agent behaviour"
+  },
+  {
+   "id": "R00028",
+   "d": "include",
+   "code": "INC",
+   "why": "LLM multi-agent orchestration traces as temporal interaction graphs with trace schema"
+  },
+  {
+   "id": "R00029",
+   "d": "include",
+   "code": "INC",
+   "why": "Taxonomy from 3,211 multi-agent trajectories; communication failure analysis across runs"
+  },
+  {
+   "id": "R00030",
+   "d": "include",
+   "code": "INC",
+   "why": "Agent handoffs analysed for constraint erosion across experiments and replays"
+  },
+  {
+   "id": "R00031",
+   "d": "include",
+   "code": "INC",
+   "ously": "",
+   "why": "Multi-agent execution traces compiled into event graphs for debugging"
+  },
+  {
+   "id": "R00032",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Handoff artifacts measured for boundary loss; unclear if process-oriented trace analysis"
+  },
+  {
+   "id": "R00033",
+   "d": "include",
+   "code": "INC",
+   "why": "Agent session traces compiled into structured views for trace analysis"
+  },
+  {
+   "id": "R00034",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Latent communication method survey, no trace or behavioural analysis"
+  },
+  {
+   "id": "R00035",
+   "d": "include",
+   "code": "INC",
+   "why": "Recovers communication topology from multi-agent execution traces for failure diagnosis"
+  },
+  {
+   "id": "R00036",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "LLM agent failures from 100,000+ interactions; unclear if trace or process-oriented"
+  },
+  {
+   "id": "R00037",
+   "d": "include",
+   "code": "INC",
+   "why": "Coordination configurations compared on cost-quality signatures; trace dataset released"
+  },
+  {
+   "id": "R00038",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Architecture compared on reliability and cost; depth of behavioural analysis unclear"
+  },
+  {
+   "id": "R00039",
+   "d": "exclude",
+   "code": "E5",
+   "why": "New agent framework evaluated on accuracy and consistency only"
+  },
+  {
+   "id": "R00040",
+   "d": "include",
+   "code": "INC",
+   "why": "Dependency graphs built from multi-agent system traces for failure attribution"
+  },
+  {
+   "id": "R00041",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "No abstract; survey of LLM multi-agent orchestration and communication protocols"
+  },
+  {
+   "id": "R00042",
+   "d": "include",
+   "code": "INC",
+   "why": "Execution traces of enterprise multi-agent workflows used for policy-risk diagnosis"
+  },
+  {
+   "id": "R00043",
+   "d": "include",
+   "code": "INC",
+   "why": "Graph of agent execution and dependency edges recovered from traces"
+  },
+  {
+   "id": "R00044",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Workflow graph framework; inference cost mentioned, depth of behavioural analysis unclear"
+  },
+  {
+   "id": "R00045",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Survey of graph engineering for agents, no trace or behaviour analysis"
+  },
+  {
+   "id": "R00046",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Topology generation compared on token cost and density; behavioural depth unclear"
+  },
+  {
+   "id": "R00047",
+   "d": "include",
+   "code": "INC",
+   "why": "Route-planning agents benchmark with tool use, efficiency and behaviour analysis"
+  },
+  {
+   "id": "R00048",
+   "d": "include",
+   "code": "INC",
+   "why": "Agent configurations compared on tool-call coverage and call overhead"
+  },
+  {
+   "id": "R00049",
+   "d": "include",
+   "code": "INC",
+   "why": "Tool-using agents' behavioural contrasts under plans, with success and cost"
+  },
+  {
+   "id": "R00050",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Reasoning framework for LLM reasoning, not an agentic system"
+  }
+ ]
+}
