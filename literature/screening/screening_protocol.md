@@ -1,5 +1,5 @@
 # Screening protocol: title/abstract stage
-Version 1.0, confirmed by Frank (Lenny) Pam on 2026-11-18 (with three adjustments to the draft, made before any record was screened). Source: Frank's RQ brief (18 Nov 2026), `docs/decisions.md` (2026-11-18), and the research directions in Dr. Xixi Lu's project description "Process Mining for Agentic AI".
+Version 1.1, confirmed by Frank (Lenny) Pam on 2026-11-18 ("go light"). v1.0 confirmed by Frank (Lenny) Pam on 2026-11-18 (with three adjustments to the draft, made before any record was screened). Source: Frank's RQ brief (18 Nov 2026), `docs/decisions.md` (2026-11-18), and the research directions in Dr. Xixi Lu's project description "Process Mining for Agentic AI".
 
 Review (integrative review with a scoping purpose): "Process mining for agentic AI – 2026 literature".
 Question: What did 2026 research do, and leave open, when treating the behaviour of LLM-based (generative AI) agents as process execution data?
@@ -12,6 +12,7 @@ Question: What did 2026 research do, and leave open, when treating the behaviour
   (c) agent traces are checked against expected behaviour (conformance checking, compliance with procedures, SOPs, policies or temporal-logic rules, deviation detection);
   (d) multi-agent interaction is analysed from execution data (communication patterns, hand-offs, delegation, dependencies, coordination failures);
   (e) agent designs, models or prompting strategies are compared on their behaviour (not only on final task success);
+      Behaviour includes process-performance measures: completion time or latency, cost or token use, number of actions or steps, tool usage, rework or retries, and coordination overhead. A record that compares agent designs, architectures, models or deployment set-ups on such measures counts as (e), even without process mining; when such measures are mentioned but it is unclear whether the comparison goes beyond task success, treat as unclear.
   (f) process models or mined process knowledge are used to design, guide or monitor agents (process-aware agent design).
 - Context: any domain (business processes, software engineering, customer support, research, etc.).
 - Time: published in 2026 (journal/conference publication date or first arXiv version in 2026).
@@ -26,7 +27,7 @@ Exception, treat as unclear: the abstract mentions traces, trajectories, logs, w
 
 ## Decisions
 - "include" (code INC): the record clearly describes an LLM-based agentic system AND at least one concept element (a)–(f).
-- "unclear" (code UNC): plausibly eligible but the title/abstract is insufficient, for example: (a) agentic LLM system and "traces" or "logs" are mentioned but the use is unclear; (b) a single LLM in multi-turn interactions (not clearly agentic) analysed with process mining; (c) no abstract, but the title suggests agent traces, agent behaviour or process models for agents.
+- "unclear" (code UNC): plausibly eligible but the title/abstract is insufficient, for example: (a) agentic LLM system and "traces" or "logs" are mentioned but the use is unclear; (b) a single LLM in multi-turn interactions (not clearly agentic) analysed with process mining; (c) no abstract, but the title suggests agent traces, agent behaviour or process models for agents; (d) agent configurations compared on latency, cost or steps, but the depth of the behavioural analysis is unclear.
 - "exclude": give ONE code, the first criterion that clearly fails, checked in this order:
   - E1 year: not published in 2026 (first version or publication before 2026).
   - E2 publication type: not a research, survey or position paper – blog post, vendor or product page, news item, tutorial, slide deck, dataset card only.
@@ -43,3 +44,4 @@ Exception, treat as unclear: the abstract mentions traces, trajectories, logs, w
 ## Amendment log
 | Date | Change | Reason | Records to re-screen |
 |------|--------|--------|----------------------|
+| 2026-11-18 | Concept (e): process-performance measures (time, cost, steps, tool usage, rework, coordination overhead) count as behaviour; unclear example (d) added | Calibration pilot 1: both AI reviewers excluded R00024 (AgBench) that Frank advanced | All records (re-pilot b001 under v1.1, then b002–b003) |

@@ -36,3 +36,9 @@ Append new entries at the bottom; do not overwrite earlier ones.
 - **Decision (pending "go"):** protocol amendment v1.1 to concept (e), prepared in `screening_protocol_v1.1_pending.md`. It becomes active only when Frank says "go".
 - **Why:** pilot 1 missed R00024 (AgBench) because v1.0 did not say that time, cost and steps count as behaviour (direction 5 in Xixi Lu's project description).
 - **Set-up:** `docs/runbook-go.md` lists every remaining step and the stop conditions, so the work can continue on one prompt.
+
+## 2026-11-18 – "go light": protocol v1.1 confirmed, single-reviewer full text
+
+- **Decision:** Frank said **"go light"**. This (1) confirms screening protocol v1.1 exactly as worded in the pending file (concept (e) now counts completion time, cost/tokens, steps, tool usage, rework and coordination overhead as behaviour; new unclear example (d)); (2) approves the title/abstract screening cost (about 8–12 Sonnet reviewer calls: re-pilot, full run, adjudication, QC recheck); (3) chooses a **single-reviewer full-text check done by Claude (Opus 5.5, main session)** instead of two blinded full-text reviewers; (4) asks for the whole RQ brief without check-ins except at the runbook's stop conditions.
+- **Done:** `screening_protocol.md` replaced by v1.1 (header: confirmed 2026-11-18, "go light"); the `_pending` file deleted.
+- **Why single reviewer at full text:** cost (dual full text would be about 60–80 long-PDF calls). **Consequence, to be disclosed in the methods:** full-text eligibility decisions were made by one AI reviewer without a second independent reviewer or adjudicator, so full-text agreement statistics cannot be reported; Frank's verification of the included set is the only second check.
