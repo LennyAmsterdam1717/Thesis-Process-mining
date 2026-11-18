@@ -14,9 +14,11 @@ Timeline of the thesis search and the process-mining thesis, up to the meeting w
 | **17 Nov 2026** | Meeting with Dr. Xixi Lu – see [meeting notes](meetings/2026-11-17-xixi-lu.md). |
 | **18 Nov 2026** | Repository set up as the thesis workspace. Literature review for the RQs started: integrative review (scoping purpose), 4 search rounds logged (133 results → 75 unique 2026 records), screening protocol confirmed, calibration batch prepared – see [`literature/`](../literature/) and [decisions](decisions.md). |
 
+| **18 Nov 2026** | "go light": protocol v1.1 confirmed; re-pilot passed; title/abstract screening of 75 records (62 advanced); single-reviewer full-text check (50 included); citation check 51/51 (incl. seed via other methods); gap analysis, 5 RQ candidates, top-3 shortlist and email draft written – see [`research-questions/`](../research-questions/). |
+
 ## Upcoming
 
 | Date | Milestone |
 |---|---|
-| Week of 16 Nov 2026 | Send 2–3 research questions to Xixi Lu. |
+| Week of 16 Nov 2026 | Frank verifies the included papers, then sends the RQs to Xixi Lu (draft: `research-questions/email-xixi-draft.md`). |
 | 4 Jan 2027 | Start of Accenture thesis internship. |

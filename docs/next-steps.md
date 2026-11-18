@@ -1,11 +1,11 @@
 # Next steps
 
-_Last updated: 18 November 2026_
+_Last updated: 18 November 2026 (after the "go light" run)_
 
 ## This week
 
-1. **Draft and send 2–3 research questions to Xixi Lu.**
-   Candidate directions: multi-agent interaction analysis, comparing agentic AI approaches, process-aware agent design.
+1. **Verify the screening** (required before the counts are final): check every paper in `literature/papers.csv` and a sample of exclusions, especially rows flagged "borderline" in `literature/screening/Screening_FT/FT_single_reviewer_log.csv`.
+1b. **Send the RQs to Xixi Lu** – draft ready in `research-questions/email-xixi-draft.md`; shortlist in `research-questions/rq-shortlist.md`.
 
 ## Accenture
 

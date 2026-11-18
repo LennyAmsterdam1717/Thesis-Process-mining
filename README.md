@@ -38,3 +38,12 @@ Directions of most interest:
 - [`literature/papers.csv`](literature/papers.csv) – papers that passed the citation check
 - [`literature/screening/`](literature/screening/) – screening protocol, records and calibration batch (SR-Screener)
 - [`docs/decisions.md`](docs/decisions.md) – log of choices made and why
+- [`literature/summaries/`](literature/summaries/) – notes on 22 key papers (incl. both seeds)
+- [`literature/background.md`](literature/background.md) – background reading outside the review corpus (E4 and single-LLM papers)
+- [`literature/methods-draft.md`](literature/methods-draft.md) – methods text for the literature selection (discloses the single-reviewer full text)
+- [`research-questions/`](research-questions/) – gap analysis, RQ candidates, shortlist and email draft to Xixi Lu
+
+## Status (18 Nov 2026)
+
+- Literature review done: 75 records screened → 62 full texts sought → **51 papers from 2026** in `papers.csv` (all citation-checked; 7 peer-reviewed or accepted, 44 preprints). **Provisional until Frank verifies the included set.**
+- Shortlisted RQs: **RQ-A** comparing agent architectures with process mining (direction 6), **RQ-B** organisational mining of multi-agent interaction (direction 4), **RQ-C** alignment-based vs declarative conformance (direction 3).

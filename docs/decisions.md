@@ -64,3 +64,10 @@ Append new entries at the bottom; do not overwrite earlier ones.
 - **Seed Körner et al. 2026:** not returned by the search → added through the PRISMA "other methods" branch and checked like the others. It has a CEUR URL but **no DOI or arXiv ID**; Frank's rule asks for "a working DOI or arXiv link". The CEUR URL works and is persistent (URN urn:nbn:de:0074-4274-x), so it is kept, flagged as an open question for Frank.
 - **Peer-reviewed vs preprint:** "peer-reviewed" is used only where the arXiv comment or venue states acceptance (ICDM 2026, BPM 2026 main track and Process Technology Forum, VISSOFT 2026 NIER, NeurIPS 2026, CPSIoTSec 2026 with ACM DOI) or for the CEUR demo paper; everything else is "preprint". R00060 (Dumas et al.) was presented at AI4BPM 2025 but its first version is from Jan 2026 and no proceedings version was checked, so it is labelled preprint.
 - **search_round column:** the earlier session logged counts per round but not which round returned each record, so the column says so rather than guessing.
+
+## 2026-11-18 – RQ brief completed ("go light" run finished)
+
+- **Outputs:** `literature/summaries/` (22 notes), `research-questions/gap-analysis.md` (6 themes, 7 gaps), `rq-candidates.md` (5 RQs), `rq-shortlist.md` (top 3: RQ-A architectures/dir. 6, RQ-B multi-agent organisational mining/dir. 4, RQ-C conformance/dir. 3), `email-xixi-draft.md` (226 words), `literature/methods-draft.md`.
+- **Why this ranking:** directions 4 and 6 preferred by Frank; RQ-A has the clearest gap and does not depend on Accenture data; RQ-B is the sharpest gap and best use of Accenture multi-agent logs; RQ-C is the safe fallback.
+- **No stop condition triggered:** the re-pilot missed none of Frank's advances; 51 papers (≥ 15) survived; no citation check failed; no PDF or Word file was committed (checked before every commit).
+- **Still open for Frank:** verify the included set; confirm directions 1–7 numbering; decide on the CEUR seed without DOI/arXiv; optionally fetch the 4 non-retrieved reports via the UU library.
