@@ -16,6 +16,8 @@ These papers are not used to justify a research question. They have not been cit
 | R00014 | Grounding LLM Explanations for Process Mining via Agentic Function Calling | Kalashnikov, Amling, Dormagen | CEUR Workshop Proceedings Vol-4259 | (CEUR page; no DOI) | LLM function calling explains process-mining outputs |
 | R00027 | Towards Agentic AI for Event Log Data Quality Assessment | (authors not in record) | Springer chapter | https://doi.org/10.1007/978-3-032-28117-3_23 | Agentic AI assesses event-log quality |
 
-## 2. Full-text exclusions kept as background
+## 2. Full-text exclusions kept as background (1)
 
-(filled in after the full-text check)
+| Record | Title | Author | Venue / status | Link | Why |
+|---|---|---|---|---|---|
+| R00005 | Beyond Pass/Fail: Using Process Mining to Understand How LLMs Resist (and Fail) Red Team Attacks | Topol | arXiv preprint | https://doi.org/10.48550/arXiv.2606.07833 | Single LLM in multi-turn red-teaming; no tools or environment (Frank's single-LLM rule). Methodologically close: it mines DFGs and transition matrices from 8,575 scored attack events, so it is a useful template for process mining of LLM interaction logs. |

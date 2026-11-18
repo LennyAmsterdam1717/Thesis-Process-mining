@@ -1,0 +1,30 @@
+[
+ {
+  "id": "R00012",
+  "title": "Behavioral Analysis of AI Code Generation Agents: Edit, Rewrite, and Repetition (MSR 2026 Mining Challenge)",
+  "doi": "",
+  "pmid": "",
+  "ta_decision": "unclear"
+ },
+ {
+  "id": "R00026",
+  "title": "Applying organizational mining to discover agent systems from event data",
+  "doi": "",
+  "pmid": "",
+  "ta_decision": "unclear"
+ },
+ {
+  "id": "R00041",
+  "title": "LLM-Based Multi-Agent Orchestration: A Survey of Frameworks, Communication Protocols, and Emerging Patterns",
+  "doi": "10.3390/fi18060326",
+  "pmid": "",
+  "ta_decision": "unclear"
+ },
+ {
+  "id": "R00061",
+  "title": "Configuring Large Reasoning Models Using Process Mining: A Benchmark and a Case Study",
+  "doi": "10.1007/978-3-032-13426-4_30",
+  "pmid": "",
+  "ta_decision": "unclear"
+ }
+]

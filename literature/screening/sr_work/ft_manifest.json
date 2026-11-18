@@ -1,0 +1,292 @@
+[
+ {
+  "id": "R00001",
+  "title": "From Event Logs to Governed Action: A BlueSky Agenda for Agentic Process Mining",
+  "pdf": "/Users/lennypam/Desktop/Folder process mining/literature/screening/fulltext/R00001.pdf"
+ },
+ {
+  "id": "R00002",
+  "title": "Using Process Mining to Generate AI Agents from Software Engineering Process Records",
+  "pdf": "/Users/lennypam/Desktop/Folder process mining/literature/screening/fulltext/R00002.pdf"
+ },
+ {
+  "id": "R00003",
+  "title": "Beyond Generalist LLMs: Specialist Agentic Systems for Structured Code Workflow Execution",
+  "pdf": "/Users/lennypam/Desktop/Folder process mining/literature/screening/fulltext/R00003.pdf"
+ },
+ {
+  "id": "R00005",
+  "title": "Beyond Pass/Fail: Using Process Mining to Understand How LLMs Resist (and Fail) Red Team Attacks",
+  "pdf": "/Users/lennypam/Desktop/Folder process mining/literature/screening/fulltext/R00005.pdf"
+ },
+ {
+  "id": "R00006",
+  "title": "Can LLM Agents Sustain Long-Horizon Organizational Dynamics?",
+  "pdf": "/Users/lennypam/Desktop/Folder process mining/literature/screening/fulltext/R00006.pdf"
+ },
+ {
+  "id": "R00008",
+  "title": "TraceCompiler: Skill-Guided Mining and Compilation of LLM Agent Traces into Mostly Deterministic Workflows",
+  "pdf": "/Users/lennypam/Desktop/Folder process mining/literature/screening/fulltext/R00008.pdf"
+ },
+ {
+  "id": "R00009",
+  "title": "Organizational Memory for Agentic Business Process Execution",
+  "pdf": "/Users/lennypam/Desktop/Folder process mining/literature/screening/fulltext/R00009.pdf"
+ },
+ {
+  "id": "R00010",
+  "title": "Building a Process-Modeling Tool using Agentic AI: An Experience Report on PM4Py-UCM",
+  "pdf": "/Users/lennypam/Desktop/Folder process mining/literature/screening/fulltext/R00010.pdf"
+ },
+ {
+  "id": "R00011",
+  "title": "Agent Behavior Mining: Generative AI Agent Governance in Business Processes",
+  "pdf": "/Users/lennypam/Desktop/Folder process mining/literature/screening/fulltext/R00011.pdf"
+ },
+ {
+  "id": "R00013",
+  "title": "TraceDance: An Automated System for Building Agent Behavior Benchmarks from Real-World Agent Deployment Traces",
+  "pdf": "/Users/lennypam/Desktop/Folder process mining/literature/screening/fulltext/R00013.pdf"
+ },
+ {
+  "id": "R00017",
+  "title": "The Log is the Agent: Event-Sourced Reactive Graphs for Auditable, Forkable Agentic Systems",
+  "pdf": "/Users/lennypam/Desktop/Folder process mining/literature/screening/fulltext/R00017.pdf"
+ },
+ {
+  "id": "R00018",
+  "title": "Mining Workflow Graphs for Black-Box Boundary Testing of Conversational LLM Agents",
+  "pdf": "/Users/lennypam/Desktop/Folder process mining/literature/screening/fulltext/R00018.pdf"
+ },
+ {
+  "id": "R00019",
+  "title": "Agent ATO: Visualizing Agent Interaction Timelines from Logs",
+  "pdf": "/Users/lennypam/Desktop/Folder process mining/literature/screening/fulltext/R00019.pdf"
+ },
+ {
+  "id": "R00021",
+  "title": "Autonomous Event-Driven Multi-Agent Orchestration for Enterprise AI at Scale",
+  "pdf": "/Users/lennypam/Desktop/Folder process mining/literature/screening/fulltext/R00021.pdf"
+ },
+ {
+  "id": "R00024",
+  "title": "AgBench: Agentic AI Benchmarks for Personal AI Devices",
+  "pdf": "/Users/lennypam/Desktop/Folder process mining/literature/screening/fulltext/R00024.pdf"
+ },
+ {
+  "id": "R00025",
+  "title": "A Vocabulary for Multi-Agent Automated Research Systems",
+  "pdf": "/Users/lennypam/Desktop/Folder process mining/literature/screening/fulltext/R00025.pdf"
+ },
+ {
+  "id": "R00028",
+  "title": "Reinforcement Learning for LLM-based Multi-Agent Systems through Orchestration Traces",
+  "pdf": "/Users/lennypam/Desktop/Folder process mining/literature/screening/fulltext/R00028.pdf"
+ },
+ {
+  "id": "R00029",
+  "title": "Understanding Communication Failures in Multi-Agent LLM Systems",
+  "pdf": "/Users/lennypam/Desktop/Folder process mining/literature/screening/fulltext/R00029.pdf"
+ },
+ {
+  "id": "R00030",
+  "title": "When \"Must\" Becomes \"Maybe\": Erosion of Workflow Constraints in LLM Agent Handoffs",
+  "pdf": "/Users/lennypam/Desktop/Folder process mining/literature/screening/fulltext/R00030.pdf"
+ },
+ {
+  "id": "R00031",
+  "title": "Knowledge-Based Zero-Replay Debugging of Multi-Agent LLM Traces",
+  "pdf": "/Users/lennypam/Desktop/Folder process mining/literature/screening/fulltext/R00031.pdf"
+ },
+ {
+  "id": "R00032",
+  "title": "Facts Without Rules: Boundary Metadata Collapse in Multi-Agent LLM Handoffs",
+  "pdf": "/Users/lennypam/Desktop/Folder process mining/literature/screening/fulltext/R00032.pdf"
+ },
+ {
+  "id": "R00033",
+  "title": "View-oriented Conversation Compiler for Agent Trace Analysis",
+  "pdf": "/Users/lennypam/Desktop/Folder process mining/literature/screening/fulltext/R00033.pdf"
+ },
+ {
+  "id": "R00035",
+  "title": "Know the Shape, Find the Fault: Topology-Conditioned Diagnosis of Multi-Agent LLM Failures",
+  "pdf": "/Users/lennypam/Desktop/Folder process mining/literature/screening/fulltext/R00035.pdf"
+ },
+ {
+  "id": "R00036",
+  "title": "Silent Failure in LLM Agent Systems: The Entropy Principle and the Inevitable Disorder of Autonomous Agents",
+  "pdf": "/Users/lennypam/Desktop/Folder process mining/literature/screening/fulltext/R00036.pdf"
+ },
+ {
+  "id": "R00037",
+  "title": "Coordination as an Architectural Layer for LLM-Based Multi-Agent Systems",
+  "pdf": "/Users/lennypam/Desktop/Folder process mining/literature/screening/fulltext/R00037.pdf"
+ },
+ {
+  "id": "R00038",
+  "title": "The Six Sigma Agent: Achieving Enterprise-Grade Reliability in LLM Systems Through Consensus-Driven Decomposed Execution",
+  "pdf": "/Users/lennypam/Desktop/Folder process mining/literature/screening/fulltext/R00038.pdf"
+ },
+ {
+  "id": "R00040",
+  "title": "DCFA: Dual-view Causal-inspired Attribution for Failure Reasoning in LLM-based Multi-agent Systems",
+  "pdf": "/Users/lennypam/Desktop/Folder process mining/literature/screening/fulltext/R00040.pdf"
+ },
+ {
+  "id": "R00042",
+  "title": "EAIR: Interaction Risks in Enterprise LLM Multi-Agent Systems",
+  "pdf": "/Users/lennypam/Desktop/Folder process mining/literature/screening/fulltext/R00042.pdf"
+ },
+ {
+  "id": "R00043",
+  "title": "GRADE: Graph Representation of LLM Agent Dependency and Execution",
+  "pdf": "/Users/lennypam/Desktop/Folder process mining/literature/screening/fulltext/R00043.pdf"
+ },
+ {
+  "id": "R00044",
+  "title": "Inference-Time Graph Engineering for Multi-Agent LLM Workflows",
+  "pdf": "/Users/lennypam/Desktop/Folder process mining/literature/screening/fulltext/R00044.pdf"
+ },
+ {
+  "id": "R00045",
+  "title": "Graph Engineering in the Era of LLM Agents: From Individual Intelligence to System Intelligence",
+  "pdf": "/Users/lennypam/Desktop/Folder process mining/literature/screening/fulltext/R00045.pdf"
+ },
+ {
+  "id": "R00046",
+  "title": "AgentConductor: Topology Evolution for Multi-Agent Competition-Level Code Generation",
+  "pdf": "/Users/lennypam/Desktop/Folder process mining/literature/screening/fulltext/R00046.pdf"
+ },
+ {
+  "id": "R00047",
+  "title": "MobilityBench: A Benchmark for Evaluating Route-Planning Agents in Real-World Mobility Scenarios",
+  "pdf": "/Users/lennypam/Desktop/Folder process mining/literature/screening/fulltext/R00047.pdf"
+ },
+ {
+  "id": "R00048",
+  "title": "Benchmarking AI Agents for Hardware Design Automation via MCP Tool Calling",
+  "pdf": "/Users/lennypam/Desktop/Folder process mining/literature/screening/fulltext/R00048.pdf"
+ },
+ {
+  "id": "R00049",
+  "title": "The Default Trap: Rethinking Plan Evaluation in Tool-Using LLM Agents",
+  "pdf": "/Users/lennypam/Desktop/Folder process mining/literature/screening/fulltext/R00049.pdf"
+ },
+ {
+  "id": "R00051",
+  "title": "MCP-Cosmos: World Model-Augmented Agents for Complex Task Execution in MCP Environments",
+  "pdf": "/Users/lennypam/Desktop/Folder process mining/literature/screening/fulltext/R00051.pdf"
+ },
+ {
+  "id": "R00052",
+  "title": "Robust and Efficient Tool Orchestration via Layered Execution Structures with Reflective Correction",
+  "pdf": "/Users/lennypam/Desktop/Folder process mining/literature/screening/fulltext/R00052.pdf"
+ },
+ {
+  "id": "R00053",
+  "title": "Your Agent Has a Genome: Sequence-Level Behavioral Analysis and Runtime Governance of LLM-Powered Autonomous Agents",
+  "pdf": "/Users/lennypam/Desktop/Folder process mining/literature/screening/fulltext/R00053.pdf"
+ },
+ {
+  "id": "R00054",
+  "title": "Agent trajectories as programs: fingerprinting and programming coding-agent behavior",
+  "pdf": "/Users/lennypam/Desktop/Folder process mining/literature/screening/fulltext/R00054.pdf"
+ },
+ {
+  "id": "R00055",
+  "title": "Same Signal, Different Semantics: A Cross-Framework Behavioral Analysis of Software Engineering Agents",
+  "pdf": "/Users/lennypam/Desktop/Folder process mining/literature/screening/fulltext/R00055.pdf"
+ },
+ {
+  "id": "R00056",
+  "title": "How to Interpret Agent Behavior",
+  "pdf": "/Users/lennypam/Desktop/Folder process mining/literature/screening/fulltext/R00056.pdf"
+ },
+ {
+  "id": "R00057",
+  "title": "Measuring Cross-Task Behavioral Consistency in Language Model Agents",
+  "pdf": "/Users/lennypam/Desktop/Folder process mining/literature/screening/fulltext/R00057.pdf"
+ },
+ {
+  "id": "R00058",
+  "title": "Trajectory-Aware Benchmark Subset Selection for Cost-Efficient Software Engineering Agent Regression Testing",
+  "pdf": "/Users/lennypam/Desktop/Folder process mining/literature/screening/fulltext/R00058.pdf"
+ },
+ {
+  "id": "R00059",
+  "title": "Schrödinger's Code Repository: Have LLMs Learned SWE-bench or Memorized It?",
+  "pdf": "/Users/lennypam/Desktop/Folder process mining/literature/screening/fulltext/R00059.pdf"
+ },
+ {
+  "id": "R00060",
+  "title": "Agentic Business Process Management Systems",
+  "pdf": "/Users/lennypam/Desktop/Folder process mining/literature/screening/fulltext/R00060.pdf"
+ },
+ {
+  "id": "R00062",
+  "title": "guardscope: Measuring Which Actions Runtime Controls Check in LLM Agent Systems",
+  "pdf": "/Users/lennypam/Desktop/Folder process mining/literature/screening/fulltext/R00062.pdf"
+ },
+ {
+  "id": "R00063",
+  "title": "What Can Be Enforced? A Theory of Certified Runtime Safety for Tool-Using Agents",
+  "pdf": "/Users/lennypam/Desktop/Folder process mining/literature/screening/fulltext/R00063.pdf"
+ },
+ {
+  "id": "R00064",
+  "title": "Formal Runtime Verification for Tool-Using LLM Agents: An Offline Same-Benchmark Study on AgentDojo and STAC",
+  "pdf": "/Users/lennypam/Desktop/Folder process mining/literature/screening/fulltext/R00064.pdf"
+ },
+ {
+  "id": "R00066",
+  "title": "Semantic Feature Analysis: Improving Agents Without Searching Over Rollouts",
+  "pdf": "/Users/lennypam/Desktop/Folder process mining/literature/screening/fulltext/R00066.pdf"
+ },
+ {
+  "id": "R00067",
+  "title": "COVENANT: Natural-Language Workflow Compilation for Aligned Agent Execution",
+  "pdf": "/Users/lennypam/Desktop/Folder process mining/literature/screening/fulltext/R00067.pdf"
+ },
+ {
+  "id": "R00068",
+  "title": "AgentLTL: A Trace-Verification Framework for Measuring, Enforcing, and Training Procedural Compliance in Tool-Using LLM Agents",
+  "pdf": "/Users/lennypam/Desktop/Folder process mining/literature/screening/fulltext/R00068.pdf"
+ },
+ {
+  "id": "R00069",
+  "title": "Agentproof: Static Verification of Agent Workflow Graphs",
+  "pdf": "/Users/lennypam/Desktop/Folder process mining/literature/screening/fulltext/R00069.pdf"
+ },
+ {
+  "id": "R00070",
+  "title": "PolicyGuide: From Guarding One Action to Guiding the Whole Workflow for Policy-Compliant LLM Agents",
+  "pdf": "/Users/lennypam/Desktop/Folder process mining/literature/screening/fulltext/R00070.pdf"
+ },
+ {
+  "id": "R00071",
+  "title": "ReTrace: Distilling Tool-Using Agents into Planner-Free Workflows",
+  "pdf": "/Users/lennypam/Desktop/Folder process mining/literature/screening/fulltext/R00071.pdf"
+ },
+ {
+  "id": "R00072",
+  "title": "Beyond IVR: Benchmarking Customer Support LLM Agents for Business-Adherence",
+  "pdf": "/Users/lennypam/Desktop/Folder process mining/literature/screening/fulltext/R00072.pdf"
+ },
+ {
+  "id": "R00073",
+  "title": "Grounding LLM Agents in Business Processes: Process-Aware Knowledge Graphs for Reliable Multi-Step Service Invocation",
+  "pdf": "/Users/lennypam/Desktop/Folder process mining/literature/screening/fulltext/R00073.pdf"
+ },
+ {
+  "id": "R00074",
+  "title": "From Process Models to Composable Agentic Workflows: Combining BPMN, Agents and Enterprise Knowledge",
+  "pdf": "/Users/lennypam/Desktop/Folder process mining/literature/screening/fulltext/R00074.pdf"
+ },
+ {
+  "id": "R00075",
+  "title": "A Process Harness for Uplifting Legacy Workflows to Agentic BPM: Design and Realization in CUGA FLO",
+  "pdf": "/Users/lennypam/Desktop/Folder process mining/literature/screening/fulltext/R00075.pdf"
+ }
+]

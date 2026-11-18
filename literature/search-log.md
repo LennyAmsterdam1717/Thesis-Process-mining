@@ -131,3 +131,20 @@ Screening counts follow in the screening section below.
 
 - E4 exclusions (4) are listed in `literature/background.md` (Frank's rule).
 - **Counts are provisional until Frank verifies** every advanced record and a sample of exclusions (SR-Screener requires human sign-off).
+
+## Screening – full text (single reviewer, "go light") – 2026-11-18
+
+- Reviewer: one AI reviewer (Claude Opus 5.5, main session) on the pypdf-extracted text; no second reviewer, no adjudication (Frank's "go light" choice; disclosed in `literature/screening/Screening_FT/FT_methods_selection.md`).
+- Protocol: `literature/screening/ft_protocol.md` (v1.1 + full-text rules, incl. Frank's single-LLM rule).
+- Log: `literature/screening/Screening_FT/FT_single_reviewer_log.csv` (decision, code, concept elements, deciding fact, page/section, flags).
+
+| PRISMA step (full text) | Count |
+|---|---|
+| Reports sought for retrieval | 62 |
+| Reports not retrieved | 4 (R00012, R00026, R00041, R00061: publisher-only, no open PDF reachable) |
+| Reports assessed (full text) | 58 |
+| Reports excluded (full text, with reasons) | 8 (E3 single LLM without tools: 1; E5 no process/trace angle: 7) |
+| Studies included (before citation check) | 50 |
+
+- **Full-text exclusion reasons:** R00005 E3 (single LLM, no tools; kept as background); R00025 E5 (conceptual vocabulary); R00028 E5 (RL-training survey); R00036 E5 (output-consistency study, no traces); R00044 E5 (new architecture, accuracy only); R00045 E5 (survey); R00046 E5 (RL-trained topology, cost side metric); R00052 E5 (new method, pass rates).
+- **Notes:** counts provisional until Frank verifies the included set.
