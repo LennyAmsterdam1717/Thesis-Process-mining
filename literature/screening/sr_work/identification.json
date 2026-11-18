@@ -1,0 +1,25 @@
+{
+ "tool": "sr-screener 1.0.0",
+ "files": [
+  {
+   "file": "records_2026.csv",
+   "format": "csv",
+   "records": 75,
+   "databases": {
+    "Web search (arXiv API metadata)": 75
+   }
+  }
+ ],
+ "by_database": {
+  "Web search (arXiv API metadata)": 75
+ },
+ "raw_total": 75,
+ "unique_total": 75,
+ "duplicates_removed": 0,
+ "no_abstract": 5,
+ "overlap": {
+  "Web search (arXiv API metadata)": 75
+ },
+ "batches": 3,
+ "max_record_lines": 17
+}

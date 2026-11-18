@@ -1,5 +1,5 @@
 # Screening protocol: title/abstract stage
-Version 1.0 – DRAFT, not yet confirmed. To be confirmed by Frank (Lenny) Pam. Source: Frank's RQ brief (18 Nov 2026), `docs/decisions.md` (2026-11-18), and the research directions in Dr. Xixi Lu's project description "Process Mining for Agentic AI".
+Version 1.0, confirmed by Frank (Lenny) Pam on 2026-11-18 (with three adjustments to the draft, made before any record was screened). Source: Frank's RQ brief (18 Nov 2026), `docs/decisions.md` (2026-11-18), and the research directions in Dr. Xixi Lu's project description "Process Mining for Agentic AI".
 
 Review (integrative review with a scoping purpose): "Process mining for agentic AI – 2026 literature".
 Question: What did 2026 research do, and leave open, when treating the behaviour of LLM-based (generative AI) agents as process execution data?
@@ -16,21 +16,22 @@ Question: What did 2026 research do, and leave open, when treating the behaviour
 - Context: any domain (business processes, software engineering, customer support, research, etc.).
 - Time: published in 2026 (journal/conference publication date or first arXiv version in 2026).
 - Publication type: peer-reviewed papers (conference, workshop, journal) and arXiv preprints. Surveys and position/agenda papers count if published in 2026.
-- Full-text-only criteria (exact venue status, data availability, which directions are covered in depth) must NOT be used to exclude at this title/abstract stage.
+- Full-text-only criteria (exact venue status, data availability, which directions are covered in depth, and whether a single LLM in multi-turn interaction uses tools or acts in an environment) must NOT be used to exclude at this title/abstract stage.
+- Full-text rule for a single LLM in multi-turn interaction (advanced as unclear here): include at full text if the LLM uses tools or acts in an environment; otherwise exclude at full text and keep as background reading.
 
 ## "Agent behaviour as process data" (interpret broadly at screening)
 Counts: logged tool calls, agent hand-offs, conversation turns or reasoning steps analysed across runs; trajectories turned into graphs, sequences or event logs; compliance of traces with procedures; behavioural comparison of agent configurations.
-Does not count on its own: a benchmark that only reports task success or accuracy; a new agent architecture evaluated only on accuracy; using an LLM or agent as a tool *to do* process mining on ordinary business logs (for example a chatbot that answers questions about an event log) with no analysis of the agent's own behaviour [proposed]; training methods that use traces only as training data, with no analysis of behaviour [proposed].
+Does not count on its own: a benchmark that only reports task success or accuracy; a new agent architecture evaluated only on accuracy; using an LLM or agent as a tool *to do* process mining on ordinary business logs (for example a chatbot that answers questions about an event log) with no analysis of the agent's own behaviour; training methods that use traces only as training data, with no analysis of behaviour.
 Exception, treat as unclear: the abstract mentions traces, trajectories, logs, workflows or behavioural analysis of agents, but it is not clear whether the analysis is across runs or process-oriented.
 
 ## Decisions
 - "include" (code INC): the record clearly describes an LLM-based agentic system AND at least one concept element (a)–(f).
-- "unclear" (code UNC): plausibly eligible but the title/abstract is insufficient, for example: (a) agentic LLM system and "traces" or "logs" are mentioned but the use is unclear; (b) a single LLM in multi-turn interactions (not clearly agentic) analysed with process mining [proposed]; (c) no abstract, but the title suggests agent traces, agent behaviour or process models for agents.
+- "unclear" (code UNC): plausibly eligible but the title/abstract is insufficient, for example: (a) agentic LLM system and "traces" or "logs" are mentioned but the use is unclear; (b) a single LLM in multi-turn interactions (not clearly agentic) analysed with process mining; (c) no abstract, but the title suggests agent traces, agent behaviour or process models for agents.
 - "exclude": give ONE code, the first criterion that clearly fails, checked in this order:
   - E1 year: not published in 2026 (first version or publication before 2026).
   - E2 publication type: not a research, survey or position paper – blog post, vendor or product page, news item, tutorial, slide deck, dataset card only.
   - E3 population: the system studied is not an LLM-based / generative AI agentic system (for example classical rule-based multi-agent systems, RPA bots, human actors only, robots without LLMs, plain non-agentic LLM classification).
-  - E4 wrong direction: LLMs or agents are used to *perform* process mining or BPM tasks on ordinary event logs, and the agents' own behaviour is not analysed [proposed].
+  - E4 wrong direction: LLMs or agents are used to *perform* process mining or BPM tasks on ordinary event logs, and the agents' own behaviour is not analysed. These records are not discarded: after screening they are kept as background reading, outside the review corpus.
   - E5 concept: an LLM agentic system, but none of concept elements (a)–(f) – for example accuracy-only benchmarks, architectures or training without behavioural or trace analysis, agent security without trace analysis.
   - E9 other reason (explain).
 

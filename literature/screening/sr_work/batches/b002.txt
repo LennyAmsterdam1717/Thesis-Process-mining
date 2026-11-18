@@ -1,0 +1,344 @@
+BATCH b002 -- 25 records: R00026 .. R00050
+
+### R00026 | 2026 | Journal article | Lang: n/a
+TI: Applying organizational mining to discover agent systems from event data
+AB: [NO ABSTRACT AVAILABLE]
+
+### R00027 | 2026 | Conference paper | Lang: n/a
+TI: Towards Agentic AI for Event Log Data Quality Assessment
+AB: [NO ABSTRACT AVAILABLE]
+
+### R00028 | 2026 | Preprint | Lang: n/a
+TI: Reinforcement Learning for LLM-based Multi-Agent Systems through Orchestration Traces
+AB: As large language model (LLM) agents evolve from isolated tool users into coordinated teams, reinforcement learning (RL) must optimize not only
+    individual actions but also how work is spawned, delegated, communicated, aggregated, and stopped. This paper studies RL for LLM-based multi-agent
+    systems through orchestration traces: temporal interaction graphs whose events include sub-agent spawning, delegation, communication, tool use,
+    return, aggregation, and stopping decisions. Using this lens, we identify three technical axes. First, reward design spans eight families,
+    including orchestration rewards for parallelism speedup, split correctness, and aggregation quality. Second, reward and credit signals attach to
+    eight credit- or signal-bearing units from token to team; explicit counterfactual message-level credit remains especially sparse in our curated
+    pool. Third, orchestration learning decomposes into five sub-decisions: when to spawn, whom to delegate to, how to communicate, how to aggregate,
+    and when to stop. In our curated pool as of May 4, 2026, we found no explicit RL training method for the stopping decision. We connect academic
+    methods to public industrial evidence from Kimi Agent Swarm, OpenAI Codex, and Anthropic Claude Code. The resulting scale gap is a gap between
+    publicly reported deployment envelopes and open academic evaluation regimes, not independent verification of industrial training traces. We
+    release the artifact at https://github.com/xxzcc/awesome-llm-mas-rl, including an 84-entry tagged paper pool, a 32-record exclusion log, scripted
+    corpus statistics, and a minimal JSON schema for replayable orchestration traces.
+
+### R00029 | 2026 | Preprint | Lang: n/a
+TI: Understanding Communication Failures in Multi-Agent LLM Systems
+AB: Multi-agent LLM systems aim to improve reasoning through debate, evidence sharing, and mutual correction, but interaction can also introduce
+    failures that final accuracy alone cannot explain. Agents may converge too early, ignore dissent, suppress correct minority answers, or preserve a
+    wrong framing across rounds. We present a corpus-grounded taxonomy of communication failures, built from 3,211 failed multi-round trajectories
+    across medical QA, coding, finance, multi-hop reasoning, ethics, and embodied text tasks. Using this taxonomy, we analyze failure distributions
+    across datasets and system designs, round-level error dynamics, recovery hardness, majority transitions, minority-signal suppression, and
+    self-reported confidence. We find that failures are dominated by recovery/correction and consensus/decision problems rather than isolated
+    first-round mistakes, with many emerging after agents first observe peer responses. Based on these findings, we recommend stronger disagreement
+    handling, evidence verification, minority-signal preservation, and recovery checks before finalization.
+
+### R00030 | 2026 | Preprint | Lang: n/a
+TI: When "Must" Becomes "Maybe": Erosion of Workflow Constraints in LLM Agent Handoffs
+AB: Large language model (LLM) agents build on one another's work through summaries, plans, and other intermediate artifacts. These records let a
+    downstream agent continue without revisiting the complete upstream context. We uncover a hidden loss in this process: handoffs can carry tasks
+    forward while eroding judgments already established upstream. A requirement that must be satisfied before action becomes a caveat that the next
+    agent may acknowledge and set aside. The issue remains visible, but its role has changed. We define operational state preservation as retaining an
+    established judgment's role in constraining downstream action. Safety blockers provide a concrete instance: an unresolved prerequisite restricts
+    the admissible actions until the condition is resolved. In our experiments, we confirm correct upstream detection, hold source permissions fixed,
+    and vary the handoff supplied to a local-view executor. Direct-state controls preserve every blocker, whereas compression, plan assimilation,
+    convergence, ownership deferral, and precedent substitution repeatedly weaken them. Ownership deferral produces 76.7% blocker deactivation;
+    multihop compression produces 97.2%. Measuring the transmitted state separately from endpoint action exposes two routes to behavioral recovery. In
+    fixed-artifact replays, restoring the full blocker description raises recognition from 6.2% to 99.2% and reduces forbidden action from 85.2% to
+    0.0%. An authorization-check prompt instead reduces forbidden action to 1.6% while leaving artifact deactivation at 95.3%. A successful endpoint
+    can therefore conceal a damaged handoff. These findings make maintaining earlier judgments a core capability of reliable collaboration: each stage
+    must carry forward both what earlier work established and what it requires of subsequent action. Semantic availability does not guarantee
+    operational preservation.
+
+### R00031 | 2026 | Preprint | Lang: n/a
+TI: Knowledge-Based Zero-Replay Debugging of Multi-Agent LLM Traces
+AB: Reliable operation of multi-agent large language model (LLM) systems depends on debugging long execution traces, where the few causally decisive
+    events are buried in unstructured logs of messages, routes, memory writes, and tool calls. The standard tool is counterfactual replay (rewind,
+    edit, and re-run the trajectory to measure each event's effect), but its cost grows linearly with the number of candidate events, making
+    exhaustive replay infeasible at scale. We frame trace debugging as a knowledge-based decision-support problem. Each trace is compiled into a
+    structured event knowledge graph over routing, memory, tool-use, uncertainty, and latent evidence, and a calibrated predictor decides where a
+    scarce replay budget should be spent. We do not propose a new replay oracle; we propose a method to predict its results without paying the replay
+    cost. We formulate zero-replay counterfactual-effect prediction: given a trace under a fixed budget, predict which events the oracle would mark
+    high-effect before any replay is performed. BranchPoint-Latent is a lightweight predictor over observable, structural, uncertainty, and latent
+    features of the knowledge graph. Calibrated against a deterministic replay oracle across 37 trace families, a single learning-to-rank
+    gradient-boosted predictor raises per-trace localization (Branch Recall@5) from 0.73 to 0.93 on held-out families at zero oracle-replay cost.
+    Rather than claiming universal dominance, we characterize when cheap graph centrality suffices and when learned evidence is necessary. The result
+    is an auditable, cost-efficient decision-support system for AI-reliability debugging, positioned explicitly on the cost-accuracy frontier with
+    reproducible artifacts.
+
+### R00032 | 2026 | Preprint | Lang: n/a
+TI: Facts Without Rules: Boundary Metadata Collapse in Multi-Agent LLM Handoffs
+AB: Multi-agent LLM systems often coordinate by compressing an upstream interaction into a handoff artifact that downstream agents treat as shared
+    state. We show that this handoff step is a structural source of privacy leakage: summaries preferentially preserve operational facts while
+    weakening the boundary metadata that governs how those facts may be used---a failure mode we call \emph{summary collapse}. On a controlled
+    multi-agent coordination testbed we measure marker survival with a human-validated judge ($κ= 0.74$), where $σ_b = 1$ means every boundary marker
+    survives verbatim and $σ_b = 0$ means all are lost. Boundary-marker and operational-fact survival are nearly uncorrelated at the handoff level on
+    both GPT-5-mini and DeepSeek-R1-32B (Pearson $r$ near zero): uncompressed free-text handoffs preserve boundaries at $σ_b \approx 0.80$, whereas a
+    $25$-word budget drops $σ_b$ to ${\approx}0.57$ while operational-fact survival stays near ceiling. Controlled downstream tests reveal that
+    protection depends on \emph{boundary explicitness}: vague languages leak in $73\%$ of GPT and $50\%$ of DeepSeek cases, while explicit constraints
+    reduce leakage to under $15\%$ across all three tested models. A no-handoff single-agent control further shows the failure is not reducible to
+    multi-agent topology as direct full-marker access still leaks more often than the operationalized handoff. Prompt-only mitigation and exact-string
+    redaction only partially address the problem, while a gold-derived audience allowlist nearly eliminates leakage across models, showing that
+    correctly identifying audience boundaries is the key factor.
+
+### R00033 | 2026 | Preprint | Lang: n/a
+TI: View-oriented Conversation Compiler for Agent Trace Analysis
+AB: We observe that an agent trace is a structured document. A coding agent session contains user turns, assistant text, chain of thought blocks, tool
+    calls, tool results, subagent invocations, compaction boundaries, and harness injected directives, and may exceed ten thousand JSONL lines.
+    Effective trace analysis requires a lossless record, a session level overview, and content retrieval with conversational roles. To this end, we
+    propose VCC, namely View oriented Conversation Compiler, which lexes, parses, and lowers a raw JSONL log into three views based on one
+    intermediate representation. The full view provides the lossless transcript and defines the line number coordinate system. The UI view
+    reconstructs the interaction perceived by the user. The adaptive view selects relevant trace content and preserves role annotations and line range
+    pointers. Line numbers are assigned before view lowering, ensuring that all pointers can be resolved to the full view. We evaluate VCC in a
+    context engineering experiment on AppWorld by varying the input format of the reflector. Experiments with three model configurations and two test
+    splits show that VCC improves aggregate task goal pass rates by 1.1 to 4.2 points, reduces reflector token consumption by one half to two thirds,
+    and generates smaller memory files. These results demonstrate the effectiveness of trace format as an important component of context engineering
+    infrastructure.
+
+### R00034 | 2026 | Preprint | Lang: n/a
+TI: Beyond tokens: a unified framework for latent communication in LLM-based multi-agent systems
+AB: Multi-agent systems built on large language models (LLMs) have become a prevailing paradigm for tackling complex reasoning, planning, and tool-use
+    tasks. The dominant communication protocol in such systems is natural language: agents exchange messages token-by-token, verbalising their
+    internal reasoning so that peers can read, verify, and respond. While convenient and interpretable, this protocol suffers from three structural
+    drawbacks -- high inference cost, irreversible information loss during discretization, and ambiguity/redundancy of natural language. A growing
+    body of work therefore explores an alternative protocol -- latent communication -- in which agents exchange continuous representations
+    (embeddings, hidden states, or KV-caches) directly, bypassing the bottleneck of text generation. This paper presents a unified framework for
+    organising the rapidly expanding literature on latent communication. We analyse existing methods along three orthogonal axes: (1) WHAT information
+    is communicated (Embeddings, Hidden States, KV-Caches, or other continuous state); (2) WHICH sender-receiver alignment is used (latent-space
+    alignment and layer alignment); and (3) HOW the communicated information is fused into the receiver (concatenation, prepending, mathematical
+    operations, cross-attention, or cache restoration). Under this 3-axis framework, we systematically categorise eighteen representative methods
+    proposed between 2024 and 2026, identify five major design patterns, and surface a set of open challenges -- including cross-architecture
+    alignment, security of latent channels, compression for edge deployment, and the relationship between latent communication and latent
+    chain-of-thought. We hope that this framework both lowers the barrier to entry for new researchers and provides a vocabulary for comparing future
+    work.
+
+### R00035 | 2026 | Preprint | Lang: n/a
+TI: Know the Shape, Find the Fault: Topology-Conditioned Diagnosis of Multi-Agent LLM Failures
+AB: Multi-agent LLM systems coordinate task execution through exchanges of information among agents. When coordination breaks down, similar symptoms
+    in execution traces can reflect different problems in how information is passed, used, or verified. Communication topology captures how agents
+    exchange information and provides structural cues for distinguishing coordination failure modes. Using these cues for diagnosis requires
+    establishing how topology relates to failure patterns and recovering the relevant structure from execution traces that lack explicit topology
+    labels. We analyze the relationship between communication topology and failure patterns and introduce MAScope, a two-stage framework for
+    topology-conditioned diagnosis. Its Trace Structural Extractor TSE recovers communication topology from heterogeneous execution traces by
+    grounding an interaction graph in message evidence. The Topology-Conditioned Judge TC-Judge then classifies failures using the trace, predicted
+    topology, an empirical failure prior estimated from separate labeled traces, and a short description of topology-specific failure patterns. Under
+    a fixed orchestration structure, the recovered topology can be reused across executions. Experimental results show a statistically significant
+    association between communication topology and failure type, with $χ^2 = 409.9$ and $p = 1.2 \times 10^{-70}$. On the \num{851} MAST-clean traces,
+    ground-truth topology context raises gpt-mini's Macro-F1 from $0.173$ to $0.350$. With predicted topology, the pipeline achieves $0.346$,
+    approaching the trace-only gpt-5.4 baseline of $0.372$. For \num{1000} traces under a fixed orchestration structure, the projected pipeline cost,
+    including one topology extraction, is approximately $6\%$ of repeated gpt-5.4 diagnosis cost. These results show that topology-conditioned context
+    improves failure diagnosis and supports lower-cost deployment.
+
+### R00036 | 2026 | Preprint | Lang: n/a
+TI: Silent Failure in LLM Agent Systems: The Entropy Principle and the Inevitable Disorder of Autonomous Agents
+AB: Large Language Model (LLM) agent systems suffer from failures that occur without external triggers -- no injection, no adversarial input, no
+    resource exhaustion. These silent failures -- unexpected deviations from intended behavior under normal conditions -- are routinely misattributed
+    to bugs or configuration errors. Through systematic analysis of over 40,000 controlled trials and long-term production observations spanning
+    100,000+ agent interactions, we identify a common structural logic underlying these failures. Building on patterns observed in our experiments, we
+    survey the global research literature on autonomous agent reliability and synthesize 22 intrinsic properties of LLM agent systems across six
+    lifecycle layers: foundation semantics, inter-agent transmission, memory persistence, task execution, feedback correction, and systemic evolution.
+    We demonstrate that whenever a sufficient subset of these properties co-exist, system entropy -- the measurable accumulation of disorder: loss of
+    output consistency, task accuracy, and cross-session coherence -- increases monotonically with interaction rounds. We formalize this as the
+    Entropy Principle: S(t) = S0 * e^(alpha * t), with alpha measured empirically across multiple architectures. We propose the PIG (Physical
+    Integrity Gate) Engine with the ADE (Agent Delivery Engineering) protocol suite as an engineering countermeasure to entropy-driven disorder. Our
+    findings establish silent failure not as a bug to be fixed but as a manifestation of Intelligence Entropy -- a physical constraint to be managed
+    through deterministic governance. We argue that any engineering effort stabilizing the structure and order of agent systems participates in a
+    unified mission: keeping intelligent systems reliable as they grow in scale and complexity.
+
+### R00037 | 2026 | Preprint | Lang: n/a
+TI: Coordination as an Architectural Layer for LLM-Based Multi-Agent Systems
+AB: Multi-agent LLM systems fail in production at rates between 41% and 87%, mostly due to coordination defects rather than base-model capability.
+    Existing responses split between cataloguing failure modes empirically and shipping declarative orchestration frameworks as engineering tools;
+    neither delivers a principled mapping from coordination configuration to predictable failure-mode signature. We argue that coordination should be
+    treated as a configurable architectural layer, separable from agent logic and from information access, enabling architectural reasoning rather
+    than only engineering productivity. We instantiate this with an information-controlled design on prediction markets: a single LLM, fixed tools,
+    fixed per-call output cap, and fixed prompt template across five reference coordination configurations, with total compute per question treated as
+    an endogenous architectural output. The Murphy decomposition of the Brier score separates calibration from discriminative power, so configurations
+    leave distinguishable signatures even when aggregate scores coincide. On 100 Polymarket binary markets resolved after the model's training cutoff
+    (claude-opus-4-6) we report Murphy signatures, a cost-quality Pareto frontier, category-conditioned analysis, and a bootstrap power-projection.
+    Three of five pre-specified predictions are upheld in direction; two configurations dominate the Pareto frontier within this regime; exploratory
+    bootstrap intervals separate consensus alignment from others, though pairwise tests do not survive Bonferroni correction at n=100. We also deploy
+    the same configurations as live agents on Foresight Arena under web-search-enabled conditions, as an on-chain replication channel accumulating in
+    parallel. Harness, trace dataset, and production agents are released. We position this as a methodology-validating first instantiation, not a
+    general cross-model claim.
+
+### R00038 | 2026 | Preprint | Lang: n/a
+TI: The Six Sigma Agent: Achieving Enterprise-Grade Reliability in LLM Systems Through Consensus-Driven Decomposed Execution
+AB: Large Language Models demonstrate remarkable capabilities yet remain fundamentally probabilistic, presenting critical reliability challenges for
+    enterprise deployment. We introduce the Six Sigma Agent, a novel architecture that achieves enterprise-grade reliability through three synergistic
+    components: (1) task decomposition into a dependency tree of atomic actions; (2) micro-agent sampling where each task is executed n times in
+    parallel across diverse LLMs to generate independent outputs; and (3) consensus voting with dynamic scaling, clustering outputs and selecting the
+    answer from the winning cluster with maximum votes. We prove that sampling n independent outputs with error rate p achieves system error
+    O(p^{ceil(n/2)}), enabling exponential reliability gains. Even using cheaper models with 5% per-action error, consensus voting with 5 agents
+    reduces error to 0.11%; dynamic scaling to 13 agents achieves 3.4 DPMO (Defects Per Million Opportunities), the Six Sigma standard. Evaluation
+    across three enterprise use cases demonstrates a 14,700x reliability improvement over single-agent execution while reducing costs by 80%. Our work
+    establishes that reliability in AI systems emerges from principled redundancy and consensus rather than model scaling alone.
+
+### R00039 | 2026 | Preprint | Lang: n/a
+TI: Think Locally, Explain Globally: Graph-Guided LLM Investigations via Local Reasoning and Belief Propagation
+AB: LLM agents excel when environments are mostly static and the needed information fits in a model's context window, but they often fail in
+    open-ended investigations where explanations must be constructed by iteratively mining evidence from massive, heterogeneous operational data.
+    These investigations exhibit hidden dependency structure: entities interact, signals co-vary, and the importance of a fact may only become clear
+    after other evidence is discovered. Because the context window is bounded, agents must summarize intermediate findings before their significance
+    is known, increasing the risk of discarding key evidence. ReAct-style agents are especially brittle in this regime. Their
+    retrieve-summarize-reason loop makes conclusions sensitive to exploration order and introduces run-to-run non-determinism, producing a reliability
+    gap where Pass-at-k may be high but Majority-at-k remains low. Simply sampling more rollouts or generating longer reasoning traces does not
+    reliably stabilize results, since hypotheses cannot be autonomously checked as new evidence arrives and there is no explicit mechanism for belief
+    bookkeeping and revision. In addition, ReAct entangles semantic reasoning with controller duties such as tool orchestration and state tracking, so
+    execution errors and plan drift degrade reasoning while consuming scarce context. We address these issues by formulating investigation as
+    abductive reasoning over a dependency graph and proposing EoG (Explanations over Graphs), a disaggregated framework in which an LLM performs
+    bounded local evidence mining and labeling (cause vs symptom) while a deterministic controller manages traversal, state, and belief propagation to
+    compute a minimal explanatory frontier. On a representative ITBench diagnostics task, EoG improves both accuracy and run-to-run consistency over
+    ReAct baselines, including a 7x average gain in Majority-at-k entity F1.
+
+### R00040 | 2026 | Preprint | Lang: n/a
+TI: DCFA: Dual-view Causal-inspired Attribution for Failure Reasoning in LLM-based Multi-agent Systems
+AB: Large language model (LLM)-based multi-agent systems have experienced rapid growth in recent years. Despite their promise, such systems remain
+    fragile, frequently exhibiting reasoning and coordination errors that can lead to system-level failures. Failure attribution in such systems
+    relies on tracing natural language interactions among agents to identify the decisive error, which refers to the earliest action whose correction
+    can reverse system failure. There are two key challenges: 1) Shallow attribution: Existing methods often capture only minor deviations, such as
+    incomplete retrievals or formatting errors, which verification mechanisms can correct, while missing the decisive cause of system failure. 2)
+    Contextual degradation: As the length of the system traces increases, the model's reasoning ability rapidly deteriorates. To address these
+    challenges, we propose DCFA, a training-free framework for failure attribution. DCFA integrates a global module that constructs structured
+    causal-inspired dependency graphs from system traces to identify the initial decisive error, and a local module that applies local
+    counterfactual-inspired reasoning to refine causal-inspired attribution. Experiments on the Who&When benchmark across six LLMs show that DCFA
+    improves step-level accuracy by up to 8.27% over state-of-the-art baselines.
+
+### R00041 | 2026 | Journal article (survey) | Lang: n/a
+TI: LLM-Based Multi-Agent Orchestration: A Survey of Frameworks, Communication Protocols, and Emerging Patterns
+AB: [NO ABSTRACT AVAILABLE]
+
+### R00042 | 2026 | Preprint | Lang: n/a
+TI: EAIR: Interaction Risks in Enterprise LLM Multi-Agent Systems
+AB: LLM agents increasingly divide enterprise work across roles with different goals, authority, access, and information. Because each agent often
+    sees only a local snapshot of the enterprise workflow, locally reasonable actions can still violate organization-wide constraints (e.g., several
+    service agents can each issue credit that is individually permitted while collectively exceeding a shared compensation cap). We introduce EAIR,
+    the first framework for analyzing enterprise multi-agent interaction risks. We make four contributions. (1) We formalize enterprise interaction
+    risk in terms of the organizational properties that workflow operations must preserve, and operationalize this formulation as a taxonomy of
+    testable risks with explicit failure criteria and evidence requirements. (2) We build EAIR-Worlds, a suite of executable micro-worlds that
+    instantiates selected risks as controlled, observable workflows with explicit roles, policies, permissions, source facts, and execution traces.
+    (3) We develop a novel diagnosis-and-repair pipeline that uses the resulting execution traces to locate contributing interaction boundaries, guide
+    targeted workflow repairs, and retest the repaired system. (4) Large-scale experiments show recurring interaction failures across the
+    organizational properties studied. Together, EAIR is the first operational framework for diagnosing and mitigating enterprise multi-agent
+    interaction failures.
+
+### R00043 | 2026 | Preprint | Lang: n/a
+TI: GRADE: Graph Representation of LLM Agent Dependency and Execution
+AB: Traces record what LLM agents did, leaving implicit what each step relied on. GRADE holds both in one graph; six published graph views are its
+    projections. Execution edges come free; each costly dependency edge is graded as observed in the trace, declared by added logging, or inferred
+    under an assumption, a schema we test one grade at a time. We recover the dependency layer from six tool-use, coding, and web corpora and measure
+    its failure-prediction gain over run size. First, over a linear run-size baseline, it improves prediction on three corpora, but the gain depends
+    on the learner and task sampling. On held-out corpora the layer stays above chance where run size does not, under one learner, with the same
+    task-sampling caveat. Second, structure can pass for signal it does not carry: a layer inferred under full history restates run size. Within a
+    corpus, a preregistered test does not separate the recovered layer from a degree-matched counterfeit that rewires each step's dependencies but
+    keeps their number. The recovered layer's largest transfer lead over it reverses when the held-out corpus's task family is withheld. Before
+    crediting structure, grade each edge, keep a run-size baseline, and score degree-matched attachment controls.
+
+### R00044 | 2026 | Preprint | Lang: n/a
+TI: Inference-Time Graph Engineering for Multi-Agent LLM Workflows
+AB: Recent multi-agent LLM systems increasingly rely on graph-structured communication to coordinate specialized agents. We revisit multi-agent
+    orchestration from a graph-engineering perspective: rather than optimizing a static topology, we synthesize a task-conditioned temporal workflow
+    graph that jointly specifies agent connectivity and edge-level communication semantics. We introduce ReActNet, a training-free framework that
+    compiles a query and a set of role-specialized agents into a sequence of directed communication graphs. Each graph snapshot corresponds to one
+    reasoning stage, and each edge carries a natural-language instruction specifying the message that a source agent should provide to a target agent.
+    The compiled temporal graph is then executed through structured message passing: agents update their reasoning states by integrating their
+    previous states with messages from controller-assigned neighbors, and a final aggregator synthesizes the resulting states into the answer. This
+    design separates graph compilation from graph execution, making multi-agent coordination explicit, inspectable, and task-conditioned without
+    requiring reinforcement learning or gradient-based topology optimization. Across knowledge reasoning, mathematical problem solving, code
+    generation, and GAIA-style assistant tasks, ReActNet consistently improves over fixed-topology and learned-topology baselines while maintaining
+    competitive inference cost. These results suggest that effective multi-agent orchestration depends not only on which agents communicate, but also
+    on engineering executable workflow graphs that encode when, why, and how information should flow during reasoning.
+
+### R00045 | 2026 | Preprint | Lang: n/a
+TI: Graph Engineering in the Era of LLM Agents: From Individual Intelligence to System Intelligence
+AB: LLMs have evolved from language generators to autonomous agents capable of complex, long-horizon tasks. This evolution has produced paradigms
+    including Prompt Engineering to elicit model capabilities, Context Engineering to manage information access, Harness Engineering to organize
+    external tools and resources, and Loop Engineering to support continual reflection and self-improvement. Yet as tasks grow more complex,
+    individual intelligence faces a fundamental limit: many tasks require heterogeneous expertise, interdependent subtasks, parallel execution,
+    independent verification, and persistent state, exceeding any single agent's organizational capacity. Augmenting one agent's capabilities or
+    context cannot resolve this architectural mismatch; intelligence must instead be distributed across specialized agents and organized at the system
+    level. We call this System Intelligence: an agent system's ability to organize and coordinate multiple intelligent components into a coherent,
+    adaptive whole pursuing a shared objective. Achieving it requires more than adding agents; it demands explicit structures to organize work,
+    coordinate heterogeneous agents, and maintain evolving execution states. We introduce Graph Engineering, an emerging paradigm for next-generation
+    agent systems. Unlike prior paradigms that mainly optimize individual interactions or agent-level behavior, Graph Engineering constructs explicit,
+    dynamic, evolving graph structures representing tasks, agents, and system states. These abstractions provide a unified foundation for organizing
+    complex objectives, orchestrating heterogeneous agents, modeling system dynamics, and enabling scalable agent evolution. We systematically review
+    the principles, methodologies, and applications of Graph Engineering for LLM agents. Related papers, open-source data, and projects are collected
+    at https://github.com/DEEP-JLU/Awesome-Graph-Engineering.
+
+### R00046 | 2026 | Preprint | Lang: n/a
+TI: AgentConductor: Topology Evolution for Multi-Agent Competition-Level Code Generation
+AB: Large language model(LLM)-driven multi-agent systems(MAS) coordinate specialized agents through predefined interaction topologies and have shown
+    promise for complex tasks such as competition-level code generation. Recent studies demonstrate that carefully designed multi-agent workflows and
+    communication graphs can significantly improve code generation performance by leveraging collaborative reasoning. However, existing methods
+    neither adapt topology density to task difficulty nor iteratively refine the topology within an instance using execution feedback, which leads to
+    redundant communication and performance bottlenecks. To address these issues, we propose AgentConductor: a reinforcement learning-optimized MAS
+    with an LLM-based orchestrator agent as its core, which enables end-to-end feedback-driven dynamic generation of interaction topologies. For each
+    query, AgentConductor infers agent roles and task difficulty, then constructs a task-adapted, density-aware layered directed acyclic graph (DAG)
+    topology, underpinned by two key innovations. First, we design a novel topological density function that captures communication-aware mathematical
+    characterizations of multi-agent interactions. Second, we adopt difficulty interval partitioning to avoid excessive pruning for precise
+    topological density upper bound measurement per difficulty level and finer-grained control. Empirically, across three competition-level and two
+    foundational code datasets, AgentConductor achieves state-of-the-art accuracy, outperforming the strongest baseline by up to 14.6% in pass@1
+    accuracy, 13% in density reduction, and 68% in token cost reduction.
+
+### R00047 | 2026 | Preprint | Lang: n/a
+TI: MobilityBench: A Benchmark for Evaluating Route-Planning Agents in Real-World Mobility Scenarios
+AB: Route-planning agents powered by large language models (LLMs) have emerged as a promising paradigm for supporting everyday human mobility through
+    natural language interaction and tool-mediated decision making. However, systematic evaluation in real-world mobility settings is hindered by
+    diverse routing demands, non-deterministic mapping services, and limited reproducibility. In this study, we introduce MobilityBench, a scalable
+    benchmark for evaluating LLM-based route-planning agents in real-world mobility scenarios. MobilityBench is constructed from large-scale,
+    anonymized real user queries collected from Amap and covers a broad spectrum of route-planning intents across multiple cities worldwide. To enable
+    reproducible, end-to-end evaluation, we design a deterministic API-replay sandbox that eliminates environmental variance from live services. We
+    further propose a multi-dimensional evaluation protocol centered on outcome validity, complemented by assessments of instruction understanding,
+    planning, tool use, and efficiency. Using MobilityBench, we evaluate multiple LLM-based route-planning agents across diverse real-world mobility
+    scenarios and provide an in-depth analysis of their behaviors and performance. Our findings reveal that current models perform competently on
+    Basic information retrieval and Route Planning tasks, yet struggle considerably with Preference-Constrained Route Planning, underscoring
+    significant room for improvement in personalized mobility applications. We publicly release the benchmark data, evaluation toolkit, and
+    documentation at https://github.com/AMAP-ML/MobilityBench.
+
+### R00048 | 2026 | Preprint | Lang: n/a
+TI: Benchmarking AI Agents for Hardware Design Automation via MCP Tool Calling
+AB: We ask whether AI agents powered by locally deployed large language models can reliably automate expert-defined hardware design workflows in an
+    industry-realistic tool-calling setting. In these environments, engineers issue repetitive, dependency-ordered operations---such as creating
+    components, adding ports, and wiring connections---through specialised tools. Confidentiality constraints on component specifications and naming
+    conventions often preclude hosted proprietary APIs, motivating the use of locally deployed models. To study this setting, we build a Model Context
+    Protocol (MCP) server that reproduces the state and dependency logic of a proprietary hardware design tool used in embedded system development and
+    construct a benchmark covering single-operation edits, multi-step dependency chains, invalid requests, misspelled prompts, and multi-server tool
+    contexts. We evaluate seven open-source models comparing pipeline choices including system prompts, tool-description detail, context scope, and
+    single-agent versus multi-agent architectures. Results show that strong models can achieve near-complete expected-call coverage on the benchmarked
+    workflows, but reliability depends strongly on both task structure and agent configuration. Comprehensive tool descriptions consistently reduce
+    failures, few-shot prompting can cause severe inaction for some models, cumulative context harms constrained models, and multi-agent decomposition
+    helps weak workers or long sessions at the cost of additional calls. These findings provide practical guidance for deploying local LLM agents in
+    stateful hardware design environments.
+
+### R00049 | 2026 | Preprint | Lang: n/a
+TI: The Default Trap: Rethinking Plan Evaluation in Tool-Using LLM Agents
+AB: An executor can respond strongly to a change in a supplied plan's priority while showing a small change in the same information-selection
+    probability when a default-aligned whole plan is removed. We call the risk of interpreting the latter as weak responsiveness to alternative
+    priorities the default trap. We compare paired plans that prioritize different information targets with a shared no-plan reference. An accounting
+    identity relates these distinct behavioral contrasts. Across 3,200 decision windows on 160 selected Retail, Airline, and AgentDojo tasks,
+    switching priorities strongly redirects two models' choices, while the two plan-versus-default contrasts differ. In 2,160 additional windows,
+    reversing account-list order shifts default target selection by 63.3-98.3 percentage points; priority-switching effects remain 96.7-100.0 points
+    in either order. A separate 3,240-window component study finds strong control under single priority sentences, with effects of additional text
+    varying by group and direction. Finally, 1,080 full-task episodes yield observed success differences of -19.4 to +8.3 points relative to no plan.
+    All Retail and Airline success intervals include zero; AgentDojo results describe four fixed application worlds. These findings support joint
+    reporting of priority responsiveness, presentation-dependent defaults, and task success and cost.
+
+### R00050 | 2026 | Preprint | Lang: n/a
+TI: Theorem-Grounded Execution Ontologies for Interpretable Machine Reasoning
+AB: Large language models have achieved impressive performance on reasoning tasks spanning mathematics, science, programming, and commonsense
+    inference. Despite these advances, their reasoning processes remain largely latent, making them difficult to interpret, verify, replay, debug, and
+    transfer across domains. Existing approaches such as chain-of-thought, tree-of-thoughts, graph-of-thoughts, and tool-augmented reasoning expose
+    intermediate reasoning artifacts but typically lack explicit execution semantics, formal state representations, and verifiable reasoning
+    structures. We introduce Theorem-Grounded Execution Ontologies (TGEO), a framework that models reasoning as an executable state-transition process
+    rather than a sequence of generated tokens. Given an input problem, TGEO identifies relevant theorem families, binds the problem to a domain
+    ontology, discovers semantic objects, instantiates states and operators, constructs predicates and contracts, and synthesizes an executable
+    reasoning graph. The resulting graph provides an interpretable, replayable, and auditable representation of reasoning in which every state
+    transition, operator application, and validation step is explicitly represented. TGEO integrates five architectural components: (1)
+    theorem-grounded reasoning priors, (2) executable ontologies, (3) operator-mediated state transitions, (4) predicate and contract-based execution
+    validation, and (5) architectural auditing and failure localization. We evaluate TGEO on theorem-intensive reasoning tasks derived from
+    mathematical benchmark domains and a curated Golden Execution Suite. Our findings demonstrate the value of executable reasoning representations
+    for interpretable, verifiable, and reproducible AI reasoning systems.
+
+=== END OF BATCH b002 (25 records) ===

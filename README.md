@@ -36,3 +36,5 @@ Directions of most interest:
 - [`docs/next-steps.md`](docs/next-steps.md) – open action items
 - [`literature/search-log.md`](literature/search-log.md) – search rounds and PRISMA counts
 - [`literature/papers.csv`](literature/papers.csv) – papers that passed the citation check
+- [`literature/screening/`](literature/screening/) – screening protocol, records and calibration batch (SR-Screener)
+- [`docs/decisions.md`](docs/decisions.md) – log of choices made and why

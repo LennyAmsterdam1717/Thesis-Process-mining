@@ -12,6 +12,7 @@ Timeline of the thesis search and the process-mining thesis, up to the meeting w
 | Nov 2026 | Frank reaches out to Dr. Xixi Lu (process mining, ICS) about her master project *"Process Mining for Agentic AI"*. |
 | Nov 2026 | Frank asks Accenture (Nino Hulsthoff) whether internal, non-client AI-agent data or a past AI-agent project can be used, and asks to extend the internship by 2 months to fit an 8-month thesis. |
 | **17 Nov 2026** | Meeting with Dr. Xixi Lu – see [meeting notes](meetings/2026-11-17-xixi-lu.md). |
+| **18 Nov 2026** | Repository set up as the thesis workspace. Literature review for the RQs started: integrative review (scoping purpose), 4 search rounds logged (133 results → 75 unique 2026 records), screening protocol confirmed, calibration batch prepared – see [`literature/`](../literature/) and [decisions](decisions.md). |
 
 ## Upcoming
 

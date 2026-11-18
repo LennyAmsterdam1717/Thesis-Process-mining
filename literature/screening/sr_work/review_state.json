@@ -1,0 +1,14 @@
+{
+ "ta": {
+  "review_id": "e58d09d9-b166-4d8b-a8d6-21d88870b4db",
+  "dataset": "ea4d7f3715145d977a96718379933866c8d61babe60f86b4416a21f39670548b",
+  "stage": "ta",
+  "protocol_hash": "59dce48d6840e151db358933a12a2cdd6dcfb35a53d0d754850c2d5f307be60f",
+  "config_hash": "937b3f50c69ddca980503ac5b6d17f526d845d6805509a2decebe4262bd3d311",
+  "content_id": "2f27c3b519c296d7683bb79594d0a13d03629433d62219f1735f5f6d9de2b280",
+  "config_scope": "stage-v1",
+  "revision": 1,
+  "protocol_path": "/Users/lennypam/Desktop/Folder process mining/literature/screening/screening_protocol.md",
+  "context_id": "d58c3e92573a553219ac873c645580f703ad57fd38b5adc0169321f33d7cd147"
+ }
+}

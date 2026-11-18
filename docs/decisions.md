@@ -19,3 +19,13 @@ Append new entries at the bottom; do not overwrite earlier ones.
 
 - **Decision:** Draft SR-Screener protocol and config in `literature/screening/` (PCC framing; exclusion codes E1 year → E2 publication type → E3 not LLM agents → E4 wrong direction → E5 no process/trace angle → E9 other).
 - **Why:** SR-Screener requires a confirmed protocol before any record is screened. Rules marked `[proposed]` operationalise Frank's scope and need his confirmation, especially E4 (LLMs doing process mining on ordinary logs are out unless the agents' own behaviour is analysed).
+
+## 2026-11-18 – Screening protocol v1.0 confirmed; calibration pilot chosen
+
+- **Decision:** Frank confirmed `literature/screening/screening_protocol.md` v1.0 with three adjustments, all made before any record was screened:
+  1. **E4 (LLM does process mining on ordinary business logs):** excluded from the review corpus but **kept as background reading**, not discarded.
+  2. **Training-only papers** (traces used only as training data, no behaviour analysis): excluded (E5).
+  3. **Single LLM in multi-turn interaction:** "unclear" at title/abstract; at full text **include if the LLM uses tools or acts in an environment**, otherwise exclude and keep as background.
+- **Decision:** Screening path (a): two blinded AI reviewers (Claude Sonnet 5.5) + third-reviewer adjudication + QC recheck of joint exclusions, **after a calibration pilot** in which Frank labels batch b001 (25 records, includes the seed paper Vu et al. 2026) independently.
+- **Why:** SR-Screener's rule is that the full run waits until the AI misses none of the records the human advanced. Frank prefers the calibrated route over a recorded override.
+- **Records:** 75 unique 2026 records prepared (`literature/screening/sr_work/`), 3 batches of 25; 5 records have no abstract (publisher pages blocked automated access) and are judged on title. Seed found as R00011.

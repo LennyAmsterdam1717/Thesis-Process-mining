@@ -1,0 +1,310 @@
+BATCH b001 -- 25 records: R00001 .. R00025
+
+### R00001 | 2026 | Preprint | Lang: n/a
+TI: From Event Logs to Governed Action: A BlueSky Agenda for Agentic Process Mining
+AB: Process mining has long turned event logs into process knowledge: discovered models, conformance evidence, bottleneck diagnoses, and runtime
+    predictions. Agentic AI changes the target. Process-aware agents will not only ask what happened. They will ask whether a proposed action should
+    be taken, given the available evidence, privacy budget, organizational authority, and downstream risk. This BlueSky paper proposes event-to-action
+    process mining: a process-mining agenda for transforming heterogeneous operational event data into governed action. The goal is not another
+    dashboard, a generic enterprise simulator, or a language interface over logs. We argue that the community needs four mineable artifacts:
+    event-object representations, action evidence packages, governance contracts, and benchmarks where act, defer, ask, and refuse are all valid
+    outputs. This agenda is timely because agentic business process management (BPM), LLM-assisted process mining, object-centric event standards,
+    causal process monitoring, and privacy-preserving learning are maturing separately. Bringing them together defines a data-mining target inside
+    process mining: mining logged organizational behavior for accountable action, not only retrospective insight.
+
+### R00002 | 2026 | Preprint | Lang: n/a
+TI: Using Process Mining to Generate AI Agents from Software Engineering Process Records
+AB: Integrating AI agents into Software Engineering (SE) raises an important challenge: how can we specify and realize AI agents that work effectively
+    alongside humans in hybrid SE teams? Determining the right granularity and separation of concerns for such agents is non-trivial. Coarse-grained
+    agents may introduce unmanageable complexity, whereas micro-agents may create severe coordination overhead. Moreover, existing multi-agent SE
+    frameworks typically rely on predefined role structures and do not account for project-specific characteristics or process adaptations. We address
+    this by combining object-centric, imperative, and declarative process mining. Using event logs extracted from software repositories, our approach
+    discovers project-specific agent roles using a predefined SE role vocabulary grounded in repository behavior and generates matching agent
+    specifications and implementations. As proof-of-concept, we applied our approach to a well-established open-source project. We performed
+    functional tests and an exploratory user study to determine how well the generated AI agent specifications are aligned with human expectations.
+
+### R00003 | 2026 | Preprint | Lang: n/a
+TI: Beyond Generalist LLMs: Specialist Agentic Systems for Structured Code Workflow Execution
+AB: Large Language Models (LLMs) have accelerated the adoption of software development agents, now widely available as Integrated Development
+    Environment (IDE) extensions and standalone applications. While these agents are typically general-purpose, it remains unclear whether specialist
+    agents justify their additional development effort. We investigate this question in the context of business process automation, focusing on the
+    transformation of Business Process Model and Notation (BPMN) diagrams into executable agentic workflows. Since BPMN specifies explicit
+    control-flow semantics, we focus on deterministic workflows in which a fixed process model and inputs uniquely determine the executed path. We
+    introduce a specialist workflow for this task and compare it against generalist agents such as Roo and Cline. Our results show that the specialist
+    solution produces agents that outperform generalist baselines by approximately 9-20 percentage points in tool-use exactness, 2-4x in
+    penalty-adjusted latency, and 3x fewer tool-call errors, while reducing generation token cost by over 95% and eliminating repair iterations. We
+    also find that generalist agents generate code inconsistently in both functionality and quality, limiting their suitability for industrial
+    settings where reliability and maintainability are essential.
+
+### R00004 | 2026 | Preprint | Lang: n/a
+TI: Exploring LLM Features in Predictive Process Monitoring for Small-Scale Event-Logs
+AB: Predictive Process Monitoring is a branch of process mining that aims to predict the outcome of an ongoing process. Recently, it leveraged
+    machine-and-deep learning architectures. In this paper, we extend our prior LLM-based Predictive Process Monitoring framework, which was initially
+    focused on total time prediction via prompting. The extension consists of comprehensively evaluating its generality, semantic leverage, and
+    reasoning mechanisms, also across multiple Key Performance Indicators. Empirical evaluations conducted on three distinct event logs and across the
+    Key Performance Indicators of Total Time and Activity Occurrence prediction indicate that, in data-scarce settings with only 100 traces, the LLM
+    surpasses the benchmark methods. Furthermore, the experiments also show that the LLM exploits both its embodied prior knowledge and the internal
+    correlations among training traces. Finally, we examine the reasoning strategies employed by the model, demonstrating that the LLM does not merely
+    replicate existing predictive methods but performs higher-order reasoning to generate the predictions.
+
+### R00005 | 2026 | Preprint | Lang: n/a
+TI: Beyond Pass/Fail: Using Process Mining to Understand How LLMs Resist (and Fail) Red Team Attacks
+AB: Standard AI red teaming evaluations reduce adversarial campaigns to a single binary outcome, attack success rate (ASR), not taking into account
+    the sequential structure of how models resist or yield to attacks. We propose applying process mining, a discipline for discovering and analyzing
+    process models from event logs, to red teaming traces. We conduct a controlled experiment pitting 60 HarmBench prompts against two LLMs, GPT-OSS
+    120B and Llama 3.3 70B, using 10 prompt mutation strategies over up to 110 attempts per prompt. From the resulting 8,575 scored events we extract
+    Directly-Follows Graphs (DFGs) and state transition matrices that reveal structurally distinct defense profiles invisible to ASR alone: GPT-OSS
+    exhibits a near-absorbing refusal state, while Llama presents multiple porous escape routes from refusal to getting successfully jailbroken. We
+    further show that mutator effectiveness is asymmetric across models and that time-to-jailbreak distributions differ by an order of magnitude.
+
+### R00006 | 2026 | Preprint | Lang: n/a
+TI: Can LLM Agents Sustain Long-Horizon Organizational Dynamics?
+AB: Large language agents are increasingly used for social simulation, yet it remains unclear whether they can sustain coherent behavior in structured
+    organizations, where goals must propagate through hierarchy, tasks depend on prior execution, and artifacts accumulate over long horizons. We
+    formulate long-horizon organizational simulation as a memory-centered coordination problem and introduce TaskWeave, a hierarchical agentic
+    framework that maintains planning states through a Formulate-Partition-Diagnose-Align cycle and grounds execution through dependency-aware trace
+    memory. We evaluate TaskWeave in a year-long IT company simulation and compare it with other multi-agent frameworks on organizational coherence,
+    execution grounding, and downstream enterprise NLP utility. Experiments show that TaskWeave supports coherent and long-horizon organizational
+    dynamics while producing grounded artifacts and adapting to external environments. These findings suggest that structured simulation memory is a
+    key mechanism for building reliable LLM-based organizational simulators.
+
+### R00007 | 2026 | Preprint | Lang: n/a
+TI: PMAx: An Agentic Framework for AI-Driven Process Mining
+AB: Process mining provides powerful insights into organizational workflows, but extracting these insights typically requires expertise in specialized
+    query languages and data science tools. Large Language Models (LLMs) offer the potential to democratize process mining by enabling business users
+    to interact with process data through natural language. However, using LLMs as direct analytical engines over raw event logs introduces
+    fundamental challenges: LLMs struggle with deterministic reasoning and may hallucinate metrics, while sending large, sensitive logs to external AI
+    services raises serious data-privacy concerns. To address these limitations, we present PMAx, an autonomous agentic framework that functions as a
+    virtual process analyst. Rather than relying on LLMs to generate process models or compute analytical results, PMAx employs a privacy-preserving
+    multi-agent architecture. An Engineer agent analyzes event-log metadata and autonomously generates local scripts to run established process mining
+    algorithms, compute exact metrics, and produce artifacts such as process models, summary tables, and visualizations. An Analyst agent then
+    interprets these insights and artifacts to compile comprehensive reports. By separating computation from interpretation and executing analysis
+    locally, PMAx ensures mathematical accuracy and data privacy while enabling non-technical users to transform high-level business questions into
+    reliable process insights.
+
+### R00008 | 2026 | Preprint | Lang: n/a
+TI: TraceCompiler: Skill-Guided Mining and Compilation of LLM Agent Traces into Mostly Deterministic Workflows
+AB: Tool-using language-model agents repeatedly rediscover procedures they have already executed, producing traces that mix reusable structure with
+    retries, exploration, accidental ordering, and repeated lookups. We present TraceCompiler, a skill-guided system that mines clusters of noisy
+    agent traces and compiles them into executable, mostly deterministic workflows. It admits an inter-tool dependency only when a consumer argument
+    contains a value attributable uniquely to an earlier producer; every hard edge carries an auditable evidence tuple, and ambiguous relations are
+    marked suspected and impose no ordering constraint. Bindings are classified as constants, user inputs, copied outputs, transforms, or residual LLM
+    decisions. On T1, a mechanized form of the rule recovers producer-consumer dependencies at 0.928 precision and 0.943 recall over 15,775 def-use
+    edges of its training split, against 0.711 F1 for adjacency and 0.712 for a frequency-thresholded directly-follows measure on identical data; the
+    compiler skill run blind reaches 0.992 on 250 of those edges. On AppWorld we replay released trajectories in the deterministic simulator to
+    recover masked return values and measure the rule against 563 token edges at 0.993 precision - a self-consistency check, since replay injects
+    tokens by a related heuristic. We compile two recurring intents: a Venmo money-request intent reduces 34 observed API calls to 11 runtime calls
+    and, under leave-one-out execution against the benchmark's own state tests, passes 15 of 21, the failing fold escalating rather than acting
+    because its required branch was never observed; and a Spotify/Todoist intent the compiler correctly refuses to compile, because an irreversible
+    side effect is under-determined. We measure call reduction but not offline compilation cost, so we claim no net efficiency result.
+
+### R00009 | 2026 | Preprint | Lang: n/a
+TI: Organizational Memory for Agentic Business Process Execution
+AB: LLM-based agents offer new opportunities for automating business process execution beyond the limits of rule-based systems. However,
+    general-purpose LLMs lack the organization-specific knowledge required for reliable execution, which is typically fragmented across human-oriented
+    artifacts such as policies, process models, and standard operating procedures. While such knowledge can technically be encoded in individual
+    prompts or agent-specific retrieval setups, this approach does not scale in enterprises, as it gives rise to knowledge silos and rule duplicates,
+    and makes consistent updates and learning across agents difficult. We argue that this calls for an organizational memory for agentic business
+    process execution: a shared, governed, and agent-consumable reference layer of evolving organization-specific procedural knowledge about how work
+    should be executed. We derive requirements for such a memory, propose an architecture for its curation and consumption, and demonstrate its
+    effectiveness in a proof-of-concept based on a procurement scenario.
+
+### R00010 | 2026 | Preprint | Lang: n/a
+TI: Building a Process-Modeling Tool using Agentic AI: An Experience Report on PM4Py-UCM
+AB: Enterprise-modeling (EM) tools are often complex and hard to extend. Yet, users may want to explore new EM features and capabilities that
+    currently do not exist. AI coding agents can help here by enabling the development of new capabilities and entire tools, but whether we can trust
+    a modeling-language tool an LLM largely wrote remains a question. This paper reports on the AI-assisted construction of PM4Py-UCM, an open-source
+    tool that mines Use Case Map (UCM) models from event logs. PM4Py-UCM's capabilities include some expected from process mining tools (e.g.,
+    performance heat-maps and dashboards) and distinctive ones (e.g., mined executable scenarios/variants, and model decomposition). We mined the
+    development record itself, composed of 18 agent sessions (374 human turns and 10,328 tool actions over 65 hours), 151 commits, 20 releases, and a
+    test suite grown from 108 to 691 test functions, in order to characterize, in a single in-depth case, how the tool was built with an agent (Claude
+    Code), complemented by an independent static assessment of the resulting code (coverage, complexity, maintainability, security, architecture). We
+    contribute a reproducible, privacy-preserving toolkit and taxonomy that classify human turns and flag cross-cutting consistency work, agent
+    corrections, and retracted requests. Up to version 0.7.4, fixes outnumber features 2.3:1, with ~18% of turns for correcting agent errors. Feature
+    waves dragged a measurable tail of documentation/test/notebook consistency work, and tests grew lockstep with features. We finally present lessons
+    learned, centered on making model transformations mechanically checkable, and the oracle-based validation strategy that closed the "the agent said
+    it works" gap, for responsibly engineering EM tooling with AI.
+
+### R00011 | 2026 | Preprint | Lang: n/a
+TI: Agent Behavior Mining: Generative AI Agent Governance in Business Processes
+AB: As organizations increasingly deploy generative AI agents to automate business processes, they face a governance dilemma: although these agents
+    can increase operational flexibility, their non-deterministic nature challenges the control and standardization that Business Process Management
+    seeks to enforce. This paper addresses this \emph{invisible autonomy risk} by introducing \emph{Agent Behavior Mining}, a governance capability
+    that enables the application of process mining techniques to render generative AI agent decision-making observable and traceable. We (1) improve
+    the understanding of generative AI agent behavior through an event data model that translates granular agent activities -- including reasoning
+    traces, tool usage, and token costs -- into standardized process logs; (2) instantiate the data model in a multi-agent order-to-cash
+    implementation, demonstrating how process managers can leverage agent logs to detect policy deviations and quantify operational variability; and
+    (3) evaluate the perceived practical utility of the approach in an exploratory study with 18 industry practitioners. The results indicate that
+    practitioners view behavioral transparency as a prerequisite for trust and consider the ability to examine agent reasoning as an important
+    governance requirement for the next generation of AI-driven business processes.
+
+### R00012 | 2026 | Conference paper | Lang: n/a
+TI: Behavioral Analysis of AI Code Generation Agents: Edit, Rewrite, and Repetition (MSR 2026 Mining Challenge)
+AB: [NO ABSTRACT AVAILABLE]
+
+### R00013 | 2026 | Preprint | Lang: n/a
+TI: TraceDance: An Automated System for Building Agent Behavior Benchmarks from Real-World Agent Deployment Traces
+AB: An agent can complete a task while exhibiting undesirable behavior during execution. Developers need tests for the specific behaviors encountered
+    in deployment, beyond fixed benchmark suites. We present TraceDance, an agent system that constructs targeted benchmarks from deployment traces
+    for user-specified undesirable behaviors. For efficient construction, Anchor-and-Confirm combines programmable retrieval with candidate-level
+    confirmation by a Flash large language model (LLM), while the Anchor Synthesis Loop generates and revises specifications for custom behaviors. The
+    benchmarks use decision-point continuation to evaluate an LLM's next turn at a recorded decision point with a behavior-specific rubric, without a
+    reference answer or environment replay. Experiments in coding and general tool use draw on 252,557 sessions and produce 107 benchmarks with 4,125
+    instances, fulfilling 95.3% of build-target requests. Both human annotators confirm the requested behavior in 84% of sampled instances, and the
+    automated grader's agreement with human pass/fail judgments is comparable to that between the annotators. Nine frontier LLMs achieve a mean pass
+    rate of only 26.7%, showing that they still struggle to respond appropriately at the evaluated decision points. Analysis across behavior-specific
+    benchmarks further reveals weaknesses in how current LLMs behave as agents. By turning deployment problems into targeted benchmarks, TraceDance
+    could serve as a key component of the recursive self-improvement (RSI) loop.
+
+### R00014 | 2026 | Conference paper (demo) | Lang: n/a
+TI: Grounding LLM Explanations for Process Mining via Agentic Function Calling
+AB: Interpreting process mining outputs such as process-variant clusters and conformance violations is difficult for non-experts without clear
+    explanations. While large language models (LLMs) can generate natural language narratives, they are unreliable when reasoning over numerical data
+    and process structures. We present a demonstrator that constrains an LLM to an agentic function-calling interface grounded in precomputed XAI
+    outputs, combining density-based clustering, rule-based explanations, and both alignment-based and declarative conformance checking. The system
+    answers natural language queries by retrieving and composing computed metrics and explanations rather than inventing them. We evaluate the
+    demonstrator on the Road Traffic Fine Management Process dataset across queries of increasing complexity.
+
+### R00015 | 2026 | Preprint | Lang: n/a
+TI: Concurrency-Aware Process Model Forecasting with Causal Nets
+AB: Process model forecasting (PMF) aims to predict the process model that will characterize a future period, thereby providing a process-level view
+    of how behavior is expected to evolve. Existing PMF methods, however, forecast directly-follows graphs, which cannot explicitly represent
+    concurrency. We extend PMF to causal nets by forecasting time series of relation and binding counts and using these forecasts to reconstruct
+    future process models with AND/XOR semantics. To evaluate the resulting models, we introduce a protocol that accounts for partial traces and
+    constructs the workflow nets required for conformance checking. Experiments on four event logs show that the forecasted models achieve conformance
+    levels close to those of models re-mined from observations in the corresponding future windows. They also outperform static discovery baselines,
+    which retain high precision on the structurally stable log but exhibit substantial precision losses on the other three logs. Filtering infrequent
+    bindings improves most conformance metrics, although it also removes much of the concurrent behavior captured by the models.
+
+### R00016 | 2026 | Preprint | Lang: n/a
+TI: A Node Embedding Framework for Model-Centric Conformance Checking in Process Mining
+AB: Evaluating the quality of process models discovered from event logs is a fundamental challenge in process mining. Traditional evaluation relies on
+    conformance metrics such as fitness and precision, which are highly sensitive to noise and deviations in event logs and therefore often fail to
+    give a consistent assessment of discovery algorithms. We introduce a model-centric evaluation framework that combines node embeddings with
+    Procrustes alignment to enable cross-graph comparability, since embeddings derived from different graphs reside in distinct vector spaces. The
+    proposed PetriNetGraph method transforms Petri net process models into graph representations compatible with embedding algorithms. Comparing the
+    node embeddings of ground-truth and discovered models through a parameterized cosine distance yields a unified and bounded metric for evaluating
+    process discovery across datasets and methods. We evaluate the framework under static and context-aware scenarios to examine how prior knowledge
+    of activity existence influences the assessment of structural similarity. The framework also integrates a compliance checking mechanism that
+    localizes deviations at the activity level and an entropy-regularized node distance aggregation function that quantifies global deviations across
+    the model. Experiments on nine publicly available event logs show that the approach provides a reliable embedding-based conformance indicator that
+    reflects the behavior of fitness and precision. Experiments on synthetic logs with controlled noise levels confirm that it is substantially more
+    robust to log deviations than traditional conformance metrics, PetriNet2Vec, and its dynamic-window and Procrustes-aligned variants, while
+    remaining sensitive to process model degradation. All implementation details and datasets are publicly available.
+
+### R00017 | 2026 | Preprint | Lang: n/a
+TI: The Log is the Agent: Event-Sourced Reactive Graphs for Auditable, Forkable Agentic Systems
+AB: Most agent frameworks are built around the language model: a conversation loop comes first, then tools, then rules, and finally a logging layer
+    bolted on for observability, with state persisted as retrievable "memory." We describe ActiveGraph, a runtime that inverts this arrangement. The
+    append-only event log is the source of truth; the working graph is a deterministic projection of that log; and behaviors--ordinary functions,
+    classes, LLM-backed routines, or logic attached to typed edges--react to changes in the graph and emit new events. No component instructs another;
+    coordination happens entirely through the shared graph. This single design decision yields three properties that retrieval-and-summarization
+    memory systems do not provide: deterministic replay of any run from its log, cheap forking that branches a run at any event without re-executing
+    the shared prefix, and end-to-end lineage from a high-level goal down to the individual model call that produced each artifact. We present the
+    architecture, a determinism contract that makes replay sound, and a worked diligence example whose full causal structure is reconstructable from
+    the log alone. We discuss--without claiming to demonstrate--why this substrate is unusually well suited to self-improving agents, and how it
+    extends the BabyAGI lineage and prior graph-memory research.
+
+### R00018 | 2026 | Preprint | Lang: n/a
+TI: Mining Workflow Graphs for Black-Box Boundary Testing of Conversational LLM Agents
+AB: Failures of conversational LLM agents can have real-world consequences, for example when an agent completes a transaction without the user's
+    confirmation. An important class of such failures occurs at workflow boundaries, such as identity checks and confirmation steps, which a test can
+    reach only after several turns of conversation. We present AgentEval, a black-box testing framework that discovers and tests these boundaries.
+    AgentEval interacts with an agent to mine a conversational workflow graph, a model of its behavior whose nodes are the agent's activities and
+    whose edges are the user actions observed between them. It generates tests at each node of this graph, replaying the conversational path to that
+    node before applying a perturbation. AgentEval then runs each test, and a separate LLM judge decides whether it passes or fails using only the
+    conversation turns. We benchmark AgentEval against a privileged, white-box auditor with access to the agent's underlying source code, which
+    AgentEval never sees. On four $τ^3$-bench agents, the boundary tests of AgentEval cover 38.8-46.0 distinct boundaries per agent on average over
+    five repetitions. In ablation studies, generating tests without targeting the graph's nodes lowers the distinct-boundary count by 2.0-7.0 in every
+    agent and raises the duplicate rate in most agents.
+
+### R00019 | 2026 | Preprint | Lang: n/a
+TI: Agent ATO: Visualizing Agent Interaction Timelines from Logs
+AB: AI coding agents are becoming part of developers' workflows, but their behavior is difficult to understand from final code changes alone. During a
+    task, agents interact with software repositories through sequences of actions such as searching for files, reading code, editing programs, and
+    running tests or build commands. These interactions, together with token usage, are often recorded in console logs, but raw logs are difficult for
+    developers to inspect. In this paper, we propose Agent ATO (Agentic Trajectory Observer), a tool for visualizing AI coding agent interaction
+    timelines from console logs. Agent ATO extracts agent interactions, classifies them by command or tool type, and visualizes them as timelines. In
+    addition to an all-interaction timeline, Agent ATO provides filtered timelines that emphasize file discovery, file reading, file editing, and
+    execution while preserving surrounding context. We illustrate how Agent ATO may help developers inspect and compare agent actions using selected
+    runs from two repair tasks. Future work will apply Agent ATO to more agents, tasks, and development environments, and will evaluate whether it
+    reduces the effort needed to compare trajectories.
+
+### R00020 | 2026 | Preprint | Lang: n/a
+TI: Towards Reliable AI Data Scientists: Data Agents with Workflow Harnesses
+AB: Large language model agents are increasingly deployed for data-intensive work, yet reliable data analysis requires more than general-purpose
+    reasoning and ad hoc tool augmentation. Data Agents, equipped with workflow harnesses, offer a promising paradigm for automating the end-to-end
+    data science lifecycle. This paper examines Data Agents from a harness-centric perspective. First, we introduce a taxonomy of Data Agents and
+    associated data environments, organizing the literature around five functional stages: perception, planning, execution, verification, and repair.
+    Second, we analyze the key technical routes within each stage, identifying 15 distinct approaches ranging from data structure probing to data
+    state reconstruction. Third, we identify four open reliability problems: inactive semantic calibration, missing clarification, missing experience
+    transfer, and the missing verification-repair repository. These problems explain why silent failures can persist even when individual components
+    function correctly, highlighting the need for rigorous workflow harnesses and shared reliability resources. Finally, we summarize the horizontal
+    task families of Data Agents, examine their vertical application settings, and benchmarks for evaluation, while maintaining a companion repository
+    at https://github.com/DEEP-PolyU/Awesome-Data-Agents.
+
+### R00021 | 2026 | Preprint | Lang: n/a
+TI: Autonomous Event-Driven Multi-Agent Orchestration for Enterprise AI at Scale
+AB: Enterprise agent language models must coordinate specialist agents over continuous business event streams, yet most multi-agent evaluations assume
+    discrete request-response workflows. We present a controlled simulation based on a sanitized enterprise research snapshot: 208 scenarios, 393
+    events, and 1,051 expected agent calls across Persona (<10 agents), Department (20-80), and Enterprise (200) registries. We compare DAG Plan &
+    Execute with ReAct and evaluate a minimal Task Manager for priority inference, related-event merging, and preemption. Both systems perform well on
+    the Persona cohort but score lower on the Enterprise cohort, especially for Simple scenarios; a larger, more confusable discovery space may
+    contribute. The tested DAG Plan & Execute implementation generally maintains higher agent-call precision, whereas ReAct shows stronger recall and
+    Expected Answer Completeness in several Enterprise conditions. The Task Manager reduces high-priority queue latency by 14-75% and improves
+    related-event Expected Answer Completeness by over 20 percentage points at Enterprise scale. These controlled-simulation results characterize the
+    tested systems but do not establish production readiness.
+
+### R00022 | 2026 | Preprint | Lang: n/a
+TI: Multi-Agent Systems: From Classical Paradigms to Large Foundation Model-Enabled Futures
+AB: With the rapid advancement of artificial intelligence, multi-agent systems (MASs) are evolving from classical paradigms toward architectures built
+    upon large foundation models (LFMs). This survey provides a systematic review and comparative analysis of classical MASs (CMASs) and LFM-based
+    MASs (LMASs). First, within a closed-loop coordination framework, CMASs are reviewed across four fundamental dimensions: perception,
+    communication, decision-making, and control. Beyond this framework, LMASs integrate LFMs to lift collaboration from low-level state exchanges to
+    semantic-level reasoning, enabling more flexible coordination and improved adaptability across diverse scenarios. Then, a comparative analysis is
+    conducted to contrast CMASs and LMASs across architecture, operating mechanism, adaptability, and application. Finally, future perspectives on
+    MASs are presented, summarizing open challenges and potential research opportunities.
+
+### R00023 | 2026 | Preprint | Lang: n/a
+TI: Towards Agentic Robots: Model, Data, Environment, and Harness
+AB: Foundation models are driving a paradigm shift in robotic intelligence, moving beyond low-level action prediction to goal-directed orchestration
+    of data collection, model training, task planning, and real-world execution. We characterize this emerging paradigm as an agentic robots, in which
+    agents reason over human instructions, interact with robotic environments, rectify execution errors autonomously, and dynamically adjust
+    operational strategies. Although this field develops fast, current studies are not well connected. Researchers have no consistent view of how to
+    combine different agentic functions into a complete robot system. This paper provides a unified overview of existing research on agentic robots.
+    We first trace the development from robot policies to agentic systems, covering vision-language-action models, world models, and world-action
+    models. We then clarify the definition and scope of agentic robots and organize existing research into seventeen categories across four functional
+    domains: Model, Data, Environment, and Harness. Across these domains, we examine how agents shape model learning and robot decisions, collect and
+    curate robot data, construct worlds, tasks, and tests for learning and evaluation, and organize capabilities for robot use. Finally, we discuss
+    open challenges and outline directions for future research. Looking forward, we hope this work contributes to a clearer understanding of agentic
+    robots and supports new approaches to making them more capable, reliable, and adaptive.
+
+### R00024 | 2026 | Preprint | Lang: n/a
+TI: AgBench: Agentic AI Benchmarks for Personal AI Devices
+AB: Agentic AI systems increasingly rely on cloud-hosted large language models for planning, tool use, and iterative execution, raising concerns about
+    API cost and data exposure. Advances in personal AI devices enable agents to execute locally, but limited resources on device may affect task
+    success and performance. Existing benchmarks are inadequate for systematically characterizing these trade-offs across devices, workloads, and
+    deployment architectures. We present AgBench, a benchmark suite and open artifacts for reproducible evaluation of agentic AI on personal devices.
+    Using AgBench, we evaluate local, hybrid, and cloud execution across agentic workloads, examining task success, latency, cloud API cost, and data
+    exposure. Our results, drawn from over 162.07 million data points, show that personal AI devices can complete many agent tasks locally, but
+    local-only execution generally has lower task success and longer completion times than cloud-only execution, especially as concurrency increases.
+    Local-only execution eliminates cloud model API costs and sensitive-information exposure to cloud agents. Hybrid execution can improve task
+    success, but its cloud cost and data exposure depend on how agents divide work and share information. No single architecture performs best across
+    task success, goodput, cloud cost, and data exposure; deployment choices should reflect the intended workload and device capabilities. AgBench is
+    available at https://anonymous.4open.science/r/AgBench-2777.
+
+### R00025 | 2026 | Preprint | Lang: n/a
+TI: A Vocabulary for Multi-Agent Automated Research Systems
+AB: We introduce a vocabulary for automated research systems built from one or more agents to make their design choices easier to describe and
+    compare. The vocabulary specifies 1) who the agents are, 2) what operations are available in the system, 3) who may invoke them, 4) how agents
+    communicate, 5) what information is visible within and across runs, 6) how the next action is chosen, 7) how a run begins, and 8) how outputs are
+    evaluated. A trajectory records one run from the input task to the returned artifact. Because agents, operations, and initialization may be
+    stochastic, repeated runs on the same task induce a distribution over trajectories rather than a single behavior. Our vocabulary turns structural
+    design questions, such as when agents should communicate, gain or lose a capability, or carry information across runs, into testable choices. It
+    also makes the evaluator a component of the system, since reported gains depend on how closely the proxy score matches true quality. That
+    separation also splits the vague complaint that these systems lack taste into two failures with different solutions. Generative taste is the rate
+    at which a system proposes novel trajectories before any score is observed, and evaluative taste is the gap between the proxy score and the
+    quality it should match. We instantiate the vocabulary on recent autoresearch systems to illustrate that it covers designs that differ widely in
+    structure.
+
+=== END OF BATCH b001 (25 records) ===
