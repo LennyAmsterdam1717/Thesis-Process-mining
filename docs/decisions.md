@@ -29,3 +29,10 @@ Append new entries at the bottom; do not overwrite earlier ones.
 - **Decision:** Screening path (a): two blinded AI reviewers (Claude Sonnet 5.5) + third-reviewer adjudication + QC recheck of joint exclusions, **after a calibration pilot** in which Frank labels batch b001 (25 records, includes the seed paper Vu et al. 2026) independently.
 - **Why:** SR-Screener's rule is that the full run waits until the AI misses none of the records the human advanced. Frank prefers the calibrated route over a recorded override.
 - **Records:** 75 unique 2026 records prepared (`literature/screening/sr_work/`), 3 batches of 25; 5 records have no abstract (publisher pages blocked automated access) and are judged on title. Seed found as R00011.
+
+## 2026-11-18 – Pilot conflicts settled by Frank; v1.1 amendment prepared
+
+- **Decision:** R00006 (LLM multi-agent organisational simulation) and R00021 (DAG Plan-Execute vs ReAct) → **include**, as human overrides (`literature/screening/overrides.csv`). They win over the AI reviewers and are marked "Frank" in all outputs.
+- **Decision (pending "go"):** protocol amendment v1.1 to concept (e), prepared in `screening_protocol_v1.1_pending.md`. It becomes active only when Frank says "go".
+- **Why:** pilot 1 missed R00024 (AgBench) because v1.0 did not say that time, cost and steps count as behaviour (direction 5 in Xixi Lu's project description).
+- **Set-up:** `docs/runbook-go.md` lists every remaining step and the stop conditions, so the work can continue on one prompt.

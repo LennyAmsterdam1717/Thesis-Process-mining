@@ -14,6 +14,10 @@ Use the **academic-research-skills** plugin for all literature work:
 
 Never add a paper to `papers.csv` from memory or from a search result alone.
 
+## Pending run
+
+If Frank says **"go"** or **"go light"**, follow `docs/runbook-go.md` step by step.
+
 ## Files
 
 - PDFs and Word files are git-ignored (see .gitignore); do not commit papers or personal notes.

@@ -115,23 +115,7 @@
    ]
   }
  ],
- "adj": [
-  {
-   "b": "b001",
-   "items": [
-    {
-     "id": "R00006",
-     "A": "exclude/E5",
-     "B": "unclear/UNC"
-    },
-    {
-     "id": "R00021",
-     "A": "exclude/E5",
-     "B": "unclear/UNC"
-    }
-   ]
-  }
- ],
+ "adj": [],
  "qc": [
   {
    "b": "q001",
