@@ -148,3 +148,21 @@ Screening counts follow in the screening section below.
 
 - **Full-text exclusion reasons:** R00005 E3 (single LLM, no tools; kept as background); R00025 E5 (conceptual vocabulary); R00028 E5 (RL-training survey); R00036 E5 (output-consistency study, no traces); R00044 E5 (new architecture, accuracy only); R00045 E5 (survey); R00046 E5 (RL-trained topology, cost side metric); R00052 E5 (new method, pass rates).
 - **Notes:** counts provisional until Frank verifies the included set.
+
+## Other methods – seed paper not found by the search – 2026-11-18
+
+- Körner et al. (2026) *What Are Your Agents Up To? Agent Behavior Mining in Action* (BPM 2026 Demos, CEUR-WS Vol-4274, paper 39) is one of the two seed papers but was not among the records returned by rounds 1–4. SR-Screener treats a missing seed as a search gap. It is added through the PRISMA 2020 "other methods" branch (paper supplied by Frank), checked at full text by the same single reviewer (include: concepts a, b, c) and citation-checked.
+
+## Citation check (academic-paper citation-check) – 2026-11-18
+
+- Method: arXiv API (batches of 10 IDs) for title, authors, first-version date, comments/journal ref and DOI; `https://doi.org/<DOI>` resolution; `https://arxiv.org/abs/<id>` reachability; CEUR volume index and PDF for the CEUR seed. Raw results: `literature/citation-check/arxiv_api_results_2026-11-18.json`.
+- Result: **51/51 PASS** (50 from the search + 1 seed via other methods). All first versions are from 2026; all titles match the screened records; every arXiv DOI and the ACM DOI (R00064) resolves.
+
+| PRISMA step (final) | Count |
+|---|---|
+| Studies included via search (after full text) | 50 |
+| Studies included via other methods (seed) | 1 |
+| Failed citation check | 0 |
+| **Studies in `papers.csv`** | **51** (7 peer-reviewed/accepted, 44 preprints) |
+
+- **Provisional until Frank verifies the included set.**

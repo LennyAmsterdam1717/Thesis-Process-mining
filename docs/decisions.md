@@ -57,3 +57,10 @@ Append new entries at the bottom; do not overwrite earlier ones.
 - **Full-text rule for concept (e), written into `ft_protocol.md` before assessment:** a comparison on time/cost/steps/tool use counts only when it is part of the paper's stated analysis, not a side column in an accuracy table. This keeps v1.1 from admitting every new architecture paper that reports token cost.
 - **Result:** 58 assessed → 50 included, 8 excluded (see search log).
 - **Working numbering of directions 1–7** (used in `papers.csv`; Xixi Lu's project description is not in the repo, so only 4, 5 and 6 are anchored by earlier notes, and Frank should confirm the rest): 1 agent event data & logging; 2 process discovery / behaviour mining of agent traces; 3 conformance, compliance & deviation detection; 4 multi-agent interaction analysis; 5 performance analysis (time, cost, tokens, steps); 6 comparing agentic approaches; 7 process-aware agent design.
+
+## 2026-11-18 – Citation check passed; papers.csv filled; seed added via "other methods"
+
+- **Result:** all 50 full-text inclusions pass the citation check (arXiv API + doi.org). No failure, so no RQ evidence base changes (stop condition not triggered).
+- **Seed Körner et al. 2026:** not returned by the search → added through the PRISMA "other methods" branch and checked like the others. It has a CEUR URL but **no DOI or arXiv ID**; Frank's rule asks for "a working DOI or arXiv link". The CEUR URL works and is persistent (URN urn:nbn:de:0074-4274-x), so it is kept, flagged as an open question for Frank.
+- **Peer-reviewed vs preprint:** "peer-reviewed" is used only where the arXiv comment or venue states acceptance (ICDM 2026, BPM 2026 main track and Process Technology Forum, VISSOFT 2026 NIER, NeurIPS 2026, CPSIoTSec 2026 with ACM DOI) or for the CEUR demo paper; everything else is "preprint". R00060 (Dumas et al.) was presented at AI4BPM 2025 but its first version is from Jan 2026 and no proceedings version was checked, so it is labelled preprint.
+- **search_round column:** the earlier session logged counts per round but not which round returned each record, so the column says so rather than guessing.
