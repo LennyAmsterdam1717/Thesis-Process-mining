@@ -1,0 +1,9 @@
+topology,injected,events,agent_turns,system_msgs,handovers,distinct_pairs,pingpong,self_repeat
+Centralized,False,6.78,5.78,1.0,4.78,4.61,2.09,0.0
+Centralized,True,11.05,8.25,2.8,6.37,5.09,0.99,0.89
+Decentralized,False,13.0,12.0,1.0,11.0,3.0,0.0,0.0
+Decentralized,True,20.69,15.17,5.52,12.73,3.89,0.77,1.44
+Layered,False,6.0,5.0,1.0,4.0,4.0,0.0,0.0
+Layered,True,10.7,7.86,2.84,5.92,5.75,1.27,0.94
+Shared Message Pool,False,13.56,12.56,1.0,11.0,4.0,0.0,0.56
+Shared Message Pool,True,19.86,15.27,4.58,11.88,4.88,1.23,2.39

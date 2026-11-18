@@ -1,0 +1,6 @@
+scope,events,agent_turns,system_msgs,handovers,distinct_pairs,pingpong,self_repeat
+all,0.782,0.679,0.672,0.664,0.629,0.536,0.611
+Centralized,0.99,0.805,0.665,0.795,0.678,0.233,0.627
+Decentralized,1.0,0.812,0.688,0.812,0.812,0.565,0.634
+Layered,1.0,0.816,0.684,0.741,0.741,0.741,0.62
+Shared Message Pool,0.743,0.589,0.649,0.61,0.61,0.604,0.589

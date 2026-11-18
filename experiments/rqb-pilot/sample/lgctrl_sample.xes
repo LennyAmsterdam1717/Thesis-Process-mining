@@ -1,0 +1,3311 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Organizational" prefix="org" uri="http://www.xes-standard.org/org.xesext" />
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<string key="origin" value="csv" />
+	<trace>
+		<string key="concept:name" value="239383d0-b2f2-5231-8eb1-fab09c3f4e1b" />
+		<string key="topology" value="Centralized" />
+		<string key="anomaly_injected" value="True" />
+		<string key="anomaly_type" value="silent_pass" />
+		<string key="llm" value="gemini" />
+		<string key="task_type" value="planning" />
+		<string key="complexity" value="medium" />
+		<int key="mast_1.1" value="0" />
+		<int key="mast_1.2" value="0" />
+		<int key="mast_1.3" value="0" />
+		<int key="mast_1.4" value="0" />
+		<int key="mast_1.5" value="0" />
+		<int key="mast_2.1" value="0" />
+		<int key="mast_2.2" value="0" />
+		<int key="mast_2.3" value="0" />
+		<int key="mast_2.4" value="0" />
+		<int key="mast_2.5" value="0" />
+		<int key="mast_2.6" value="0" />
+		<int key="mast_3.1" value="1" />
+		<int key="mast_3.2" value="1" />
+		<int key="mast_3.3" value="1" />
+		<event>
+			<string key="concept:name" value="system" />
+			<string key="org:resource" value="system" />
+			<date key="time:timestamp" value="2026-01-06T13:00:00+00:00" />
+			<int key="position" value="0" />
+			<int key="msg_chars" value="47" />
+			<int key="@@index" value="0" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_A" />
+			<string key="org:resource" value="agent_A" />
+			<date key="time:timestamp" value="2026-01-06T13:00:01+00:00" />
+			<int key="position" value="1" />
+			<int key="msg_chars" value="431" />
+			<int key="@@index" value="1" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="verifier" />
+			<string key="org:resource" value="verifier" />
+			<date key="time:timestamp" value="2026-01-06T13:00:02+00:00" />
+			<int key="position" value="2" />
+			<int key="msg_chars" value="27" />
+			<int key="@@index" value="2" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_B" />
+			<string key="org:resource" value="agent_B" />
+			<date key="time:timestamp" value="2026-01-06T13:00:03+00:00" />
+			<int key="position" value="3" />
+			<int key="msg_chars" value="1125" />
+			<int key="@@index" value="3" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_A" />
+			<string key="org:resource" value="agent_A" />
+			<date key="time:timestamp" value="2026-01-06T13:00:04+00:00" />
+			<int key="position" value="4" />
+			<int key="msg_chars" value="356" />
+			<int key="@@index" value="4" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="verifier" />
+			<string key="org:resource" value="verifier" />
+			<date key="time:timestamp" value="2026-01-06T13:00:05+00:00" />
+			<int key="position" value="5" />
+			<int key="msg_chars" value="19" />
+			<int key="@@index" value="5" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_B" />
+			<string key="org:resource" value="agent_B" />
+			<date key="time:timestamp" value="2026-01-06T13:00:06+00:00" />
+			<int key="position" value="6" />
+			<int key="msg_chars" value="123" />
+			<int key="@@index" value="6" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_A" />
+			<string key="org:resource" value="agent_A" />
+			<date key="time:timestamp" value="2026-01-06T13:00:07+00:00" />
+			<int key="position" value="7" />
+			<int key="msg_chars" value="68" />
+			<int key="@@index" value="7" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="verifier" />
+			<string key="org:resource" value="verifier" />
+			<date key="time:timestamp" value="2026-01-06T13:00:08+00:00" />
+			<int key="position" value="8" />
+			<int key="msg_chars" value="34" />
+			<int key="@@index" value="8" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-06T13:00:09+00:00" />
+			<int key="position" value="9" />
+			<int key="msg_chars" value="105" />
+			<int key="@@index" value="9" />
+			<int key="@@case_index" value="0" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="289ad48b-3e93-59a7-aa7f-7e489abca6ad" />
+		<string key="topology" value="Decentralized" />
+		<string key="anomaly_injected" value="True" />
+		<string key="anomaly_type" value="information_loss" />
+		<string key="llm" value="glm" />
+		<string key="task_type" value="planning" />
+		<string key="complexity" value="hard" />
+		<int key="mast_1.1" value="0" />
+		<int key="mast_1.2" value="0" />
+		<int key="mast_1.3" value="0" />
+		<int key="mast_1.4" value="0" />
+		<int key="mast_1.5" value="0" />
+		<int key="mast_2.1" value="0" />
+		<int key="mast_2.2" value="0" />
+		<int key="mast_2.3" value="0" />
+		<int key="mast_2.4" value="1" />
+		<int key="mast_2.5" value="1" />
+		<int key="mast_2.6" value="0" />
+		<int key="mast_3.1" value="0" />
+		<int key="mast_3.2" value="0" />
+		<int key="mast_3.3" value="0" />
+		<event>
+			<string key="concept:name" value="system" />
+			<string key="org:resource" value="system" />
+			<date key="time:timestamp" value="2026-01-10T09:00:00+00:00" />
+			<int key="position" value="0" />
+			<int key="msg_chars" value="70" />
+			<int key="@@index" value="10" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_B" />
+			<string key="org:resource" value="agent_B" />
+			<date key="time:timestamp" value="2026-01-10T09:00:01+00:00" />
+			<int key="position" value="1" />
+			<int key="msg_chars" value="5016" />
+			<int key="@@index" value="11" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_B" />
+			<string key="org:resource" value="agent_B" />
+			<date key="time:timestamp" value="2026-01-10T09:00:02+00:00" />
+			<int key="position" value="2" />
+			<int key="msg_chars" value="1606" />
+			<int key="@@index" value="12" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_C" />
+			<string key="org:resource" value="agent_C" />
+			<date key="time:timestamp" value="2026-01-10T09:00:03+00:00" />
+			<int key="position" value="3" />
+			<int key="msg_chars" value="5572" />
+			<int key="@@index" value="13" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_C" />
+			<string key="org:resource" value="agent_C" />
+			<date key="time:timestamp" value="2026-01-10T09:00:04+00:00" />
+			<int key="position" value="4" />
+			<int key="msg_chars" value="1772" />
+			<int key="@@index" value="14" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-10T09:00:05+00:00" />
+			<int key="position" value="5" />
+			<int key="msg_chars" value="4278" />
+			<int key="@@index" value="15" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-10T09:00:06+00:00" />
+			<int key="position" value="6" />
+			<int key="msg_chars" value="1384" />
+			<int key="@@index" value="16" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_B" />
+			<string key="org:resource" value="agent_B" />
+			<date key="time:timestamp" value="2026-01-10T09:00:07+00:00" />
+			<int key="position" value="7" />
+			<int key="msg_chars" value="3561" />
+			<int key="@@index" value="17" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-10T09:00:08+00:00" />
+			<int key="position" value="8" />
+			<int key="msg_chars" value="516" />
+			<int key="@@index" value="18" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_C" />
+			<string key="org:resource" value="agent_C" />
+			<date key="time:timestamp" value="2026-01-10T09:00:09+00:00" />
+			<int key="position" value="9" />
+			<int key="msg_chars" value="5376" />
+			<int key="@@index" value="19" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-10T09:00:10+00:00" />
+			<int key="position" value="10" />
+			<int key="msg_chars" value="255" />
+			<int key="@@index" value="20" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-10T09:00:11+00:00" />
+			<int key="position" value="11" />
+			<int key="msg_chars" value="2715" />
+			<int key="@@index" value="21" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-10T09:00:12+00:00" />
+			<int key="position" value="12" />
+			<int key="msg_chars" value="915" />
+			<int key="@@index" value="22" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_B" />
+			<string key="org:resource" value="agent_B" />
+			<date key="time:timestamp" value="2026-01-10T09:00:13+00:00" />
+			<int key="position" value="13" />
+			<int key="msg_chars" value="4620" />
+			<int key="@@index" value="23" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-10T09:00:14+00:00" />
+			<int key="position" value="14" />
+			<int key="msg_chars" value="375" />
+			<int key="@@index" value="24" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_C" />
+			<string key="org:resource" value="agent_C" />
+			<date key="time:timestamp" value="2026-01-10T09:00:15+00:00" />
+			<int key="position" value="15" />
+			<int key="msg_chars" value="3609" />
+			<int key="@@index" value="25" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-10T09:00:16+00:00" />
+			<int key="position" value="16" />
+			<int key="msg_chars" value="213" />
+			<int key="@@index" value="26" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-10T09:00:17+00:00" />
+			<int key="position" value="17" />
+			<int key="msg_chars" value="4373" />
+			<int key="@@index" value="27" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-10T09:00:18+00:00" />
+			<int key="position" value="18" />
+			<int key="msg_chars" value="1414" />
+			<int key="@@index" value="28" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_B" />
+			<string key="org:resource" value="agent_B" />
+			<date key="time:timestamp" value="2026-01-10T09:00:19+00:00" />
+			<int key="position" value="19" />
+			<int key="msg_chars" value="3733" />
+			<int key="@@index" value="29" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-10T09:00:20+00:00" />
+			<int key="position" value="20" />
+			<int key="msg_chars" value="525" />
+			<int key="@@index" value="30" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_C" />
+			<string key="org:resource" value="agent_C" />
+			<date key="time:timestamp" value="2026-01-10T09:00:21+00:00" />
+			<int key="position" value="21" />
+			<int key="msg_chars" value="4259" />
+			<int key="@@index" value="31" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-10T09:00:22+00:00" />
+			<int key="position" value="22" />
+			<int key="msg_chars" value="258" />
+			<int key="@@index" value="32" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-10T09:00:23+00:00" />
+			<int key="position" value="23" />
+			<int key="msg_chars" value="5055" />
+			<int key="@@index" value="33" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-10T09:00:24+00:00" />
+			<int key="position" value="24" />
+			<int key="msg_chars" value="1617" />
+			<int key="@@index" value="34" />
+			<int key="@@case_index" value="1" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="4261c437-83b8-5d7c-9516-f868327397f3" />
+		<string key="topology" value="Decentralized" />
+		<string key="anomaly_injected" value="True" />
+		<string key="anomaly_type" value="information_loss" />
+		<string key="llm" value="claude" />
+		<string key="task_type" value="planning" />
+		<string key="complexity" value="medium" />
+		<int key="mast_1.1" value="0" />
+		<int key="mast_1.2" value="0" />
+		<int key="mast_1.3" value="0" />
+		<int key="mast_1.4" value="0" />
+		<int key="mast_1.5" value="0" />
+		<int key="mast_2.1" value="0" />
+		<int key="mast_2.2" value="0" />
+		<int key="mast_2.3" value="0" />
+		<int key="mast_2.4" value="1" />
+		<int key="mast_2.5" value="1" />
+		<int key="mast_2.6" value="0" />
+		<int key="mast_3.1" value="0" />
+		<int key="mast_3.2" value="0" />
+		<int key="mast_3.3" value="0" />
+		<event>
+			<string key="concept:name" value="system" />
+			<string key="org:resource" value="system" />
+			<date key="time:timestamp" value="2026-01-11T23:00:00+00:00" />
+			<int key="position" value="0" />
+			<int key="msg_chars" value="70" />
+			<int key="@@index" value="35" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_B" />
+			<string key="org:resource" value="agent_B" />
+			<date key="time:timestamp" value="2026-01-11T23:00:01+00:00" />
+			<int key="position" value="1" />
+			<int key="msg_chars" value="1482" />
+			<int key="@@index" value="36" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_B" />
+			<string key="org:resource" value="agent_B" />
+			<date key="time:timestamp" value="2026-01-11T23:00:02+00:00" />
+			<int key="position" value="2" />
+			<int key="msg_chars" value="545" />
+			<int key="@@index" value="37" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_C" />
+			<string key="org:resource" value="agent_C" />
+			<date key="time:timestamp" value="2026-01-11T23:00:03+00:00" />
+			<int key="position" value="3" />
+			<int key="msg_chars" value="1553" />
+			<int key="@@index" value="38" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_C" />
+			<string key="org:resource" value="agent_C" />
+			<date key="time:timestamp" value="2026-01-11T23:00:04+00:00" />
+			<int key="position" value="4" />
+			<int key="msg_chars" value="566" />
+			<int key="@@index" value="39" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-11T23:00:05+00:00" />
+			<int key="position" value="5" />
+			<int key="msg_chars" value="1587" />
+			<int key="@@index" value="40" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-11T23:00:06+00:00" />
+			<int key="position" value="6" />
+			<int key="msg_chars" value="577" />
+			<int key="@@index" value="41" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_B" />
+			<string key="org:resource" value="agent_B" />
+			<date key="time:timestamp" value="2026-01-11T23:00:07+00:00" />
+			<int key="position" value="7" />
+			<int key="msg_chars" value="1541" />
+			<int key="@@index" value="42" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-11T23:00:08+00:00" />
+			<int key="position" value="8" />
+			<int key="msg_chars" value="274" />
+			<int key="@@index" value="43" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_C" />
+			<string key="org:resource" value="agent_C" />
+			<date key="time:timestamp" value="2026-01-11T23:00:09+00:00" />
+			<int key="position" value="9" />
+			<int key="msg_chars" value="1547" />
+			<int key="@@index" value="44" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-11T23:00:10+00:00" />
+			<int key="position" value="10" />
+			<int key="msg_chars" value="183" />
+			<int key="@@index" value="45" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-11T23:00:11+00:00" />
+			<int key="position" value="11" />
+			<int key="msg_chars" value="1603" />
+			<int key="@@index" value="46" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-11T23:00:12+00:00" />
+			<int key="position" value="12" />
+			<int key="msg_chars" value="581" />
+			<int key="@@index" value="47" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_B" />
+			<string key="org:resource" value="agent_B" />
+			<date key="time:timestamp" value="2026-01-11T23:00:13+00:00" />
+			<int key="position" value="13" />
+			<int key="msg_chars" value="1516" />
+			<int key="@@index" value="48" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-11T23:00:14+00:00" />
+			<int key="position" value="14" />
+			<int key="msg_chars" value="275" />
+			<int key="@@index" value="49" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_C" />
+			<string key="org:resource" value="agent_C" />
+			<date key="time:timestamp" value="2026-01-11T23:00:15+00:00" />
+			<int key="position" value="15" />
+			<int key="msg_chars" value="1549" />
+			<int key="@@index" value="50" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-11T23:00:16+00:00" />
+			<int key="position" value="16" />
+			<int key="msg_chars" value="183" />
+			<int key="@@index" value="51" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-11T23:00:17+00:00" />
+			<int key="position" value="17" />
+			<int key="msg_chars" value="1643" />
+			<int key="@@index" value="52" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-11T23:00:18+00:00" />
+			<int key="position" value="18" />
+			<int key="msg_chars" value="593" />
+			<int key="@@index" value="53" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_B" />
+			<string key="org:resource" value="agent_B" />
+			<date key="time:timestamp" value="2026-01-11T23:00:19+00:00" />
+			<int key="position" value="19" />
+			<int key="msg_chars" value="1551" />
+			<int key="@@index" value="54" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-11T23:00:20+00:00" />
+			<int key="position" value="20" />
+			<int key="msg_chars" value="278" />
+			<int key="@@index" value="55" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_C" />
+			<string key="org:resource" value="agent_C" />
+			<date key="time:timestamp" value="2026-01-11T23:00:21+00:00" />
+			<int key="position" value="21" />
+			<int key="msg_chars" value="1533" />
+			<int key="@@index" value="56" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-11T23:00:22+00:00" />
+			<int key="position" value="22" />
+			<int key="msg_chars" value="184" />
+			<int key="@@index" value="57" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-11T23:00:23+00:00" />
+			<int key="position" value="23" />
+			<int key="msg_chars" value="1561" />
+			<int key="@@index" value="58" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-11T23:00:24+00:00" />
+			<int key="position" value="24" />
+			<int key="msg_chars" value="569" />
+			<int key="@@index" value="59" />
+			<int key="@@case_index" value="2" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="63881e53-98c2-546e-a2ce-89539d7ecf33" />
+		<string key="topology" value="Centralized" />
+		<string key="anomaly_injected" value="False" />
+		<string key="anomaly_type" value="none" />
+		<string key="llm" value="gpt" />
+		<string key="task_type" value="planning" />
+		<string key="complexity" value="hard" />
+		<int key="mast_1.1" value="0" />
+		<int key="mast_1.2" value="0" />
+		<int key="mast_1.3" value="0" />
+		<int key="mast_1.4" value="0" />
+		<int key="mast_1.5" value="0" />
+		<int key="mast_2.1" value="0" />
+		<int key="mast_2.2" value="0" />
+		<int key="mast_2.3" value="0" />
+		<int key="mast_2.4" value="0" />
+		<int key="mast_2.5" value="0" />
+		<int key="mast_2.6" value="0" />
+		<int key="mast_3.1" value="0" />
+		<int key="mast_3.2" value="0" />
+		<int key="mast_3.3" value="0" />
+		<event>
+			<string key="concept:name" value="system" />
+			<string key="org:resource" value="system" />
+			<date key="time:timestamp" value="2026-01-06T04:00:00+00:00" />
+			<int key="position" value="0" />
+			<int key="msg_chars" value="47" />
+			<int key="@@index" value="60" />
+			<int key="@@case_index" value="3" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_A" />
+			<string key="org:resource" value="agent_A" />
+			<date key="time:timestamp" value="2026-01-06T04:00:01+00:00" />
+			<int key="position" value="1" />
+			<int key="msg_chars" value="334" />
+			<int key="@@index" value="61" />
+			<int key="@@case_index" value="3" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_B" />
+			<string key="org:resource" value="agent_B" />
+			<date key="time:timestamp" value="2026-01-06T04:00:02+00:00" />
+			<int key="position" value="2" />
+			<int key="msg_chars" value="2899" />
+			<int key="@@index" value="62" />
+			<int key="@@case_index" value="3" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_A" />
+			<string key="org:resource" value="agent_A" />
+			<date key="time:timestamp" value="2026-01-06T04:00:03+00:00" />
+			<int key="position" value="3" />
+			<int key="msg_chars" value="316" />
+			<int key="@@index" value="63" />
+			<int key="@@case_index" value="3" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_C" />
+			<string key="org:resource" value="agent_C" />
+			<date key="time:timestamp" value="2026-01-06T04:00:04+00:00" />
+			<int key="position" value="4" />
+			<int key="msg_chars" value="3028" />
+			<int key="@@index" value="64" />
+			<int key="@@case_index" value="3" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_A" />
+			<string key="org:resource" value="agent_A" />
+			<date key="time:timestamp" value="2026-01-06T04:00:05+00:00" />
+			<int key="position" value="5" />
+			<int key="msg_chars" value="2315" />
+			<int key="@@index" value="65" />
+			<int key="@@case_index" value="3" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-06T04:00:06+00:00" />
+			<int key="position" value="6" />
+			<int key="msg_chars" value="2687" />
+			<int key="@@index" value="66" />
+			<int key="@@case_index" value="3" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="8a256a1d-ac69-5c78-9493-226384dbcf7c" />
+		<string key="topology" value="Layered" />
+		<string key="anomaly_injected" value="True" />
+		<string key="anomaly_type" value="loop_failure" />
+		<string key="llm" value="glm" />
+		<string key="task_type" value="planning" />
+		<string key="complexity" value="medium" />
+		<int key="mast_1.1" value="0" />
+		<int key="mast_1.2" value="0" />
+		<int key="mast_1.3" value="0" />
+		<int key="mast_1.4" value="0" />
+		<int key="mast_1.5" value="0" />
+		<int key="mast_2.1" value="1" />
+		<int key="mast_2.2" value="0" />
+		<int key="mast_2.3" value="0" />
+		<int key="mast_2.4" value="0" />
+		<int key="mast_2.5" value="0" />
+		<int key="mast_2.6" value="0" />
+		<int key="mast_3.1" value="0" />
+		<int key="mast_3.2" value="0" />
+		<int key="mast_3.3" value="0" />
+		<event>
+			<string key="concept:name" value="system" />
+			<string key="org:resource" value="system" />
+			<date key="time:timestamp" value="2026-01-02T11:00:00+00:00" />
+			<int key="position" value="0" />
+			<int key="msg_chars" value="43" />
+			<int key="@@index" value="67" />
+			<int key="@@case_index" value="4" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_A" />
+			<string key="org:resource" value="agent_A" />
+			<date key="time:timestamp" value="2026-01-02T11:00:01+00:00" />
+			<int key="position" value="1" />
+			<int key="msg_chars" value="4434" />
+			<int key="@@index" value="68" />
+			<int key="@@case_index" value="4" />
+		</event>
+		<event>
+			<string key="concept:name" value="reviewer" />
+			<string key="org:resource" value="reviewer" />
+			<date key="time:timestamp" value="2026-01-02T11:00:02+00:00" />
+			<int key="position" value="2" />
+			<int key="msg_chars" value="94" />
+			<int key="@@index" value="69" />
+			<int key="@@case_index" value="4" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_B" />
+			<string key="org:resource" value="agent_B" />
+			<date key="time:timestamp" value="2026-01-02T11:00:03+00:00" />
+			<int key="position" value="3" />
+			<int key="msg_chars" value="5037" />
+			<int key="@@index" value="70" />
+			<int key="@@case_index" value="4" />
+		</event>
+		<event>
+			<string key="concept:name" value="reviewer" />
+			<string key="org:resource" value="reviewer" />
+			<date key="time:timestamp" value="2026-01-02T11:00:04+00:00" />
+			<int key="position" value="4" />
+			<int key="msg_chars" value="94" />
+			<int key="@@index" value="71" />
+			<int key="@@case_index" value="4" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_C" />
+			<string key="org:resource" value="agent_C" />
+			<date key="time:timestamp" value="2026-01-02T11:00:05+00:00" />
+			<int key="position" value="5" />
+			<int key="msg_chars" value="4026" />
+			<int key="@@index" value="72" />
+			<int key="@@case_index" value="4" />
+		</event>
+		<event>
+			<string key="concept:name" value="reviewer" />
+			<string key="org:resource" value="reviewer" />
+			<date key="time:timestamp" value="2026-01-02T11:00:06+00:00" />
+			<int key="position" value="6" />
+			<int key="msg_chars" value="94" />
+			<int key="@@index" value="73" />
+			<int key="@@case_index" value="4" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-02T11:00:07+00:00" />
+			<int key="position" value="7" />
+			<int key="msg_chars" value="3474" />
+			<int key="@@index" value="74" />
+			<int key="@@case_index" value="4" />
+		</event>
+		<event>
+			<string key="concept:name" value="reviewer" />
+			<string key="org:resource" value="reviewer" />
+			<date key="time:timestamp" value="2026-01-02T11:00:08+00:00" />
+			<int key="position" value="8" />
+			<int key="msg_chars" value="94" />
+			<int key="@@index" value="75" />
+			<int key="@@case_index" value="4" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_E" />
+			<string key="org:resource" value="agent_E" />
+			<date key="time:timestamp" value="2026-01-02T11:00:09+00:00" />
+			<int key="position" value="9" />
+			<int key="msg_chars" value="4039" />
+			<int key="@@index" value="76" />
+			<int key="@@case_index" value="4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="a37e496a-2c86-562d-b236-62ca27295593" />
+		<string key="topology" value="Layered" />
+		<string key="anomaly_injected" value="True" />
+		<string key="anomaly_type" value="goal_hijack" />
+		<string key="llm" value="glm" />
+		<string key="task_type" value="planning" />
+		<string key="complexity" value="hard" />
+		<int key="mast_1.1" value="0" />
+		<int key="mast_1.2" value="0" />
+		<int key="mast_1.3" value="0" />
+		<int key="mast_1.4" value="0" />
+		<int key="mast_1.5" value="0" />
+		<int key="mast_2.1" value="0" />
+		<int key="mast_2.2" value="1" />
+		<int key="mast_2.3" value="1" />
+		<int key="mast_2.4" value="0" />
+		<int key="mast_2.5" value="0" />
+		<int key="mast_2.6" value="1" />
+		<int key="mast_3.1" value="0" />
+		<int key="mast_3.2" value="0" />
+		<int key="mast_3.3" value="0" />
+		<event>
+			<string key="concept:name" value="system" />
+			<string key="org:resource" value="system" />
+			<date key="time:timestamp" value="2026-01-04T08:00:00+00:00" />
+			<int key="position" value="0" />
+			<int key="msg_chars" value="43" />
+			<int key="@@index" value="77" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_A" />
+			<string key="org:resource" value="agent_A" />
+			<date key="time:timestamp" value="2026-01-04T08:00:01+00:00" />
+			<int key="position" value="1" />
+			<int key="msg_chars" value="5527" />
+			<int key="@@index" value="78" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="system" />
+			<string key="org:resource" value="system" />
+			<date key="time:timestamp" value="2026-01-04T08:00:02+00:00" />
+			<int key="position" value="2" />
+			<int key="msg_chars" value="194" />
+			<int key="@@index" value="79" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_B" />
+			<string key="org:resource" value="agent_B" />
+			<date key="time:timestamp" value="2026-01-04T08:00:03+00:00" />
+			<int key="position" value="3" />
+			<int key="msg_chars" value="3523" />
+			<int key="@@index" value="80" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="system" />
+			<string key="org:resource" value="system" />
+			<date key="time:timestamp" value="2026-01-04T08:00:04+00:00" />
+			<int key="position" value="4" />
+			<int key="msg_chars" value="194" />
+			<int key="@@index" value="81" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_C" />
+			<string key="org:resource" value="agent_C" />
+			<date key="time:timestamp" value="2026-01-04T08:00:05+00:00" />
+			<int key="position" value="5" />
+			<int key="msg_chars" value="3550" />
+			<int key="@@index" value="82" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="system" />
+			<string key="org:resource" value="system" />
+			<date key="time:timestamp" value="2026-01-04T08:00:06+00:00" />
+			<int key="position" value="6" />
+			<int key="msg_chars" value="194" />
+			<int key="@@index" value="83" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-04T08:00:07+00:00" />
+			<int key="position" value="7" />
+			<int key="msg_chars" value="3265" />
+			<int key="@@index" value="84" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="system" />
+			<string key="org:resource" value="system" />
+			<date key="time:timestamp" value="2026-01-04T08:00:08+00:00" />
+			<int key="position" value="8" />
+			<int key="msg_chars" value="194" />
+			<int key="@@index" value="85" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_E" />
+			<string key="org:resource" value="agent_E" />
+			<date key="time:timestamp" value="2026-01-04T08:00:09+00:00" />
+			<int key="position" value="9" />
+			<int key="msg_chars" value="3058" />
+			<int key="@@index" value="86" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="system" />
+			<string key="org:resource" value="system" />
+			<date key="time:timestamp" value="2026-01-04T08:00:10+00:00" />
+			<int key="position" value="10" />
+			<int key="msg_chars" value="194" />
+			<int key="@@index" value="87" />
+			<int key="@@case_index" value="5" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="a5c94aa9-a1b5-54df-83dd-0b53965caea3" />
+		<string key="topology" value="Centralized" />
+		<string key="anomaly_injected" value="True" />
+		<string key="anomaly_type" value="loop_failure" />
+		<string key="llm" value="gpt" />
+		<string key="task_type" value="planning" />
+		<string key="complexity" value="medium" />
+		<int key="mast_1.1" value="0" />
+		<int key="mast_1.2" value="0" />
+		<int key="mast_1.3" value="0" />
+		<int key="mast_1.4" value="0" />
+		<int key="mast_1.5" value="0" />
+		<int key="mast_2.1" value="1" />
+		<int key="mast_2.2" value="0" />
+		<int key="mast_2.3" value="0" />
+		<int key="mast_2.4" value="0" />
+		<int key="mast_2.5" value="0" />
+		<int key="mast_2.6" value="0" />
+		<int key="mast_3.1" value="0" />
+		<int key="mast_3.2" value="0" />
+		<int key="mast_3.3" value="0" />
+		<event>
+			<string key="concept:name" value="system" />
+			<string key="org:resource" value="system" />
+			<date key="time:timestamp" value="2026-01-05T11:00:00+00:00" />
+			<int key="position" value="0" />
+			<int key="msg_chars" value="47" />
+			<int key="@@index" value="88" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_A" />
+			<string key="org:resource" value="agent_A" />
+			<date key="time:timestamp" value="2026-01-05T11:00:01+00:00" />
+			<int key="position" value="1" />
+			<int key="msg_chars" value="392" />
+			<int key="@@index" value="89" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="reviewer" />
+			<string key="org:resource" value="reviewer" />
+			<date key="time:timestamp" value="2026-01-05T11:00:02+00:00" />
+			<int key="position" value="2" />
+			<int key="msg_chars" value="103" />
+			<int key="@@index" value="90" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_B" />
+			<string key="org:resource" value="agent_B" />
+			<date key="time:timestamp" value="2026-01-05T11:00:03+00:00" />
+			<int key="position" value="3" />
+			<int key="msg_chars" value="2537" />
+			<int key="@@index" value="91" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_A" />
+			<string key="org:resource" value="agent_A" />
+			<date key="time:timestamp" value="2026-01-05T11:00:04+00:00" />
+			<int key="position" value="4" />
+			<int key="msg_chars" value="254" />
+			<int key="@@index" value="92" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="reviewer" />
+			<string key="org:resource" value="reviewer" />
+			<date key="time:timestamp" value="2026-01-05T11:00:05+00:00" />
+			<int key="position" value="5" />
+			<int key="msg_chars" value="98" />
+			<int key="@@index" value="93" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_C" />
+			<string key="org:resource" value="agent_C" />
+			<date key="time:timestamp" value="2026-01-05T11:00:06+00:00" />
+			<int key="position" value="6" />
+			<int key="msg_chars" value="2575" />
+			<int key="@@index" value="94" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_A" />
+			<string key="org:resource" value="agent_A" />
+			<date key="time:timestamp" value="2026-01-05T11:00:07+00:00" />
+			<int key="position" value="7" />
+			<int key="msg_chars" value="2047" />
+			<int key="@@index" value="95" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="reviewer" />
+			<string key="org:resource" value="reviewer" />
+			<date key="time:timestamp" value="2026-01-05T11:00:08+00:00" />
+			<int key="position" value="8" />
+			<int key="msg_chars" value="95" />
+			<int key="@@index" value="96" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-05T11:00:09+00:00" />
+			<int key="position" value="9" />
+			<int key="msg_chars" value="2442" />
+			<int key="@@index" value="97" />
+			<int key="@@case_index" value="6" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="a88fd122-1542-52da-90f9-b4e17cffc5d6" />
+		<string key="topology" value="Shared Message Pool" />
+		<string key="anomaly_injected" value="True" />
+		<string key="anomaly_type" value="deadlock" />
+		<string key="llm" value="gemini-3" />
+		<string key="task_type" value="planning" />
+		<string key="complexity" value="medium" />
+		<int key="mast_1.1" value="0" />
+		<int key="mast_1.2" value="0" />
+		<int key="mast_1.3" value="0" />
+		<int key="mast_1.4" value="0" />
+		<int key="mast_1.5" value="0" />
+		<int key="mast_2.1" value="1" />
+		<int key="mast_2.2" value="0" />
+		<int key="mast_2.3" value="0" />
+		<int key="mast_2.4" value="0" />
+		<int key="mast_2.5" value="0" />
+		<int key="mast_2.6" value="0" />
+		<int key="mast_3.1" value="0" />
+		<int key="mast_3.2" value="0" />
+		<int key="mast_3.3" value="0" />
+		<event>
+			<string key="concept:name" value="system" />
+			<string key="org:resource" value="system" />
+			<date key="time:timestamp" value="2026-01-14T06:00:00+00:00" />
+			<int key="position" value="0" />
+			<int key="msg_chars" value="66" />
+			<int key="@@index" value="98" />
+			<int key="@@case_index" value="7" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_A" />
+			<string key="org:resource" value="agent_A" />
+			<date key="time:timestamp" value="2026-01-14T06:00:01+00:00" />
+			<int key="position" value="1" />
+			<int key="msg_chars" value="1650" />
+			<int key="@@index" value="99" />
+			<int key="@@case_index" value="7" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_B" />
+			<string key="org:resource" value="agent_B" />
+			<date key="time:timestamp" value="2026-01-14T06:00:02+00:00" />
+			<int key="position" value="2" />
+			<int key="msg_chars" value="111" />
+			<int key="@@index" value="100" />
+			<int key="@@case_index" value="7" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_C" />
+			<string key="org:resource" value="agent_C" />
+			<date key="time:timestamp" value="2026-01-14T06:00:03+00:00" />
+			<int key="position" value="3" />
+			<int key="msg_chars" value="108" />
+			<int key="@@index" value="101" />
+			<int key="@@case_index" value="7" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-14T06:00:04+00:00" />
+			<int key="position" value="4" />
+			<int key="msg_chars" value="1301" />
+			<int key="@@index" value="102" />
+			<int key="@@case_index" value="7" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_A" />
+			<string key="org:resource" value="agent_A" />
+			<date key="time:timestamp" value="2026-01-14T06:00:05+00:00" />
+			<int key="position" value="5" />
+			<int key="msg_chars" value="131" />
+			<int key="@@index" value="103" />
+			<int key="@@case_index" value="7" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_B" />
+			<string key="org:resource" value="agent_B" />
+			<date key="time:timestamp" value="2026-01-14T06:00:06+00:00" />
+			<int key="position" value="6" />
+			<int key="msg_chars" value="99" />
+			<int key="@@index" value="104" />
+			<int key="@@case_index" value="7" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_C" />
+			<string key="org:resource" value="agent_C" />
+			<date key="time:timestamp" value="2026-01-14T06:00:07+00:00" />
+			<int key="position" value="7" />
+			<int key="msg_chars" value="99" />
+			<int key="@@index" value="105" />
+			<int key="@@case_index" value="7" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-14T06:00:08+00:00" />
+			<int key="position" value="8" />
+			<int key="msg_chars" value="115" />
+			<int key="@@index" value="106" />
+			<int key="@@case_index" value="7" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_A" />
+			<string key="org:resource" value="agent_A" />
+			<date key="time:timestamp" value="2026-01-14T06:00:09+00:00" />
+			<int key="position" value="9" />
+			<int key="msg_chars" value="134" />
+			<int key="@@index" value="107" />
+			<int key="@@case_index" value="7" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_B" />
+			<string key="org:resource" value="agent_B" />
+			<date key="time:timestamp" value="2026-01-14T06:00:10+00:00" />
+			<int key="position" value="10" />
+			<int key="msg_chars" value="148" />
+			<int key="@@index" value="108" />
+			<int key="@@case_index" value="7" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_C" />
+			<string key="org:resource" value="agent_C" />
+			<date key="time:timestamp" value="2026-01-14T06:00:11+00:00" />
+			<int key="position" value="11" />
+			<int key="msg_chars" value="95" />
+			<int key="@@index" value="109" />
+			<int key="@@case_index" value="7" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-14T06:00:12+00:00" />
+			<int key="position" value="12" />
+			<int key="msg_chars" value="114" />
+			<int key="@@index" value="110" />
+			<int key="@@case_index" value="7" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="a9d65b24-9601-5941-a3fe-a22ce138c34f" />
+		<string key="topology" value="Decentralized" />
+		<string key="anomaly_injected" value="True" />
+		<string key="anomaly_type" value="loop_failure" />
+		<string key="llm" value="gpt" />
+		<string key="task_type" value="planning" />
+		<string key="complexity" value="medium" />
+		<int key="mast_1.1" value="0" />
+		<int key="mast_1.2" value="0" />
+		<int key="mast_1.3" value="0" />
+		<int key="mast_1.4" value="0" />
+		<int key="mast_1.5" value="0" />
+		<int key="mast_2.1" value="1" />
+		<int key="mast_2.2" value="0" />
+		<int key="mast_2.3" value="0" />
+		<int key="mast_2.4" value="0" />
+		<int key="mast_2.5" value="0" />
+		<int key="mast_2.6" value="0" />
+		<int key="mast_3.1" value="0" />
+		<int key="mast_3.2" value="0" />
+		<int key="mast_3.3" value="0" />
+		<event>
+			<string key="concept:name" value="system" />
+			<string key="org:resource" value="system" />
+			<date key="time:timestamp" value="2026-01-12T11:00:00+00:00" />
+			<int key="position" value="0" />
+			<int key="msg_chars" value="70" />
+			<int key="@@index" value="111" />
+			<int key="@@case_index" value="8" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_B" />
+			<string key="org:resource" value="agent_B" />
+			<date key="time:timestamp" value="2026-01-12T11:00:01+00:00" />
+			<int key="position" value="1" />
+			<int key="msg_chars" value="2770" />
+			<int key="@@index" value="112" />
+			<int key="@@case_index" value="8" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_C" />
+			<string key="org:resource" value="agent_C" />
+			<date key="time:timestamp" value="2026-01-12T11:00:02+00:00" />
+			<int key="position" value="2" />
+			<int key="msg_chars" value="2763" />
+			<int key="@@index" value="113" />
+			<int key="@@case_index" value="8" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-12T11:00:03+00:00" />
+			<int key="position" value="3" />
+			<int key="msg_chars" value="2681" />
+			<int key="@@index" value="114" />
+			<int key="@@case_index" value="8" />
+		</event>
+		<event>
+			<string key="concept:name" value="reviewer" />
+			<string key="org:resource" value="reviewer" />
+			<date key="time:timestamp" value="2026-01-12T11:00:04+00:00" />
+			<int key="position" value="4" />
+			<int key="msg_chars" value="103" />
+			<int key="@@index" value="115" />
+			<int key="@@case_index" value="8" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_B" />
+			<string key="org:resource" value="agent_B" />
+			<date key="time:timestamp" value="2026-01-12T11:00:05+00:00" />
+			<int key="position" value="5" />
+			<int key="msg_chars" value="2944" />
+			<int key="@@index" value="116" />
+			<int key="@@case_index" value="8" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_C" />
+			<string key="org:resource" value="agent_C" />
+			<date key="time:timestamp" value="2026-01-12T11:00:06+00:00" />
+			<int key="position" value="6" />
+			<int key="msg_chars" value="2937" />
+			<int key="@@index" value="117" />
+			<int key="@@case_index" value="8" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-12T11:00:07+00:00" />
+			<int key="position" value="7" />
+			<int key="msg_chars" value="2892" />
+			<int key="@@index" value="118" />
+			<int key="@@case_index" value="8" />
+		</event>
+		<event>
+			<string key="concept:name" value="reviewer" />
+			<string key="org:resource" value="reviewer" />
+			<date key="time:timestamp" value="2026-01-12T11:00:08+00:00" />
+			<int key="position" value="8" />
+			<int key="msg_chars" value="98" />
+			<int key="@@index" value="119" />
+			<int key="@@case_index" value="8" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_B" />
+			<string key="org:resource" value="agent_B" />
+			<date key="time:timestamp" value="2026-01-12T11:00:09+00:00" />
+			<int key="position" value="9" />
+			<int key="msg_chars" value="2896" />
+			<int key="@@index" value="120" />
+			<int key="@@case_index" value="8" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_C" />
+			<string key="org:resource" value="agent_C" />
+			<date key="time:timestamp" value="2026-01-12T11:00:10+00:00" />
+			<int key="position" value="10" />
+			<int key="msg_chars" value="2950" />
+			<int key="@@index" value="121" />
+			<int key="@@case_index" value="8" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-12T11:00:11+00:00" />
+			<int key="position" value="11" />
+			<int key="msg_chars" value="2891" />
+			<int key="@@index" value="122" />
+			<int key="@@case_index" value="8" />
+		</event>
+		<event>
+			<string key="concept:name" value="reviewer" />
+			<string key="org:resource" value="reviewer" />
+			<date key="time:timestamp" value="2026-01-12T11:00:12+00:00" />
+			<int key="position" value="12" />
+			<int key="msg_chars" value="95" />
+			<int key="@@index" value="123" />
+			<int key="@@case_index" value="8" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_B" />
+			<string key="org:resource" value="agent_B" />
+			<date key="time:timestamp" value="2026-01-12T11:00:13+00:00" />
+			<int key="position" value="13" />
+			<int key="msg_chars" value="3053" />
+			<int key="@@index" value="124" />
+			<int key="@@case_index" value="8" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_C" />
+			<string key="org:resource" value="agent_C" />
+			<date key="time:timestamp" value="2026-01-12T11:00:14+00:00" />
+			<int key="position" value="14" />
+			<int key="msg_chars" value="3033" />
+			<int key="@@index" value="125" />
+			<int key="@@case_index" value="8" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-12T11:00:15+00:00" />
+			<int key="position" value="15" />
+			<int key="msg_chars" value="2900" />
+			<int key="@@index" value="126" />
+			<int key="@@case_index" value="8" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="a9e7d78e-5a1f-5c50-b403-d2d9bd3154bf" />
+		<string key="topology" value="Centralized" />
+		<string key="anomaly_injected" value="True" />
+		<string key="anomaly_type" value="loop_failure" />
+		<string key="llm" value="deepseek" />
+		<string key="task_type" value="planning" />
+		<string key="complexity" value="medium" />
+		<int key="mast_1.1" value="0" />
+		<int key="mast_1.2" value="0" />
+		<int key="mast_1.3" value="0" />
+		<int key="mast_1.4" value="0" />
+		<int key="mast_1.5" value="0" />
+		<int key="mast_2.1" value="1" />
+		<int key="mast_2.2" value="0" />
+		<int key="mast_2.3" value="0" />
+		<int key="mast_2.4" value="0" />
+		<int key="mast_2.5" value="0" />
+		<int key="mast_2.6" value="0" />
+		<int key="mast_3.1" value="0" />
+		<int key="mast_3.2" value="0" />
+		<int key="mast_3.3" value="0" />
+		<event>
+			<string key="concept:name" value="system" />
+			<string key="org:resource" value="system" />
+			<date key="time:timestamp" value="2026-01-09T02:00:00+00:00" />
+			<int key="position" value="0" />
+			<int key="msg_chars" value="47" />
+			<int key="@@index" value="127" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_A" />
+			<string key="org:resource" value="agent_A" />
+			<date key="time:timestamp" value="2026-01-09T02:00:01+00:00" />
+			<int key="position" value="1" />
+			<int key="msg_chars" value="6682" />
+			<int key="@@index" value="128" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<string key="concept:name" value="reviewer" />
+			<string key="org:resource" value="reviewer" />
+			<date key="time:timestamp" value="2026-01-09T02:00:02+00:00" />
+			<int key="position" value="2" />
+			<int key="msg_chars" value="103" />
+			<int key="@@index" value="129" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_B" />
+			<string key="org:resource" value="agent_B" />
+			<date key="time:timestamp" value="2026-01-09T02:00:03+00:00" />
+			<int key="position" value="3" />
+			<int key="msg_chars" value="4307" />
+			<int key="@@index" value="130" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_A" />
+			<string key="org:resource" value="agent_A" />
+			<date key="time:timestamp" value="2026-01-09T02:00:04+00:00" />
+			<int key="position" value="4" />
+			<int key="msg_chars" value="341" />
+			<int key="@@index" value="131" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<string key="concept:name" value="reviewer" />
+			<string key="org:resource" value="reviewer" />
+			<date key="time:timestamp" value="2026-01-09T02:00:05+00:00" />
+			<int key="position" value="5" />
+			<int key="msg_chars" value="98" />
+			<int key="@@index" value="132" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_C" />
+			<string key="org:resource" value="agent_C" />
+			<date key="time:timestamp" value="2026-01-09T02:00:06+00:00" />
+			<int key="position" value="6" />
+			<int key="msg_chars" value="4861" />
+			<int key="@@index" value="133" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_A" />
+			<string key="org:resource" value="agent_A" />
+			<date key="time:timestamp" value="2026-01-09T02:00:07+00:00" />
+			<int key="position" value="7" />
+			<int key="msg_chars" value="2201" />
+			<int key="@@index" value="134" />
+			<int key="@@case_index" value="9" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="b03a66b8-1862-5518-b64e-8097e66054a3" />
+		<string key="topology" value="Layered" />
+		<string key="anomaly_injected" value="True" />
+		<string key="anomaly_type" value="goal_hijack" />
+		<string key="llm" value="gpt" />
+		<string key="task_type" value="planning" />
+		<string key="complexity" value="medium" />
+		<int key="mast_1.1" value="0" />
+		<int key="mast_1.2" value="0" />
+		<int key="mast_1.3" value="0" />
+		<int key="mast_1.4" value="0" />
+		<int key="mast_1.5" value="0" />
+		<int key="mast_2.1" value="0" />
+		<int key="mast_2.2" value="1" />
+		<int key="mast_2.3" value="1" />
+		<int key="mast_2.4" value="0" />
+		<int key="mast_2.5" value="0" />
+		<int key="mast_2.6" value="1" />
+		<int key="mast_3.1" value="0" />
+		<int key="mast_3.2" value="0" />
+		<int key="mast_3.3" value="0" />
+		<event>
+			<string key="concept:name" value="system" />
+			<string key="org:resource" value="system" />
+			<date key="time:timestamp" value="2026-01-03T18:00:00+00:00" />
+			<int key="position" value="0" />
+			<int key="msg_chars" value="43" />
+			<int key="@@index" value="135" />
+			<int key="@@case_index" value="10" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_A" />
+			<string key="org:resource" value="agent_A" />
+			<date key="time:timestamp" value="2026-01-03T18:00:01+00:00" />
+			<int key="position" value="1" />
+			<int key="msg_chars" value="3385" />
+			<int key="@@index" value="136" />
+			<int key="@@case_index" value="10" />
+		</event>
+		<event>
+			<string key="concept:name" value="system" />
+			<string key="org:resource" value="system" />
+			<date key="time:timestamp" value="2026-01-03T18:00:02+00:00" />
+			<int key="position" value="2" />
+			<int key="msg_chars" value="194" />
+			<int key="@@index" value="137" />
+			<int key="@@case_index" value="10" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_B" />
+			<string key="org:resource" value="agent_B" />
+			<date key="time:timestamp" value="2026-01-03T18:00:03+00:00" />
+			<int key="position" value="3" />
+			<int key="msg_chars" value="2504" />
+			<int key="@@index" value="138" />
+			<int key="@@case_index" value="10" />
+		</event>
+		<event>
+			<string key="concept:name" value="system" />
+			<string key="org:resource" value="system" />
+			<date key="time:timestamp" value="2026-01-03T18:00:04+00:00" />
+			<int key="position" value="4" />
+			<int key="msg_chars" value="194" />
+			<int key="@@index" value="139" />
+			<int key="@@case_index" value="10" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_C" />
+			<string key="org:resource" value="agent_C" />
+			<date key="time:timestamp" value="2026-01-03T18:00:05+00:00" />
+			<int key="position" value="5" />
+			<int key="msg_chars" value="2530" />
+			<int key="@@index" value="140" />
+			<int key="@@case_index" value="10" />
+		</event>
+		<event>
+			<string key="concept:name" value="system" />
+			<string key="org:resource" value="system" />
+			<date key="time:timestamp" value="2026-01-03T18:00:06+00:00" />
+			<int key="position" value="6" />
+			<int key="msg_chars" value="194" />
+			<int key="@@index" value="141" />
+			<int key="@@case_index" value="10" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-03T18:00:07+00:00" />
+			<int key="position" value="7" />
+			<int key="msg_chars" value="2748" />
+			<int key="@@index" value="142" />
+			<int key="@@case_index" value="10" />
+		</event>
+		<event>
+			<string key="concept:name" value="system" />
+			<string key="org:resource" value="system" />
+			<date key="time:timestamp" value="2026-01-03T18:00:08+00:00" />
+			<int key="position" value="8" />
+			<int key="msg_chars" value="194" />
+			<int key="@@index" value="143" />
+			<int key="@@case_index" value="10" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_E" />
+			<string key="org:resource" value="agent_E" />
+			<date key="time:timestamp" value="2026-01-03T18:00:09+00:00" />
+			<int key="position" value="9" />
+			<int key="msg_chars" value="2377" />
+			<int key="@@index" value="144" />
+			<int key="@@case_index" value="10" />
+		</event>
+		<event>
+			<string key="concept:name" value="system" />
+			<string key="org:resource" value="system" />
+			<date key="time:timestamp" value="2026-01-03T18:00:10+00:00" />
+			<int key="position" value="10" />
+			<int key="msg_chars" value="194" />
+			<int key="@@index" value="145" />
+			<int key="@@case_index" value="10" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="b97ea45c-f85f-5359-9e9b-bc0184a248c5" />
+		<string key="topology" value="Decentralized" />
+		<string key="anomaly_injected" value="False" />
+		<string key="anomaly_type" value="none" />
+		<string key="llm" value="gpt-mini" />
+		<string key="task_type" value="planning" />
+		<string key="complexity" value="medium" />
+		<int key="mast_1.1" value="0" />
+		<int key="mast_1.2" value="0" />
+		<int key="mast_1.3" value="0" />
+		<int key="mast_1.4" value="0" />
+		<int key="mast_1.5" value="0" />
+		<int key="mast_2.1" value="0" />
+		<int key="mast_2.2" value="0" />
+		<int key="mast_2.3" value="0" />
+		<int key="mast_2.4" value="0" />
+		<int key="mast_2.5" value="0" />
+		<int key="mast_2.6" value="0" />
+		<int key="mast_3.1" value="0" />
+		<int key="mast_3.2" value="0" />
+		<int key="mast_3.3" value="0" />
+		<event>
+			<string key="concept:name" value="system" />
+			<string key="org:resource" value="system" />
+			<date key="time:timestamp" value="2026-01-11T08:00:00+00:00" />
+			<int key="position" value="0" />
+			<int key="msg_chars" value="70" />
+			<int key="@@index" value="146" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_B" />
+			<string key="org:resource" value="agent_B" />
+			<date key="time:timestamp" value="2026-01-11T08:00:01+00:00" />
+			<int key="position" value="1" />
+			<int key="msg_chars" value="3279" />
+			<int key="@@index" value="147" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_C" />
+			<string key="org:resource" value="agent_C" />
+			<date key="time:timestamp" value="2026-01-11T08:00:02+00:00" />
+			<int key="position" value="2" />
+			<int key="msg_chars" value="3354" />
+			<int key="@@index" value="148" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-11T08:00:03+00:00" />
+			<int key="position" value="3" />
+			<int key="msg_chars" value="3103" />
+			<int key="@@index" value="149" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_B" />
+			<string key="org:resource" value="agent_B" />
+			<date key="time:timestamp" value="2026-01-11T08:00:04+00:00" />
+			<int key="position" value="4" />
+			<int key="msg_chars" value="3111" />
+			<int key="@@index" value="150" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_C" />
+			<string key="org:resource" value="agent_C" />
+			<date key="time:timestamp" value="2026-01-11T08:00:05+00:00" />
+			<int key="position" value="5" />
+			<int key="msg_chars" value="2958" />
+			<int key="@@index" value="151" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-11T08:00:06+00:00" />
+			<int key="position" value="6" />
+			<int key="msg_chars" value="3024" />
+			<int key="@@index" value="152" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_B" />
+			<string key="org:resource" value="agent_B" />
+			<date key="time:timestamp" value="2026-01-11T08:00:07+00:00" />
+			<int key="position" value="7" />
+			<int key="msg_chars" value="3039" />
+			<int key="@@index" value="153" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_C" />
+			<string key="org:resource" value="agent_C" />
+			<date key="time:timestamp" value="2026-01-11T08:00:08+00:00" />
+			<int key="position" value="8" />
+			<int key="msg_chars" value="3114" />
+			<int key="@@index" value="154" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-11T08:00:09+00:00" />
+			<int key="position" value="9" />
+			<int key="msg_chars" value="2985" />
+			<int key="@@index" value="155" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_B" />
+			<string key="org:resource" value="agent_B" />
+			<date key="time:timestamp" value="2026-01-11T08:00:10+00:00" />
+			<int key="position" value="10" />
+			<int key="msg_chars" value="3034" />
+			<int key="@@index" value="156" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_C" />
+			<string key="org:resource" value="agent_C" />
+			<date key="time:timestamp" value="2026-01-11T08:00:11+00:00" />
+			<int key="position" value="11" />
+			<int key="msg_chars" value="3039" />
+			<int key="@@index" value="157" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-11T08:00:12+00:00" />
+			<int key="position" value="12" />
+			<int key="msg_chars" value="3025" />
+			<int key="@@index" value="158" />
+			<int key="@@case_index" value="11" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="be18e749-f377-5141-8015-693790787857" />
+		<string key="topology" value="Decentralized" />
+		<string key="anomaly_injected" value="True" />
+		<string key="anomaly_type" value="information_loss" />
+		<string key="llm" value="gemini-3" />
+		<string key="task_type" value="planning" />
+		<string key="complexity" value="medium" />
+		<int key="mast_1.1" value="0" />
+		<int key="mast_1.2" value="0" />
+		<int key="mast_1.3" value="0" />
+		<int key="mast_1.4" value="0" />
+		<int key="mast_1.5" value="0" />
+		<int key="mast_2.1" value="0" />
+		<int key="mast_2.2" value="0" />
+		<int key="mast_2.3" value="0" />
+		<int key="mast_2.4" value="1" />
+		<int key="mast_2.5" value="1" />
+		<int key="mast_2.6" value="0" />
+		<int key="mast_3.1" value="0" />
+		<int key="mast_3.2" value="0" />
+		<int key="mast_3.3" value="0" />
+		<event>
+			<string key="concept:name" value="system" />
+			<string key="org:resource" value="system" />
+			<date key="time:timestamp" value="2026-01-13T02:00:00+00:00" />
+			<int key="position" value="0" />
+			<int key="msg_chars" value="70" />
+			<int key="@@index" value="159" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_B" />
+			<string key="org:resource" value="agent_B" />
+			<date key="time:timestamp" value="2026-01-13T02:00:01+00:00" />
+			<int key="position" value="1" />
+			<int key="msg_chars" value="105" />
+			<int key="@@index" value="160" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_B" />
+			<string key="org:resource" value="agent_B" />
+			<date key="time:timestamp" value="2026-01-13T02:00:02+00:00" />
+			<int key="position" value="2" />
+			<int key="msg_chars" value="132" />
+			<int key="@@index" value="161" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_C" />
+			<string key="org:resource" value="agent_C" />
+			<date key="time:timestamp" value="2026-01-13T02:00:03+00:00" />
+			<int key="position" value="3" />
+			<int key="msg_chars" value="131" />
+			<int key="@@index" value="162" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_C" />
+			<string key="org:resource" value="agent_C" />
+			<date key="time:timestamp" value="2026-01-13T02:00:04+00:00" />
+			<int key="position" value="4" />
+			<int key="msg_chars" value="140" />
+			<int key="@@index" value="163" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-13T02:00:05+00:00" />
+			<int key="position" value="5" />
+			<int key="msg_chars" value="107" />
+			<int key="@@index" value="164" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-13T02:00:06+00:00" />
+			<int key="position" value="6" />
+			<int key="msg_chars" value="133" />
+			<int key="@@index" value="165" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_B" />
+			<string key="org:resource" value="agent_B" />
+			<date key="time:timestamp" value="2026-01-13T02:00:07+00:00" />
+			<int key="position" value="7" />
+			<int key="msg_chars" value="1304" />
+			<int key="@@index" value="166" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-13T02:00:08+00:00" />
+			<int key="position" value="8" />
+			<int key="msg_chars" value="140" />
+			<int key="@@index" value="167" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_C" />
+			<string key="org:resource" value="agent_C" />
+			<date key="time:timestamp" value="2026-01-13T02:00:09+00:00" />
+			<int key="position" value="9" />
+			<int key="msg_chars" value="118" />
+			<int key="@@index" value="168" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-13T02:00:10+00:00" />
+			<int key="position" value="10" />
+			<int key="msg_chars" value="143" />
+			<int key="@@index" value="169" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-13T02:00:11+00:00" />
+			<int key="position" value="11" />
+			<int key="msg_chars" value="117" />
+			<int key="@@index" value="170" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-13T02:00:12+00:00" />
+			<int key="position" value="12" />
+			<int key="msg_chars" value="136" />
+			<int key="@@index" value="171" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_B" />
+			<string key="org:resource" value="agent_B" />
+			<date key="time:timestamp" value="2026-01-13T02:00:13+00:00" />
+			<int key="position" value="13" />
+			<int key="msg_chars" value="934" />
+			<int key="@@index" value="172" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-13T02:00:14+00:00" />
+			<int key="position" value="14" />
+			<int key="msg_chars" value="141" />
+			<int key="@@index" value="173" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_C" />
+			<string key="org:resource" value="agent_C" />
+			<date key="time:timestamp" value="2026-01-13T02:00:15+00:00" />
+			<int key="position" value="15" />
+			<int key="msg_chars" value="106" />
+			<int key="@@index" value="174" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-13T02:00:16+00:00" />
+			<int key="position" value="16" />
+			<int key="msg_chars" value="143" />
+			<int key="@@index" value="175" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-13T02:00:17+00:00" />
+			<int key="position" value="17" />
+			<int key="msg_chars" value="73" />
+			<int key="@@index" value="176" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-13T02:00:18+00:00" />
+			<int key="position" value="18" />
+			<int key="msg_chars" value="131" />
+			<int key="@@index" value="177" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_B" />
+			<string key="org:resource" value="agent_B" />
+			<date key="time:timestamp" value="2026-01-13T02:00:19+00:00" />
+			<int key="position" value="19" />
+			<int key="msg_chars" value="72" />
+			<int key="@@index" value="178" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-13T02:00:20+00:00" />
+			<int key="position" value="20" />
+			<int key="msg_chars" value="140" />
+			<int key="@@index" value="179" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_C" />
+			<string key="org:resource" value="agent_C" />
+			<date key="time:timestamp" value="2026-01-13T02:00:21+00:00" />
+			<int key="position" value="21" />
+			<int key="msg_chars" value="67" />
+			<int key="@@index" value="180" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-13T02:00:22+00:00" />
+			<int key="position" value="22" />
+			<int key="msg_chars" value="143" />
+			<int key="@@index" value="181" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-13T02:00:23+00:00" />
+			<int key="position" value="23" />
+			<int key="msg_chars" value="79" />
+			<int key="@@index" value="182" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-13T02:00:24+00:00" />
+			<int key="position" value="24" />
+			<int key="msg_chars" value="131" />
+			<int key="@@index" value="183" />
+			<int key="@@case_index" value="12" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="cbae2bf1-0f6c-569c-99a1-02824d1811fd" />
+		<string key="topology" value="Centralized" />
+		<string key="anomaly_injected" value="False" />
+		<string key="anomaly_type" value="none" />
+		<string key="llm" value="glm" />
+		<string key="task_type" value="planning" />
+		<string key="complexity" value="medium" />
+		<int key="mast_1.1" value="0" />
+		<int key="mast_1.2" value="0" />
+		<int key="mast_1.3" value="0" />
+		<int key="mast_1.4" value="0" />
+		<int key="mast_1.5" value="0" />
+		<int key="mast_2.1" value="0" />
+		<int key="mast_2.2" value="0" />
+		<int key="mast_2.3" value="0" />
+		<int key="mast_2.4" value="0" />
+		<int key="mast_2.5" value="0" />
+		<int key="mast_2.6" value="0" />
+		<int key="mast_3.1" value="0" />
+		<int key="mast_3.2" value="0" />
+		<int key="mast_3.3" value="0" />
+		<event>
+			<string key="concept:name" value="system" />
+			<string key="org:resource" value="system" />
+			<date key="time:timestamp" value="2026-01-06T17:00:00+00:00" />
+			<int key="position" value="0" />
+			<int key="msg_chars" value="47" />
+			<int key="@@index" value="184" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_A" />
+			<string key="org:resource" value="agent_A" />
+			<date key="time:timestamp" value="2026-01-06T17:00:01+00:00" />
+			<int key="position" value="1" />
+			<int key="msg_chars" value="2087" />
+			<int key="@@index" value="185" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_B" />
+			<string key="org:resource" value="agent_B" />
+			<date key="time:timestamp" value="2026-01-06T17:00:02+00:00" />
+			<int key="position" value="2" />
+			<int key="msg_chars" value="4080" />
+			<int key="@@index" value="186" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_A" />
+			<string key="org:resource" value="agent_A" />
+			<date key="time:timestamp" value="2026-01-06T17:00:03+00:00" />
+			<int key="position" value="3" />
+			<int key="msg_chars" value="861" />
+			<int key="@@index" value="187" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_C" />
+			<string key="org:resource" value="agent_C" />
+			<date key="time:timestamp" value="2026-01-06T17:00:04+00:00" />
+			<int key="position" value="4" />
+			<int key="msg_chars" value="3210" />
+			<int key="@@index" value="188" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_A" />
+			<string key="org:resource" value="agent_A" />
+			<date key="time:timestamp" value="2026-01-06T17:00:05+00:00" />
+			<int key="position" value="5" />
+			<int key="msg_chars" value="4707" />
+			<int key="@@index" value="189" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-06T17:00:06+00:00" />
+			<int key="position" value="6" />
+			<int key="msg_chars" value="3633" />
+			<int key="@@index" value="190" />
+			<int key="@@case_index" value="13" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="d383812b-260c-5a96-bb3b-a8a5fe19a4bf" />
+		<string key="topology" value="Shared Message Pool" />
+		<string key="anomaly_injected" value="True" />
+		<string key="anomaly_type" value="goal_hijack" />
+		<string key="llm" value="minimax" />
+		<string key="task_type" value="planning" />
+		<string key="complexity" value="medium" />
+		<int key="mast_1.1" value="0" />
+		<int key="mast_1.2" value="0" />
+		<int key="mast_1.3" value="0" />
+		<int key="mast_1.4" value="0" />
+		<int key="mast_1.5" value="0" />
+		<int key="mast_2.1" value="0" />
+		<int key="mast_2.2" value="1" />
+		<int key="mast_2.3" value="1" />
+		<int key="mast_2.4" value="0" />
+		<int key="mast_2.5" value="0" />
+		<int key="mast_2.6" value="1" />
+		<int key="mast_3.1" value="0" />
+		<int key="mast_3.2" value="0" />
+		<int key="mast_3.3" value="0" />
+		<event>
+			<string key="concept:name" value="system" />
+			<string key="org:resource" value="system" />
+			<date key="time:timestamp" value="2026-01-14T08:00:00+00:00" />
+			<int key="position" value="0" />
+			<int key="msg_chars" value="66" />
+			<int key="@@index" value="191" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_A" />
+			<string key="org:resource" value="agent_A" />
+			<date key="time:timestamp" value="2026-01-14T08:00:01+00:00" />
+			<int key="position" value="1" />
+			<int key="msg_chars" value="2775" />
+			<int key="@@index" value="192" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<string key="concept:name" value="system" />
+			<string key="org:resource" value="system" />
+			<date key="time:timestamp" value="2026-01-14T08:00:02+00:00" />
+			<int key="position" value="2" />
+			<int key="msg_chars" value="194" />
+			<int key="@@index" value="193" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_B" />
+			<string key="org:resource" value="agent_B" />
+			<date key="time:timestamp" value="2026-01-14T08:00:03+00:00" />
+			<int key="position" value="3" />
+			<int key="msg_chars" value="2523" />
+			<int key="@@index" value="194" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<string key="concept:name" value="system" />
+			<string key="org:resource" value="system" />
+			<date key="time:timestamp" value="2026-01-14T08:00:04+00:00" />
+			<int key="position" value="4" />
+			<int key="msg_chars" value="194" />
+			<int key="@@index" value="195" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_C" />
+			<string key="org:resource" value="agent_C" />
+			<date key="time:timestamp" value="2026-01-14T08:00:05+00:00" />
+			<int key="position" value="5" />
+			<int key="msg_chars" value="2360" />
+			<int key="@@index" value="196" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<string key="concept:name" value="system" />
+			<string key="org:resource" value="system" />
+			<date key="time:timestamp" value="2026-01-14T08:00:06+00:00" />
+			<int key="position" value="6" />
+			<int key="msg_chars" value="194" />
+			<int key="@@index" value="197" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-14T08:00:07+00:00" />
+			<int key="position" value="7" />
+			<int key="msg_chars" value="3536" />
+			<int key="@@index" value="198" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<string key="concept:name" value="system" />
+			<string key="org:resource" value="system" />
+			<date key="time:timestamp" value="2026-01-14T08:00:08+00:00" />
+			<int key="position" value="8" />
+			<int key="msg_chars" value="194" />
+			<int key="@@index" value="199" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_A" />
+			<string key="org:resource" value="agent_A" />
+			<date key="time:timestamp" value="2026-01-14T08:00:09+00:00" />
+			<int key="position" value="9" />
+			<int key="msg_chars" value="3142" />
+			<int key="@@index" value="200" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<string key="concept:name" value="system" />
+			<string key="org:resource" value="system" />
+			<date key="time:timestamp" value="2026-01-14T08:00:10+00:00" />
+			<int key="position" value="10" />
+			<int key="msg_chars" value="194" />
+			<int key="@@index" value="201" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_B" />
+			<string key="org:resource" value="agent_B" />
+			<date key="time:timestamp" value="2026-01-14T08:00:11+00:00" />
+			<int key="position" value="11" />
+			<int key="msg_chars" value="2988" />
+			<int key="@@index" value="202" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<string key="concept:name" value="system" />
+			<string key="org:resource" value="system" />
+			<date key="time:timestamp" value="2026-01-14T08:00:12+00:00" />
+			<int key="position" value="12" />
+			<int key="msg_chars" value="194" />
+			<int key="@@index" value="203" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_C" />
+			<string key="org:resource" value="agent_C" />
+			<date key="time:timestamp" value="2026-01-14T08:00:13+00:00" />
+			<int key="position" value="13" />
+			<int key="msg_chars" value="3161" />
+			<int key="@@index" value="204" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<string key="concept:name" value="system" />
+			<string key="org:resource" value="system" />
+			<date key="time:timestamp" value="2026-01-14T08:00:14+00:00" />
+			<int key="position" value="14" />
+			<int key="msg_chars" value="194" />
+			<int key="@@index" value="205" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-14T08:00:15+00:00" />
+			<int key="position" value="15" />
+			<int key="msg_chars" value="1193" />
+			<int key="@@index" value="206" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<string key="concept:name" value="system" />
+			<string key="org:resource" value="system" />
+			<date key="time:timestamp" value="2026-01-14T08:00:16+00:00" />
+			<int key="position" value="16" />
+			<int key="msg_chars" value="194" />
+			<int key="@@index" value="207" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_A" />
+			<string key="org:resource" value="agent_A" />
+			<date key="time:timestamp" value="2026-01-14T08:00:17+00:00" />
+			<int key="position" value="17" />
+			<int key="msg_chars" value="3066" />
+			<int key="@@index" value="208" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<string key="concept:name" value="system" />
+			<string key="org:resource" value="system" />
+			<date key="time:timestamp" value="2026-01-14T08:00:18+00:00" />
+			<int key="position" value="18" />
+			<int key="msg_chars" value="194" />
+			<int key="@@index" value="209" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_B" />
+			<string key="org:resource" value="agent_B" />
+			<date key="time:timestamp" value="2026-01-14T08:00:19+00:00" />
+			<int key="position" value="19" />
+			<int key="msg_chars" value="3488" />
+			<int key="@@index" value="210" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<string key="concept:name" value="system" />
+			<string key="org:resource" value="system" />
+			<date key="time:timestamp" value="2026-01-14T08:00:20+00:00" />
+			<int key="position" value="20" />
+			<int key="msg_chars" value="194" />
+			<int key="@@index" value="211" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_C" />
+			<string key="org:resource" value="agent_C" />
+			<date key="time:timestamp" value="2026-01-14T08:00:21+00:00" />
+			<int key="position" value="21" />
+			<int key="msg_chars" value="2314" />
+			<int key="@@index" value="212" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<string key="concept:name" value="system" />
+			<string key="org:resource" value="system" />
+			<date key="time:timestamp" value="2026-01-14T08:00:22+00:00" />
+			<int key="position" value="22" />
+			<int key="msg_chars" value="194" />
+			<int key="@@index" value="213" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-14T08:00:23+00:00" />
+			<int key="position" value="23" />
+			<int key="msg_chars" value="3562" />
+			<int key="@@index" value="214" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<string key="concept:name" value="system" />
+			<string key="org:resource" value="system" />
+			<date key="time:timestamp" value="2026-01-14T08:00:24+00:00" />
+			<int key="position" value="24" />
+			<int key="msg_chars" value="194" />
+			<int key="@@index" value="215" />
+			<int key="@@case_index" value="14" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="f2181ff3-9a05-5eda-ad71-3291f39036e0" />
+		<string key="topology" value="Layered" />
+		<string key="anomaly_injected" value="False" />
+		<string key="anomaly_type" value="none" />
+		<string key="llm" value="gemini-3" />
+		<string key="task_type" value="planning" />
+		<string key="complexity" value="medium" />
+		<int key="mast_1.1" value="0" />
+		<int key="mast_1.2" value="0" />
+		<int key="mast_1.3" value="0" />
+		<int key="mast_1.4" value="0" />
+		<int key="mast_1.5" value="0" />
+		<int key="mast_2.1" value="0" />
+		<int key="mast_2.2" value="0" />
+		<int key="mast_2.3" value="0" />
+		<int key="mast_2.4" value="0" />
+		<int key="mast_2.5" value="0" />
+		<int key="mast_2.6" value="0" />
+		<int key="mast_3.1" value="0" />
+		<int key="mast_3.2" value="0" />
+		<int key="mast_3.3" value="0" />
+		<event>
+			<string key="concept:name" value="system" />
+			<string key="org:resource" value="system" />
+			<date key="time:timestamp" value="2026-01-02T12:00:00+00:00" />
+			<int key="position" value="0" />
+			<int key="msg_chars" value="43" />
+			<int key="@@index" value="216" />
+			<int key="@@case_index" value="15" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_A" />
+			<string key="org:resource" value="agent_A" />
+			<date key="time:timestamp" value="2026-01-02T12:00:01+00:00" />
+			<int key="position" value="1" />
+			<int key="msg_chars" value="119" />
+			<int key="@@index" value="217" />
+			<int key="@@case_index" value="15" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_B" />
+			<string key="org:resource" value="agent_B" />
+			<date key="time:timestamp" value="2026-01-02T12:00:02+00:00" />
+			<int key="position" value="2" />
+			<int key="msg_chars" value="141" />
+			<int key="@@index" value="218" />
+			<int key="@@case_index" value="15" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_C" />
+			<string key="org:resource" value="agent_C" />
+			<date key="time:timestamp" value="2026-01-02T12:00:03+00:00" />
+			<int key="position" value="3" />
+			<int key="msg_chars" value="414" />
+			<int key="@@index" value="219" />
+			<int key="@@case_index" value="15" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-02T12:00:04+00:00" />
+			<int key="position" value="4" />
+			<int key="msg_chars" value="129" />
+			<int key="@@index" value="220" />
+			<int key="@@case_index" value="15" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_E" />
+			<string key="org:resource" value="agent_E" />
+			<date key="time:timestamp" value="2026-01-02T12:00:05+00:00" />
+			<int key="position" value="5" />
+			<int key="msg_chars" value="113" />
+			<int key="@@index" value="221" />
+			<int key="@@case_index" value="15" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="fb39ad4d-eac0-5818-9f9d-8a8820185db8" />
+		<string key="topology" value="Shared Message Pool" />
+		<string key="anomaly_injected" value="True" />
+		<string key="anomaly_type" value="goal_hijack" />
+		<string key="llm" value="gpt" />
+		<string key="task_type" value="planning" />
+		<string key="complexity" value="hard" />
+		<int key="mast_1.1" value="0" />
+		<int key="mast_1.2" value="0" />
+		<int key="mast_1.3" value="0" />
+		<int key="mast_1.4" value="0" />
+		<int key="mast_1.5" value="0" />
+		<int key="mast_2.1" value="0" />
+		<int key="mast_2.2" value="1" />
+		<int key="mast_2.3" value="1" />
+		<int key="mast_2.4" value="0" />
+		<int key="mast_2.5" value="0" />
+		<int key="mast_2.6" value="1" />
+		<int key="mast_3.1" value="0" />
+		<int key="mast_3.2" value="0" />
+		<int key="mast_3.3" value="0" />
+		<event>
+			<string key="concept:name" value="system" />
+			<string key="org:resource" value="system" />
+			<date key="time:timestamp" value="2026-01-17T01:00:00+00:00" />
+			<int key="position" value="0" />
+			<int key="msg_chars" value="66" />
+			<int key="@@index" value="222" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_A" />
+			<string key="org:resource" value="agent_A" />
+			<date key="time:timestamp" value="2026-01-17T01:00:01+00:00" />
+			<int key="position" value="1" />
+			<int key="msg_chars" value="3613" />
+			<int key="@@index" value="223" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="system" />
+			<string key="org:resource" value="system" />
+			<date key="time:timestamp" value="2026-01-17T01:00:02+00:00" />
+			<int key="position" value="2" />
+			<int key="msg_chars" value="194" />
+			<int key="@@index" value="224" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_B" />
+			<string key="org:resource" value="agent_B" />
+			<date key="time:timestamp" value="2026-01-17T01:00:03+00:00" />
+			<int key="position" value="3" />
+			<int key="msg_chars" value="0" />
+			<int key="@@index" value="225" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_B" />
+			<string key="org:resource" value="agent_B" />
+			<date key="time:timestamp" value="2026-01-17T01:00:04+00:00" />
+			<int key="position" value="4" />
+			<int key="msg_chars" value="1649" />
+			<int key="@@index" value="226" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="system" />
+			<string key="org:resource" value="system" />
+			<date key="time:timestamp" value="2026-01-17T01:00:05+00:00" />
+			<int key="position" value="5" />
+			<int key="msg_chars" value="194" />
+			<int key="@@index" value="227" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_C" />
+			<string key="org:resource" value="agent_C" />
+			<date key="time:timestamp" value="2026-01-17T01:00:06+00:00" />
+			<int key="position" value="6" />
+			<int key="msg_chars" value="0" />
+			<int key="@@index" value="228" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_C" />
+			<string key="org:resource" value="agent_C" />
+			<date key="time:timestamp" value="2026-01-17T01:00:07+00:00" />
+			<int key="position" value="7" />
+			<int key="msg_chars" value="1473" />
+			<int key="@@index" value="229" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="system" />
+			<string key="org:resource" value="system" />
+			<date key="time:timestamp" value="2026-01-17T01:00:08+00:00" />
+			<int key="position" value="8" />
+			<int key="msg_chars" value="194" />
+			<int key="@@index" value="230" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-17T01:00:09+00:00" />
+			<int key="position" value="9" />
+			<int key="msg_chars" value="2028" />
+			<int key="@@index" value="231" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="system" />
+			<string key="org:resource" value="system" />
+			<date key="time:timestamp" value="2026-01-17T01:00:10+00:00" />
+			<int key="position" value="10" />
+			<int key="msg_chars" value="194" />
+			<int key="@@index" value="232" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_A" />
+			<string key="org:resource" value="agent_A" />
+			<date key="time:timestamp" value="2026-01-17T01:00:11+00:00" />
+			<int key="position" value="11" />
+			<int key="msg_chars" value="22" />
+			<int key="@@index" value="233" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_A" />
+			<string key="org:resource" value="agent_A" />
+			<date key="time:timestamp" value="2026-01-17T01:00:12+00:00" />
+			<int key="position" value="12" />
+			<int key="msg_chars" value="2592" />
+			<int key="@@index" value="234" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="system" />
+			<string key="org:resource" value="system" />
+			<date key="time:timestamp" value="2026-01-17T01:00:13+00:00" />
+			<int key="position" value="13" />
+			<int key="msg_chars" value="194" />
+			<int key="@@index" value="235" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_B" />
+			<string key="org:resource" value="agent_B" />
+			<date key="time:timestamp" value="2026-01-17T01:00:14+00:00" />
+			<int key="position" value="14" />
+			<int key="msg_chars" value="22" />
+			<int key="@@index" value="236" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_B" />
+			<string key="org:resource" value="agent_B" />
+			<date key="time:timestamp" value="2026-01-17T01:00:15+00:00" />
+			<int key="position" value="15" />
+			<int key="msg_chars" value="2033" />
+			<int key="@@index" value="237" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="system" />
+			<string key="org:resource" value="system" />
+			<date key="time:timestamp" value="2026-01-17T01:00:16+00:00" />
+			<int key="position" value="16" />
+			<int key="msg_chars" value="194" />
+			<int key="@@index" value="238" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_C" />
+			<string key="org:resource" value="agent_C" />
+			<date key="time:timestamp" value="2026-01-17T01:00:17+00:00" />
+			<int key="position" value="17" />
+			<int key="msg_chars" value="22" />
+			<int key="@@index" value="239" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_C" />
+			<string key="org:resource" value="agent_C" />
+			<date key="time:timestamp" value="2026-01-17T01:00:18+00:00" />
+			<int key="position" value="18" />
+			<int key="msg_chars" value="2127" />
+			<int key="@@index" value="240" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="system" />
+			<string key="org:resource" value="system" />
+			<date key="time:timestamp" value="2026-01-17T01:00:19+00:00" />
+			<int key="position" value="19" />
+			<int key="msg_chars" value="194" />
+			<int key="@@index" value="241" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-17T01:00:20+00:00" />
+			<int key="position" value="20" />
+			<int key="msg_chars" value="22" />
+			<int key="@@index" value="242" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-17T01:00:21+00:00" />
+			<int key="position" value="21" />
+			<int key="msg_chars" value="1947" />
+			<int key="@@index" value="243" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="system" />
+			<string key="org:resource" value="system" />
+			<date key="time:timestamp" value="2026-01-17T01:00:22+00:00" />
+			<int key="position" value="22" />
+			<int key="msg_chars" value="194" />
+			<int key="@@index" value="244" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_A" />
+			<string key="org:resource" value="agent_A" />
+			<date key="time:timestamp" value="2026-01-17T01:00:23+00:00" />
+			<int key="position" value="23" />
+			<int key="msg_chars" value="2591" />
+			<int key="@@index" value="245" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="system" />
+			<string key="org:resource" value="system" />
+			<date key="time:timestamp" value="2026-01-17T01:00:24+00:00" />
+			<int key="position" value="24" />
+			<int key="msg_chars" value="194" />
+			<int key="@@index" value="246" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_B" />
+			<string key="org:resource" value="agent_B" />
+			<date key="time:timestamp" value="2026-01-17T01:00:25+00:00" />
+			<int key="position" value="25" />
+			<int key="msg_chars" value="22" />
+			<int key="@@index" value="247" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_B" />
+			<string key="org:resource" value="agent_B" />
+			<date key="time:timestamp" value="2026-01-17T01:00:26+00:00" />
+			<int key="position" value="26" />
+			<int key="msg_chars" value="1626" />
+			<int key="@@index" value="248" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="system" />
+			<string key="org:resource" value="system" />
+			<date key="time:timestamp" value="2026-01-17T01:00:27+00:00" />
+			<int key="position" value="27" />
+			<int key="msg_chars" value="194" />
+			<int key="@@index" value="249" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_C" />
+			<string key="org:resource" value="agent_C" />
+			<date key="time:timestamp" value="2026-01-17T01:00:28+00:00" />
+			<int key="position" value="28" />
+			<int key="msg_chars" value="22" />
+			<int key="@@index" value="250" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_C" />
+			<string key="org:resource" value="agent_C" />
+			<date key="time:timestamp" value="2026-01-17T01:00:29+00:00" />
+			<int key="position" value="29" />
+			<int key="msg_chars" value="1727" />
+			<int key="@@index" value="251" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="system" />
+			<string key="org:resource" value="system" />
+			<date key="time:timestamp" value="2026-01-17T01:00:30+00:00" />
+			<int key="position" value="30" />
+			<int key="msg_chars" value="194" />
+			<int key="@@index" value="252" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-17T01:00:31+00:00" />
+			<int key="position" value="31" />
+			<int key="msg_chars" value="2128" />
+			<int key="@@index" value="253" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="system" />
+			<string key="org:resource" value="system" />
+			<date key="time:timestamp" value="2026-01-17T01:00:32+00:00" />
+			<int key="position" value="32" />
+			<int key="msg_chars" value="194" />
+			<int key="@@index" value="254" />
+			<int key="@@case_index" value="16" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="fcbbd07f-1ad2-5f06-9cb9-5a0afb1455a1" />
+		<string key="topology" value="Shared Message Pool" />
+		<string key="anomaly_injected" value="True" />
+		<string key="anomaly_type" value="over_constraint" />
+		<string key="llm" value="minimax" />
+		<string key="task_type" value="planning" />
+		<string key="complexity" value="hard" />
+		<int key="mast_1.1" value="0" />
+		<int key="mast_1.2" value="0" />
+		<int key="mast_1.3" value="0" />
+		<int key="mast_1.4" value="0" />
+		<int key="mast_1.5" value="0" />
+		<int key="mast_2.1" value="0" />
+		<int key="mast_2.2" value="1" />
+		<int key="mast_2.3" value="1" />
+		<int key="mast_2.4" value="0" />
+		<int key="mast_2.5" value="0" />
+		<int key="mast_2.6" value="1" />
+		<int key="mast_3.1" value="0" />
+		<int key="mast_3.2" value="0" />
+		<int key="mast_3.3" value="0" />
+		<event>
+			<string key="concept:name" value="system" />
+			<string key="org:resource" value="system" />
+			<date key="time:timestamp" value="2026-01-16T11:00:00+00:00" />
+			<int key="position" value="0" />
+			<int key="msg_chars" value="66" />
+			<int key="@@index" value="255" />
+			<int key="@@case_index" value="17" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_A" />
+			<string key="org:resource" value="agent_A" />
+			<date key="time:timestamp" value="2026-01-16T11:00:01+00:00" />
+			<int key="position" value="1" />
+			<int key="msg_chars" value="4492" />
+			<int key="@@index" value="256" />
+			<int key="@@case_index" value="17" />
+		</event>
+		<event>
+			<string key="concept:name" value="system" />
+			<string key="org:resource" value="system" />
+			<date key="time:timestamp" value="2026-01-16T11:00:02+00:00" />
+			<int key="position" value="2" />
+			<int key="msg_chars" value="353" />
+			<int key="@@index" value="257" />
+			<int key="@@case_index" value="17" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_B" />
+			<string key="org:resource" value="agent_B" />
+			<date key="time:timestamp" value="2026-01-16T11:00:03+00:00" />
+			<int key="position" value="3" />
+			<int key="msg_chars" value="309" />
+			<int key="@@index" value="258" />
+			<int key="@@case_index" value="17" />
+		</event>
+		<event>
+			<string key="concept:name" value="system" />
+			<string key="org:resource" value="system" />
+			<date key="time:timestamp" value="2026-01-16T11:00:04+00:00" />
+			<int key="position" value="4" />
+			<int key="msg_chars" value="353" />
+			<int key="@@index" value="259" />
+			<int key="@@case_index" value="17" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_C" />
+			<string key="org:resource" value="agent_C" />
+			<date key="time:timestamp" value="2026-01-16T11:00:05+00:00" />
+			<int key="position" value="5" />
+			<int key="msg_chars" value="4587" />
+			<int key="@@index" value="260" />
+			<int key="@@case_index" value="17" />
+		</event>
+		<event>
+			<string key="concept:name" value="system" />
+			<string key="org:resource" value="system" />
+			<date key="time:timestamp" value="2026-01-16T11:00:06+00:00" />
+			<int key="position" value="6" />
+			<int key="msg_chars" value="353" />
+			<int key="@@index" value="261" />
+			<int key="@@case_index" value="17" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-16T11:00:07+00:00" />
+			<int key="position" value="7" />
+			<int key="msg_chars" value="846" />
+			<int key="@@index" value="262" />
+			<int key="@@case_index" value="17" />
+		</event>
+		<event>
+			<string key="concept:name" value="system" />
+			<string key="org:resource" value="system" />
+			<date key="time:timestamp" value="2026-01-16T11:00:08+00:00" />
+			<int key="position" value="8" />
+			<int key="msg_chars" value="353" />
+			<int key="@@index" value="263" />
+			<int key="@@case_index" value="17" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_A" />
+			<string key="org:resource" value="agent_A" />
+			<date key="time:timestamp" value="2026-01-16T11:00:09+00:00" />
+			<int key="position" value="9" />
+			<int key="msg_chars" value="4002" />
+			<int key="@@index" value="264" />
+			<int key="@@case_index" value="17" />
+		</event>
+		<event>
+			<string key="concept:name" value="system" />
+			<string key="org:resource" value="system" />
+			<date key="time:timestamp" value="2026-01-16T11:00:10+00:00" />
+			<int key="position" value="10" />
+			<int key="msg_chars" value="353" />
+			<int key="@@index" value="265" />
+			<int key="@@case_index" value="17" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_B" />
+			<string key="org:resource" value="agent_B" />
+			<date key="time:timestamp" value="2026-01-16T11:00:11+00:00" />
+			<int key="position" value="11" />
+			<int key="msg_chars" value="4250" />
+			<int key="@@index" value="266" />
+			<int key="@@case_index" value="17" />
+		</event>
+		<event>
+			<string key="concept:name" value="system" />
+			<string key="org:resource" value="system" />
+			<date key="time:timestamp" value="2026-01-16T11:00:12+00:00" />
+			<int key="position" value="12" />
+			<int key="msg_chars" value="353" />
+			<int key="@@index" value="267" />
+			<int key="@@case_index" value="17" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_C" />
+			<string key="org:resource" value="agent_C" />
+			<date key="time:timestamp" value="2026-01-16T11:00:13+00:00" />
+			<int key="position" value="13" />
+			<int key="msg_chars" value="4160" />
+			<int key="@@index" value="268" />
+			<int key="@@case_index" value="17" />
+		</event>
+		<event>
+			<string key="concept:name" value="system" />
+			<string key="org:resource" value="system" />
+			<date key="time:timestamp" value="2026-01-16T11:00:14+00:00" />
+			<int key="position" value="14" />
+			<int key="msg_chars" value="353" />
+			<int key="@@index" value="269" />
+			<int key="@@case_index" value="17" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-16T11:00:15+00:00" />
+			<int key="position" value="15" />
+			<int key="msg_chars" value="4802" />
+			<int key="@@index" value="270" />
+			<int key="@@case_index" value="17" />
+		</event>
+		<event>
+			<string key="concept:name" value="system" />
+			<string key="org:resource" value="system" />
+			<date key="time:timestamp" value="2026-01-16T11:00:16+00:00" />
+			<int key="position" value="16" />
+			<int key="msg_chars" value="353" />
+			<int key="@@index" value="271" />
+			<int key="@@case_index" value="17" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_A" />
+			<string key="org:resource" value="agent_A" />
+			<date key="time:timestamp" value="2026-01-16T11:00:17+00:00" />
+			<int key="position" value="17" />
+			<int key="msg_chars" value="4496" />
+			<int key="@@index" value="272" />
+			<int key="@@case_index" value="17" />
+		</event>
+		<event>
+			<string key="concept:name" value="system" />
+			<string key="org:resource" value="system" />
+			<date key="time:timestamp" value="2026-01-16T11:00:18+00:00" />
+			<int key="position" value="18" />
+			<int key="msg_chars" value="353" />
+			<int key="@@index" value="273" />
+			<int key="@@case_index" value="17" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_B" />
+			<string key="org:resource" value="agent_B" />
+			<date key="time:timestamp" value="2026-01-16T11:00:19+00:00" />
+			<int key="position" value="19" />
+			<int key="msg_chars" value="4704" />
+			<int key="@@index" value="274" />
+			<int key="@@case_index" value="17" />
+		</event>
+		<event>
+			<string key="concept:name" value="system" />
+			<string key="org:resource" value="system" />
+			<date key="time:timestamp" value="2026-01-16T11:00:20+00:00" />
+			<int key="position" value="20" />
+			<int key="msg_chars" value="353" />
+			<int key="@@index" value="275" />
+			<int key="@@case_index" value="17" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_C" />
+			<string key="org:resource" value="agent_C" />
+			<date key="time:timestamp" value="2026-01-16T11:00:21+00:00" />
+			<int key="position" value="21" />
+			<int key="msg_chars" value="5147" />
+			<int key="@@index" value="276" />
+			<int key="@@case_index" value="17" />
+		</event>
+		<event>
+			<string key="concept:name" value="system" />
+			<string key="org:resource" value="system" />
+			<date key="time:timestamp" value="2026-01-16T11:00:22+00:00" />
+			<int key="position" value="22" />
+			<int key="msg_chars" value="353" />
+			<int key="@@index" value="277" />
+			<int key="@@case_index" value="17" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-16T11:00:23+00:00" />
+			<int key="position" value="23" />
+			<int key="msg_chars" value="4166" />
+			<int key="@@index" value="278" />
+			<int key="@@case_index" value="17" />
+		</event>
+		<event>
+			<string key="concept:name" value="system" />
+			<string key="org:resource" value="system" />
+			<date key="time:timestamp" value="2026-01-16T11:00:24+00:00" />
+			<int key="position" value="24" />
+			<int key="msg_chars" value="353" />
+			<int key="@@index" value="279" />
+			<int key="@@case_index" value="17" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="fccef45e-4d22-5f09-8a41-ca69edf2143f" />
+		<string key="topology" value="Layered" />
+		<string key="anomaly_injected" value="True" />
+		<string key="anomaly_type" value="goal_hijack" />
+		<string key="llm" value="gemini-3" />
+		<string key="task_type" value="planning" />
+		<string key="complexity" value="medium" />
+		<int key="mast_1.1" value="0" />
+		<int key="mast_1.2" value="0" />
+		<int key="mast_1.3" value="0" />
+		<int key="mast_1.4" value="0" />
+		<int key="mast_1.5" value="0" />
+		<int key="mast_2.1" value="0" />
+		<int key="mast_2.2" value="1" />
+		<int key="mast_2.3" value="1" />
+		<int key="mast_2.4" value="0" />
+		<int key="mast_2.5" value="0" />
+		<int key="mast_2.6" value="1" />
+		<int key="mast_3.1" value="0" />
+		<int key="mast_3.2" value="0" />
+		<int key="mast_3.3" value="0" />
+		<event>
+			<string key="concept:name" value="system" />
+			<string key="org:resource" value="system" />
+			<date key="time:timestamp" value="2026-01-05T04:00:00+00:00" />
+			<int key="position" value="0" />
+			<int key="msg_chars" value="43" />
+			<int key="@@index" value="280" />
+			<int key="@@case_index" value="18" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_A" />
+			<string key="org:resource" value="agent_A" />
+			<date key="time:timestamp" value="2026-01-05T04:00:01+00:00" />
+			<int key="position" value="1" />
+			<int key="msg_chars" value="87" />
+			<int key="@@index" value="281" />
+			<int key="@@case_index" value="18" />
+		</event>
+		<event>
+			<string key="concept:name" value="system" />
+			<string key="org:resource" value="system" />
+			<date key="time:timestamp" value="2026-01-05T04:00:02+00:00" />
+			<int key="position" value="2" />
+			<int key="msg_chars" value="194" />
+			<int key="@@index" value="282" />
+			<int key="@@case_index" value="18" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_B" />
+			<string key="org:resource" value="agent_B" />
+			<date key="time:timestamp" value="2026-01-05T04:00:03+00:00" />
+			<int key="position" value="3" />
+			<int key="msg_chars" value="134" />
+			<int key="@@index" value="283" />
+			<int key="@@case_index" value="18" />
+		</event>
+		<event>
+			<string key="concept:name" value="system" />
+			<string key="org:resource" value="system" />
+			<date key="time:timestamp" value="2026-01-05T04:00:04+00:00" />
+			<int key="position" value="4" />
+			<int key="msg_chars" value="194" />
+			<int key="@@index" value="284" />
+			<int key="@@case_index" value="18" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_C" />
+			<string key="org:resource" value="agent_C" />
+			<date key="time:timestamp" value="2026-01-05T04:00:05+00:00" />
+			<int key="position" value="5" />
+			<int key="msg_chars" value="121" />
+			<int key="@@index" value="285" />
+			<int key="@@case_index" value="18" />
+		</event>
+		<event>
+			<string key="concept:name" value="system" />
+			<string key="org:resource" value="system" />
+			<date key="time:timestamp" value="2026-01-05T04:00:06+00:00" />
+			<int key="position" value="6" />
+			<int key="msg_chars" value="194" />
+			<int key="@@index" value="286" />
+			<int key="@@case_index" value="18" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-05T04:00:07+00:00" />
+			<int key="position" value="7" />
+			<int key="msg_chars" value="134" />
+			<int key="@@index" value="287" />
+			<int key="@@case_index" value="18" />
+		</event>
+		<event>
+			<string key="concept:name" value="system" />
+			<string key="org:resource" value="system" />
+			<date key="time:timestamp" value="2026-01-05T04:00:08+00:00" />
+			<int key="position" value="8" />
+			<int key="msg_chars" value="194" />
+			<int key="@@index" value="288" />
+			<int key="@@case_index" value="18" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_E" />
+			<string key="org:resource" value="agent_E" />
+			<date key="time:timestamp" value="2026-01-05T04:00:09+00:00" />
+			<int key="position" value="9" />
+			<int key="msg_chars" value="169" />
+			<int key="@@index" value="289" />
+			<int key="@@case_index" value="18" />
+		</event>
+		<event>
+			<string key="concept:name" value="system" />
+			<string key="org:resource" value="system" />
+			<date key="time:timestamp" value="2026-01-05T04:00:10+00:00" />
+			<int key="position" value="10" />
+			<int key="msg_chars" value="194" />
+			<int key="@@index" value="290" />
+			<int key="@@case_index" value="18" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="fda4976f-8b18-5a96-b4a7-cca6dacbf78e" />
+		<string key="topology" value="Shared Message Pool" />
+		<string key="anomaly_injected" value="True" />
+		<string key="anomaly_type" value="information_loss" />
+		<string key="llm" value="gemini-3" />
+		<string key="task_type" value="planning" />
+		<string key="complexity" value="medium" />
+		<int key="mast_1.1" value="0" />
+		<int key="mast_1.2" value="0" />
+		<int key="mast_1.3" value="0" />
+		<int key="mast_1.4" value="0" />
+		<int key="mast_1.5" value="0" />
+		<int key="mast_2.1" value="0" />
+		<int key="mast_2.2" value="0" />
+		<int key="mast_2.3" value="0" />
+		<int key="mast_2.4" value="1" />
+		<int key="mast_2.5" value="1" />
+		<int key="mast_2.6" value="0" />
+		<int key="mast_3.1" value="0" />
+		<int key="mast_3.2" value="0" />
+		<int key="mast_3.3" value="0" />
+		<event>
+			<string key="concept:name" value="system" />
+			<string key="org:resource" value="system" />
+			<date key="time:timestamp" value="2026-01-17T12:00:00+00:00" />
+			<int key="position" value="0" />
+			<int key="msg_chars" value="66" />
+			<int key="@@index" value="291" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_A" />
+			<string key="org:resource" value="agent_A" />
+			<date key="time:timestamp" value="2026-01-17T12:00:01+00:00" />
+			<int key="position" value="1" />
+			<int key="msg_chars" value="120" />
+			<int key="@@index" value="292" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_A" />
+			<string key="org:resource" value="agent_A" />
+			<date key="time:timestamp" value="2026-01-17T12:00:02+00:00" />
+			<int key="position" value="2" />
+			<int key="msg_chars" value="137" />
+			<int key="@@index" value="293" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_B" />
+			<string key="org:resource" value="agent_B" />
+			<date key="time:timestamp" value="2026-01-17T12:00:03+00:00" />
+			<int key="position" value="3" />
+			<int key="msg_chars" value="110" />
+			<int key="@@index" value="294" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_B" />
+			<string key="org:resource" value="agent_B" />
+			<date key="time:timestamp" value="2026-01-17T12:00:04+00:00" />
+			<int key="position" value="4" />
+			<int key="msg_chars" value="134" />
+			<int key="@@index" value="295" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_C" />
+			<string key="org:resource" value="agent_C" />
+			<date key="time:timestamp" value="2026-01-17T12:00:05+00:00" />
+			<int key="position" value="5" />
+			<int key="msg_chars" value="142" />
+			<int key="@@index" value="296" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_C" />
+			<string key="org:resource" value="agent_C" />
+			<date key="time:timestamp" value="2026-01-17T12:00:06+00:00" />
+			<int key="position" value="6" />
+			<int key="msg_chars" value="143" />
+			<int key="@@index" value="297" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-17T12:00:07+00:00" />
+			<int key="position" value="7" />
+			<int key="msg_chars" value="139" />
+			<int key="@@index" value="298" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-17T12:00:08+00:00" />
+			<int key="position" value="8" />
+			<int key="msg_chars" value="142" />
+			<int key="@@index" value="299" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_A" />
+			<string key="org:resource" value="agent_A" />
+			<date key="time:timestamp" value="2026-01-17T12:00:09+00:00" />
+			<int key="position" value="9" />
+			<int key="msg_chars" value="127" />
+			<int key="@@index" value="300" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-17T12:00:10+00:00" />
+			<int key="position" value="10" />
+			<int key="msg_chars" value="143" />
+			<int key="@@index" value="301" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_B" />
+			<string key="org:resource" value="agent_B" />
+			<date key="time:timestamp" value="2026-01-17T12:00:11+00:00" />
+			<int key="position" value="11" />
+			<int key="msg_chars" value="134" />
+			<int key="@@index" value="302" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-17T12:00:12+00:00" />
+			<int key="position" value="12" />
+			<int key="msg_chars" value="143" />
+			<int key="@@index" value="303" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_C" />
+			<string key="org:resource" value="agent_C" />
+			<date key="time:timestamp" value="2026-01-17T12:00:13+00:00" />
+			<int key="position" value="13" />
+			<int key="msg_chars" value="123" />
+			<int key="@@index" value="304" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-17T12:00:14+00:00" />
+			<int key="position" value="14" />
+			<int key="msg_chars" value="143" />
+			<int key="@@index" value="305" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-17T12:00:15+00:00" />
+			<int key="position" value="15" />
+			<int key="msg_chars" value="125" />
+			<int key="@@index" value="306" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-17T12:00:16+00:00" />
+			<int key="position" value="16" />
+			<int key="msg_chars" value="138" />
+			<int key="@@index" value="307" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_A" />
+			<string key="org:resource" value="agent_A" />
+			<date key="time:timestamp" value="2026-01-17T12:00:17+00:00" />
+			<int key="position" value="17" />
+			<int key="msg_chars" value="135" />
+			<int key="@@index" value="308" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-17T12:00:18+00:00" />
+			<int key="position" value="18" />
+			<int key="msg_chars" value="142" />
+			<int key="@@index" value="309" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_B" />
+			<string key="org:resource" value="agent_B" />
+			<date key="time:timestamp" value="2026-01-17T12:00:19+00:00" />
+			<int key="position" value="19" />
+			<int key="msg_chars" value="148" />
+			<int key="@@index" value="310" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-17T12:00:20+00:00" />
+			<int key="position" value="20" />
+			<int key="msg_chars" value="143" />
+			<int key="@@index" value="311" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_C" />
+			<string key="org:resource" value="agent_C" />
+			<date key="time:timestamp" value="2026-01-17T12:00:21+00:00" />
+			<int key="position" value="21" />
+			<int key="msg_chars" value="144" />
+			<int key="@@index" value="312" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-17T12:00:22+00:00" />
+			<int key="position" value="22" />
+			<int key="msg_chars" value="143" />
+			<int key="@@index" value="313" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-17T12:00:23+00:00" />
+			<int key="position" value="23" />
+			<int key="msg_chars" value="132" />
+			<int key="@@index" value="314" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="agent_D" />
+			<string key="org:resource" value="agent_D" />
+			<date key="time:timestamp" value="2026-01-17T12:00:24+00:00" />
+			<int key="position" value="24" />
+			<int key="msg_chars" value="140" />
+			<int key="@@index" value="315" />
+			<int key="@@case_index" value="19" />
+		</event>
+	</trace>
+</log>

@@ -1,0 +1,8 @@
+anomaly_type,events,agent_turns,system_msgs,handovers,distinct_pairs,pingpong,self_repeat
+deadlock,13.74,12.74,1.0,10.03,4.84,0.18,1.71
+goal_hijack,18.44,8.84,9.6,7.6,3.71,0.62,0.24
+information_loss,19.58,18.58,1.0,10.45,5.92,3.62,7.13
+loop_failure,12.27,11.27,1.0,10.27,5.51,0.9,0.0
+none,9.38,8.38,1.0,7.2,4.06,0.6,0.18
+over_constraint,18.59,8.79,9.79,7.79,3.76,0.33,0.0
+silent_pass,12.23,11.23,1.0,10.13,5.36,0.59,0.1

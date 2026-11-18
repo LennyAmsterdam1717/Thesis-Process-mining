@@ -1,0 +1,409 @@
+case,topology,injected,anomaly_type,events,agent_turns,system_msgs,handovers,distinct_pairs,pingpong,self_repeat
+00d1cc24-2b86-5333-9f84-ede1fae92f83,Decentralized,True,over_constraint,25,12,13,11,3,0,0
+0178b00c-c43d-5fa8-aee7-d8e260d884c1,Layered,True,deadlock,12,11,1,8,6,1,2
+029e15a1-34e6-56bd-8eda-d994a0358d8d,Layered,False,none,6,5,1,4,4,0,0
+03509162-9328-5e8e-bbb9-59155128fba2,Centralized,True,silent_pass,10,9,1,8,6,0,0
+035b2bb8-0837-559d-a6ff-f38d4b03164a,Decentralized,True,deadlock,17,16,1,13,5,0,2
+03f43f39-3002-51a0-b104-48d73de4fb57,Centralized,False,none,6,5,1,4,4,2,0
+0521779c-2975-5a1f-8ec4-aff1ed545b1b,Layered,True,loop_failure,10,9,1,8,8,3,0
+052302b8-dfac-5987-99a5-1908ec186cf7,Centralized,False,none,7,6,1,5,5,2,0
+055f7321-e5fa-50e6-a1e2-a4f1f3c63571,Shared Message Pool,True,silent_pass,13,12,1,11,4,0,0
+05b08ccd-3b7a-5dc4-bfe8-a85137a01c6e,Shared Message Pool,True,deadlock,13,12,1,11,4,0,0
+05b8249d-d887-5f25-b430-3489fe12c420,Decentralized,True,silent_pass,16,15,1,14,4,0,0
+080aa826-190d-50e0-aec4-4781554accc5,Layered,True,over_constraint,11,5,6,4,4,0,0
+0896c183-e15f-5583-8b33-b8f666226d41,Shared Message Pool,True,information_loss,25,24,1,15,8,6,8
+08dfda09-2df0-5c36-b6dc-37376058a019,Decentralized,True,information_loss,25,24,1,14,5,6,9
+08f0c29f-c0b6-5101-ae40-dd5a17784ab8,Centralized,True,goal_hijack,13,6,7,5,3,3,0
+09f419a7-0282-5414-a611-143d7d3ce1ef,Decentralized,True,silent_pass,16,15,1,14,4,0,0
+0ace9647-4ca0-59fe-a13f-a3f7fc270815,Decentralized,True,over_constraint,25,12,13,11,3,0,0
+0c3e1fb8-c5f2-595d-8267-47c42a2d1fe6,Layered,False,none,6,5,1,4,4,0,0
+0d26df18-fdf4-5ec9-97e2-bb73281ae88c,Centralized,True,deadlock,11,10,1,6,5,0,3
+0e867824-4d70-51f8-91b0-0ba496ebca32,Shared Message Pool,True,silent_pass,13,12,1,11,4,0,0
+0f7cc7bf-0fdf-5fc2-82ae-bdd89b2c066d,Centralized,False,none,7,6,1,5,5,2,0
+0f8717bb-293c-5687-b6a9-4fd2e8eaeda9,Centralized,False,none,7,6,1,5,3,3,0
+0fcb4292-eabf-56e8-924b-caf8e640fba6,Centralized,True,over_constraint,11,5,6,4,4,2,0
+1058fe0a-bcc0-5cac-9487-37db7b979fb7,Centralized,False,none,6,5,1,4,4,2,0
+1114856f-ba58-5995-8e43-12bd86486150,Decentralized,True,deadlock,17,16,1,13,5,0,2
+1130aaa5-b5a4-513d-a86a-8550d474d22c,Shared Message Pool,True,over_constraint,25,12,13,11,4,0,0
+12328a5a-b38c-5d41-a39e-9ce46c975206,Centralized,True,silent_pass,10,9,1,8,6,0,0
+12cf07cc-cf66-55c3-b54f-d48506514038,Decentralized,True,over_constraint,25,12,13,11,3,0,0
+13722b86-62b2-567a-b4db-34c92051ec8d,Decentralized,True,over_constraint,25,12,13,11,3,0,0
+13d1093f-5e28-54d1-a5f2-a1bf5e50d510,Decentralized,True,over_constraint,25,12,13,11,3,0,0
+13d18018-5b40-5ce8-8cd2-2aaa40ee2041,Shared Message Pool,True,information_loss,30,29,1,15,8,5,13
+140be41e-1264-5982-8a02-1d3ab00cc86e,Decentralized,True,information_loss,25,24,1,14,5,6,9
+143bc416-a9a4-5fdc-8e71-833c35af6d02,Shared Message Pool,True,loop_failure,13,12,1,11,4,0,0
+17eacf7e-35be-57aa-adc6-cb55934b3256,Shared Message Pool,True,information_loss,25,24,1,15,8,6,8
+17fa0d9d-d994-522e-9c76-db73ac99956f,Centralized,True,loop_failure,10,9,1,8,5,0,0
+18b18567-d9e5-5c30-9b88-556d602f8893,Layered,True,silent_pass,10,9,1,8,8,3,0
+19b20fa3-0956-5756-ad7f-7aae99a05a51,Layered,True,over_constraint,11,5,6,4,4,0,0
+1a5619cc-4e0e-5bbf-bbb6-722bf4ced254,Shared Message Pool,True,information_loss,25,24,1,15,8,6,8
+1afc88a9-f033-5343-b54e-541c81bffeb6,Layered,True,information_loss,11,10,1,4,4,0,5
+1b5648b9-2626-52fb-9f80-d21b159972af,Centralized,True,loop_failure,10,9,1,8,6,0,0
+1c4e6018-cd47-5b83-bed6-bc71028619b7,Decentralized,True,over_constraint,25,12,13,11,3,0,0
+1e6f6022-fe67-5a02-8fec-efefb6f92180,Shared Message Pool,False,none,13,12,1,11,4,0,0
+1f3a163b-688e-5d5b-8ef6-a3c35d719cb8,Centralized,True,silent_pass,10,9,1,8,6,0,0
+1feb3fab-7a3b-5a86-80b5-bd6d169de132,Decentralized,True,over_constraint,25,12,13,11,3,0,0
+20377413-01d2-5378-a6f0-e0c977729d84,Shared Message Pool,True,goal_hijack,25,12,13,11,4,0,0
+20e17a04-1ecb-598f-bdf9-067d12b3e96f,Layered,False,none,6,5,1,4,4,0,0
+21af1c00-901f-5e6b-85b3-7e99cf5e62f8,Centralized,True,information_loss,11,10,1,6,5,2,3
+223cc622-e240-57be-9ffd-2840713149a4,Shared Message Pool,True,loop_failure,13,12,1,11,4,0,0
+227d46b3-0603-5e03-a0cc-e289820f5050,Layered,False,none,6,5,1,4,4,0,0
+22ababf5-7af9-593e-ad28-b6de2ecf8623,Layered,True,over_constraint,11,5,6,4,4,0,0
+2332fe43-242c-533b-a568-3dac2e9244f8,Centralized,True,goal_hijack,13,6,7,5,3,3,0
+23425ac9-4e31-547e-83b3-06fa2276dd16,Shared Message Pool,True,over_constraint,25,12,13,11,4,0,0
+239383d0-b2f2-5231-8eb1-fab09c3f4e1b,Centralized,True,silent_pass,10,9,1,8,4,0,0
+23b34b5f-2c94-5ee7-b159-3dc003b7d86f,Layered,True,information_loss,11,10,1,4,4,0,5
+23be2d7d-c379-5990-9247-54f6dc863b92,Layered,False,none,6,5,1,4,4,0,0
+23d9c187-5f0b-5ae8-ae20-9033cd03717f,Shared Message Pool,True,information_loss,25,24,1,15,8,6,8
+2483a40f-ff19-533e-97bd-bd304d23d2bc,Centralized,True,silent_pass,8,7,1,6,5,0,0
+2566594f-57ba-550d-9dbd-183fe5b8eecc,Layered,True,information_loss,11,10,1,4,4,0,5
+2662cafc-6476-52c1-b405-7ad6b75f3549,Shared Message Pool,True,information_loss,49,48,1,15,8,0,32
+27096ff4-13ee-52bf-83be-afeef9bf459c,Layered,True,goal_hijack,11,5,6,4,4,0,0
+27138b32-0ee8-5e3b-a8d1-d360d1f6c9c6,Shared Message Pool,False,none,13,12,1,11,4,0,0
+2779666f-ba30-5e64-8337-b276362350e1,Shared Message Pool,True,information_loss,25,24,1,15,8,6,8
+289ad48b-3e93-59a7-aa7f-7e489abca6ad,Decentralized,True,information_loss,25,24,1,14,5,6,9
+28a5ca61-26ce-5838-a955-83a78f2a2de6,Layered,True,over_constraint,11,5,6,4,4,0,0
+29ed2808-5d15-5b8b-af38-f39544417bd3,Centralized,False,none,7,6,1,5,5,2,0
+2a0e825b-5deb-5fce-b448-4e5e6df14fc7,Shared Message Pool,True,silent_pass,17,16,1,11,4,0,4
+2a410a1f-50b7-56c9-892b-b0bb396ca05f,Layered,True,information_loss,11,10,1,4,4,0,5
+2a46ab35-16ed-5bd2-a112-dcdfd63fabb0,Layered,False,none,6,5,1,4,4,0,0
+2a532446-b7d1-581e-bf45-c89c44f35807,Decentralized,True,deadlock,17,16,1,13,5,0,2
+2b17b03d-178b-5d93-8b72-5a31b3ccf8bb,Centralized,False,none,6,5,1,4,4,2,0
+2b20b67b-bc9f-5ac3-8c2a-4f0b2fb475c4,Decentralized,True,silent_pass,16,15,1,14,4,0,0
+2b2de6a6-f263-555f-b199-bb12c98f271f,Centralized,True,goal_hijack,11,5,6,4,4,2,0
+2b57d50c-62cd-5658-9f10-38caad8cc5e4,Decentralized,True,loop_failure,16,15,1,14,4,0,0
+2b6ec5de-50be-5607-94b0-225f99de3655,Layered,True,over_constraint,11,5,6,4,4,0,0
+2c2ea174-2613-5f68-b0d9-f33260c2cdd8,Centralized,True,loop_failure,10,9,1,8,6,0,0
+2d8d3f15-a314-58b7-9d41-b6bfed473bf0,Shared Message Pool,False,none,19,18,1,11,4,0,6
+2de3bc57-5b89-5206-9081-285c52c0a112,Decentralized,True,silent_pass,16,15,1,14,4,0,0
+307a0347-e42b-50a5-92f1-9078f9a819e3,Decentralized,True,information_loss,25,24,1,14,5,6,9
+30874a04-cd4e-574a-8f74-08c2c29385de,Decentralized,False,none,13,12,1,11,3,0,0
+3215775f-377c-5005-880f-e02181eee64e,Layered,True,over_constraint,11,5,6,4,4,0,0
+33024a92-01e7-5787-bcfa-9e84c1e86153,Shared Message Pool,True,loop_failure,13,12,1,11,4,0,0
+33bd8fa0-d8f5-56fd-8c15-d58093d50ddd,Layered,True,goal_hijack,11,5,6,4,4,0,0
+347eea16-26f2-5542-b6e7-4717370dd94c,Centralized,True,loop_failure,10,9,1,8,6,0,0
+3558d744-e977-5d04-ac90-562ae9fad223,Shared Message Pool,False,none,13,12,1,11,4,0,0
+35ca22b1-26d9-5028-aa36-1874717c9d78,Decentralized,True,loop_failure,16,15,1,14,4,0,0
+35ec3b7f-f4ae-5228-bbb2-54c79a9311cd,Layered,True,over_constraint,11,5,6,4,4,0,0
+35ed1bbb-c714-5a1d-936f-8efceb2b8811,Decentralized,True,goal_hijack,25,12,13,11,3,0,0
+370c2d22-c9ac-5be2-b80e-41edee4d5e2c,Shared Message Pool,True,loop_failure,13,12,1,11,4,0,0
+37b5601a-9102-5bd9-9aa8-43023cb4f3e2,Centralized,True,silent_pass,10,9,1,8,6,0,0
+37f49f68-2b02-5047-b5c4-129edadc489a,Decentralized,False,none,13,12,1,11,3,0,0
+3805444b-108c-5b66-acfd-4b8762b61fa0,Layered,True,silent_pass,10,9,1,8,8,3,0
+396aeeb3-17da-57c8-9622-0bc10da120c7,Decentralized,True,goal_hijack,25,12,13,11,3,0,0
+39ca62d3-567c-5718-ae88-5b91292396b5,Centralized,True,loop_failure,10,9,1,8,4,0,0
+3bd5ed2f-f290-5ab7-bba0-72423fa49c8a,Centralized,True,goal_hijack,13,6,7,5,5,2,0
+3bfd2dc6-4068-5ddb-9d5c-a289651d8fa8,Decentralized,True,over_constraint,25,12,13,11,3,0,0
+3c7405aa-1298-59a1-a294-b4cf4c6c3062,Shared Message Pool,True,goal_hijack,25,12,13,11,4,0,0
+3d0ca1c3-f512-5c3f-ac4f-bdd4c2fd4449,Centralized,True,over_constraint,13,6,7,5,5,2,0
+3d0ee9d5-c22a-5c38-8796-05d6cf23e4d0,Decentralized,True,silent_pass,16,15,1,14,4,0,0
+3ddb9973-e306-5bba-86e3-437d55521575,Layered,True,silent_pass,10,9,1,8,8,3,0
+3ddfbf26-a656-5c0a-b238-95ee9a8ec00e,Shared Message Pool,True,over_constraint,25,12,13,11,4,0,0
+3e6f47fc-c658-57dc-a33e-6ee3f286e545,Layered,True,information_loss,11,10,1,4,4,0,5
+3ecb098c-ad8b-51ad-8ff3-9469d2960e3a,Shared Message Pool,False,none,15,14,1,11,4,0,2
+3f182e41-98dc-5d36-834b-854f9530b688,Centralized,True,goal_hijack,7,3,4,2,2,1,0
+3fcf07e4-d586-5c2e-8a8a-59e8f8282ae6,Decentralized,True,over_constraint,25,12,13,11,3,0,0
+4028f36c-3412-57ce-a917-4a2aa20aa95f,Shared Message Pool,True,information_loss,25,24,1,15,8,6,8
+41345553-2d1d-5f6a-9468-75778285fbf0,Centralized,True,over_constraint,13,6,7,5,5,2,0
+413c7764-fded-53cc-91ea-f23de5ae8f85,Layered,False,none,6,5,1,4,4,0,0
+41c79ce9-419f-5950-920b-a0a3e4ae1b92,Decentralized,True,information_loss,25,24,1,14,5,6,9
+4261c437-83b8-5d7c-9516-f868327397f3,Decentralized,True,information_loss,25,24,1,14,5,6,9
+44517356-0178-5877-9f1c-f90a12c8188e,Decentralized,True,deadlock,17,16,1,13,5,0,2
+452cd23c-9f6b-5c25-b14c-2b12979d8b16,Decentralized,True,silent_pass,16,15,1,14,4,0,0
+454c34f4-bece-5e1f-943d-c60fa0674d00,Centralized,True,silent_pass,10,9,1,8,6,0,0
+45656961-993d-5ef8-ad63-3ed2267b5a6d,Centralized,True,information_loss,13,12,1,7,6,2,4
+46483225-b6af-524a-9ca1-76f4dfb2838b,Decentralized,True,goal_hijack,25,12,13,11,3,0,0
+46586cf3-e0fc-58ce-9c1f-48935993a837,Centralized,True,silent_pass,10,9,1,8,6,0,0
+472e2f62-3daf-5d05-9242-bea6226cb98c,Shared Message Pool,True,over_constraint,25,12,13,11,4,0,0
+475e2364-9cf5-5393-a447-84e36d10b652,Layered,False,none,6,5,1,4,4,0,0
+4776ae1a-fc78-596e-9c90-2e6f9c599df9,Decentralized,True,goal_hijack,25,12,13,11,3,0,0
+47a4aea5-862d-5112-a720-e09e8a38e7eb,Decentralized,True,silent_pass,16,15,1,14,4,0,0
+47da6207-1e78-5dab-8591-bd034a8af66c,Decentralized,True,silent_pass,16,15,1,14,4,0,0
+48a9d82f-fcb3-528f-a30e-acfa59548df3,Layered,True,deadlock,12,11,1,8,6,1,2
+48f0870d-2898-5c39-a6ce-2c04381d55a7,Shared Message Pool,True,over_constraint,25,12,13,11,4,0,0
+49b918a5-6787-531f-9bd7-27414a5e11e9,Layered,True,loop_failure,10,9,1,8,8,3,0
+49c5e15e-192e-59e3-9955-f6b4481fdba0,Centralized,True,loop_failure,10,9,1,8,6,0,0
+4a3becca-1e44-5b8d-94d9-67c96f77a6f6,Layered,False,none,6,5,1,4,4,0,0
+4addd345-c3dc-52dd-bf15-1fc83ddccbb5,Decentralized,True,information_loss,25,24,1,14,5,6,9
+4b0d8275-6c43-52bc-98b9-be00a38e3844,Centralized,False,none,7,6,1,5,5,2,0
+4b103002-142b-5b46-ad15-86e069bd7c5e,Decentralized,True,loop_failure,16,15,1,14,4,0,0
+4b7a1156-1743-5c08-8aaa-20a84e276702,Centralized,True,goal_hijack,13,6,7,5,5,2,0
+4c0752c2-340d-5a66-8ea3-6446850ae808,Centralized,True,over_constraint,13,6,7,5,5,2,0
+4d994f40-7a6b-50cd-a44b-65cf92ed559c,Decentralized,True,loop_failure,16,15,1,14,4,0,0
+4e0cd140-a8a1-5a51-9cf2-854ab45bb1c6,Decentralized,True,silent_pass,16,15,1,14,4,0,0
+4f9e791c-6a84-5557-a3eb-f0e8c1ccc9fa,Shared Message Pool,True,over_constraint,25,12,13,11,4,0,0
+50385ccd-40dc-5f6e-ac1a-34fe937b6b5a,Decentralized,True,goal_hijack,25,12,13,11,3,0,0
+5054f63b-257f-58c5-9a4e-5ec8984865a9,Decentralized,True,silent_pass,16,15,1,14,4,0,0
+509e3e68-0cb4-5f15-90f7-bc72d58e60fb,Centralized,True,silent_pass,10,9,1,8,6,0,0
+522f7cc5-0248-518a-bbf9-296cbad1203c,Centralized,False,none,7,6,1,5,5,2,0
+52a6fe9c-67da-51ef-b6dc-05def9a18942,Decentralized,True,deadlock,17,16,1,13,5,0,2
+53240cad-823f-5ed6-8773-946a03704789,Shared Message Pool,False,none,13,12,1,11,4,0,0
+5485742d-a1f2-5b82-bcdb-604ecd9af86a,Shared Message Pool,True,information_loss,25,24,1,15,8,6,8
+54d63793-bbd8-5cab-875e-f3d3f1986aa8,Decentralized,True,loop_failure,16,15,1,14,4,0,0
+55b7521a-0781-5c3f-9bb3-452eaf3c91e3,Centralized,True,goal_hijack,13,6,7,5,5,2,0
+55d15fa9-bdb6-5976-a7ed-616061fc9a8a,Shared Message Pool,False,none,19,18,1,11,4,0,6
+57a781c9-5e2a-52a5-aeed-41ba84d63793,Shared Message Pool,True,silent_pass,13,12,1,11,4,0,0
+5871e393-243b-5d8e-984b-31315f56a8ca,Layered,True,over_constraint,11,5,6,4,4,0,0
+58d54e0e-d051-5aef-bafe-a7d82ffcbc36,Shared Message Pool,True,over_constraint,25,12,13,11,4,0,0
+5b21411e-8a90-51ed-aeb4-bc04f0a20bc6,Layered,True,loop_failure,10,9,1,8,8,3,0
+5bb0bf66-4841-5214-a871-84397bea9e7f,Layered,True,silent_pass,10,9,1,8,8,3,0
+5d8df68a-a2e5-5c55-8e3c-e6cf1f4e91a8,Layered,True,goal_hijack,11,5,6,4,4,0,0
+5d931e4e-e3e2-526c-bd26-a1f8ca6ea96c,Decentralized,True,over_constraint,25,12,13,11,3,0,0
+5db687ae-b849-521c-90a3-042a5bdbe2e9,Layered,False,none,6,5,1,4,4,0,0
+5fa80eb4-9703-5607-9813-8300ee036dfb,Centralized,True,silent_pass,10,9,1,8,6,0,0
+60e395c0-6e43-59d8-9be4-e732b30283cc,Layered,True,over_constraint,11,5,6,4,4,0,0
+60f97601-2012-520b-a696-7c9dc6fdde34,Shared Message Pool,True,loop_failure,13,12,1,11,4,0,0
+61c60a78-9d47-5b0a-ba7c-c4fbb26ef0ab,Decentralized,True,silent_pass,16,15,1,14,4,0,0
+6277626d-26a3-592a-9b04-49463a611a9f,Centralized,True,goal_hijack,11,5,6,4,4,2,0
+62a1326e-3b51-56ba-8ebe-190e07b3dc8f,Decentralized,True,goal_hijack,25,12,13,11,3,0,0
+63881e53-98c2-546e-a2ce-89539d7ecf33,Centralized,False,none,7,6,1,5,5,2,0
+63b017cd-8131-5213-83ce-9722f1381b5c,Shared Message Pool,True,silent_pass,13,12,1,11,4,0,0
+63c48a18-8dc5-549d-b152-a2f8c7299964,Layered,False,none,6,5,1,4,4,0,0
+64811029-0677-512d-b606-3268451c9da4,Centralized,True,information_loss,13,12,1,7,6,2,4
+649b4488-c24b-5ac5-b49a-87cd78b359ca,Centralized,False,none,7,6,1,5,5,2,0
+64ed9e5d-50de-5636-aa3b-9519e3bc3fe1,Centralized,True,over_constraint,13,6,7,5,5,2,0
+66495bf3-712a-5443-935f-bfac32a206b0,Decentralized,True,loop_failure,16,15,1,14,4,0,0
+66960baa-11b3-50de-a126-89af427efeb4,Decentralized,True,information_loss,25,24,1,14,5,6,9
+669e8c9b-dd27-5a84-8f7e-82a81e67a85e,Centralized,True,information_loss,13,12,1,7,6,2,4
+67872e5b-d1a4-57b2-9fb3-65aa532d238b,Layered,True,goal_hijack,11,5,6,4,4,0,0
+6862d214-479d-5e5b-b0ca-4bebae091ddd,Layered,True,deadlock,12,11,1,8,6,1,2
+68735926-2f45-5b63-a699-6c6ef7d46687,Shared Message Pool,True,deadlock,13,12,1,11,4,0,0
+693bbbaa-6134-5973-9abd-e36a3a5dab4a,Decentralized,False,none,13,12,1,11,3,0,0
+698b343a-5ea4-5c9c-964a-a1a9478f5060,Decentralized,True,goal_hijack,25,12,13,11,3,0,0
+6b18977b-e081-5511-82ab-8e3254d352ee,Layered,True,information_loss,11,10,1,4,4,0,5
+6b625677-4539-5966-90ef-20641fafb436,Decentralized,False,none,13,12,1,11,3,0,0
+6bcc64eb-49d9-5158-905a-4bad2ad22d97,Layered,True,silent_pass,10,9,1,8,8,3,0
+6c61e807-285c-53d2-9c23-2306e62d2d99,Layered,True,loop_failure,10,9,1,8,8,3,0
+6f01b583-0ae0-5a12-bc2d-cbdd9bbf3675,Layered,True,silent_pass,10,9,1,8,8,3,0
+6fd941ee-6aa5-54a1-b276-1feaf1e22964,Centralized,True,deadlock,11,10,1,6,5,0,3
+71118394-e09d-5304-b931-655b4a66f32c,Shared Message Pool,True,deadlock,13,12,1,11,4,0,0
+72ae7ad3-66d1-50dc-a37b-7d69b0d25802,Centralized,False,none,7,6,1,5,3,3,0
+72fa434b-7532-5690-91f2-1a51786ade1b,Shared Message Pool,True,information_loss,25,24,1,15,8,6,8
+7308dc30-1cef-5c58-a960-ca223dc207c6,Centralized,True,goal_hijack,13,6,7,5,5,2,0
+736c43e6-242a-5e3a-adcc-760c7b94a80b,Layered,True,over_constraint,11,5,6,4,4,0,0
+73be7a7d-bc55-54fb-99b7-543ccc4db153,Shared Message Pool,True,loop_failure,13,12,1,11,4,0,0
+745203ab-da41-5259-b37c-e0dd9918d56a,Centralized,True,deadlock,11,10,1,6,5,0,3
+74fbd890-deb1-59b9-872e-1c58a3d66464,Layered,True,information_loss,11,10,1,4,4,0,5
+782484e2-9ba2-5324-b9e2-0cbeb653d70b,Decentralized,False,none,13,12,1,11,3,0,0
+785e6337-7e75-5e17-8acb-9293c29cf210,Layered,True,goal_hijack,11,5,6,4,4,0,0
+786f0100-c51f-5b25-9d8b-7ee9df697c30,Decentralized,True,information_loss,25,24,1,14,5,6,9
+791b0400-5711-57f8-acf7-554740451261,Centralized,True,information_loss,13,12,1,7,6,2,4
+79c9e1e4-e8d4-5bff-bfdc-9ffcad6de6a9,Shared Message Pool,False,none,13,12,1,11,4,0,0
+79e8d0d8-e795-55ac-9c95-a971ca671334,Shared Message Pool,True,loop_failure,13,12,1,11,4,0,0
+7a703f55-4d4f-5c1e-a43b-197ca9c36019,Decentralized,True,goal_hijack,25,12,13,11,3,0,0
+7abf6826-5b15-5b1d-a9b7-591e9ca0f0bc,Shared Message Pool,False,none,13,12,1,11,4,0,0
+7b887255-89f6-51fe-a05a-7707bad9bc5e,Centralized,True,over_constraint,13,6,7,5,5,2,0
+7b96ad0c-d49f-5fc7-aff6-0525883ed9aa,Decentralized,True,over_constraint,25,12,13,11,3,0,0
+7ccb6b72-2db7-5966-967c-8be5c10810a0,Centralized,True,deadlock,10,9,1,5,4,0,3
+7ce74335-2a98-5121-9e6c-b65ea2abb20e,Shared Message Pool,False,none,13,12,1,11,4,0,0
+7db34acd-b4cc-584b-823c-6d5237620ab1,Layered,True,information_loss,11,10,1,4,4,0,5
+7dec2cd1-7e86-5e51-8870-1e90ac27b8d0,Decentralized,True,silent_pass,16,15,1,14,4,0,0
+7f7836bf-91c5-5daf-9f2a-524d998c8afc,Centralized,True,deadlock,11,10,1,6,5,0,3
+80185f3b-d69e-54a4-a104-b880b05b100f,Centralized,True,silent_pass,10,9,1,8,6,0,0
+8026b977-e9c8-5e86-9421-bcc98fca4060,Decentralized,True,goal_hijack,25,12,13,11,3,0,0
+8063318e-6733-5166-a949-8f8bd824de9c,Centralized,True,information_loss,13,12,1,7,6,2,4
+80f124e0-5045-555f-9fe5-58e199630677,Shared Message Pool,False,none,13,12,1,11,4,0,0
+818fd2fa-fee5-5c5e-9d77-2f285f763464,Layered,True,silent_pass,10,9,1,8,8,3,0
+81a7a08c-e30f-5dc2-aca1-e239ba791f65,Shared Message Pool,True,information_loss,25,24,1,15,8,6,8
+81eac891-0916-50ea-abb0-971ec2a7751b,Layered,True,loop_failure,10,9,1,8,8,3,0
+830351b8-a304-57cb-a80f-1aeab0e421af,Centralized,True,information_loss,13,12,1,8,6,3,3
+8378b4a1-14ef-51a8-a955-36b60d1d7d8d,Layered,True,loop_failure,10,9,1,8,8,3,0
+8477c090-3cb8-5ab9-9759-a40f45772959,Shared Message Pool,False,none,13,12,1,11,4,0,0
+8498367e-ab4b-5436-ba84-a6befc5a8719,Layered,True,over_constraint,11,5,6,4,4,0,0
+87a326a6-388c-50f3-b54f-dd62b6c01983,Layered,False,none,6,5,1,4,4,0,0
+89cc96e6-cf66-57dd-999c-a26334525d31,Layered,False,none,6,5,1,4,4,0,0
+8a256a1d-ac69-5c78-9493-226384dbcf7c,Layered,True,loop_failure,10,9,1,8,8,3,0
+8a9abdf3-2a79-557d-99e0-0f54ff23db8e,Centralized,True,loop_failure,10,9,1,8,6,0,0
+8cf0c3b3-1258-5fc3-8c12-dbdcc26d68fe,Layered,True,loop_failure,10,9,1,8,8,3,0
+8d52648d-26b1-56e8-8023-f82cfa0a6183,Centralized,True,silent_pass,10,9,1,8,6,0,0
+8dac3360-fbe0-505c-a270-a33149adcc83,Layered,True,goal_hijack,11,5,6,4,4,0,0
+8dba5ef3-04f5-575d-b7b1-774e4f980ced,Centralized,False,none,7,6,1,5,5,2,0
+8dc96fcd-ca53-576a-b889-d2d783ad8bdf,Decentralized,True,deadlock,17,16,1,13,5,0,2
+8e019960-029d-5e85-bc72-f1c1b66e6518,Decentralized,True,loop_failure,16,15,1,14,4,0,0
+8f6dec6a-63c2-54ca-9419-531e29562d3d,Decentralized,True,silent_pass,16,15,1,14,4,0,0
+90165417-0280-5d70-bf51-bbd2f1f87b1f,Centralized,False,none,7,6,1,5,5,2,0
+9177d7ac-8882-5985-981e-c08b4b3ba2a3,Centralized,True,information_loss,11,10,1,6,5,2,3
+91c749a5-d996-537c-84c6-6f0ebd48832c,Layered,True,silent_pass,10,9,1,8,8,3,0
+928adee5-cd5e-595e-895d-658f35c63e71,Layered,True,loop_failure,10,9,1,8,8,3,0
+9296a8b1-143f-5937-b3a5-ba43f3ab2e62,Layered,True,over_constraint,11,5,6,4,4,0,0
+9333e817-bf9b-5ecc-8e9e-05f5e276ef37,Shared Message Pool,True,goal_hijack,25,12,13,11,4,0,0
+9460296f-e474-584b-9427-3eea04010c8e,Shared Message Pool,True,goal_hijack,25,12,13,11,4,0,0
+94eb618d-24e7-55b8-80e2-e47e5049cf6d,Layered,True,loop_failure,10,9,1,8,8,3,0
+95b28976-d4ff-53f2-80c7-4c28b3072015,Decentralized,True,silent_pass,16,15,1,14,4,0,0
+96398e2d-3aef-56c5-9dbf-d8a9c5988311,Layered,False,none,6,5,1,4,4,0,0
+964394a9-4e63-5092-945c-3c8ae36eb937,Layered,True,silent_pass,10,9,1,8,8,3,0
+969e00ab-75e1-5542-8536-2223e3eee82d,Shared Message Pool,True,information_loss,25,24,1,15,8,6,8
+96e86852-0197-5719-90c6-1a00aa9453ec,Layered,True,over_constraint,11,5,6,4,4,0,0
+9719dfb4-6166-5b12-a760-4ee89d706818,Centralized,True,loop_failure,10,9,1,8,6,0,0
+973b34be-af16-55ab-bb65-be417a126d46,Layered,True,over_constraint,11,5,6,4,4,0,0
+9773e0b0-613a-5fcf-b9b1-787410fa1b10,Centralized,True,goal_hijack,13,6,7,5,5,2,0
+98b17ff2-abd2-517f-a972-a9136ad43ec8,Layered,True,loop_failure,10,9,1,8,8,3,0
+9a209785-d0d6-5758-b4c5-86f446f05cd3,Layered,False,none,6,5,1,4,4,0,0
+9a497696-cfa9-5284-9ef4-91ddfd1a1146,Shared Message Pool,True,deadlock,13,12,1,11,4,0,0
+9e2331c4-08f3-5c85-b224-74597cbb16b7,Decentralized,True,loop_failure,16,15,1,14,4,0,0
+9e702166-1d8e-534d-9a7e-02b629d88744,Shared Message Pool,True,deadlock,13,12,1,11,4,0,0
+9e9b0720-6b96-588a-b865-ac907237d5fc,Shared Message Pool,False,none,13,12,1,11,4,0,0
+9f01fe73-7ef8-59f7-bc7f-adddad9297ca,Shared Message Pool,True,deadlock,13,12,1,11,4,0,0
+9f1fa445-6923-525c-bfd0-14889b87a097,Layered,True,loop_failure,10,9,1,8,8,3,0
+9f6501d9-d9a2-58e2-aa57-6edca1f7099a,Layered,True,goal_hijack,11,5,6,4,4,0,0
+9fe86721-37b8-55d6-979a-83e7ebc1f186,Decentralized,True,information_loss,25,24,1,14,5,6,9
+a08c495b-9a23-57d6-b218-ff37d05650dc,Layered,True,deadlock,12,11,1,8,6,1,2
+a10e61d9-4e80-5057-9b43-36f6dc718a65,Decentralized,True,silent_pass,16,15,1,14,4,0,0
+a11bdba7-b0fe-5475-a2ad-dfe9cfd7dd56,Decentralized,False,none,13,12,1,11,3,0,0
+a1cc6d11-c6ab-55e7-b564-bd4c5b5f57be,Decentralized,True,deadlock,17,16,1,13,5,0,2
+a1cc8487-e81c-5d93-97f6-ee6064c51026,Shared Message Pool,False,none,13,12,1,11,4,0,0
+a1fe2572-32aa-5478-aa79-e2ab79ef9450,Shared Message Pool,False,none,13,12,1,11,4,0,0
+a24cc2ac-0206-552f-95bb-e063d624badb,Layered,True,information_loss,11,10,1,4,4,0,5
+a2ba3e76-bf54-51fc-b930-aad97bec6b3c,Shared Message Pool,True,over_constraint,25,12,13,11,4,0,0
+a2ea0798-5ed7-58e5-ac5f-b4b7ffe41d5e,Centralized,True,loop_failure,10,9,1,8,6,0,0
+a30c898b-3f78-59be-a986-a91026675b64,Shared Message Pool,False,none,13,12,1,11,4,0,0
+a37e496a-2c86-562d-b236-62ca27295593,Layered,True,goal_hijack,11,5,6,4,4,0,0
+a5a7c74a-dedb-5899-bde5-d9515d7f299b,Shared Message Pool,True,information_loss,25,24,1,15,8,6,8
+a5c94aa9-a1b5-54df-83dd-0b53965caea3,Centralized,True,loop_failure,10,9,1,8,6,0,0
+a62c9c03-57e4-54b9-a16c-10f3a0813773,Shared Message Pool,True,loop_failure,13,12,1,11,4,0,0
+a69884de-c73b-5d66-bb95-58a6d70a5e2d,Shared Message Pool,False,none,13,12,1,11,4,0,0
+a6dbd07a-2b0d-56a2-aa60-3afe597f7792,Decentralized,True,goal_hijack,25,12,13,11,3,0,0
+a6de13d3-0c29-5c23-b62e-b36704b7e525,Layered,True,loop_failure,10,9,1,8,8,3,0
+a84ce284-b3db-5ed2-bbe8-8e9bcb8c4228,Decentralized,True,over_constraint,25,12,13,11,3,0,0
+a880494e-49e2-53ed-b8cd-840af29de434,Shared Message Pool,False,none,13,12,1,11,4,0,0
+a88fd122-1542-52da-90f9-b4e17cffc5d6,Shared Message Pool,True,deadlock,13,12,1,11,4,0,0
+a90312b9-9930-5420-9f18-575fbe0806cb,Decentralized,True,information_loss,25,24,1,14,5,6,9
+a924ae80-b580-5ed4-b0a3-da7be793b412,Decentralized,True,loop_failure,16,15,1,14,4,0,0
+a993ce26-952a-5414-a250-5cc054f5e4e4,Decentralized,True,deadlock,17,16,1,13,5,0,2
+a9d65b24-9601-5941-a3fe-a22ce138c34f,Decentralized,True,loop_failure,16,15,1,14,4,0,0
+a9e7d78e-5a1f-5c50-b403-d2d9bd3154bf,Centralized,True,loop_failure,8,7,1,6,5,0,0
+a9fafd04-fe6a-5e8b-89ea-95787bd31e04,Centralized,True,goal_hijack,13,6,7,5,5,2,0
+aafaf42d-a162-594d-8392-1d9b6f89042d,Centralized,True,information_loss,13,12,1,7,6,2,4
+ab16eebe-7bc2-530b-ba8c-33b5688ff1fb,Centralized,False,none,6,5,1,4,4,2,0
+ab799b50-0984-5fce-93c3-7977b724353e,Layered,True,over_constraint,11,5,6,4,4,0,0
+ab85b3c7-0e73-5c58-b387-df77640e88d2,Centralized,True,silent_pass,10,9,1,8,4,0,0
+abb4c6e8-ca47-5dd3-b737-02e5a3ceef21,Centralized,True,silent_pass,10,9,1,8,6,0,0
+aca51831-fb0a-5e85-9da8-ccfe8a9d13ba,Shared Message Pool,True,silent_pass,13,12,1,11,4,0,0
+adea854d-e370-58ab-8cc3-89f0dadb30b1,Decentralized,True,goal_hijack,25,12,13,11,3,0,0
+adfa2b2f-33e3-526b-acf4-e1c989de59cb,Centralized,False,none,7,6,1,5,5,2,0
+aec7fe85-56b0-5efd-b41d-a0262142ff91,Decentralized,True,deadlock,17,16,1,13,5,0,2
+af49d97f-6bbb-5357-9abf-778a353f25a2,Centralized,True,deadlock,11,10,1,6,5,0,3
+afe2cd0a-13d6-526a-8aaf-08e9f6deebe2,Centralized,True,silent_pass,10,9,1,8,6,0,0
+b03a66b8-1862-5518-b64e-8097e66054a3,Layered,True,goal_hijack,11,5,6,4,4,0,0
+b0864b82-eaa9-5dff-bfbe-72ac47c58a1d,Shared Message Pool,True,information_loss,25,24,1,15,8,6,8
+b0a93985-4e95-5f4b-b518-9babf34ca63d,Layered,True,loop_failure,10,9,1,8,8,3,0
+b6178299-fbce-5d6b-9345-d02464ba815a,Decentralized,True,goal_hijack,25,12,13,11,3,0,0
+b73f87cd-f91e-50f4-882d-075b4a82f27d,Centralized,False,none,7,6,1,5,5,2,0
+b92b038d-9622-538a-b724-d7782e4927c2,Decentralized,True,goal_hijack,25,12,13,11,3,0,0
+b97ea45c-f85f-5359-9e9b-bc0184a248c5,Decentralized,False,none,13,12,1,11,3,0,0
+b9c53635-ed55-5ee7-9369-4ef5cf45d285,Decentralized,True,over_constraint,25,12,13,11,3,0,0
+bb00f42b-2f7e-5592-ab75-630a3fca35b8,Decentralized,True,loop_failure,16,15,1,14,4,0,0
+bc29004f-e198-5f6f-9ba4-c5241341d933,Layered,True,deadlock,12,11,1,8,6,1,2
+bc4f4186-037e-5947-ba01-76fe3eba6859,Centralized,True,deadlock,11,10,1,6,5,0,3
+be18e749-f377-5141-8015-693790787857,Decentralized,True,information_loss,25,24,1,14,5,6,9
+c0736be3-1676-5209-9d54-25d3d9ddfbd4,Layered,True,loop_failure,10,9,1,8,8,3,0
+c09ea34a-5bdd-5e58-ab43-c8091deca3de,Shared Message Pool,False,none,13,12,1,11,4,0,0
+c0cbaf1a-c187-535f-ac85-a08f16820009,Centralized,False,none,7,6,1,5,5,2,0
+c1c4fc6f-433b-562f-8314-0568f426fe30,Shared Message Pool,True,loop_failure,13,12,1,11,4,0,0
+c2014efe-834a-5c0e-896f-67da536ca396,Layered,True,silent_pass,10,9,1,8,8,3,0
+c2096984-fa9e-5081-bec3-e899474f8f40,Centralized,True,over_constraint,11,5,6,4,4,2,0
+c2b5181c-41aa-55c6-9b91-9f3c8af5b1f5,Decentralized,True,loop_failure,16,15,1,14,4,0,0
+c2d71d41-4200-53f3-b19d-c42dd8b11fe9,Decentralized,True,loop_failure,16,15,1,14,4,0,0
+c340ea79-f9e2-5f3d-94e1-a8bb26eaa83e,Decentralized,True,goal_hijack,25,12,13,11,3,0,0
+c3b195dc-7c55-55f1-b170-b43657592537,Layered,True,goal_hijack,11,5,6,4,4,0,0
+c43ae911-1e75-552c-ad71-9c5d422e520a,Decentralized,False,none,13,12,1,11,3,0,0
+c4bab31b-e2d7-5731-b506-217974735245,Decentralized,True,goal_hijack,25,12,13,11,3,0,0
+c5c6aacf-d49f-522e-b272-44f207209b90,Centralized,True,goal_hijack,13,6,7,5,3,3,0
+c6d243b0-429c-5f47-a148-44fdc3cd137d,Centralized,True,silent_pass,10,9,1,8,6,0,0
+c6fd5326-f484-5942-b1ab-0713ec9cb568,Shared Message Pool,False,none,13,12,1,11,4,0,0
+c725740e-31a2-57dc-a4af-7f0d900f7066,Shared Message Pool,True,deadlock,13,12,1,11,4,0,0
+c7c33d5c-56eb-5142-89f6-5e55a3a6e350,Layered,True,loop_failure,10,9,1,8,8,3,0
+c81a57fc-2d86-5d44-8b3d-63d06283536e,Centralized,True,silent_pass,10,9,1,8,6,0,0
+c8350976-26ec-53e8-8b06-f2abc2d85b78,Shared Message Pool,False,none,13,12,1,11,4,0,0
+c8f4269c-d165-5877-9961-a2a6f391d436,Shared Message Pool,True,over_constraint,25,12,13,11,4,0,0
+c900c6a1-b3d9-52bf-bbf7-713764a49ef6,Centralized,True,information_loss,13,12,1,7,6,2,4
+cbae2bf1-0f6c-569c-99a1-02824d1811fd,Centralized,False,none,7,6,1,5,5,2,0
+cd157fe4-c59a-5c8f-892f-2ed4f37523e0,Shared Message Pool,False,none,13,12,1,11,4,0,0
+cd6d5691-323a-5ecb-bc35-eff73f1603c3,Layered,True,goal_hijack,11,5,6,4,4,0,0
+ce51380d-a307-5721-b71c-54c5e4096ef7,Decentralized,True,silent_pass,16,15,1,14,4,0,0
+d070e9c8-1cd5-5b79-afda-9ff921312d81,Shared Message Pool,True,loop_failure,13,12,1,11,4,0,0
+d07ec140-1351-5d5e-b8ed-d44956e3ee45,Centralized,True,silent_pass,10,9,1,8,4,0,0
+d09bb67e-4159-5202-860d-e67b94178cd4,Decentralized,True,goal_hijack,25,12,13,11,3,0,0
+d1daf386-bc07-5210-a8fe-c06f291ee0cc,Shared Message Pool,True,silent_pass,13,12,1,11,4,0,0
+d25f2a00-b040-51a1-81fe-79583aa7e8f8,Layered,False,none,6,5,1,4,4,0,0
+d2d77426-c3a8-580f-9400-deab43a6fcec,Shared Message Pool,True,loop_failure,13,12,1,11,4,0,0
+d383812b-260c-5a96-bb3b-a8a5fe19a4bf,Shared Message Pool,True,goal_hijack,25,12,13,11,4,0,0
+d3b0509c-87ce-573a-96b1-6b78b0a16aa4,Decentralized,True,over_constraint,25,12,13,11,3,0,0
+d4c1261e-a672-5df3-9769-afb52ddf2a91,Shared Message Pool,True,deadlock,13,12,1,11,4,0,0
+d4d1ed39-409c-57b5-8071-022ffc91654b,Decentralized,True,over_constraint,25,12,13,11,3,0,0
+d577db76-6019-5401-9c3d-5438e26e5dfe,Layered,True,loop_failure,10,9,1,8,8,3,0
+d5ab29c6-83fe-5c17-80de-a2b2649b98a2,Shared Message Pool,True,loop_failure,13,12,1,11,4,0,0
+d5dc43c4-fedc-5c76-89ff-d75245011ab2,Decentralized,True,loop_failure,16,15,1,14,4,0,0
+d5fcf8b0-e270-565f-a1c3-1771b5c18092,Layered,True,deadlock,12,11,1,8,6,1,2
+d803f900-9366-5b38-83d8-cee4bf925e50,Centralized,True,deadlock,11,10,1,5,3,0,4
+d82e2b1a-dff7-545e-8ee1-0dc913a36d44,Layered,True,information_loss,11,10,1,4,4,0,5
+d8658f86-2fae-509a-98ec-99b8d8051678,Layered,False,none,6,5,1,4,4,0,0
+daa3db09-52ad-5553-af83-9834d4fccb6f,Centralized,True,goal_hijack,13,6,7,5,4,2,0
+db354bbd-c156-53ef-bc61-a2459bda1f2d,Shared Message Pool,True,over_constraint,25,12,13,11,4,0,0
+dd0d5080-e284-51fb-98c8-9dcf1366138b,Centralized,True,over_constraint,11,5,6,4,4,2,0
+dd194fd5-0070-5a45-a3a9-4f01b0dc762f,Shared Message Pool,True,loop_failure,13,12,1,11,4,0,0
+dd2e1807-5ff4-5f61-b9f2-9dc798071733,Shared Message Pool,True,silent_pass,13,12,1,11,4,0,0
+ddb22cdf-67a7-5df7-ab21-884231789d4a,Centralized,False,none,6,5,1,4,4,2,0
+ddc983b1-a515-536a-b00d-28b2d14b4aae,Layered,False,none,6,5,1,4,4,0,0
+de539faf-a3d3-5bef-a3e9-eb5f7d9fcb10,Centralized,False,none,7,6,1,5,5,2,0
+dec033af-5b74-58f9-96e9-d4746f704923,Layered,False,none,6,5,1,4,4,0,0
+df03bed2-8203-5834-81d6-bdeb6eb07068,Centralized,True,over_constraint,7,3,4,2,2,1,0
+df753bc4-006d-554f-917c-7afcdb1d6e2d,Shared Message Pool,True,goal_hijack,30,17,13,11,4,0,5
+dfccd52b-6527-58a1-9a20-330761f77af8,Centralized,True,silent_pass,10,9,1,8,6,0,0
+e20f98fd-fac0-5a97-80b4-444f0284b674,Decentralized,True,deadlock,17,16,1,13,5,0,2
+e2aacff1-9ff9-58b4-a042-d192ddd82968,Layered,True,over_constraint,11,5,6,4,4,0,0
+e330d080-7f12-524e-bc04-455c1d603b85,Centralized,True,silent_pass,10,9,1,8,6,0,0
+e39a1b59-ec01-5b1c-9b2b-4b1475554747,Layered,True,information_loss,11,10,1,4,4,0,5
+e4d88eaa-23e9-5956-b1a2-4f4a3205ea1f,Shared Message Pool,True,information_loss,25,24,1,15,8,6,8
+e5df7722-9d07-580c-83a9-8bf3768705d6,Centralized,True,over_constraint,11,5,6,4,4,2,0
+e5eb2442-db54-5c02-ada6-bfbf37609f2d,Layered,True,over_constraint,11,5,6,4,4,0,0
+e6b859ec-42b6-5de1-9402-776d9df398f4,Layered,True,information_loss,11,10,1,4,4,0,5
+e7036aab-3f84-5664-aa11-3706bb45e94d,Shared Message Pool,True,goal_hijack,25,12,13,11,4,0,0
+e7caf07f-5e0a-5b9b-a1f4-5a104e816d28,Shared Message Pool,False,none,13,12,1,11,4,0,0
+e7fe041a-95e3-50a5-bf71-7aeb453ae957,Shared Message Pool,True,silent_pass,13,12,1,11,4,0,0
+e897d906-31af-5436-9443-19308feab841,Decentralized,True,loop_failure,16,15,1,14,4,0,0
+e8db5d26-8d53-5305-a4bd-f47fd4ec2e70,Shared Message Pool,True,information_loss,25,24,1,15,8,6,8
+e96e77c2-4b65-5e45-b066-05c6808e9df3,Centralized,False,none,7,6,1,5,5,2,0
+e9b1c1fa-4c2e-557f-b846-19d78dc4f659,Shared Message Pool,True,goal_hijack,25,12,13,11,4,0,0
+ea89f2a1-5cc3-5041-9a13-e08da7c68429,Decentralized,True,loop_failure,16,15,1,14,4,0,0
+ebab7460-3e1c-593f-953c-fc967057fc47,Decentralized,True,deadlock,17,16,1,13,5,0,2
+ec5f58b6-ffe3-5292-9a29-7b555f88e497,Shared Message Pool,False,none,13,12,1,11,4,0,0
+ecd513ae-6fa3-59f6-a92d-8773bc574fa5,Centralized,True,goal_hijack,11,5,6,4,4,2,0
+edc41662-c9c4-5611-8593-cff20719a699,Centralized,True,goal_hijack,13,6,7,5,5,2,0
+ee0b2f05-2129-5dd6-b32a-e67f8abf154b,Centralized,True,information_loss,13,12,1,7,6,2,4
+ee2f4bc9-fa9d-5c2c-b40a-5da0691a6fec,Centralized,True,silent_pass,10,9,1,8,6,0,0
+ee9a0a4f-0eb2-5c65-9fbf-c36df9383b25,Layered,False,none,6,5,1,4,4,0,0
+f0ec5dce-8d3a-5523-90ea-a22bd23bcf03,Centralized,True,goal_hijack,11,5,6,4,4,2,0
+f1044a52-de1e-5941-a3a5-6657c3e9e310,Shared Message Pool,True,over_constraint,25,12,13,11,4,0,0
+f1fa3044-4c23-50ff-ba23-801415b59c26,Shared Message Pool,True,deadlock,13,12,1,11,4,0,0
+f2181ff3-9a05-5eda-ad71-3291f39036e0,Layered,False,none,6,5,1,4,4,0,0
+f2be0ac0-e996-56cc-b859-f216b46314b5,Centralized,False,none,7,6,1,5,5,2,0
+f300631b-dc60-5653-96b9-16b6ccb09afd,Layered,False,none,6,5,1,4,4,0,0
+f334e830-b51a-5b74-99d4-0f1def6f0309,Decentralized,True,deadlock,17,16,1,13,5,0,2
+f4598228-836f-5319-9cf4-70e1a513f1f7,Layered,False,none,6,5,1,4,4,0,0
+f46bffa7-367f-518d-94bd-09d3f868452b,Shared Message Pool,True,over_constraint,25,12,13,11,4,0,0
+f4e80f3c-412a-539e-8f21-024be0849c33,Layered,True,deadlock,12,11,1,8,6,1,2
+f51be07e-1065-55cf-98ee-b900e7c356a2,Shared Message Pool,True,over_constraint,25,12,13,11,4,0,0
+f51fe562-9206-5ce7-acd1-36246ff600a7,Shared Message Pool,True,silent_pass,15,14,1,11,4,0,2
+f60c9d5e-60d3-50b2-9c30-a1b436530586,Decentralized,True,over_constraint,25,12,13,11,3,0,0
+f61ede5d-60e2-5ac0-8a7b-2ed63cc59d15,Shared Message Pool,True,loop_failure,13,12,1,11,4,0,0
+f739cbba-5bfe-5db9-842d-93f7bcf0bbee,Decentralized,True,goal_hijack,25,12,13,11,3,0,0
+f763fcb7-b650-5693-bd91-23cec20f7dac,Layered,True,silent_pass,10,9,1,8,8,3,0
+f7a4a2d6-e7be-5c3c-b839-38a2747385da,Decentralized,True,goal_hijack,25,12,13,11,3,0,0
+f7d302de-4279-5454-acf2-c0db177759e0,Layered,True,silent_pass,10,9,1,8,8,3,0
+f9069135-b0a7-527e-85b3-a91bc3225a77,Centralized,True,loop_failure,8,7,1,6,5,0,0
+f95893c0-2989-565c-abfa-06b1d44b53dc,Decentralized,False,none,13,12,1,11,3,0,0
+fa68ea33-e26d-542c-826d-0d6c59be558e,Shared Message Pool,True,silent_pass,13,12,1,11,4,0,0
+fb39ad4d-eac0-5818-9f9d-8a8820185db8,Shared Message Pool,True,goal_hijack,33,20,13,11,4,0,8
+fb442718-1d19-57b8-a3a9-551fbf9d5c1d,Decentralized,True,loop_failure,16,15,1,14,4,0,0
+fbb5e74f-8b2e-5851-815c-66fdbb770284,Shared Message Pool,False,none,13,12,1,11,4,0,0
+fbb9b1b0-b38c-5558-acea-0b8fca8b1cda,Decentralized,True,over_constraint,25,12,13,11,3,0,0
+fc93c60b-7097-52da-b141-e529df27fb2b,Layered,True,loop_failure,10,9,1,8,8,3,0
+fcbbd07f-1ad2-5f06-9cb9-5a0afb1455a1,Shared Message Pool,True,over_constraint,25,12,13,11,4,0,0
+fccef45e-4d22-5f09-8a41-ca69edf2143f,Layered,True,goal_hijack,11,5,6,4,4,0,0
+fd47ca70-fb4f-5aa8-9e19-7ecce3660397,Decentralized,True,deadlock,17,16,1,13,5,0,2
+fda4976f-8b18-5a96-b4a7-cca6dacbf78e,Shared Message Pool,True,information_loss,25,24,1,15,8,6,8
+fe2a6d84-636d-527a-961c-834341930d4d,Centralized,True,information_loss,13,12,1,7,6,2,4
+fee9d0e4-d72f-505b-85df-b82f9db7f34f,Shared Message Pool,True,silent_pass,13,12,1,11,4,0,0
+ffac1ad6-e731-5cba-aa0b-fc6440107bd5,Layered,True,loop_failure,10,9,1,8,8,3,0
+fffd3ba6-6132-5f69-8928-ee4a5b8edf4c,Shared Message Pool,True,loop_failure,13,12,1,11,4,0,0

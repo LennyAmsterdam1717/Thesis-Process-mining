@@ -1,0 +1,2 @@
+`lgctrl_sample.xes` is derived from the **MAScope Benchmark** (LG-Ctrl corpus), https://huggingface.co/datasets/mascope/mascope-bench, licensed **CC-BY-4.0**, accompanying Liu et al. (2026), "Know the Shape, Find the Fault: Topology-Conditioned Diagnosis of Multi-Agent LLM Failures", arXiv:2610.10126.
+Changes: 20 traces (5 per topology, random seed 2026) converted to XES events (speaker, position, synthetic timestamps, case labels); message text removed (only its length kept).

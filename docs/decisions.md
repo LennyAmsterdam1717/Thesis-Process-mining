@@ -81,3 +81,14 @@ Append new entries at the bottom; do not overwrite earlier ones.
 - **Result:** 16/24 agree (66.7 %), kappa 0.08, PABAK 0.33; 8 disagreements (7 FT exclusions the second reviewer would include, 1 low-relevance include it would exclude). This is under Frank's stop threshold (more than 10), so the work continued.
 - **No decision changed.** The disagreements are in `literature/screening/fulltext_disagreements.md` for Frank. `papers.csv` and the PRISMA counts keep the first decisions until he decides.
 - **Caveat:** the second reviewer often read only part of long files (tool-call counts); its decisions on R00045 and R00028 rest mostly on the early sections.
+
+## 2026-11-19 – papers.csv verified against full text (follow-up task 2)
+
+- All 51 rows compared with the full text; new column `source_checked` = "full text" for all. Contributions/methods: no change needed. **Limitations/future work: 23 rows changed** (the commit message says 24; 23 is correct). Assessments of mine are now labelled "Reviewer note"; papers with no limitations section say so. Log: `literature/papers-verification.md`.
+
+## 2026-11-19 – RQ-B data check and feasibility pilot (follow-up task 3)
+
+- **Reachable labelled datasets:** MAScope-Bench (CC-BY-4.0), MAD/MAST-Data (CC-BY-4.0), Who&When (no licence declared), coordination-traces-100 (CC-BY-4.0, no failure labels), EAIR toolkit (MIT, generator). Details: `research-questions/rqb-data-check.md`. Who&When and MAST are 2025 papers; they are used only as data sources, not as evidence for an RQ (Frank's 2026 rule applies to papers that justify RQs).
+- **Pilot:** MAScope LG-Ctrl (408 traces) → XES; Inductive Miner + handover-of-work with pm4py 2.7.23. The pipeline works and handover patterns match the topology labels. Failure-related separation is mostly a synthetic artefact (fixed-length templates, injected system messages). Write-up: `experiments/rqb-pilot/README.md`.
+- **Git hygiene:** raw data in `experiments/rqb-pilot/data/` and extracted texts in `literature/screening/fulltext_txt/` are git-ignored. The committed sample is 20 traces without message text, with a CC-BY attribution file.
+- **Note for Accenture:** pm4py is AGPL-3.0.
