@@ -40,6 +40,32 @@ Data-dependency labels: **Accenture internal** (logs of Accenture's own, non-cli
 
 ---
 
+## RQ-F (directions 4, 6) – Comparing multi-agent orchestration patterns with process mining
+
+_Added 2026-11-20. Combines RQ-A's comparative design with RQ-B's organisational-mining measures, but stays entirely within multi-agent systems._
+
+**RQ:** How do multi-agent orchestration patterns (supervisor/hierarchical, sequential pipeline, selector-based group chat) differ as processes – in control flow, hand-off structure and conformance to the intended business process – when running the same business process, and do these differences explain failures and cost beyond task success and token use?
+
+- **F1. Control flow.** Which control-flow measures (fitness and precision against the intended BPMN model, variant count and entropy, rework and delegation loops) differ between orchestration patterns?
+- **F2. Hand-off structure.** What do organisational-mining measures (handover-of-work and working-together networks, centralisation, bottleneck agents, ping-pong hand-offs, hand-off waiting time) show about how each pattern actually coordinates, compared with its designed topology?
+- **F3. Failures and cost.** Which mined patterns (e.g. long hand-off chains, loops between two agents, a dominant coordinator) are associated with known multi-agent failure modes – constraints lost at hand-offs, skipped mandatory steps – and with cost, and do they stay stable when the underlying LLM is swapped?
+
+- **Gap:** G1 + G2. 2026 work compares coordination set-ups with outcome metrics, failure taxonomies or LLM judges, never with process mining; the process-mining work on agents (ABM) covers one sequential architecture only.
+- **2026 evidence (in `papers.csv`):**
+  - Motivation: Vu et al. [2606.20669](https://arxiv.org/abs/2606.20669) (ABM on a four-agent order-to-cash system; limitation: sequential ReAct agents only, future work on other architectures) · Körner et al. [CEUR 4274/39](https://ceur-ws.org/Vol-4274/paper-39.pdf) (hand-off events in ABM).
+  - Orchestration comparisons without process mining: Nechepurenko & Shuvalov [2605.03310](https://arxiv.org/abs/2605.03310) (five coordination configurations, same LLM/tools/prompts, failure signatures, traces released) · Liu et al. [2610.10126](https://arxiv.org/abs/2610.10126) (MAScope: topology recovered from traces is associated with failure patterns; LLM judges; MAScope-Bench) · Dhanyamraju et al. [2606.20058](https://arxiv.org/abs/2606.20058) (DAG Plan&Execute vs ReAct orchestration, metric-only) · Zhu et al. [2606.01199](https://arxiv.org/abs/2606.01199) (hierarchical framework vs AutoGen, MetaGPT etc., metric-only).
+  - Hand-off failure modes to look for: Sun et al. [2608.24569](https://arxiv.org/abs/2608.24569) (workflow constraints erode at hand-offs) · Wang et al. [2608.29028](https://arxiv.org/abs/2608.29028) (boundary metadata lost in summarised hand-offs) · Pitre et al. [2610.32060](https://arxiv.org/abs/2610.32060) (communication-failure taxonomy) · Ma et al. [2610.14800](https://arxiv.org/abs/2610.14800) (enterprise interaction risks).
+  - Intended model and representation: Fillies et al. [2611.13196](https://arxiv.org/abs/2611.13196) (BPMN → LangGraph workflows) · Xavier et al. [2603.20356](https://arxiv.org/abs/2603.20356) (workflow graphs extracted from LangGraph/CrewAI/AutoGen, temporal checks over traces) · Cha et al. [2606.14805](https://arxiv.org/abs/2606.14805) (multi-agent traces as event knowledge graphs).
+- **Not yet in `papers.csv` (Scholar check 2026-11-20; screen + citation-check first):** Berti, Kourani & van der Aalst, BPM 2026 Forum, LNBIP 600 (selector-routed persona agents; hand-offs analysed as a social network over roles, without tools or process mining) · Cho et al. [2608.23670](https://arxiv.org/abs/2608.23670) (standard miners give low-precision "flower models" on agent traces incl. the Who&When multi-agent set; topology shaped by harness, not LLM) · Shamieh & Aref, AEECT 2026 (SLR on object-centric PM and LLM multi-agent systems).
+- **Method foundation (classic process mining, not 2026; citation-check before use):** handover-of-work and social-network mining (van der Aalst, Reijers & Song 2005, *Discovering Social Networks from Event Logs*, CSCW) · organisational mining (Song & van der Aalst 2008, *Towards Comprehensive Support for Organizational Mining*, Decision Support Systems) · object-centric event logs (OCEL 2.0) for agents as objects.
+- **Method:** controlled experiment. Implement 3 orchestration patterns in one framework (e.g. LangGraph) over one business process with the same agents, tools and prompts; 2 LLMs; ~200 runs per cell; inject a small set of known faults (e.g. a constraint that must survive a hand-off). Log with the ABM data model (agent = resource; hand-offs as events), export to XES/OCEL. Analyse with PM4Py: discovery + alignments against the intended BPMN (report precision, not only fitness – Cho et al.), variant analysis, handover-of-work and working-together networks; compare patterns with mixed models or permutation tests. Replicate F2/F3 on public traces (Nechepurenko & Shuvalov; MAScope-Bench; Who&When).
+- **Data:** Rebuilt case (main) + Public (released multi-agent traces, usable from day 1); Accenture internal multi-agent logs if available.
+- **Feasibility (8 months):** medium–high. M1–2 build the three patterns and logging, pilot; M3–5 experiments; M6 analysis + public-trace replication; M7–8 writing. Risks: multi-agent runs are costly (mitigate with a smaller open model for part of the grid); framework-specific patterns are hard to hold "everything else equal"; flower models if only discovery is used (mitigate with conformance against the intended model and organisational measures).
+- **Relation to other RQs:** replaces the multi-agent arm of RQ-A and turns RQ-B's organisational mining into the measurement method; RQ-A and RQ-B could be merged into this question.
+- **Why Accenture:** clients increasingly ask which orchestration pattern to use; this gives evidence per pattern on process adherence, hand-off risks and cost, plus a reusable ABM + process-mining benchmark for multi-agent designs.
+
+---
+
 ## RQ-C (direction 3) – Conformance checking of agents against business processes
 
 **RQ:** How do alignment-based (BPMN) and declarative (Declare/LTL) conformance checking compare in detecting deviations of LLM agents from a business process, and which log attributes must agent observability record for them to work?
